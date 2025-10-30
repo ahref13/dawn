@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -10,9 +19,10 @@
     },
     "tf_curve_edit": {
       "type": "tf-curve-edit",
-      "blocks": {},
-      "block_order": [],
-      "settings": {}
+      "settings": {
+        "heading": "CURVE EDIT",
+        "description": "The Curve Edit - A curated edit of our collections for sizes 16-22\n\nAdditional samples may be able to be called in - please enquire via email"
+      }
     }
   },
   "order": [
