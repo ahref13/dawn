@@ -1,0 +1,104 @@
+{% comment %} THE FALL – Curve Edit {% endcomment %}
+
+<section class="mt-20 px-[20px] md:px-[30px] lg:px-[50px] flex min-h-screen flex-col" style="margin-top: 130px;">
+    <!-- Header Section -->
+    <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px] border-b border-black pb-8">
+        <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+            <h2 class="font-sm uppercase">
+                {{ section.settings.heading }}
+            </h2>
+        </div>
+        <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+            <div class="font-sm leading-tight">
+                {{ section.settings.description | newline_to_br }}
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-12 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] py-5 pb-[60px]">
+        {% for block in section.blocks %}
+            <div class="col-span-1 xl:col-span-2 text-left no-underline text-inherit flex flex-col" {{ block.shopify_attributes }}>
+                {% if block.settings.image %}
+                    <img
+                            src="{{ block.settings.image | image_url: width: 500 }}"
+                            alt="{{ block.settings.style }}"
+                            class="w-full aspect-[242/346] object-cover block"
+                            loading="lazy"
+                    >
+                {% endif %}
+
+                <div class="mt-3 flex flex-col gap-1 text-[14px] leading-[1.4]">
+                    <div class="flex justify-between">
+                        <span class="font-medium uppercase">DESIGNER</span>
+                        <span class="text-right">{{ block.settings.designer }}</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="font-medium uppercase">STYLE</span>
+                        <span class="text-right">{{ block.settings.style }}</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="font-medium uppercase">SIZE TO FIT</span>
+                        <span class="text-right">{{ block.settings.size }}</span>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "TF • Curve Edit",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "CURVE EDIT"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Browse our curve edit collection."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "gallery_item",
+      "name": "Dress Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "designer",
+          "label": "Designer",
+          "default": "Katherine Tash"
+        },
+        {
+          "type": "text",
+          "id": "style",
+          "label": "Style",
+          "default": "Cecilia"
+        },
+        {
+          "type": "text",
+          "id": "size",
+          "label": "Size to Fit",
+          "default": "16 - 18"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TF • Curve Edit"
+    }
+  ]
+}
+{% endschema %}
