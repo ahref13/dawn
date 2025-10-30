@@ -46,12 +46,32 @@
             "style": "Cecilia",
             "size": "16 - 20"
           }
+        },
+        "gallery_item_Qnmq7b": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/BB_1_2048x_d4efdcc6-eda8-4a26-9d4e-ef0d63358c53.png",
+            "designer": "NEWHITE",
+            "style": "B.B",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_zFtKWB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Newhite4190_Small_Size.png",
+            "designer": "NEWHITE",
+            "style": "B.B. + A.",
+            "size": "16 - 20"
+          }
         }
       },
       "block_order": [
         "gallery_item_MKexYt",
         "gallery_item_7WpebW",
-        "gallery_item_dDfzVW"
+        "gallery_item_dDfzVW",
+        "gallery_item_Qnmq7b",
+        "gallery_item_zFtKWB"
       ],
       "settings": {
         "heading": "CURVE EDIT",
