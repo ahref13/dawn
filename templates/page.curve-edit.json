@@ -19,6 +19,20 @@
     },
     "tf_curve_edit": {
       "type": "tf-curve-edit",
+      "blocks": {
+        "gallery_item_MKexYt": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_09_0696.png",
+            "designer": "Paloma Corset",
+            "style": "Column Skirt",
+            "size": "To fit 16-20"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_item_MKexYt"
+      ],
       "settings": {
         "heading": "CURVE EDIT",
         "description": "The Curve Edit - A curated edit of our collections for sizes 16-22\n\nAdditional samples may be able to be called in - please enquire via email"
