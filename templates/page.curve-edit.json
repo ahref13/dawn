@@ -37,11 +37,21 @@
             "style": "Leona",
             "size": "16-22"
           }
+        },
+        "gallery_item_dDfzVW": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/9C1A8814.png",
+            "designer": "Katherine Tash",
+            "style": "Cecilia",
+            "size": "16 - 20"
+          }
         }
       },
       "block_order": [
         "gallery_item_MKexYt",
-        "gallery_item_7WpebW"
+        "gallery_item_7WpebW",
+        "gallery_item_dDfzVW"
       ],
       "settings": {
         "heading": "CURVE EDIT",
