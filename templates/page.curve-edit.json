@@ -73,6 +73,15 @@
             "style": "Aceno",
             "size": "16 - 22"
           }
+        },
+        "gallery_item_QjVB48": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_9CO_30907.png",
+            "designer": "NEWHITE",
+            "style": "Haven + S. Sleeve",
+            "size": "16 - 22"
+          }
         }
       },
       "block_order": [
@@ -81,7 +90,8 @@
         "gallery_item_dDfzVW",
         "gallery_item_Qnmq7b",
         "gallery_item_zFtKWB",
-        "gallery_item_6VkRC8"
+        "gallery_item_6VkRC8",
+        "gallery_item_QjVB48"
       ],
       "settings": {
         "heading": "CURVE EDIT",
