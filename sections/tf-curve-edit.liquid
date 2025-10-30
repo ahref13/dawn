@@ -16,9 +16,9 @@
     </div>
 
     <!-- Gallery Grid -->
-    <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-12 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] py-5 pb-[60px]">
+    <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] py-5 pb-[60px]">
         {% for block in section.blocks %}
-            <div class="col-span-1 xl:col-span-2 text-left no-underline text-inherit flex flex-col" {{ block.shopify_attributes }}>
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-2 text-left no-underline text-inherit flex flex-col" {{ block.shopify_attributes }}>
                 {% if block.settings.image %}
                     <img
                             src="{{ block.settings.image | image_url: width: 500 }}"
