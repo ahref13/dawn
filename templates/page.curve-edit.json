@@ -91,6 +91,15 @@
             "style": "Emiline",
             "size": "16 - 22"
           }
+        },
+        "gallery_item_Eh4zE9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Mariska.png",
+            "designer": "Prea James",
+            "style": "Mariska",
+            "size": "16 - 20"
+          }
         }
       },
       "block_order": [
@@ -101,7 +110,8 @@
         "gallery_item_zFtKWB",
         "gallery_item_6VkRC8",
         "gallery_item_QjVB48",
-        "gallery_item_8fY6bf"
+        "gallery_item_8fY6bf",
+        "gallery_item_Eh4zE9"
       ],
       "settings": {
         "heading": "CURVE EDIT",
