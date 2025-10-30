@@ -1,22 +1,23 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "main": {
-      "type": "tf-trunk-shows",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "tf_trunk_shows": {
       "type": "tf-trunk-shows",
-      "blocks": {},
-      "block_order": [],
-      "settings": {}
+      "settings": {
+        "heading": "UPCOMING TRUNK SHOWS",
+        "description": "Trunk shows are made-to-order collections that join us for a limited period of time - usually the latest collection from a designer, and sometimes additional styles on request. Trunk shows are ideal for trying pieces that aren't part of our permanent collections, and we typically offer a promotional discount. At The Fall we host trunk shows from our permanent designers as well as guest designers - in many cases U.K. exclusives."
+      }
     }
   },
   "order": [
-    "main",
     "tf_trunk_shows"
   ]
 }
