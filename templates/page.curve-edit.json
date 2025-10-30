@@ -28,10 +28,20 @@
             "style": "Column Skirt",
             "size": "To fit 16-20"
           }
+        },
+        "gallery_item_7WpebW": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SHOT_09_1111.png",
+            "designer": "Katherine Tash",
+            "style": "Leona",
+            "size": "16-22"
+          }
         }
       },
       "block_order": [
-        "gallery_item_MKexYt"
+        "gallery_item_MKexYt",
+        "gallery_item_7WpebW"
       ],
       "settings": {
         "heading": "CURVE EDIT",
