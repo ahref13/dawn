@@ -11,6 +11,23 @@
   "sections": {
     "tf_trunk_shows": {
       "type": "tf-trunk-shows",
+      "blocks": {
+        "trunk_show_AjAmqF": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Cassandra Graham",
+            "collection": "CG03",
+            "date": "20 - 26 October",
+            "image": "shopify://shop_images/Screenshot_2022-11-28_at_15.05.27_1.png",
+            "description": "Cassandra Graham's third collection will be an exclusive UK trunk show.\n\nFor her third collection, Cassandra Graham dives further into fabric, texture and volume exploration - whilst keeping her signature contemporary 80s-90s aesthetic and developing on the drop waist silhouettes that we all love.",
+            "button_url": "",
+            "button_text": "Book Trunk Show"
+          }
+        }
+      },
+      "block_order": [
+        "trunk_show_AjAmqF"
+      ],
       "settings": {
         "heading": "UPCOMING TRUNK SHOWS",
         "description": "Trunk shows are made-to-order collections that join us for a limited period of time - usually the latest collection from a designer, and sometimes additional styles on request. Trunk shows are ideal for trying pieces that aren't part of our permanent collections, and we typically offer a promotional discount. At The Fall we host trunk shows from our permanent designers as well as guest designers - in many cases U.K. exclusives."
