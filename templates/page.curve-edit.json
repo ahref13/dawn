@@ -64,6 +64,15 @@
             "style": "B.B. + A.",
             "size": "16 - 20"
           }
+        },
+        "gallery_item_6VkRC8": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_BRIDAL_S135187.png",
+            "designer": "NEWHITE",
+            "style": "Aceno",
+            "size": "16 - 22"
+          }
         }
       },
       "block_order": [
@@ -71,7 +80,8 @@
         "gallery_item_7WpebW",
         "gallery_item_dDfzVW",
         "gallery_item_Qnmq7b",
-        "gallery_item_zFtKWB"
+        "gallery_item_zFtKWB",
+        "gallery_item_6VkRC8"
       ],
       "settings": {
         "heading": "CURVE EDIT",
