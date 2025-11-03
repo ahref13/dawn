@@ -35,8 +35,9 @@
                     <img
                             src="{{ item.image | image_url: width: 500 }}"
                             alt="{{ item.title }}"
-                            class="w-full aspect-[242/346] object-cover block"
+                            class="w-full aspect-[242/346] object-cover block cursor-pointer hover:opacity-90 transition-opacity"
                             loading="lazy"
+                            onclick="openLightbox({{ forloop.index0 }})"
                     >
                 {% endif %}
                 <div class="mt-3 flex w-full items-start text-[14px] font-medium leading-[1.4]">
@@ -45,4 +46,98 @@
             </div>
         {% endfor %}
     </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-opacity-10 backdrop-blur-md hidden items-center justify-center z-100">
+        <!-- Image Container -->
+        <div class="max-w-[90vw] max-h-[90vh] flex items-center justify-center">
+            <img id="lightbox-image" src="" alt="" class="max-w-full max-h-[90vh] object-contain transition-opacity duration-300 opacity-100">
+        </div>
+    </div>
 </section>
+
+<script>
+  // Gallery images data
+  const galleryImages = [
+      {% for item in page.metafields.custom.designer_gallery_image.value %}
+    {
+      src: "{{ item.image | image_url: width: 2000 }}",
+      title: "{{ item.title | escape }}"
+    }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+  ];
+
+  let currentImageIndex = 0;
+
+  function openLightbox(index) {
+    currentImageIndex = index;
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+
+    lightboxImage.src = galleryImages[currentImageIndex].src;
+    lightboxImage.alt = galleryImages[currentImageIndex].title;
+
+    lightbox.classList.remove('hidden');
+    lightbox.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+
+    lightbox.classList.add('hidden');
+    lightbox.classList.remove('flex');
+    document.body.style.overflow = 'auto';
+
+    // Clear the image src and alt
+    lightboxImage.src = '';
+    lightboxImage.alt = '';
+
+    lightboxImage.classList.add('opacity-0');
+    setTimeout(() => {
+      lightboxImage.src = '';
+      lightboxImage.alt = '';
+      lightboxImage.classList.remove('opacity-0');
+    }, 300);
+
+  }
+
+
+  function changeImage(direction) {
+    currentImageIndex += direction;
+
+    // Loop around
+    if (currentImageIndex < 0) {
+      currentImageIndex = galleryImages.length - 1;
+    } else if (currentImageIndex >= galleryImages.length) {
+      currentImageIndex = 0;
+    }
+
+    const lightboxImage = document.getElementById('lightbox-image');
+
+    lightboxImage.src = galleryImages[currentImageIndex].src;
+    lightboxImage.alt = galleryImages[currentImageIndex].title;
+  }
+
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    const lightbox = document.getElementById('lightbox');
+    if (!lightbox.classList.contains('hidden')) {
+      if (e.key === 'Escape') {
+        closeLightbox();
+      } else if (e.key === 'ArrowLeft') {
+        changeImage(-1);
+      } else if (e.key === 'ArrowRight') {
+        changeImage(1);
+      }
+    }
+  });
+
+  // Close on background click
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeLightbox();
+    }
+  });
+</script>
