@@ -1,0 +1,92 @@
+{% comment %} Newsletter Signup Section {% endcomment %}
+
+<section class="w-full py-20">
+    <div class="w-full px-[20px] md:px-[30px] lg:px-[50px]">
+        <!-- Header Section -->
+        <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px] pb-8">
+            <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+                <h2 class="font-sm uppercase">
+                    {{ section.settings.heading }}
+                </h2>
+            </div>
+            <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+                <div class="font-sm leading-tight mb-8">
+                    {{ section.settings.description | newline_to_br }}
+                </div>
+
+                {% form 'customer', class: 'flex flex-col md:flex-row gap-6 items-start md:items-end' %}
+                    <input type="hidden" name="contact[tags]" value="newsletter">
+
+                    <div class="flex-1 w-full mt-10">
+                        <input
+                                type="email"
+                                name="contact[email]"
+                                id="newsletter-email"
+                                placeholder="{{ section.settings.placeholder }}"
+                                required
+                                class="w-full bg-transparent border-b border-black pb-2 font-sm focus:outline-none focus:border-black"
+                        >
+                    </div>
+
+                    <button
+                            type="submit"
+                            class="font-sm tracking-[0.06em] hover:opacity-70 transition-opacity whitespace-nowrap"
+                    >
+                        {{ section.settings.button_text }}
+                    </button>
+
+                    {% if form.posted_successfully? %}
+                        <p class="w-full text-green-700 font-xs mt-4">{{ section.settings.success_message }}</p>
+                    {% endif %}
+
+                    {% if form.errors %}
+                        <p class="w-full text-red-700 font-xs mt-4">{{ form.errors | default_errors }}</p>
+                    {% endif %}
+                {% endform %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "TF - Newsletter Signup",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Newsletter Signup"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Join our mailing list and be the first to hear about new arrivals, trunk shows and sample sales."
+    },
+    {
+      "type": "text",
+      "id": "placeholder",
+      "label": "Email Placeholder",
+      "default": "Enter email address"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Subscribe"
+    },
+    {
+      "type": "text",
+      "id": "success_message",
+      "label": "Success Message",
+      "default": "Thanks for subscribing!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TF - Newsletter Signup"
+    }
+  ]
+}
+{% endschema %}
