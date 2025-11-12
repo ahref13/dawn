@@ -14,15 +14,8 @@
       "name": "TF • Hero full-bleed",
       "settings": {
         "image": "shopify://shop_images/Cassandra_Graham_1512.png",
-        "title": "THE—FALL",
-        "title_style": "image",
         "title_image": "shopify://shop_images/the-fall-logo-type.svg",
-        "title_image_alt": "Logo",
-        "title_image_width": 420,
-        "title_image_position": "before",
-        "subtext": "",
-        "link_url": "",
-        "link_label": "Shop"
+        "title_image_alt": "Logo"
       }
     },
     "tf_side_title_text_4CCmNX": {
@@ -32,8 +25,7 @@
         "heading": "About The Fall",
         "paragraph": "<p>Founded in late 2019, The Fall was created with the contemporary, independent woman in mind. It’s a destination for women who don’t relate to the mainstream bridal offering and want a relaxed yet elevated alternative to wedding dress shopping.<br/><br/>Our designers are all carefully selected not only for their quality and style, but also their ethos and values. Each of our designers makes locally with an ethical production approach and almost exclusively female teams.<br/><br/>We offer a considered space and experience where we will guide and support you throughout the process, making sure you feel comfortable and beautiful on your wedding day. </p>",
         "link_url": "shopify://pages/about",
-        "link_text": "Learn more",
-        "font_size_variant": "sm"
+        "link_text": "Learn more"
       }
     },
     "tf_designers_Q86PhL": {
@@ -42,12 +34,9 @@
       "settings": {
         "image": "shopify://shop_images/alex_perry.png",
         "title": "ALEX PERRY",
-        "font_size_variant": "xl",
         "subtitle_label": "",
-        "font_size_variant_subtitle": "base",
         "link_url": "shopify://pages/designers",
-        "link_label": "MEET OUR DESIGNERS",
-        "font_size_variant_link": "xs"
+        "link_label": "MEET OUR DESIGNERS"
       }
     },
     "tf_collections_feature_FMR7Hp": {
@@ -55,13 +44,9 @@
       "name": "TF • Collections feature",
       "settings": {
         "heading": "Shop Our Collections",
-        "font_size_variant_heading": "lg",
         "collection": "frontpage-feature",
-        "products_to_show": 10,
-        "columns_desktop": "5",
         "show_view_all": true,
-        "view_all_label": "Shop All",
-        "font_size_variant_cta": "base"
+        "view_all_label": "Shop All"
       }
     },
     "tf_designers_m6QAXR": {
@@ -70,12 +55,20 @@
       "settings": {
         "image": "shopify://shop_images/jessica_bennett_1.png",
         "title": "PRIVATE FITTINGS",
-        "font_size_variant": "xl",
         "subtitle_label": "Our store is a calming space for private fittings with our team as we help you put together the perfect ensemble for your wedding day",
-        "font_size_variant_subtitle": "sm",
         "link_url": "shopify://pages/appointment",
-        "link_label": "BOOK AN APPOINTMENT",
-        "font_size_variant_link": "xs"
+        "link_label": "BOOK AN APPOINTMENT"
+      }
+    },
+    "tf_newsletter_signup_Wt9TTU": {
+      "type": "tf-newsletter-signup",
+      "name": "TF - Newsletter Signup",
+      "settings": {
+        "heading": "Newsletter Signup",
+        "description": "Join our mailing list and be the first to hear about new arrivals, trunk shows and sample sales.",
+        "placeholder": "Enter email address",
+        "button_text": "Subscribe",
+        "success_message": "Thanks for subscribing!"
       }
     }
   },
@@ -84,6 +77,7 @@
     "tf_side_title_text_4CCmNX",
     "tf_designers_Q86PhL",
     "tf_collections_feature_FMR7Hp",
-    "tf_designers_m6QAXR"
+    "tf_designers_m6QAXR",
+    "tf_newsletter_signup_Wt9TTU"
   ]
 }
