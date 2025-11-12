@@ -22,7 +22,7 @@
         </a>
 
         {% comment %} Menu - starts at column 5 on desktop {% endcomment %}
-        <nav class="col-span-4 md:col-span-3 md:col-start-3 md:justify-self-start lg:col-start-4 xl:col-start-5 flex">
+        <nav class="col-span-4 md:col-span-4 md:col-start-3 md:justify-self-start lg:col-start-4 xl:col-start-5 flex justify-between w-full">
             <ul class="flex flex-wrap gap-4 lg:gap-7 list-none leading-normal -mb-[6px]" role="list">
                 {% for link in section.settings.menu.links %}
                     <li class="mb-0">
@@ -32,27 +32,24 @@
                     </li>
                 {% endfor %}
             </ul>
-            <ul class="flex flex-wrap gap-4 lg:gap-7 list-none leading-normal -mb-[6px]" role="list">
-                <li class="mb-0">
-                    <a class="font-xs text-white no-underline hover:underline whitespace-nowrap flex items-center gap-2" href="https://facebook.com/yourpage" target="_blank" rel="noopener">
-                        <img src="{{ 'icon-facebook.svg' | asset_url }}"  class="w-4 h-4" alt="">
+            <ul class="flex gap-4 list-none leading-normal">
+                <li>
+                    <a href="https://www.tiktok.com/@thefallbride" class="flex items-center hover:text-gray-300 transition">
+                        {% render 'icon-tiktok' %}
                     </a>
                 </li>
-                {% comment %}<li class="mb-0">{% endcomment %}
-                    {% comment %}<a class="font-xs text-white no-underline hover:underline whitespace-nowrap flex items-center gap-2" href="https://pinterest.com/yourpage" target="_blank" rel="noopener">{% endcomment %}
-                        {% comment %}<img src="{{ 'icon-pinterest.svg' | asset_url }}" alt="Pinterest" class="w-4 h-4">{% endcomment %}
-                    {% comment %}</a>{% endcomment %}
-                {% comment %}</li>{% endcomment %}
-                {% comment %}<li class="mb-0">{% endcomment %}
-                    {% comment %}<a class="font-xs text-white no-underline hover:underline whitespace-nowrap flex items-center gap-2" href="https://instagram.com/yourpage" target="_blank" rel="noopener">{% endcomment %}
-                        {% comment %}<img src="{{ 'icon-instagram.svg' | asset_url }}" alt="Instagram" class="w-4 h-4">{% endcomment %}
-                    {% comment %}</a>{% endcomment %}
-                {% comment %}</li>{% endcomment %}
+                <li>
+                    <a href="https://uk.pinterest.com/thefallbrideldn/" class="flex items-center hover:text-gray-300 transition">
+                        {% render 'icon-pinterest' %}
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/thefallbride" class="flex items-center hover:text-gray-300 transition">
+                        {% render 'icon-instagram' %}
+                    </a>
+                </li>
             </ul>
-
-
         </nav>
-
     </div>
 </footer>
 
