@@ -32,6 +32,25 @@
                     </li>
                 {% endfor %}
             </ul>
+            <ul class="flex flex-wrap gap-4 lg:gap-7 list-none leading-normal -mb-[6px]" role="list">
+                <li class="mb-0">
+                    <a class="font-xs text-white no-underline hover:underline whitespace-nowrap flex items-center gap-2" href="https://facebook.com/yourpage" target="_blank" rel="noopener">
+                        <img src="{{ 'icon-facebook.svg' | asset_url }}"  class="w-4 h-4" alt="">
+                    </a>
+                </li>
+                {% comment %}<li class="mb-0">{% endcomment %}
+                    {% comment %}<a class="font-xs text-white no-underline hover:underline whitespace-nowrap flex items-center gap-2" href="https://pinterest.com/yourpage" target="_blank" rel="noopener">{% endcomment %}
+                        {% comment %}<img src="{{ 'icon-pinterest.svg' | asset_url }}" alt="Pinterest" class="w-4 h-4">{% endcomment %}
+                    {% comment %}</a>{% endcomment %}
+                {% comment %}</li>{% endcomment %}
+                {% comment %}<li class="mb-0">{% endcomment %}
+                    {% comment %}<a class="font-xs text-white no-underline hover:underline whitespace-nowrap flex items-center gap-2" href="https://instagram.com/yourpage" target="_blank" rel="noopener">{% endcomment %}
+                        {% comment %}<img src="{{ 'icon-instagram.svg' | asset_url }}" alt="Instagram" class="w-4 h-4">{% endcomment %}
+                    {% comment %}</a>{% endcomment %}
+                {% comment %}</li>{% endcomment %}
+            </ul>
+
+
         </nav>
 
     </div>
