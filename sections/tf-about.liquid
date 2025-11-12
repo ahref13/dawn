@@ -24,9 +24,6 @@
             <p class="m-0 mb-2">
                 {{ section.settings.visit_us | newline_to_br }}
             </p>
-            <p class="m-0 font-xs text-[#666]">
-                {{ section.settings.visit_us_subtext | newline_to_br }}
-            </p>
         </div>
     </div>
 
@@ -69,12 +66,6 @@
     },
     {
       "type": "textarea",
-      "id": "visit_us_subtext",
-      "label": "Visit Us Sub Text",
-      "default": "We are near the corner of Martel Pl and Dalston Ln – input 'Dalston Works' into a maps app"
-    },
-    {
-      "type": "textarea",
       "id": "hours",
       "label": "Opening Hours",
       "default": "Mon 4pm–7:30pm\nTue-Fri 10am–7:30pm\nSat-Sun 10am–6:30pm"
@@ -83,7 +74,7 @@
       "type": "textarea",
       "id": "hours_subtext",
       "label": "Opening Hours Sub Text",
-      "default": "Please note we can by appointment only"
+      "default": "By appointment only"
     }
   ],
   "presets": [
