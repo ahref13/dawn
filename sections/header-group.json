@@ -33,7 +33,21 @@
     },
     "tf_header_overlay_MzrFiK": {
       "type": "tf-header-overlay",
+      "disabled": true,
       "name": "TF • Header",
+      "settings": {
+        "logo": "shopify://shop_images/the-fall-logo-type.svg",
+        "menu_label": "Menu",
+        "menu": "main-menu",
+        "close_label": "Close",
+        "transparent": true,
+        "font_size_variant": "sm",
+        "overlay_font_size_variant": "base"
+      }
+    },
+    "tf_header_animation_xiF64w": {
+      "type": "tf-header-animation",
+      "name": "TF • Header animation",
       "settings": {
         "logo": "shopify://shop_images/the-fall-logo-type.svg",
         "menu_label": "Menu",
@@ -47,6 +61,7 @@
   },
   "order": [
     "header",
-    "tf_header_overlay_MzrFiK"
+    "tf_header_overlay_MzrFiK",
+    "tf_header_animation_xiF64w"
   ]
 }
