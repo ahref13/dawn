@@ -383,6 +383,9 @@
   .-ml-11 {
     margin-left: calc(var(--spacing) * -11);
   }
+  .-ml-11 {
+    margin-left: calc(var(--spacing) * -11);
+  }
   .-ml-\[10px\] {
     margin-left: calc(10px * -1);
   }
