@@ -11,7 +11,17 @@
   "sections": {
     "tf_hero_full_bleed_4G7ML9": {
       "type": "tf-hero-full-bleed",
+      "disabled": true,
       "name": "TF • Hero full-bleed",
+      "settings": {
+        "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_01_015_BW.jpg",
+        "title_image": "shopify://shop_images/the-fall-logo-type.svg",
+        "title_image_alt": "Logo"
+      }
+    },
+    "tf_hero_anim_9WJ3LG": {
+      "type": "tf-hero-anim",
+      "name": "TF • Hero Animation",
       "settings": {
         "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_01_015_BW.jpg",
         "title_image": "shopify://shop_images/the-fall-logo-type.svg",
@@ -74,6 +84,7 @@
   },
   "order": [
     "tf_hero_full_bleed_4G7ML9",
+    "tf_hero_anim_9WJ3LG",
     "tf_side_title_text_4CCmNX",
     "tf_designers_Q86PhL",
     "tf_collections_feature_FMR7Hp",
