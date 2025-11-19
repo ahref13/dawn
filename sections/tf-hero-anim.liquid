@@ -1,46 +1,78 @@
 {% comment %} THE FALL – Full-bleed hero with animated logo {% endcomment %}
 <section class="relative min-h-screen w-full" id="tf-hero-section">
-    {% comment %} Background Image {% endcomment %}
-    {% if section.settings.image != blank %}
-        {{ section.settings.image
-        | image_url: width: 2400
-        | image_tag:
-        class: 'absolute inset-0 w-full h-screen object-cover',
-        loading: 'eager' }}
-    {% endif %}
+  {% if section.settings.image != blank %}
+    {{ section.settings.image
+    | image_url: width: 2400
+    | image_tag:
+    class: 'absolute inset-0 w-full h-screen object-cover',
+    loading: 'eager' }}
+  {% endif %}
 
-    {% comment %} Fixed Centered Logo - Stays in viewport center until 300px scroll {% endcomment %}
-    <div id="tf-animated-logo-container" class="fixed inset-0 pointer-events-none z-50 mix-blend-difference flex items-center justify-center">
-        {% if section.settings.title_image %}
-            {{ section.settings.title_image
-            | image_url: width: 700
-            | image_tag:
-            class: 'h-auto block max-w-[80vw] md:max-w-[60vw] lg:max-w-[50vw]',
-            id: 'tf-animated-logo',
-            alt: section.settings.title_image_alt | escape }}
-        {% endif %}
-    </div>
+  {% comment %} Animated logo - only for first time or refresh {% endcomment %}
+  <div id="tf-animated-logo-container" class="fixed inset-0 pointer-events-none z-50 mix-blend-difference flex items-center justify-center">
+    {% if section.settings.title_image %}
+      {{ section.settings.title_image
+      | image_url: width: 800
+      | image_tag:
+      class: 'h-auto block max-w-[80vw] md:max-w-[60vw] lg:max-w-[50vw]',
+      id: 'tf-animated-logo',
+      alt: section.settings.title_image_alt | escape }}
+    {% endif %}
+  </div>
+
+  {% comment %} Static logo - shows after animation or on return to home {% endcomment %}
+  <div id="tf-static-logo-container" class="absolute inset-0 pointer-events-none z-40 mix-blend-difference flex items-center justify-center opacity-0">
+    {% if section.settings.title_image %}
+      {{ section.settings.title_image
+      | image_url: width: 800
+      | image_tag:
+      class: 'h-auto block max-w-[80vw] md:max-w-[60vw] lg:max-w-[50vw]',
+      id: 'tf-static-logo',
+      alt: section.settings.title_image_alt | escape }}
+    {% endif %}
+  </div>
 </section>
 
 <style>
-    #tf-animated-logo-container {
-        will-change: transform, opacity;
-    }
-
-    #tf-animated-logo {
-        will-change: transform;
-        transform-origin: center center;
-    }
+  #tf-animated-logo-container {
+    will-change: transform, opacity;
+  }
+  #tf-animated-logo {
+    will-change: transform;
+    transform-origin: center center;
+  }
+  #tf-static-logo-container {
+    transition: opacity 0.6s ease-out;
+  }
 </style>
 
-{% comment %} Load GSAP and ScrollTrigger {% endcomment %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
 <script>
+
+  window.history.scrollRestoration = "manual";
+  // Force scroll to top on homepage refresh BEFORE animation loads
+  const nav = performance.getEntriesByType("navigation")[0];
+  const isRefresh = nav && nav.type === "reload";
+
+  const isHomePage =
+          window.location.pathname === "/" ||
+          window.location.pathname === "/index" ||
+          window.location.pathname === "";
+
+  if (isHomePage && isRefresh) {
+    // Prevent browser from restoring scroll position
+    window.history.scrollRestoration = "manual";
+
+    // Scroll immediately to top (before DOMContentLoaded)
+    window.scrollTo(0, 0);
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     const animatedLogoContainer = document.getElementById('tf-animated-logo-container');
     const animatedLogo = document.getElementById('tf-animated-logo');
+    const staticLogoContainer = document.getElementById('tf-static-logo-container');
     const header = document.getElementById('tf-main-header');
     const headerLogo = header?.querySelector('a[aria-label="{{ shop.name }}"] img, a[aria-label="{{ shop.name }}"] span');
 
@@ -49,90 +81,132 @@
       return;
     }
 
-    // If header doesn't exist or we're not on homepage, show header immediately
+    const path = window.location.pathname;
+    const isHome =
+            path === '/' ||
+            path === '/index' ||
+            path === '';
+
+    const navEntry = performance.getEntriesByType('navigation')[0];
+    const navType = navEntry ? navEntry.type : 'navigate';
+    const isReload = navType === 'reload';
+
+    const hasAnimationPlayed = sessionStorage.getItem('tf-hero-animation-played') === 'true';
+
+    // 🧭 Not on homepage → just hide animated logo, show header, do nothing fancy
+    if (!isHome) {
+      if (animatedLogoContainer) animatedLogoContainer.style.opacity = '0';
+      if (staticLogoContainer) staticLogoContainer.style.opacity = '0';
+      if (header) header.style.opacity = '1';
+      return;
+    }
+
+    // 🧭 On homepage:
+
+    // ✅ Case 1: Animation has already played and this is NOT a reload
+    // → User is coming back or navigating to home → skip animation
+    if (hasAnimationPlayed && !isReload) {
+      if (animatedLogoContainer) animatedLogoContainer.style.opacity = '0';
+      if (staticLogoContainer) staticLogoContainer.style.opacity = '1';
+      if (header) header.style.opacity = '1';
+      return;
+    }
+
+    // ✅ Case 2: First visit or reload
+    // On reload we explicitly clear the "played" flag so animation replays
+    if (isReload) {
+      sessionStorage.removeItem('tf-hero-animation-played');
+    }
+
+    // Initial states for animation
+    if (staticLogoContainer) staticLogoContainer.style.opacity = '0';
+    if (animatedLogoContainer) animatedLogoContainer.style.opacity = '1';
+    if (header) header.style.opacity = '0';
+
     if (!header || !headerLogo) {
-      if (header) {
-        header.style.opacity = '1';
-      }
       return;
     }
 
     gsap.registerPlugin(ScrollTrigger);
 
-    // Get the navbar logo position and size
     const getHeaderLogoRect = () => headerLogo.getBoundingClientRect();
     const getLogoRect = () => animatedLogo.getBoundingClientRect();
 
-    // Calculate initial centered state
     const setupAnimation = () => {
       const headerRect = getHeaderLogoRect();
       const logoRect = getLogoRect();
 
-      // Calculate how much to move from center to navbar position
       const centerX = window.innerWidth / 2;
       const centerY = window.innerHeight / 2;
 
-      // Calculate the translation needed from center to navbar
-      const deltaX = headerRect.left + (headerRect.width / 2) - centerX;
-      const deltaY = headerRect.top + (headerRect.height / 2) - centerY;
+      const deltaX = headerRect.left + headerRect.width / 2 - centerX;
+      const deltaY = headerRect.top + headerRect.height / 2 - centerY;
 
-      // Calculate scale to match header logo size
       const scaleX = headerRect.width / logoRect.width;
       const scaleY = headerRect.height / logoRect.height;
       const targetScale = Math.min(scaleX, scaleY);
 
-      // Create the animation timeline
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: 'body',
-          start: '300px top',     // Start animation at 300px scroll
-          end: '800px top',       // End animation at 800px scroll
-          scrub: 1,               // Smooth scrubbing
-          // markers: true,       // Uncomment for debugging
-          invalidateOnRefresh: true
+          start: '300px top',
+          end: '800px top',
+          scrub: 1,
+          invalidateOnRefresh: true,
+
+          // When animation completes while scrolling DOWN
+          onLeave: self => {
+            sessionStorage.setItem('tf-hero-animation-played', 'true');
+
+            // show static + header
+            if (staticLogoContainer) staticLogoContainer.style.opacity = '1';
+            if (header) header.style.opacity = '1';
+
+            // hide animation logo completely
+            animatedLogoContainer.style.opacity = '0';
+            animatedLogoContainer.style.display = 'none';
+
+            self.disable(); // ⛔ prevent rewinding forever
+          },
+
+          // Prevent backward animation on scroll-up or scroll restore
+          onEnterBack: self => {
+            animatedLogoContainer.style.opacity = '0';
+            animatedLogoContainer.style.display = 'none';
+            self.disable();
+          }
         }
       });
 
-      // Animate from center to navbar position
+      // Only animate animated logo & its movement
       tl.to(animatedLogoContainer, {
         x: deltaX,
         y: deltaY,
         ease: 'power2.inOut'
       }, 0);
 
-      // Scale down to match navbar logo size
       tl.to(animatedLogo, {
         scale: targetScale,
         ease: 'power2.inOut'
       }, 0);
 
-      // Fade out animated logo when approaching navbar (starts at 80% of animation)
       tl.to(animatedLogoContainer, {
         opacity: 0,
         ease: 'power2.in'
       }, 0.8);
 
-      // Fade in header simultaneously as logo fades out (starts at 80% of animation)
-      tl.to(header, {
-        opacity: 1,
-        ease: 'power2.out'
-      }, 0.8);
-
       return tl;
     };
 
-    // Initialize animation
     let timeline = setupAnimation();
 
-    // Handle resize
+    // Recalculate on resize
     let resizeTimeout;
     window.addEventListener('resize', () => {
       clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(() => {
-        if (timeline) {
-          timeline.kill();
-        }
-        ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+        if (timeline) timeline.kill();
+        ScrollTrigger.getAll().forEach(tr => tr.kill());
         timeline = setupAnimation();
         ScrollTrigger.refresh();
       }, 250);
@@ -142,14 +216,14 @@
 
 {% schema %}
 {
-  "name": "TF • Hero Animation",
+  "name": "TF • Hero full-bleed",
   "settings": [
     { "type": "image_picker", "id": "image", "label": "Background image" },
     { "type": "image_picker", "id": "title_image", "label": "Title image (logo)" },
     { "type": "text", "id": "title_image_alt", "label": "Image alt text", "default": "Logo" }
   ],
   "presets": [
-    { "name": "TF • Hero Animation" }
+    { "name": "TF • Hero full-bleed" }
   ]
 }
 {% endschema %}
