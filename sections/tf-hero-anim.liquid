@@ -14,7 +14,8 @@
       {{ section.settings.title_image
       | image_url: width: 800
       | image_tag:
-      class: 'h-auto block max-w-[80vw] md:max-w-[60vw] lg:max-w-[50vw]',
+      class: 'h-auto block',
+      style: 'max-width: 55vw; width: 100%;',
       id: 'tf-animated-logo',
       alt: section.settings.title_image_alt | escape }}
     {% endif %}
@@ -26,7 +27,8 @@
       {{ section.settings.title_image
       | image_url: width: 800
       | image_tag:
-      class: 'h-auto block max-w-[80vw] md:max-w-[60vw] lg:max-w-[50vw]',
+      class: 'h-auto block',
+      style: 'max-width: 55vw; width: 100%;',
       id: 'tf-static-logo',
       alt: section.settings.title_image_alt | escape }}
     {% endif %}
