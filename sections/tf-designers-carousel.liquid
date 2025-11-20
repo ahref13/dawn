@@ -1,0 +1,149 @@
+{% comment %} THE FALL – Designers Carousel {% endcomment %}
+
+<section class="relative min-h-screen w-full">
+    {% comment %} Get pages from handle list {% endcomment %}
+    {% assign designer_pages = section.settings.page_handles | split: ',' %}
+
+    {% comment %} Background Wrapper for Fading Images {% endcomment %}
+    <div class="absolute inset-0 w-full h-screen bg-black">
+        {% for handle_raw in designer_pages %}
+            {% assign handle = handle_raw | strip %}
+            {% assign page = pages[handle] %}
+            {% if page %}
+                {% assign thumbnail = page.metafields.custom.designer_thumbnail %}
+                {% if thumbnail != blank %}
+                    {{ thumbnail
+                    | image_url: width: 2400
+                    | image_tag:
+                    class: 'designer-bg absolute inset-0 w-full h-screen object-cover block',
+                    loading: 'eager',
+                    style: 'opacity: 0; transition: opacity 1s ease-in-out;',
+                    data-index: forloop.index0 }}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {% comment %} Dark Overlay {% endcomment %}
+    {% if section.settings.enable_dark_overlay %}
+        <div class="absolute inset-0 w-full h-screen bg-black opacity-10"></div>
+    {% endif %}
+
+    {% comment %} Grid Overlay with Centered Content {% endcomment %}
+    <div class="relative grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 grid-rows-1 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] w-full h-screen">
+
+        {% comment %} Content spans all columns and centers vertically {% endcomment %}
+        <div class="col-span-2 md:col-span-4 lg:col-span-6 xl:col-span-8 flex flex-col items-center justify-center text-center">
+            <h1 class="font-xl tracking-[0.06em] text-[#f6f5f1] leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000" id="designer-name">
+                {% assign first_handle = designer_pages.first | strip %}
+                {% assign first_page = pages[first_handle] %}
+                {{ first_page.title | escape }}
+            </h1>
+
+            {% if section.settings.link_url != blank %}
+                <a class="font-xs block mt-4 no-underline text-[#f6f5f1]" href="{{ section.settings.link_url }}">
+                    {{ section.settings.link_label }}
+                </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<script>
+  (function() {
+    const designers = [
+        {% for handle_raw in designer_pages %}
+        {% assign handle = handle_raw | strip %}
+        {% assign page = pages[handle] %}
+        {% if page %}
+      {
+        name: {{ page.title | json }},
+        handle: {{ page.handle | json }},
+        url: {{ page.url | json }}
+      }{% unless forloop.last %},{% endunless %}
+        {% endif %}
+        {% endfor %}
+    ];
+
+    if (designers.length === 0) return;
+
+    let currentIndex = 0;
+    const nameElement = document.getElementById('designer-name');
+    const bgImages = document.querySelectorAll('.designer-bg');
+    const interval = {{ section.settings.rotation_interval | default: 2500 }};
+
+    // Show first designer
+    if (bgImages[0]) bgImages[0].style.opacity = '1';
+
+    function fadeToNext() {
+      const nextIndex = (currentIndex + 1) % designers.length;
+
+      // Start crossfade: fade out current, fade in next (simultaneously)
+      if (bgImages[currentIndex]) {
+        bgImages[currentIndex].style.opacity = '0';
+      }
+      if (bgImages[nextIndex]) {
+        bgImages[nextIndex].style.opacity = '1';
+      }
+
+      // Fade out current name
+      nameElement.style.opacity = '0';
+
+      // After half the transition, change text and fade in
+      setTimeout(() => {
+        currentIndex = nextIndex;
+        nameElement.textContent = designers[currentIndex].name;
+        nameElement.style.opacity = '1';
+      }, 500);
+    }
+
+    // Start rotation
+    setInterval(fadeToNext, interval);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "TF • Designers Carousel",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "page_handles",
+      "label": "Designer Page Handles",
+      "info": "Enter page handles separated by commas (e.g., designer-one, designer-two, designer-three)",
+      "default": "designer-one, designer-two, designer-three"
+    },
+    {
+      "type": "range",
+      "id": "rotation_interval",
+      "label": "Rotation Interval (ms)",
+      "min": 1500,
+      "max": 5000,
+      "step": 500,
+      "default": 2500
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_dark_overlay",
+      "label": "Enable dark overlay",
+      "default": false
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Button label",
+      "default": "Explore"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TF • Designers Carousel"
+    }
+  ]
+}
+{% endschema %}

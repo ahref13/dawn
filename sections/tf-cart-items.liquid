@@ -228,6 +228,7 @@
             </div>
 
             <!-- Sidebar - Subtotal & Checkout (outside form, now sticky works!) -->
+            <!-- Sidebar - Subtotal & Checkout -->
             <div class="col-span-2 md:col-span-4 lg:col-span-2 xl:col-span-3">
                 <div class="lg:sticky lg:top-[130px]">
                     <div class="flex flex-col gap-8">
@@ -235,15 +236,25 @@
                             <span class="font-sm font-medium uppercase">Subtotal</span>
                             <span class="font-sm font-medium">{{ cart.total_price | money }}</span>
                         </div>
+
+                        <!-- Checkout button -->
                         <button type="submit"
                                 form="cart"
                                 name="checkout"
                                 class="w-full py-5 px-8 font-xs font-normal uppercase bg-black text-[#f6f5f1] border-none cursor-pointer hover:bg-gray-800 transition-colors">
                             Checkout
                         </button>
+
+                        <!-- Continue Shopping button -->
+                        <a href="/collections/all-products"
+                           class="w-full text-center py-4 px-8 font-xs font-normal uppercase bg-transparent border border-black text-black no-underline hover:bg-black hover:text-white transition-colors block">
+                            Continue Shopping
+                        </a>
+
                     </div>
                 </div>
             </div>
+
 
         {% else %}
             <!-- Empty Cart -->
