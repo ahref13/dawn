@@ -35,8 +35,8 @@
         "page_handles": "lola-varma, newhite, otiumberg",
         "rotation_interval": 4500,
         "enable_dark_overlay": false,
-        "link_url": "",
-        "link_label": "Explore"
+        "link_url": "shopify://pages/designers",
+        "link_label": "MEET OUR DESIGNERS"
       }
     },
     "tf_collections_feature_FMR7Hp": {
