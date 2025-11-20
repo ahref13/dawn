@@ -46,9 +46,10 @@
                 {% assign first_color_class = 'text-[#f6f5f1] [mix-blend-mode:difference]' %}
             {% endif %}
 
-            <h1 class="font-xl tracking-[0.06em] {{ first_color_class }} leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000" id="designer-name">
+            <h1 class="font-base sm:font-xl tracking-[0.06em] {{ first_color_class }} leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000" id="designer-name">
                 {{ first_page.title | escape }}
             </h1>
+
 
             {% if section.settings.link_url != blank %}
                 <a class="font-xs block no-underline {{ first_color_class }}" href="{{ section.settings.link_url }}">
@@ -115,8 +116,7 @@
         nameElement.textContent = designers[currentIndex].name;
 
         // Update color class
-        nameElement.className = 'font-xl tracking-[0.06em] leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000 ' + designers[currentIndex].colorClass;
-
+        nameElement.className = 'font-base sm:font-xl tracking-[0.06em] leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000 ' + designers[currentIndex].colorClass;
         nameElement.style.opacity = '1';
       }, 500);
     }

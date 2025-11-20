@@ -2,13 +2,13 @@
 
 <section class="w-full">
     <!-- Hero Image with Overlay -->
-    <div class="relative w-full h-[120vh]">
+    <div class="relative w-full h-[140vh] md:h-[120vh]">
         {% if page.metafields.custom.designer_thumbnail %}
             {{ page.metafields.custom.designer_thumbnail | image_url: width: 2400 | image_tag: class: 'absolute inset-0 w-full h-full object-cover', loading: 'eager' }}
         {% endif %}
 
         <!-- Title - Absolutely Centered -->
-        <div class="absolute inset-0 flex items-center justify-center -mt-[200px]">
+        <div class="absolute inset-0 flex items-center justify-center -mt-[300px] md:-mt-[200px]">
             {% assign title_color_class = '' %}
             {% if page.metafields.custom.title_color == 'white' %}
                 {% assign title_color_class = 'text-[#f6f5f1]' %}
@@ -18,7 +18,10 @@
                 {% assign title_color_class = 'text-[#f6f5f1] [mix-blend-mode:difference]' %}
             {% endif %}
 
-            <h1 class="font-xl tracking-[0.06em] {{ title_color_class }} leading-none text-center">
+            <h1 class="sm:hidden font-base tracking-[0.06em] {{ title_color_class }} leading-none text-center">
+                {{ page.title }}
+            </h1>
+            <h1 class="hidden sm:block font-xl tracking-[0.06em] {{ title_color_class }} leading-none text-center">
                 {{ page.title }}
             </h1>
         </div>
