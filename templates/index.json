@@ -49,6 +49,18 @@
         "view_all_label": "Shop All"
       }
     },
+    "tf_private_fittings_R8tVMx": {
+      "type": "tf-private-fittings",
+      "name": "TF • Private Fittings",
+      "settings": {
+        "image": "shopify://shop_images/The_Fall_Bride-5.jpg",
+        "enable_dark_overlay": true,
+        "title": "PRIVATE FITTINGS",
+        "subtitle_label": "",
+        "link_url": "shopify://pages/appointment",
+        "link_label": "BOOK AN APPOINTMENT"
+      }
+    },
     "tf_newsletter_signup_Wt9TTU": {
       "type": "tf-newsletter-signup",
       "name": "TF - Newsletter Signup",
@@ -66,6 +78,7 @@
     "tf_side_title_text_4CCmNX",
     "tf_designers_carousel_xEdQfh",
     "tf_collections_feature_FMR7Hp",
+    "tf_private_fittings_R8tVMx",
     "tf_newsletter_signup_Wt9TTU"
   ]
 }
