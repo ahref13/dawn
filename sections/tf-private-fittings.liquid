@@ -20,18 +20,18 @@
 
         {% comment %} Content spans all columns and centers vertically {% endcomment %}
         <div class="col-span-2 md:col-span-4 lg:col-span-6 xl:col-span-8 flex flex-col items-center justify-center text-center">
-            <h1 class="font-xl tracking-[0.06em] text-[#f6f5f1] leading-none inline-flex items-center gap-2 my-4">
+            <h1 class="font-base tracking-[0.06em] text-[#f6f5f1] leading-none inline-flex items-center gap-2 my-4">
                 {{ section.settings.title | escape }}
             </h1>
 
-            {% if section.settings.subtitle_label != blank %}
-                <p class="font-sm block w-[80vw] max-w-[800px] leading-normal mt-0 text-[#f6f5f1]">
-                    {{ section.settings.subtitle_label }}
-                </p>
-            {% endif %}
+            {% comment %}{% if section.settings.subtitle_label != blank %}{% endcomment %}
+                {% comment %}<p class="font-sm block w-[80vw] max-w-[800px] leading-normal mt-0 text-[#f6f5f1]">{% endcomment %}
+                    {% comment %}{{ section.settings.subtitle_label }}{% endcomment %}
+                {% comment %}</p>{% endcomment %}
+            {% comment %}{% endif %}{% endcomment %}
 
             {% if section.settings.link_url != blank %}
-                <a class="font-xs block mt-4 no-underline text-[#f6f5f1]" href="{{ section.settings.link_url }}">
+                <a class="font-xs block no-underline text-[#f6f5f1]" href="{{ section.settings.link_url }}">
                     {{ section.settings.link_label }}
                 </a>
             {% endif %}

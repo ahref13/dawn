@@ -14,33 +14,35 @@
                     {{ section.settings.description | newline_to_br }}
                 </div>
 
-                {% form 'customer', class: 'flex flex-col md:flex-row gap-6 items-start md:items-end' %}
+                {% form 'customer', class: 'flex flex-col md:flex-row gap-6 items-start md:items-end', style: 'max-width: 500px;' %}
                     <input type="hidden" name="contact[tags]" value="newsletter">
 
-                    <div class="flex-1 w-full mt-10">
-                        <input
-                                type="email"
-                                name="contact[email]"
-                                id="newsletter-email"
-                                placeholder="{{ section.settings.placeholder }}"
-                                required
-                                class="w-full bg-transparent border-b border-black pb-2 font-sm focus:outline-none focus:border-black"
-                        >
-                    </div>
+                    {% unless form.posted_successfully? or form.errors %}
+                        <div class="flex-1 w-full mt-10">
+                            <input
+                                    type="email"
+                                    name="contact[email]"
+                                    id="newsletter-email"
+                                    placeholder="{{ section.settings.placeholder }}"
+                                    required
+                                    class="w-full bg-transparent border-b border-black pb-2 font-sm focus:outline-none focus:border-black"
+                            >
+                        </div>
 
-                    <button
-                            type="submit"
-                            class="font-sm tracking-[0.06em] hover:opacity-70 transition-opacity whitespace-nowrap"
-                    >
-                        {{ section.settings.button_text }}
-                    </button>
+                        <button
+                                type="submit"
+                                class="font-sm tracking-[0.06em] hover:opacity-70 transition-opacity whitespace-nowrap"
+                        >
+                            {{ section.settings.button_text }}
+                        </button>
+                    {% endunless %}
 
                     {% if form.posted_successfully? %}
-                        <p class="w-full text-green-700 font-xs mt-4">{{ section.settings.success_message }}</p>
+                        <p class="w-full font-xs mt-4">{{ section.settings.success_message }}</p>
                     {% endif %}
 
                     {% if form.errors %}
-                        <p class="w-full text-red-700 font-xs mt-4">{{ form.errors | default_errors }}</p>
+                        <p class="w-full font-xs mt-4">{{ form.errors | default_errors }}</p>
                     {% endif %}
                 {% endform %}
             </div>

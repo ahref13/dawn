@@ -34,14 +34,25 @@
 
         {% comment %} Content spans all columns and centers vertically {% endcomment %}
         <div class="col-span-2 md:col-span-4 lg:col-span-6 xl:col-span-8 flex flex-col items-center justify-center text-center">
-            <h1 class="font-xl tracking-[0.06em] text-[#f6f5f1] leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000" id="designer-name">
-                {% assign first_handle = designer_pages.first | strip %}
-                {% assign first_page = pages[first_handle] %}
+            {% comment %} Get first designer's color {% endcomment %}
+            {% assign first_handle = designer_pages.first | strip %}
+            {% assign first_page = pages[first_handle] %}
+            {% assign first_color_class = '' %}
+            {% if first_page.metafields.custom.title_color == 'white' %}
+                {% assign first_color_class = 'text-[#f6f5f1]' %}
+            {% elsif first_page.metafields.custom.title_color == 'black' %}
+                {% assign first_color_class = 'text-[#0a0700]' %}
+            {% else %}
+                {% assign first_color_class = 'text-[#f6f5f1] [mix-blend-mode:difference]' %}
+            {% endif %}
+
+            <h1 class="font-base sm:font-xl tracking-[0.06em] {{ first_color_class }} leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000" id="designer-name">
                 {{ first_page.title | escape }}
             </h1>
 
+
             {% if section.settings.link_url != blank %}
-                <a class="font-xs block mt-4 no-underline text-[#f6f5f1]" href="{{ section.settings.link_url }}">
+                <a class="font-xs block no-underline {{ first_color_class }}" href="{{ section.settings.link_url }}">
                     {{ section.settings.link_label }}
                 </a>
             {% endif %}
@@ -56,10 +67,20 @@
         {% assign handle = handle_raw | strip %}
         {% assign page = pages[handle] %}
         {% if page %}
+        {% comment %} Calculate color class for this designer {% endcomment %}
+        {% assign color_class = '' %}
+        {% if page.metafields.custom.title_color == 'white' %}
+        {% assign color_class = 'text-[#f6f5f1]' %}
+        {% elsif page.metafields.custom.title_color == 'black' %}
+        {% assign color_class = 'text-[#0a0700]' %}
+        {% else %}
+        {% assign color_class = 'text-[#f6f5f1] [mix-blend-mode:difference]' %}
+        {% endif %}
       {
         name: {{ page.title | json }},
         handle: {{ page.handle | json }},
-        url: {{ page.url | json }}
+        url: {{ page.url | json }},
+        colorClass: {{ color_class | json }}
       }{% unless forloop.last %},{% endunless %}
         {% endif %}
         {% endfor %}
@@ -89,10 +110,13 @@
       // Fade out current name
       nameElement.style.opacity = '0';
 
-      // After half the transition, change text and fade in
+      // After half the transition, change text, color class, and fade in
       setTimeout(() => {
         currentIndex = nextIndex;
         nameElement.textContent = designers[currentIndex].name;
+
+        // Update color class
+        nameElement.className = 'font-base sm:font-xl tracking-[0.06em] leading-none inline-flex items-center gap-2 my-4 transition-opacity duration-1000 ' + designers[currentIndex].colorClass;
         nameElement.style.opacity = '1';
       }, 500);
     }
