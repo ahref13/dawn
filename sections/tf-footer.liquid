@@ -4,14 +4,14 @@
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 grid-rows-1 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pt-26">
         {% comment %} Logo - left side, 3 columns on desktop {% endcomment %}
         <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-3 text-[#f6f5f1]">
-            <div class="font-xs">
+            <div class="font-xs mt-4">
                 ©The Fall Bridal Ltd. 2020-2025
             </div>
         </div>
 
         {% comment %} Menu - starts at column 5 on desktop {% endcomment %}
-        <nav class="col-span-4 md:col-span-4 md:col-start-3 md:justify-self-start lg:col-start-4 xl:col-start-5 flex justify-between w-full">
-            <ul class="flex flex-wrap gap-4 lg:gap-7 list-none leading-normal -mb-[6px]" role="list">
+        <nav class="col-span-4 md:col-span-4 md:col-start-3 md:justify-self-start lg:col-start-4 xl:col-start-5 flex justify-between w-full mt-1">
+            <ul class="flex flex-wrap gap-4 lg:gap-7 list-none leading-normal" role="list">
                 {% for link in section.settings.menu.links %}
                     <li class="mb-0">
                         <a class="font-xs text-white no-underline hover:underline whitespace-nowrap" href="{{ link.url }}">
