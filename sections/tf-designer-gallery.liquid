@@ -9,7 +9,16 @@
 
         <!-- Title - Absolutely Centered -->
         <div class="absolute inset-0 flex items-center justify-center -mt-[200px]">
-            <h1 class="font-xl tracking-[0.06em] text-white [mix-blend-mode:difference] leading-none text-center">
+            {% assign title_color_class = '' %}
+            {% if page.metafields.custom.title_color == 'white' %}
+                {% assign title_color_class = 'text-[#f6f5f1]' %}
+            {% elsif page.metafields.custom.title_color == 'black' %}
+                {% assign title_color_class = 'text-[#0a0700]' %}
+            {% else %}
+                {% assign title_color_class = 'text-[#f6f5f1] [mix-blend-mode:difference]' %}
+            {% endif %}
+
+            <h1 class="font-xl tracking-[0.06em] {{ title_color_class }} leading-none text-center">
                 {{ page.title }}
             </h1>
         </div>
@@ -17,8 +26,19 @@
         <!-- Description Text - Bottom Right Grid -->
         <div class="absolute inset-0 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pointer-events-none">
             {% if page.metafields.custom.designer_description %}
-                <div class="col-span-2 md:col-span-4 md:col-start-1 lg:col-span-3 lg:col-start-4 xl:col-span-4 xl:col-start-5 self-end pb-12 text-white pointer-events-auto">
-                    <p class="mb-20 leading-relaxed [mix-blend-mode:difference]">
+                {% assign desc_color_class = '' %}
+                {% assign desc_blend_class = '' %}
+                {% if page.metafields.custom.description_color == 'white' %}
+                    {% assign desc_color_class = 'text-[#f6f5f1]' %}
+                {% elsif page.metafields.custom.description_color == 'black' %}
+                    {% assign desc_color_class = 'text-[#0a0700]' %}
+                {% else %}
+                    {% assign desc_color_class = 'text-[#f6f5f1]' %}
+                    {% assign desc_blend_class = '[mix-blend-mode:difference]' %}
+                {% endif %}
+
+                <div class="col-span-2 md:col-span-4 md:col-start-1 lg:col-span-3 lg:col-start-4 xl:col-span-4 xl:col-start-5 self-end pb-12 {{ desc_color_class }} pointer-events-auto">
+                    <p class="mb-20 leading-relaxed {{ desc_blend_class }}">
                         {{ page.metafields.custom.designer_description | newline_to_br }}
                     </p>
                 </div>

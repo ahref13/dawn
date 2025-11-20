@@ -2,27 +2,27 @@
     background: #252525;
     padding: 3rem 1.5rem;
     margin-top: -10px;
-    color: white;
+    color: #f6f5f1;
 }
 
 .tf-footer__logo {
     justify-self: start;
     text-decoration: none;
-    color: white;
+    color: #f6f5f1;
 }
 
 .tf-footer__logo-img {
     max-height: 40px;
     height: auto;
     display: block;
-    color: white;
+    color: #f6f5f1;
 }
 
 .tf-footer__logo-text {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: .06em;
-    color: white;
+    color: #f6f5f1;
 }
 
 .footer-custom-inner {
@@ -51,7 +51,7 @@
 }
 
 .footer-custom-menu a {
-    color: white;
+    color: #f6f5f1;
     text-decoration: none;
 }
 

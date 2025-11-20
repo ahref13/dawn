@@ -22,7 +22,7 @@
 
 .tf-designer__title {
     letter-spacing: 0.06em;
-    color: white;
+    color: f6f5f1;
     mix-blend-mode: difference;
     line-height: 1;
     display: inline-flex;
@@ -50,7 +50,7 @@
     display: block;
     margin-top: 0;
     text-decoration: none;
-    color: white;
+    color: #f6f5f1;
 }
 
 /* TF Designer Gallery Grid */

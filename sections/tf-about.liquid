@@ -35,9 +35,17 @@
             <p class="m-0 mb-2">
                 {{ section.settings.hours | newline_to_br }}
             </p>
-            <p class="m-0 font-xs text-[#666]">
-                {{ section.settings.hours_subtext }}
-            </p>
+            {% if section.settings.hours_subtext != blank %}
+                {% if section.settings.hours_subtext_link != blank %}
+                    <a href="{{ section.settings.hours_subtext_link }}" class="m-0 font-xs text-[#262626] hover:text-black transition-colors">
+                        {{ section.settings.hours_subtext }}
+                    </a>
+                {% else %}
+                    <p class="m-0 font-xs text-[#262626]">
+                        {{ section.settings.hours_subtext }}
+                    </p>
+                {% endif %}
+            {% endif %}
         </div>
     </div>
 
@@ -75,6 +83,11 @@
       "id": "hours_subtext",
       "label": "Opening Hours Sub Text",
       "default": "By appointment only"
+    },
+    {
+      "type": "url",
+      "id": "hours_subtext_link",
+      "label": "Opening Hours Sub Text Link"
     }
   ],
   "presets": [

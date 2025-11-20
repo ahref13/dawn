@@ -18,7 +18,7 @@
 
 .tf-designers__title {
     letter-spacing: 0.06em;
-    color: white;
+    color: #f6f5f1;
     line-height: 1;
     display: inline-flex;
     align-items: center;
@@ -33,14 +33,14 @@
     max-width: 800px;
     line-height: normal;
     margin-top: 0;
-    color: white;
+    color: #f6f5f1;
 }
 
 .tf-designers__link {
     display: block;
     margin-top: 0;
     text-decoration: none;
-    color: white;
+    color: #f6f5f1;
 }
 
 @media screen and (max-width: 768px) {
