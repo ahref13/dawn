@@ -28,15 +28,15 @@
         "link_text": "Learn more"
       }
     },
-    "tf_designers_Q86PhL": {
+    "tf_designers_carousel_xEdQfh": {
       "type": "tf-designers-carousel",
-      "name": "TF • Designers",
+      "name": "TF • Designers Carousel",
       "settings": {
-        "image": "shopify://shop_images/alex_perry.png",
-        "title": "ALEX PERRY",
-        "subtitle_label": "",
-        "link_url": "shopify://pages/designers",
-        "link_label": "MEET OUR DESIGNERS"
+        "page_handles": "lola-varma, newhite, otiumberg",
+        "rotation_interval": 4500,
+        "enable_dark_overlay": false,
+        "link_url": "",
+        "link_label": "Explore"
       }
     },
     "tf_collections_feature_FMR7Hp": {
@@ -47,17 +47,6 @@
         "collection": "frontpage-feature",
         "show_view_all": true,
         "view_all_label": "Shop All"
-      }
-    },
-    "tf_designers_m6QAXR": {
-      "type": "tf-private-fittings",
-      "name": "TF • Designers",
-      "settings": {
-        "image": "shopify://shop_images/The_Fall_Bride-5.jpg",
-        "title": "PRIVATE FITTINGS",
-        "subtitle_label": "Our store is a calming space for private fittings with our team as we help you put together the perfect ensemble for your wedding day",
-        "link_url": "shopify://pages/appointment",
-        "link_label": "BOOK AN APPOINTMENT"
       }
     },
     "tf_newsletter_signup_Wt9TTU": {
@@ -75,9 +64,8 @@
   "order": [
     "tf_hero_anim_9WJ3LG",
     "tf_side_title_text_4CCmNX",
-    "tf_designers_Q86PhL",
+    "tf_designers_carousel_xEdQfh",
     "tf_collections_feature_FMR7Hp",
-    "tf_designers_m6QAXR",
     "tf_newsletter_signup_Wt9TTU"
   ]
 }
