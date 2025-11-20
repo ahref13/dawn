@@ -29,7 +29,7 @@
       }
     },
     "tf_designers_Q86PhL": {
-      "type": "tf-designers",
+      "type": "tf-designers-carousel",
       "name": "TF • Designers",
       "settings": {
         "image": "shopify://shop_images/alex_perry.png",
@@ -50,7 +50,7 @@
       }
     },
     "tf_designers_m6QAXR": {
-      "type": "tf-designers",
+      "type": "tf-private-fittings",
       "name": "TF • Designers",
       "settings": {
         "image": "shopify://shop_images/The_Fall_Bride-5.jpg",
