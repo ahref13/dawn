@@ -105,7 +105,7 @@
 
       // Apply mix-blend-mode to the h1 parent
       this.heroLogo.style.mixBlendMode = 'difference';
-      this.heroLogo.style.color = 'white';
+      this.heroLogo.style.color = '#f6f5f1';
       this.heroLogo.style.isolation = 'auto';
 
       const logoImg = this.heroLogo.querySelector('.tf-hero__title-img');

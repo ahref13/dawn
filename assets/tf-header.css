@@ -18,12 +18,12 @@
     align-items: center;
     gap: 1rem;
     padding: .8rem 1.2rem;
-    color: white; /* Start with white text */
+    color: #f6f5f1; /* Start with white text */
     mix-blend-mode: difference;
 }
-.tf-topbar__logo { justify-self: start; text-decoration: none; color: white; /* Start with white text */  }
-.tf-topbar__logo-img { max-height: 40px; height: auto; display: block; color: white; /* Start with white text */ }
-.tf-topbar__logo-text { font-size: 2rem; font-weight: 700; letter-spacing: .06em; color: white; /* Start with white text */ }
+.tf-topbar__logo { justify-self: start; text-decoration: none; color: #f6f5f1; /* Start with white text */  }
+.tf-topbar__logo-img { max-height: 40px; height: auto; display: block; color: #f6f5f1; /* Start with white text */ }
+.tf-topbar__logo-text { font-size: 2rem; font-weight: 700; letter-spacing: .06em; color: #f6f5f1; /* Start with white text */ }
 
 .tf-topbar__menu-btn {
     justify-self: center;
@@ -31,7 +31,7 @@
     color: white; /* Start with white text */;
 }
 .tf-topbar__utils { justify-self: end; display: inline-flex; gap: 1rem; align-items: center; }
-.tf-topbar__link { text-decoration: none; color: white; /* Start with white text */ }
+.tf-topbar__link { text-decoration: none; color: #f6f5f1; /* Start with white text */ }
 
 .tf-cart { position: relative; }
 .tf-cart__count {
@@ -75,19 +75,19 @@
     padding-bottom: 1.35rem;
 }
 .tf-menu-overlay__close {
-    background: none; border: 0; color: white; cursor: pointer; mix-blend-mode: difference;
+    background: none; border: 0; color: #f6f5f1; cursor: pointer; mix-blend-mode: difference;
 }
 
 .tf-menu-overlay__first-item a {
     text-decoration: none;
-    color: white;
+    color: #f6f5f1;
     mix-blend-mode: difference;
     padding: .6rem 0;
 }
 
 /* Menu list */
 .tf-menu-list { list-style: none; margin: 0; padding: 0; }
-.tf-menu-item > a { display: block; padding: 1.35rem 0; text-decoration: none; color: white; mix-blend-mode: difference;  }
+.tf-menu-item > a { display: block; padding: 1.35rem 0; text-decoration: none; color: #f6f5f1; mix-blend-mode: difference;  }
 .tf-menu-item.has-children > a { position: relative; padding-right: 1.4rem; }
 .tf-caret { position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
 .tf-submenu { list-style: none; margin: 0; padding: .25rem 0 .75rem 0; display: none; }

@@ -44,10 +44,10 @@
       })();
     </script>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 grid-rows-1 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] py-3 items-center text-white mix-blend-difference pt-[40px]">
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 grid-rows-1 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] py-3 items-center text-[#f6f5f1] mix-blend-difference pt-[40px]">
 
         <!-- Logo - left side -->
-        <a class="col-span-1 text-white no-underline" href="{{ routes.root_url }}" aria-label="{{ shop.name }}">
+        <a class="col-span-1 text-[#f6f5f1] no-underline" href="{{ routes.root_url }}" aria-label="{{ shop.name }}">
             {% if section.settings.logo != blank %}
                 <img src="{{ section.settings.logo | image_url: width: 240 }}"
                      alt="{{ shop.name }}"
@@ -60,7 +60,7 @@
         <!-- Right side container for Menu + Cart on mobile -->
         <div class="col-span-1 flex justify-end gap-4 md:contents">
             <!-- Menu button -->
-            <button class="md:col-start-3 md:justify-self-start lg:col-start-4 xl:col-start-5 bg-transparent border-0 cursor-pointer text-white font-{{ section.settings.font_size_variant }}"
+            <button class="md:col-start-3 md:justify-self-start lg:col-start-4 xl:col-start-5 bg-transparent border-0 cursor-pointer text-[#f6f5f1] font-{{ section.settings.font_size_variant }}"
                     id="tf-menu-open-{{ section.id }}"
                     aria-haspopup="dialog"
                     aria-controls="tf-menu-overlay-{{ section.id }}"
@@ -69,10 +69,10 @@
             </button>
 
             <!-- Cart -->
-            <a class="md:col-start-4 lg:col-start-6 xl:col-start-8 md:justify-self-end relative text-white no-underline font-{{ section.settings.font_size_variant }}" href="{{ routes.cart_url }}" aria-label="{{ 'sections.cart.title' | t }}">
+            <a class="md:col-start-4 lg:col-start-6 xl:col-start-8 md:justify-self-end relative text-[#f6f5f1] no-underline font-{{ section.settings.font_size_variant }}" href="{{ routes.cart_url }}" aria-label="{{ 'sections.cart.title' | t }}">
                 {{ 'templates.cart.cart' | t | default: 'Cart' }}
                 {% if cart != empty and cart.item_count > 0 %}
-                    <span class="absolute -top-3.5 -right-3.5 min-w-[1.2rem] h-[1.2rem] text-white text-sm leading-[1.2rem] text-center" aria-live="polite">{{ cart.item_count }}</span>
+                    <span class="absolute -top-3.5 -right-3.5 min-w-[1.2rem] h-[1.2rem] text-[#f6f5f1] text-sm leading-[1.2rem] text-center" aria-live="polite">{{ cart.item_count }}</span>
                 {% endif %}
             </a>
         </div>
@@ -89,12 +89,12 @@
              aria-labelledby="tf-menu-title-{{ section.id }}">
 
             <div class="pt-[18px] px-[0px] md:px-[10px] lg:px-[40px] flex items-center justify-between pb-[1.35rem]">
-        <span class="font-{{ section.settings.overlay_font_size_variant }} text-white mix-blend-difference py-2.5">
+        <span class="font-{{ section.settings.overlay_font_size_variant }} text-[#f6f5f1] mix-blend-difference py-2.5">
           {% if section.settings.menu.links.first %}
-              <a href="{{ section.settings.menu.links.first.url }}" class="no-underline text-white">{{ section.settings.menu.links.first.title }}</a>
+              <a href="{{ section.settings.menu.links.first.url }}" class="no-underline text-[#f6f5f1]">{{ section.settings.menu.links.first.title }}</a>
           {% endif %}
         </span>
-                <button class="bg-transparent border-0 text-white cursor-pointer mix-blend-difference font-{{ section.settings.font_size_variant }}"
+                <button class="bg-transparent border-0 text-[#f6f5f1] cursor-pointer mix-blend-difference font-{{ section.settings.font_size_variant }}"
                         type="button"
                         aria-label="Close">{{ section.settings.close_label }}</button>
             </div>
@@ -105,7 +105,7 @@
                         {% assign child_count = link.links | size %}
                         <li class="font-{{ section.settings.overlay_font_size_variant }} {% if child_count > 0 %}group{% endif %}">
                             <a href="{{ link.url }}"
-                               class="block py-[1.35rem] no-underline text-white mix-blend-difference {% if child_count > 0 %}relative pr-6{% endif %}"
+                               class="block py-[1.35rem] no-underline text-[#f6f5f1] mix-blend-difference {% if child_count > 0 %}relative pr-6{% endif %}"
                                {% if child_count > 0 %}data-toggle{% endif %}>
                                 {{ link.title }}
                                 {% if child_count > 0 %}
@@ -116,7 +116,7 @@
                             {% if child_count > 0 %}
                                 <ul class="list-none m-0 py-1 pb-3 hidden group-[.is-open]:block">
                                     {% for sub in link.links %}
-                                        <li><a href="{{ sub.url }}" class="block py-2 pl-4 opacity-90 no-underline text-white">{{ sub.title }}</a></li>
+                                        <li><a href="{{ sub.url }}" class="block py-2 pl-4 opacity-90 no-underline text-[#f6f5f1]">{{ sub.title }}</a></li>
                                     {% endfor %}
                                 </ul>
                             {% endif %}
