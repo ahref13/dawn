@@ -6,7 +6,7 @@
 
     {% comment %} Heading spans all columns {% endcomment %}
     {% if section.settings.heading != blank %}
-        <h2 class="font-base text-center leading-normal mt-[40px] mb-5 col-span-2 md:col-span-4 lg:col-span-6 xl:col-span-8">
+        <h2 class="font-base text-center leading-normal mt-[60px] mb-5 col-span-2 md:col-span-4 lg:col-span-6 xl:col-span-8">
             {{ section.settings.heading }}
         </h2>
     {% endif %}
@@ -41,7 +41,7 @@
 
     {% comment %} View All Link spans all columns {% endcomment %}
     {% if section.settings.show_view_all and col != blank %}
-        <div class="text-center col-span-2 md:col-span-4 lg:col-span-6 xl:col-span-8">
+        <div class="text-center col-span-2 md:col-span-4 lg:col-span-6 xl:col-span-8 mt-10">
             <a class="font-small underline text-black" href="/collections/all-products">
                 {{ section.settings.view_all_label }}
             </a>

@@ -24,14 +24,14 @@
                 {{ section.settings.title | escape }}
             </h1>
 
-            {% if section.settings.subtitle_label != blank %}
-                <p class="font-sm block w-[80vw] max-w-[800px] leading-normal mt-0 text-[#f6f5f1]">
-                    {{ section.settings.subtitle_label }}
-                </p>
-            {% endif %}
+            {% comment %}{% if section.settings.subtitle_label != blank %}{% endcomment %}
+                {% comment %}<p class="font-sm block w-[80vw] max-w-[800px] leading-normal mt-0 text-[#f6f5f1]">{% endcomment %}
+                    {% comment %}{{ section.settings.subtitle_label }}{% endcomment %}
+                {% comment %}</p>{% endcomment %}
+            {% comment %}{% endif %}{% endcomment %}
 
             {% if section.settings.link_url != blank %}
-                <a class="font-xs block mt-4 no-underline text-[#f6f5f1]" href="{{ section.settings.link_url }}">
+                <a class="font-xs block no-underline text-[#f6f5f1]" href="{{ section.settings.link_url }}">
                     {{ section.settings.link_label }}
                 </a>
             {% endif %}
