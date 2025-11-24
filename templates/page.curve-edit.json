@@ -20,6 +20,15 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_WyD88E": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_01_015_BW.jpg",
+            "designer": "Katherine Tash",
+            "style": "Cecilia",
+            "size": "16 - 18"
+          }
+        },
         "gallery_item_MKexYt": {
           "type": "gallery_item",
           "settings": {
@@ -112,6 +121,7 @@
         }
       },
       "block_order": [
+        "gallery_item_WyD88E",
         "gallery_item_MKexYt",
         "gallery_item_7WpebW",
         "gallery_item_dDfzVW",
