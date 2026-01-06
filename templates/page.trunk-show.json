@@ -15,11 +15,11 @@
         "trunk_show_AjAmqF": {
           "type": "trunk_show",
           "settings": {
-            "designer": "Cassandra Graham",
-            "collection": "CG03",
-            "date": "20 - 26 October",
-            "image": "shopify://shop_images/Screenshot_2022-11-28_at_15.05.27_1.png",
-            "description": "Cassandra Graham's third collection will be an exclusive UK trunk show.\n\nFor her third collection, Cassandra Graham dives further into fabric, texture and volume exploration - whilst keeping her signature contemporary 80s-90s aesthetic and developing on the drop waist silhouettes that we all love.",
+            "designer": "Bretagne Studio",
+            "collection": "Portrait of a Woman",
+            "date": "20 - 22 March",
+            "image": "shopify://shop_images/DSC03463_f54700ce-800e-43e9-a12c-996dabfae759.jpg",
+            "description": "The debut collection from Bretagne Studio, Portrait of a Woman, will be joining us for an exclusive U.K. trunk show. \n\nBretagne channels old-world couture romance through a modern lens - unapologetically feminine, and editorial in attitude. Each gown is meticulously crafted, blending architectural corsetry with delicate fabrications, intricate hand-finishing, and luxurious detail.",
             "button_url": "shopify://pages/appointment",
             "button_text": "Book Trunk Show"
           }
@@ -28,10 +28,7 @@
       "block_order": [
         "trunk_show_AjAmqF"
       ],
-      "settings": {
-        "heading": "",
-        "description": ""
-      }
+      "settings": {}
     }
   },
   "order": [
