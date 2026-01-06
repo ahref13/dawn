@@ -24,35 +24,35 @@
           "type": "appointment",
           "settings": {
             "title": "First fitting",
-            "description": "1hr appointment for your first visit to try dresses from our permanent collections."
+            "description": "1hr appointment for your first visit."
           }
         },
         "appointment_WNnBLM": {
           "type": "appointment",
           "settings": {
             "title": "Follow up fitting",
-            "description": "30min to retry favourites and take measurements."
+            "description": "30min to retry favourites."
           }
         },
         "appointment_mTQPQe": {
           "type": "appointment",
           "settings": {
             "title": "Accessories",
-            "description": "30min styling appointment for hair accessories, veils, shoes and jewellery."
+            "description": "30min for veils, shoes and jewellery."
           }
         },
         "appointment_6khi6a": {
           "type": "appointment",
           "settings": {
             "title": "Order pickup",
-            "description": "30min appointment to collect your order."
+            "description": "30min appointment to collect your gown."
           }
         },
         "appointment_D8BzA3": {
           "type": "appointment",
           "settings": {
             "title": "Order pickup and accessories",
-            "description": "60min appointment to collect your order and tie it in with an accessories appointment."
+            "description": "60min appointment to collect your gown and tie it in with an accessories appointment."
           }
         },
         "appointment_N3hRXy": {
@@ -66,7 +66,7 @@
           "type": "appointment",
           "settings": {
             "title": "Book appointment",
-            "description": "All appointment types show live availability. We recommend reading our FAQs to answer any questions you may have about appointments, price range, the ordering process and more."
+            "description": "All appointment types show live availability."
           }
         }
       },
