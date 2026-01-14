@@ -60,6 +60,14 @@
             "description": "We’re able to accommodate yourself +3 guests maximum. We are unable to make exceptions to this policy."
           }
         },
+        "faq_KbDhPr": {
+          "type": "faq",
+          "settings": {
+            "faq_group": "general",
+            "title": "Is your store accessible?",
+            "description": "Our store is fully accessible. Please let us know if you do have accessibilty needs so that we can ensure you are booked into our slightly larger fitting area."
+          }
+        },
         "faq_zy4kmd": {
           "type": "faq",
           "settings": {
@@ -227,6 +235,7 @@
         "faq_Ybw8rc",
         "faq_WRPtkH",
         "faq_cMwgMw",
+        "faq_KbDhPr",
         "faq_zy4kmd",
         "faq_hgFC7W",
         "faq_RiPLVq",
