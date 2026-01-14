@@ -33,7 +33,7 @@
           "settings": {
             "faq_group": "general",
             "title": "What type of appointment do I need?",
-            "description": "For your first visit we recommend a First Fitting Appointment to try our permanent collections. We do not recommend sale or trunk show appointments for your first visit - these are suitable for brides that have already started shopping and are ready to make a decision."
+            "description": "For your first visit we recommend a First Fitting Appointment to try our permanent collections. We do not recommend sale or trunk show appointments for your first visit."
           }
         },
         "faq_Ybw8rc": {
@@ -41,7 +41,7 @@
           "settings": {
             "faq_group": "general",
             "title": "Do you charge an appointment fee?",
-            "description": "We charge a fee for your first appointment, which secures your personal styling session with us. These fees are deductible against a purchase. Follow Up fittings to retry favourites, and any further appointments (including Accessories) are complimentary after your first visit to us."
+            "description": "We charge a fee for your first appointment, which secures your personal styling session with us. Follow Up fittings to retry favourites, and any further appointments (including Accessories) are complimentary after your first visit."
           }
         },
         "faq_WRPtkH": {
@@ -57,7 +57,7 @@
           "settings": {
             "faq_group": "general",
             "title": "How many guests can I bring?",
-            "description": "We’re able to accommodate yourself +3 guests maximum."
+            "description": "We’re able to accommodate yourself +3 guests maximum. We are unable to make exceptions to this policy."
           }
         },
         "faq_zy4kmd": {
@@ -89,7 +89,7 @@
           "settings": {
             "faq_group": "general",
             "title": "Can I take photos/videos?",
-            "description": "To help you capture and share this special experience, we’re happy for you to take photos of your favourite dresses during your appointment.\n\nFeel free to take photos of the gowns you love - it’s a great way to revisit your favourites and share them with family or friends.\n\nTo maintain a comfortable and respectful environment for all our guests and staff, we kindly ask that you avoid constant or extended video recording.\n\nPlease try to avoid capturing our staff or other customers.\n\nShort video clips of your favourite gowns may be allowed at your stylist’s discretion - just check in with them first!\n\nThank you for helping us create a relaxed and private space for all of our brides. If you have any questions, just ask your stylist!"
+            "description": "To help you capture and share this special experience, we’re happy for you to take photos of your favourite dresses.\n\nTo maintain a comfortable and respectful environment for all our guests and staff, we kindly ask that you avoid constant or extended video recording. Please try to avoid capturing our staff or other customers."
           }
         },
         "faq_xV88DP": {
@@ -137,7 +137,7 @@
           "settings": {
             "faq_group": "general",
             "title": "What is your price range?",
-            "description": "Our made-to-order gowns range from approximately £2,500-7,000. Each Designer page specifies their typical price range for full length gowns."
+            "description": "Our made-to-order gowns range from approximately £2,500-7,000. Each Designer page specifies their typical price range."
           }
         },
         "faq_t84mjh": {
@@ -169,7 +169,7 @@
           "settings": {
             "faq_group": "general",
             "title": "What is your returns policy?",
-            "description": "Made-to-order styles are final sale - no refunds, no exchanges. Ready-to-wear styles purchased at full price have a 14-day returns period from the date you receive the item, and must be returned in new and unworn condition. \n\nAll sale items including sample sale, ready-to-wear and accessories sale items are final sale (no refunds, no exchanges). A sale item is classified as an item either permanently marked down or with a temporary discount code. Due to hygiene reasons bra solutions and any pierced jewellery are also final sale.\n\nYou can read more about our returns policy here."
+            "description": "Made-to-order, and sale* styles are final sale - no refunds, no exchanges. Stock items purchased at full price have a 14-day returns period from the date you receive the item, and must be returned in new and unworn condition. \n\nDue to hygiene reasons bra solutions and any pierced jewellery are also final sale.\n\n*A sale item is classified as an item either permanently marked down or with a temporary discount code."
           }
         },
         "faq_nMUY3W": {
@@ -192,7 +192,7 @@
           "type": "faq",
           "settings": {
             "faq_group": "resale",
-            "title": "Which designers do you accept?",
+            "title": "Which designers do you accept for resale?",
             "description": "We only accept gowns and accessories that have been originally purchased from The Fall."
           }
         },
@@ -200,8 +200,8 @@
           "type": "faq",
           "settings": {
             "faq_group": "resale",
-            "title": "What’s the typical discount?",
-            "description": "Pre-loved gowns range in price, depending on the designer, style and condition of the gown."
+            "title": "What’s the typical discount for resale?",
+            "description": "Pre-loved gowns range in price, depending on the original RRP and condition of the gown."
           }
         },
         "faq_QmGBLJ": {
@@ -217,7 +217,7 @@
           "settings": {
             "faq_group": "resale",
             "title": "Can I try resale styles on in-store?",
-            "description": "Yes - you can request to have a previous bride ship their resale gown to us so you can try it on in person."
+            "description": "Yes - you can request to have a previous bride ship their resale gown to us so you can try it on in person. See more on our resale portal."
           }
         }
       },
