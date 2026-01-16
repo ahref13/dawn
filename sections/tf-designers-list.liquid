@@ -16,11 +16,20 @@
                 <div class="w-full">
                     {% if page.metafields.custom.designer_thumbnail %}
                         <img
-                                src="{{ page.metafields.custom.designer_thumbnail | image_url: width: 400 }}"
-                                alt="{{ page.title }}"
+                                src="{{ page.metafields.custom.designer_thumbnail | image_url: width: 600 }}"
+                                srcset="
+                                        {{ page.metafields.custom.designer_thumbnail | image_url: width: 400 }} 400w,
+                                        {{ page.metafields.custom.designer_thumbnail | image_url: width: 600 }} 600w,
+                                        {{ page.metafields.custom.designer_thumbnail | image_url: width: 800 }} 800w,
+                                        {{ page.metafields.custom.designer_thumbnail | image_url: width: 1000 }} 1000w
+                                      "
+                                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                                alt="{{ page.title | escape }}"
                                 class="w-full aspect-[168/240] object-cover block"
                                 loading="lazy"
+                                decoding="async"
                         >
+
                     {% endif %}
                     <div class="text-[14px] font-medium leading-[1.4] mt-1 flex w-full items-start">
                         {{ page.title }}
@@ -35,12 +44,7 @@
     <div class="hidden">
         {% for page in pages %}
             {% if page.template_suffix == 'designer' and page.metafields.custom.designer_thumbnail %}
-                <img
-                    src="{{ image | img_url: '1024x1024' }}"
-                    srcset="{{ image | img_url: '2048x2048' }} 2x,
-                    {{ image | img_url: '1024x1024' }} 1x"
-                    alt="{{ image.alt }}"
-                >
+                <img src="{{ page.metafields.custom.designer_thumbnail | image_url }}" alt="">
             {% endif %}
         {% endfor %}
     </div>

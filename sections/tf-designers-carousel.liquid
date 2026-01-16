@@ -17,6 +17,10 @@
                     | image_tag:
                     class: 'designer-bg absolute inset-0 w-full h-screen object-cover block',
                     loading: 'eager',
+                    fetchpriority: 'high',
+                    decoding: 'async',
+                    widths: '640, 750, 828, 960, 1080, 1280, 1440, 1600, 1920, 2048, 2400, 2880',
+                    sizes: '100vw',
                     style: 'opacity: 0; transition: opacity 1s ease-in-out;',
                     data-index: forloop.index0 }}
                 {% endif %}

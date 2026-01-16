@@ -4,7 +4,11 @@
     <!-- Hero Image with Overlay -->
     <div class="relative w-full h-[140vh] md:h-[120vh]">
         {% if page.metafields.custom.designer_thumbnail %}
-            {{ page.metafields.custom.designer_thumbnail | image_url: width: 2400 | image_tag: class: 'absolute inset-0 w-full h-full object-cover', loading: 'eager' }}
+            {{ page.metafields.custom.designer_thumbnail | image_url: width: 2400 | image_tag: class: 'absolute inset-0 w-full h-full object-cover',fetchpriority: 'high',
+            decoding: 'async',
+            widths: '640, 750, 828, 960, 1080, 1280, 1440, 1600, 1920, 2048, 2400, 2880',
+            sizes: '100vw',
+            loading: 'eager' }}
         {% endif %}
 
         <!-- Title - Absolutely Centered -->
@@ -56,12 +60,25 @@
             <div class="col-span-1 xl:col-span-2 text-center no-underline text-inherit flex flex-col items-center lg:-mt-[20px]">
                 {% if item.image %}
                     <img
-                            src="{{ item.image | image_url: width: 500 }}"
-                            alt="{{ item.title }}"
+                            src="{{ item.image | image_url: width: 600 }}"
+                                                        srcset="
+                                {{ item.image | image_url: width: 400 }} 400w,
+                                {{ item.image | image_url: width: 600 }} 600w,
+                                {{ item.image | image_url: width: 800 }} 800w,
+                                {{ item.image | image_url: width: 1000 }} 1000w
+                              "
+                                                        sizes="
+                                (max-width: 640px) 50vw,
+                                (max-width: 1024px) 33vw,
+                                25vw
+                              "
+                            alt="{{ item.title | escape }}"
                             class="w-full aspect-[242/346] object-cover block cursor-pointer hover:opacity-90 transition-opacity"
                             loading="lazy"
+                            decoding="async"
                             onclick="openLightbox({{ forloop.index0 }})"
                     >
+
                 {% endif %}
                 <div class="mt-3 flex w-full items-start text-[14px] font-medium leading-[1.4]">
                     {{ item.title }}
