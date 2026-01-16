@@ -1,107 +1,120 @@
 {% comment %} THE FALL – Designers List - Tailwind Grid {% endcomment %}
 
 <section
-        class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 auto-rows-min px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px] relative bg-cover bg-center bg-no-repeat"
-        style="padding-top: 130px;"
-        id="tf-designers"
+  class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 auto-rows-min px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px] relative bg-cover bg-center bg-no-repeat"
+  style="padding-top: 130px;"
+  id="tf-designers"
 >
 
-    {% for page in pages %}
-        {% if page.template_suffix == 'designer' %}
+  {% for page in pages %}
+    {% if page.template_suffix == 'designer' %}
 
-            <a href="{{ page.url }}"
-               class="col-span-1 text-center no-underline text-inherit flex flex-col items-center transition-opacity duration-300"
-               data-image="{{ page.metafields.custom.designer_thumbnail | image_url }}"
-            >
-                <div class="w-full">
-                    {% if page.metafields.custom.designer_thumbnail %}
-                        <img
-                                src="{{ page.metafields.custom.designer_thumbnail | image_url: width: 600 }}"
-                                srcset="
+      <a href="{{ page.url }}"
+         class="col-span-1 text-center no-underline text-inherit flex flex-col items-center transition-opacity duration-300"
+         data-image="{{ page.metafields.custom.designer_thumbnail | image_url }}"
+      >
+        <div class="w-full">
+          {% if page.metafields.custom.designer_thumbnail %}
+            <div class="relative w-full aspect-[168/240] overflow-hidden bg-gray-100">
+              <!-- Blurred placeholder -->
+              <img
+                src="{{ page.metafields.custom.designer_thumbnail | image_url: width: 50 }}"
+                alt="{{ page.title | escape }}"
+                class="absolute inset-0 w-full h-full object-cover blur-xl scale-110 transition-opacity duration-500"
+                loading="eager"
+                data-placeholder="true"
+              >
+
+              <!-- Full resolution image -->
+              <img
+                src="{{ page.metafields.custom.designer_thumbnail | image_url: width: 600 }}"
+                srcset="
                                         {{ page.metafields.custom.designer_thumbnail | image_url: width: 400 }} 400w,
                                         {{ page.metafields.custom.designer_thumbnail | image_url: width: 600 }} 600w,
                                         {{ page.metafields.custom.designer_thumbnail | image_url: width: 800 }} 800w,
                                         {{ page.metafields.custom.designer_thumbnail | image_url: width: 1000 }} 1000w
-                                      "
-                                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-                                alt="{{ page.title | escape }}"
-                                class="w-full aspect-[168/240] object-cover block"
-                                loading="lazy"
-                                decoding="async"
-                        >
+                                    "
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                alt="{{ page.title | escape }}"
+                class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500"
+                loading="lazy"
+                decoding="async"
+                data-designer-image="true"
+              >
+            </div>
 
-                    {% endif %}
-                    <div class="text-[14px] font-medium leading-[1.4] mt-1 flex w-full items-start">
-                        {{ page.title }}
-                    </div>
-                </div>
-            </a>
+          {% endif %}
+          <div class="text-[14px] font-medium leading-[1.4] mt-1 flex w-full items-start">
+            {{ page.title }}
+          </div>
+        </div>
+      </a>
 
-        {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Preload background images (hidden) -->
+  <div class="hidden">
+    {% for page in pages %}
+      {% if page.template_suffix == 'designer' and page.metafields.custom.designer_thumbnail %}
+        <img src="{{ page.metafields.custom.designer_thumbnail | image_url }}" alt="">
+      {% endif %}
     {% endfor %}
-
-    <!-- Preload background images (hidden) -->
-    <div class="hidden">
-        {% for page in pages %}
-            {% if page.template_suffix == 'designer' and page.metafields.custom.designer_thumbnail %}
-                <img src="{{ page.metafields.custom.designer_thumbnail | image_url }}" alt="">
-            {% endif %}
-        {% endfor %}
-    </div>
+  </div>
 </section>
 
 <style>
-    /* Make sure section can host pseudo-elements */
-    #tf-designers {
-        position: relative;
-        overflow: hidden;
-    }
+  /* Make sure section can host pseudo-elements */
+  #tf-designers {
+    position: relative;
+    overflow: hidden;
+  }
 
-    /* Thumbnails should ALWAYS be above the background layers */
-    #tf-designers a {
-        position: relative;
-        z-index: 2;
-    }
+  /* Thumbnails should ALWAYS be above the background layers */
+  #tf-designers a {
+    position: relative;
+    z-index: 2;
+  }
 
-    /* DARK OVERLAY */
-    #tf-designers.hovering::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.3);
-        pointer-events: none;
-        z-index: 1;
-    }
+  /* DARK OVERLAY */
+  #tf-designers.hovering::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    z-index: 1;
+  }
 
-    /* DIM ONLY NON-HOVERED ITEMS */
-    #tf-designers.hovering a:not(:hover) {
-        opacity: 0.4;
-        transition: opacity 0.3s ease-in-out;
-    }
+  /* DIM ONLY NON-HOVERED ITEMS */
+  #tf-designers.hovering a:not(:hover) {
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
+  }
 
-    /* HIGHLIGHT HOVERED ITEM */
-    #tf-designers.hovering a:hover {
-        opacity: 1;
-    }
+  /* HIGHLIGHT HOVERED ITEM */
+  #tf-designers.hovering a:hover {
+    opacity: 1;
+  }
 
-    /* BACKGROUND FADE LAYER — MUST STAY BEHIND EVERYTHING */
-    #tf-designers::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background-image: var(--designer-bg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-        pointer-events: none;
-        z-index: 0;
-    }
+  /* BACKGROUND FADE LAYER — MUST STAY BEHIND EVERYTHING */
+  #tf-designers::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--designer-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 0;
+  }
 
-    #tf-designers.hovering::after {
-        opacity: 1;
-    }
+  #tf-designers.hovering::after {
+    opacity: 1;
+  }
 
 </style>
 
@@ -110,13 +123,35 @@
     const container = document.getElementById('tf-designers');
     const items = container.querySelectorAll('a[data-image]');
 
+    // Image loading handler
+    const designerImages = document.querySelectorAll('[data-designer-image]');
+
+    designerImages.forEach(img => {
+      if (img.complete) {
+        handleImageLoad(img);
+      } else {
+        img.addEventListener('load', function() {
+          handleImageLoad(img);
+        });
+      }
+    });
+
+    function handleImageLoad(img) {
+      img.style.opacity = '1';
+
+      const placeholder = img.previousElementSibling;
+      if (placeholder && placeholder.hasAttribute('data-placeholder')) {
+        setTimeout(() => {
+          placeholder.style.opacity = '0';
+        }, 100);
+      }
+    }
+
+    // Hover background effect
     items.forEach(item => {
       item.addEventListener('mouseenter', () => {
         const bg = item.getAttribute('data-image');
-
-        // Set CSS variable for background fade layer
         container.style.setProperty('--designer-bg', `url('${bg}')`);
-
         container.classList.add('hovering');
       });
 

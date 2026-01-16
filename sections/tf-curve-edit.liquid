@@ -1,51 +1,103 @@
 {% comment %} THE FALL – Curve Edit {% endcomment %}
-
 <section class="mt-20 px-[20px] md:px-[30px] lg:px-[50px] flex min-h-screen flex-col" style="margin-top: 130px;">
-    <!-- Header Section -->
-    <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px] pb-8">
-        <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
-            <h2 class="font-sm uppercase">
-                {{ section.settings.heading }}
-            </h2>
-        </div>
-        <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
-            <div class="font-sm leading-tight">
-                {{ section.settings.description | newline_to_br }}
-            </div>
-        </div>
+  <!-- Header Section -->
+  <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px] pb-8">
+    <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+      <h2 class="font-sm uppercase">
+        {{ section.settings.heading }}
+      </h2>
     </div>
-
-    <!-- Gallery Grid -->
-    <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] py-5 pb-[60px]">
-        {% for block in section.blocks %}
-            <div class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-2 text-left no-underline text-inherit flex flex-col" {{ block.shopify_attributes }}>
-                {% if block.settings.image %}
-                    <img
-                            src="{{ block.settings.image | image_url: width: 500 }}"
-                            alt="{{ block.settings.style }}"
-                            class="w-full aspect-[242/346] object-cover block"
-                            loading="lazy"
-                    >
-                {% endif %}
-
-                <div class="mt-3 flex flex-col gap-1 text-[14px] leading-[1.4]">
-                    <div class="flex justify-between">
-                        <span class="font-medium uppercase">DESIGNER</span>
-                        <span class="text-right">{{ block.settings.designer }}</span>
-                    </div>
-                    <div class="flex justify-between">
-                        <span class="font-medium uppercase">STYLE</span>
-                        <span class="text-right">{{ block.settings.style }}</span>
-                    </div>
-                    <div class="flex justify-between">
-                        <span class="font-medium uppercase">SIZE TO FIT</span>
-                        <span class="text-right">{{ block.settings.size }}</span>
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
+    <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+      <div class="font-sm leading-tight">
+        {{ section.settings.description | newline_to_br }}
+      </div>
     </div>
+  </div>
+  <!-- Gallery Grid -->
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] py-5 pb-[60px]">
+    {% for block in section.blocks %}
+      <div
+        class="col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-2 text-left no-underline text-inherit flex flex-col"
+        {{ block.shopify_attributes }}
+      >
+        {% if block.settings.image %}
+          <div class="relative w-full aspect-[242/346] overflow-hidden bg-gray-100">
+            <!-- Blurred placeholder -->
+            <img
+              src="{{ block.settings.image | image_url: width: 50 }}"
+              alt="{{ block.settings.style | escape }}"
+              class="absolute inset-0 w-full h-full object-cover blur-xl scale-110 transition-opacity duration-500"
+              loading="eager"
+              data-placeholder="true"
+            >
+
+            <!-- Full resolution image -->
+            <img
+              src="{{ block.settings.image | image_url: width: 600 }}"
+              srcset="
+                {{ block.settings.image | image_url: width: 400 }} 400w,
+                {{ block.settings.image | image_url: width: 600 }} 600w,
+                {{ block.settings.image | image_url: width: 800 }} 800w,
+                {{ block.settings.image | image_url: width: 1000 }} 1000w
+              "
+              sizes="
+                (max-width: 640px) 50vw,
+                (max-width: 1024px) 33vw,
+                25vw
+              "
+              alt="{{ block.settings.style | escape }}"
+              class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500"
+              loading="lazy"
+              decoding="async"
+              data-curve-image="true"
+            >
+          </div>
+        {% endif %}
+        <div class="mt-3 flex flex-col gap-1 text-[14px] leading-[1.4]">
+          <div class="flex justify-between">
+            <span class="font-medium uppercase">DESIGNER</span>
+            <span class="text-right">{{ block.settings.designer }}</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="font-medium uppercase">STYLE</span>
+            <span class="text-right">{{ block.settings.style }}</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="font-medium uppercase">SIZE TO FIT</span>
+            <span class="text-right">{{ block.settings.size }}</span>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const curveImages = document.querySelectorAll('[data-curve-image]');
+
+    curveImages.forEach(img => {
+      if (img.complete) {
+        handleImageLoad(img);
+      } else {
+        img.addEventListener('load', function() {
+          handleImageLoad(img);
+        });
+      }
+    });
+
+    function handleImageLoad(img) {
+      img.style.opacity = '1';
+
+      const placeholder = img.previousElementSibling;
+      if (placeholder && placeholder.hasAttribute('data-placeholder')) {
+        setTimeout(() => {
+          placeholder.style.opacity = '0';
+        }, 100);
+      }
+    }
+  });
+</script>
 
 {% schema %}
 {

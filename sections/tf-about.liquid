@@ -3,11 +3,20 @@
 <section class="min-h-screen w-full " style="margin-top: 130px;">
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]">
         <div class="col-span-2 md:col-span-1 lg:col-span-2 xl:col-span-2 col-start-1">
-            {% if section.settings.image %}
-                {{ section.settings.image | image_url: width: 800 | image_tag: class: 'w-full h-auto object-cover' }}
-            {% else %}
-                <div class="w-full aspect-[3/4] bg-gray-200"></div>
-            {% endif %}
+          {% if section.settings.image %}
+            {{
+            section.settings.image
+            | image_url: width: 1600
+            | image_tag:
+            class: 'w-full h-auto object-cover',
+            loading: 'lazy',
+            decoding: 'async',
+            widths: '400, 600, 800, 1000, 1200, 1600, 2000',
+            sizes: '(max-width: 768px) 100vw, 50vw'
+            }}
+          {% else %}
+            <div class="w-full aspect-[3/4] bg-gray-200"></div>
+          {% endif %}
         </div>
         <!-- About Text - Starts at column 4 (skipping column 3) -->
         <div class="col-span-2 md:col-span-2 md:col-start-3 lg:col-span-3 lg:col-start-4 xl:col-span-3 xl:col-start-5 font-sm leading-[1.4]">

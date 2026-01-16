@@ -1,125 +1,222 @@
 {% comment %} THE FALL – Designer Gallery - Tailwind {% endcomment %}
 
 <section class="w-full">
-    <!-- Hero Image with Overlay -->
-    <div class="relative w-full h-[140vh] md:h-[120vh]">
-        {% if page.metafields.custom.designer_thumbnail %}
-            {{ page.metafields.custom.designer_thumbnail | image_url: width: 2400 | image_tag: class: 'absolute inset-0 w-full h-full object-cover',fetchpriority: 'high',
-            decoding: 'async',
-            widths: '640, 750, 828, 960, 1080, 1280, 1440, 1600, 1920, 2048, 2400, 2880',
-            sizes: '100vw',
-            loading: 'eager' }}
-        {% endif %}
+  <!-- Hero Image with Overlay -->
+  <div class="relative w-full h-[140vh] md:h-[120vh]">
+    {% if page.metafields.custom.designer_thumbnail %}
+      <div class="relative w-full h-full overflow-hidden bg-gray-100">
+        <!-- Softer blurred placeholder for hero -->
+        {{ page.metafields.custom.designer_thumbnail | image_url: width: 200 | image_tag: class: 'absolute inset-0 w-full h-full object-cover blur-sm scale-105 transition-opacity duration-500', loading: 'eager', data-hero-placeholder: 'true' }}
 
-        <!-- Title - Absolutely Centered -->
-        <div class="absolute inset-0 flex items-center justify-center -mt-[300px] md:-mt-[200px]">
-            {% assign title_color_class = '' %}
-            {% if page.metafields.custom.title_color == 'white' %}
-                {% assign title_color_class = 'text-[#f6f5f1]' %}
-            {% elsif page.metafields.custom.title_color == 'black' %}
-                {% assign title_color_class = 'text-[#0a0700]' %}
-            {% else %}
-                {% assign title_color_class = 'text-[#f6f5f1] [mix-blend-mode:difference]' %}
-            {% endif %}
+        <!-- Full hero image -->
+        {{ page.metafields.custom.designer_thumbnail | image_url: width: 2400 | image_tag: class: 'absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500', fetchpriority: 'high', decoding: 'async', widths: '640, 750, 828, 960, 1080, 1280, 1440, 1600, 1920, 2048, 2400, 2880', sizes: '100vw', loading: 'eager', data-hero-image: 'true' }}
+      </div>
+    {% endif %}
 
-            <h1 class="sm:hidden font-base tracking-[0.06em] {{ title_color_class }} leading-none text-center">
-                {{ page.title }}
-            </h1>
-            <h1 class="hidden sm:block font-xl tracking-[0.06em] {{ title_color_class }} leading-none text-center">
-                {{ page.title }}
-            </h1>
-        </div>
+    <!-- Title - Absolutely Centered -->
+    <div class="absolute inset-0 flex items-center justify-center -mt-[300px] md:-mt-[200px]">
+      {% assign title_color_class = '' %}
+      {% if page.metafields.custom.title_color == 'white' %}
+        {% assign title_color_class = 'text-[#f6f5f1]' %}
+      {% elsif page.metafields.custom.title_color == 'black' %}
+        {% assign title_color_class = 'text-[#0a0700]' %}
+      {% else %}
+        {% assign title_color_class = 'text-[#f6f5f1] [mix-blend-mode:difference]' %}
+      {% endif %}
 
-        <!-- Description Text - Bottom Right Grid -->
-        <div class="absolute inset-0 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pointer-events-none">
-            {% if page.metafields.custom.designer_description %}
-                {% assign desc_color_class = '' %}
-                {% assign desc_blend_class = '' %}
-                {% if page.metafields.custom.description_color == 'white' %}
-                    {% assign desc_color_class = 'text-[#f6f5f1]' %}
-                {% elsif page.metafields.custom.description_color == 'black' %}
-                    {% assign desc_color_class = 'text-[#0a0700]' %}
-                {% else %}
-                    {% assign desc_color_class = 'text-[#f6f5f1]' %}
-                    {% assign desc_blend_class = '[mix-blend-mode:difference]' %}
-                {% endif %}
-
-                <div class="col-span-2 md:col-span-4 md:col-start-1 lg:col-span-3 lg:col-start-4 xl:col-span-4 xl:col-start-5 self-end pb-12 {{ desc_color_class }} pointer-events-auto">
-                    <p class="mb-20 leading-relaxed {{ desc_blend_class }}">
-                        {{ page.metafields.custom.designer_description | newline_to_br }}
-                    </p>
-                </div>
-            {% endif %}
-        </div>
+      <h1 class="sm:hidden font-base tracking-[0.06em] {{ title_color_class }} leading-none text-center">
+        {{ page.title }}
+      </h1>
+      <h1 class="hidden sm:block font-xl tracking-[0.06em] {{ title_color_class }} leading-none text-center">
+        {{ page.title }}
+      </h1>
     </div>
 
+    <!-- Description Text - Bottom Right Grid -->
+    <div class="absolute inset-0 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pointer-events-none">
+      {% if page.metafields.custom.designer_description %}
+        {% assign desc_color_class = '' %}
+        {% assign desc_blend_class = '' %}
+        {% if page.metafields.custom.description_color == 'white' %}
+          {% assign desc_color_class = 'text-[#f6f5f1]' %}
+        {% elsif page.metafields.custom.description_color == 'black' %}
+          {% assign desc_color_class = 'text-[#0a0700]' %}
+        {% else %}
+          {% assign desc_color_class = 'text-[#f6f5f1]' %}
+          {% assign desc_blend_class = '[mix-blend-mode:difference]' %}
+        {% endif %}
 
-    <!-- Gallery Grid -->
-    <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-12 auto-rows-min px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] py-5 pb-[60px] pt-30 bg-[#F4F0E3]">
-        {% for item in page.metafields.custom.designer_gallery_image.value %}
-            <div class="col-span-1 xl:col-span-2 text-center no-underline text-inherit flex flex-col items-center lg:-mt-[20px]">
-                {% if item.image %}
-                    <img
-                            src="{{ item.image | image_url: width: 600 }}"
-                                                        srcset="
+        <div class="col-span-2 md:col-span-4 md:col-start-1 lg:col-span-3 lg:col-start-4 xl:col-span-4 xl:col-start-5 self-end pb-12 {{ desc_color_class }} pointer-events-auto">
+          <p class="mb-20 leading-relaxed {{ desc_blend_class }}">
+            {{ page.metafields.custom.designer_description | newline_to_br }}
+          </p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+
+  <!-- Gallery Grid -->
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-12 auto-rows-min px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] py-5 pb-[60px] pt-30 bg-[#F4F0E3]">
+    {% for item in page.metafields.custom.designer_gallery_image.value %}
+      <div class="col-span-1 xl:col-span-2 text-center no-underline text-inherit flex flex-col items-center lg:-mt-[20px]">
+        {% if item.image %}
+          <div class="relative w-full aspect-[242/346] overflow-hidden bg-gray-100 cursor-pointer hover:opacity-90 transition-opacity" onclick="openLightbox({{ forloop.index0 }})">
+            <!-- Blurred placeholder -->
+            <img
+              src="{{ item.image | image_url: width: 50 }}"
+              alt="{{ item.title | escape }}"
+              class="absolute inset-0 w-full h-full object-cover blur-xl scale-110 transition-opacity duration-500"
+              loading="eager"
+              data-gallery-placeholder="true"
+            >
+
+            <!-- Full resolution gallery image -->
+            <img
+              src="{{ item.image | image_url: width: 600 }}"
+              srcset="
                                 {{ item.image | image_url: width: 400 }} 400w,
                                 {{ item.image | image_url: width: 600 }} 600w,
                                 {{ item.image | image_url: width: 800 }} 800w,
                                 {{ item.image | image_url: width: 1000 }} 1000w
-                              "
-                                                        sizes="
+                            "
+              sizes="
                                 (max-width: 640px) 50vw,
                                 (max-width: 1024px) 33vw,
                                 25vw
-                              "
-                            alt="{{ item.title | escape }}"
-                            class="w-full aspect-[242/346] object-cover block cursor-pointer hover:opacity-90 transition-opacity"
-                            loading="lazy"
-                            decoding="async"
-                            onclick="openLightbox({{ forloop.index0 }})"
-                    >
-
-                {% endif %}
-                <div class="mt-3 flex w-full items-start text-[14px] font-medium leading-[1.4]">
-                    {{ item.title }}
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-
-    <!-- Lightbox Modal -->
-    <div id="lightbox" class="fixed inset-0 bg-opacity-10 backdrop-blur-md hidden items-center justify-center z-100">
-        <!-- Image Container -->
-        <div class="max-w-[90vw] max-h-[90vh] flex items-center justify-center">
-            <img id="lightbox-image" src="" alt="" class="max-w-full max-h-[90vh] object-contain transition-opacity duration-300 opacity-100">
+                            "
+              alt="{{ item.title | escape }}"
+              class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500"
+              loading="lazy"
+              decoding="async"
+              data-gallery-image="true"
+            >
+          </div>
+        {% endif %}
+        <div class="mt-3 flex w-full items-start text-[14px] font-medium leading-[1.4]">
+          {{ item.title }}
         </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="fixed inset-0 bg-opacity-10 backdrop-blur-md hidden items-center justify-center z-100">
+    <!-- Image Container -->
+    <div class="max-w-[90vw] max-h-[90vh] flex items-center justify-center">
+      <img id="lightbox-image" src="" alt="" class="max-w-full max-h-[90vh] object-contain transition-opacity duration-300 opacity-0">
     </div>
+  </div>
 </section>
 
 <script>
   // Gallery images data
   const galleryImages = [
-      {% for item in page.metafields.custom.designer_gallery_image.value %}
+    {% for item in page.metafields.custom.designer_gallery_image.value %}
     {
       src: "{{ item.image | image_url: width: 2000 }}",
       title: "{{ item.title | escape }}"
     }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
+    {% endfor %}
   ];
 
   let currentImageIndex = 0;
+  const preloadedImages = new Map();
+  let isPreloading = false;
+
+  // Handle hero image load
+  document.addEventListener('DOMContentLoaded', function() {
+    const heroImage = document.querySelector('[data-hero-image]');
+    const heroPlaceholder = document.querySelector('[data-hero-placeholder]');
+
+    if (heroImage) {
+      if (heroImage.complete) {
+        handleHeroLoad();
+      } else {
+        heroImage.addEventListener('load', handleHeroLoad);
+      }
+    }
+
+    function handleHeroLoad() {
+      heroImage.style.opacity = '1';
+      if (heroPlaceholder) {
+        setTimeout(() => {
+          heroPlaceholder.style.opacity = '0';
+        }, 100);
+      }
+    }
+
+    // Handle gallery images load
+    const galleryImages = document.querySelectorAll('[data-gallery-image]');
+
+    galleryImages.forEach(img => {
+      if (img.complete) {
+        handleGalleryLoad(img);
+      } else {
+        img.addEventListener('load', function() {
+          handleGalleryLoad(img);
+        });
+      }
+    });
+
+    function handleGalleryLoad(img) {
+      img.style.opacity = '1';
+      const placeholder = img.previousElementSibling;
+      if (placeholder && placeholder.hasAttribute('data-gallery-placeholder')) {
+        setTimeout(() => {
+          placeholder.style.opacity = '0';
+        }, 100);
+      }
+    }
+  });
+
+  // Preload all lightbox images in background
+  function preloadLightboxImages() {
+    if (isPreloading) return;
+    isPreloading = true;
+
+    galleryImages.forEach((image) => {
+      if (!preloadedImages.has(image.src)) {
+        const img = new Image();
+        img.src = image.src;
+
+        img.onload = function() {
+          preloadedImages.set(image.src, img);
+        };
+      }
+    });
+  }
 
   function openLightbox(index) {
     currentImageIndex = index;
     const lightbox = document.getElementById('lightbox');
     const lightboxImage = document.getElementById('lightbox-image');
 
-    lightboxImage.src = galleryImages[currentImageIndex].src;
-    lightboxImage.alt = galleryImages[currentImageIndex].title;
+    // Check if image is preloaded
+    if (preloadedImages.has(galleryImages[currentImageIndex].src)) {
+      // Image is cached, show immediately
+      lightboxImage.src = galleryImages[currentImageIndex].src;
+      lightboxImage.alt = galleryImages[currentImageIndex].title;
+      lightboxImage.style.opacity = '1';
+    } else {
+      // Load image with fade in
+      lightboxImage.style.opacity = '0';
+      lightboxImage.onload = function() {
+        lightboxImage.style.opacity = '1';
+        preloadedImages.set(galleryImages[currentImageIndex].src, lightboxImage);
+      };
+      lightboxImage.src = galleryImages[currentImageIndex].src;
+      lightboxImage.alt = galleryImages[currentImageIndex].title;
+    }
 
     lightbox.classList.remove('hidden');
     lightbox.classList.add('flex');
     document.body.style.overflow = 'hidden';
+
+    // Start preloading all images in background after opening
+    if (!isPreloading) {
+      setTimeout(preloadLightboxImages, 100);
+    }
   }
 
   function closeLightbox() {
@@ -130,7 +227,6 @@
     lightbox.classList.remove('flex');
     document.body.style.overflow = 'auto';
 
-    // Clear the image src and alt
     lightboxImage.src = '';
     lightboxImage.alt = '';
 
@@ -140,9 +236,7 @@
       lightboxImage.alt = '';
       lightboxImage.classList.remove('opacity-0');
     }, 300);
-
   }
-
 
   function changeImage(direction) {
     currentImageIndex += direction;
@@ -156,8 +250,25 @@
 
     const lightboxImage = document.getElementById('lightbox-image');
 
-    lightboxImage.src = galleryImages[currentImageIndex].src;
-    lightboxImage.alt = galleryImages[currentImageIndex].title;
+    // Check if image is preloaded for instant switching
+    if (preloadedImages.has(galleryImages[currentImageIndex].src)) {
+      // Image is cached, switch instantly
+      lightboxImage.style.opacity = '0';
+      setTimeout(() => {
+        lightboxImage.src = galleryImages[currentImageIndex].src;
+        lightboxImage.alt = galleryImages[currentImageIndex].title;
+        lightboxImage.style.opacity = '1';
+      }, 150);
+    } else {
+      // Load image
+      lightboxImage.style.opacity = '0';
+      lightboxImage.onload = function() {
+        lightboxImage.style.opacity = '1';
+        preloadedImages.set(galleryImages[currentImageIndex].src, lightboxImage);
+      };
+      lightboxImage.src = galleryImages[currentImageIndex].src;
+      lightboxImage.alt = galleryImages[currentImageIndex].title;
+    }
   }
 
   // Keyboard navigation
