@@ -1,133 +1,206 @@
 {% comment %} THE FALL – Product Template - Tailwind Grid {% endcomment %}
 
 <section class="min-h-screen w-full relative pt-[130px] pb-[60px]">
-    <!-- Content Grid -->
-    <div class="relative grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 auto-rows-min px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px]">
+  <!-- Content Grid -->
+  <div class="relative grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 auto-rows-min px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px]">
+    <!-- Images Section - Columns 1-4 on xl -->
+    <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4 flex flex-col gap-4">
+      <!-- Main Image -->
+      {% assign v = product.selected_or_first_available_variant %}
 
-        <!-- Images Section - Columns 1-4 on xl -->
-        <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4 flex flex-col gap-4">
-            <!-- Main Image -->
-            <div class="w-full bg-[#f5f5f5]">
-                {% if product.featured_image %}
-                    <img id="main-product-image"
-                         src="{{ product.featured_image | image_url: width: 800 }}"
-                         alt="{{ product.title }}"
-                         class="w-full h-auto block object-cover">
-                {% endif %}
+      <div class="w-full bg-[#f5f5f5]">
+        <div class="relative w-full">
+          {% if product.featured_image %}
+            <img
+              id="main-product-image"
+              src="{{ product.featured_image | image_url: width: 900 }}"
+              srcset="
+                {{ product.featured_image | image_url: width: 600 }} 600w,
+                {{ product.featured_image | image_url: width: 900 }} 900w,
+                {{ product.featured_image | image_url: width: 1200 }} 1200w,
+                {{ product.featured_image | image_url: width: 1600 }} 1600w,
+                {{ product.featured_image | image_url: width: 2000 }} 2000w
+              "
+              sizes="(max-width: 768px) 100vw, 50vw"
+              alt="{{ product.title | escape }}"
+              class="w-full h-auto block object-cover"
+              loading="eager"
+              decoding="async"
+            >
+          {% endif %}
+
+          {% if v.compare_at_price > v.price %}
+            <div class="absolute top-3 right-3 z-50 px-3 py-1 text-[12px] uppercase tracking-[0.08em] bg-black text-white">
+              On sale
             </div>
-
-            <!-- Thumbnail Images -->
-            {% if product.images.size > 1 %}
-                <div class="flex gap-4 flex-wrap">
-                    {% for image in product.images %}
-                        <img src="{{ image | image_url: width: 200 }}"
-                             alt="{{ product.title }}"
-                             class="w-20 h-20 max-md:w-[60px] max-md:h-[60px] object-cover cursor-pointer {% if forloop.first %}opacity-100{% else %}opacity-60{% endif %} transition-opacity duration-200 hover:opacity-100"
-                             data-image-src="{{ image | image_url: width: 800 }}">
-                    {% endfor %}
-                </div>
-            {% endif %}
+          {% endif %}
         </div>
+      </div>
 
-        <!-- Product Info Section - Columns 5-8 on xl -->
-        <div class="col-span-2 md:col-span-2 md:col-start-3 lg:col-span-2 lg:col-start-4 xl:col-span-3 xl:col-start-5 max-md:static md:sticky md:top-[130px] md:self-start">
-            <h1 class="font-base font-normal leading-[1.2] m-0 md:mb-[120px]">{{ product.title }}</h1>
-
-            <div class="font-sm font-normal md:mb-[86px]">
-                {{ product.price | money }}
-            </div>
-
-            {% if product.description != blank %}
-                <div class="text-[14px] leading-[1.6] lg:mb-[55px]">
-                    {{ product.description }}
-                </div>
-            {% endif %}
-
-            {% form 'product', product %}
-                <!-- Quantity -->
-                <div class="mt-20 mb-8 pb-8 border-b border-black">
-                    <div class="flex items-center justify-between">
-                        <label class="block text-[12px] font-normal uppercase tracking-[0.05em] mb-0">QUANTITY</label>
-                        <div class="flex items-center gap-6">
-                            <button type="button" class="bg-transparent border-0 w-auto h-auto flex items-center justify-center cursor-pointer text-[16px] transition-opacity duration-200 hover:opacity-60 p-0" data-action="decrease">−</button>
-                            <input type="number"
-                                   name="quantity"
-                                   id="quantity"
-                                   value="1"
-                                   min="1"
-                                   class="border-0 w-[60px] h-auto text-center text-[14px] bg-transparent p-0 focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:m-0 [&::-webkit-inner-spin-button]:m-0">
-                            <button type="button" class="bg-transparent border-0 w-auto h-auto flex items-center justify-center cursor-pointer text-[16px] transition-opacity duration-200 hover:opacity-60 p-0" data-action="increase">+</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Size Selector (if product has variants) -->
-                {% if product.variants.size > 1 %}
-                    <div class="mb-8 pb-4 flex justify-between items-center">
-                        <label class="block text-[12px] font-normal uppercase tracking-[0.05em] mb-0">SIZE</label>
-                        <select name="id" class="w-auto min-w-[200px] py-2 pr-8 pl-0 text-[16px] border-0 bg-transparent bg-[url('data:image/svg+xml,%3Csvg%20width=%2712%27%20height=%278%27%20viewBox=%270%200%2012%208%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath%20d=%27M1%201L6%206L11%201%27%20stroke=%27black%27%20stroke-width=%272%27/%3E%3C/svg%3E')] bg-no-repeat bg-[right_center] cursor-pointer appearance-none focus:outline-none font-medium">
-                            {% for variant in product.variants %}
-                                <option value="{{ variant.id }}"
-                                        {% if variant.available %}{% else %}disabled{% endif %}>
-                                    {{ variant.title }} {% unless variant.available %}(Sold Out){% endunless %}
-                                </option>
-                            {% endfor %}
-                        </select>
-                    </div>
-                {% else %}
-                    <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-                {% endif %}
-
-                <!-- Add to Bag Button -->
-                <button type="submit"
-                        class="w-full py-4 px-8 text-[14px] font-normal tracking-wide text-black border-1 border-b-black  cursor-pointer transition-colors duration-200 hover:text-[#f6f5f1] hover:bg-black disabled:bg-[#ccc] disabled:cursor-not-allowed lg:mt-[55px]"
-                        {% unless product.available %}disabled{% endunless %}>
-                    {% if product.available %}
-                        Add to bag
-                    {% else %}
-                        Sold Out
-                    {% endif %}
-                </button>
-            {% endform %}
+      <!-- Thumbnail Images -->
+      {% if product.images.size > 1 %}
+        <div class="flex gap-4 flex-wrap">
+          {% for image in product.images %}
+            <img
+              src="{{ image | image_url: width: 200 }}"
+              alt="{{ product.title | escape }}"
+              class="w-20 h-20 max-md:w-[60px] max-md:h-[60px] object-cover cursor-pointer {% if forloop.first %}opacity-100{% else %}opacity-60{% endif %} transition-opacity duration-200 hover:opacity-100"
+              data-src="{{ image | image_url: width: 900 }}"
+              data-srcset="
+                {{ image | image_url: width: 600 }} 600w,
+                {{ image | image_url: width: 900 }} 900w,
+                {{ image | image_url: width: 1200 }} 1200w,
+                {{ image | image_url: width: 1600 }} 1600w,
+                {{ image | image_url: width: 2000 }} 2000w
+              "
+            >
+          {% endfor %}
         </div>
-
+      {% endif %}
     </div>
+
+    <!-- Product Info Section - Columns 5-8 on xl -->
+    <div class="col-span-2 md:col-span-2 md:col-start-3 lg:col-span-2 lg:col-start-4 xl:col-span-3 xl:col-start-5 max-md:static md:sticky md:top-[130px] md:self-start">
+      <h1 class="font-base font-normal leading-[1.2] m-0 md:mb-[120px]">{{ product.title }}</h1>
+
+      {% assign v = product.selected_or_first_available_variant %}
+
+      <div class="font-sm font-normal md:mb-[86px] flex items-center gap-3">
+        {% if v.compare_at_price > v.price %}
+          <span class="line-through opacity-60">
+            {{ v.compare_at_price | money }}
+          </span>
+          <span>
+            {{ v.price | money }}
+          </span>
+        {% else %}
+          <span>
+            {{ v.price | money }}
+          </span>
+        {% endif %}
+      </div>
+
+      {% if product.description != blank %}
+        <div class="text-[14px] leading-[1.6] lg:mb-[55px]">
+          {{ product.description }}
+        </div>
+      {% endif %}
+
+      {% form 'product', product %}
+        <!-- Quantity -->
+        <div class="mt-20 mb-8 pb-8 border-b border-black">
+          <div class="flex items-center justify-between">
+            <label class="block text-[12px] font-normal uppercase tracking-[0.05em] mb-0">QUANTITY</label>
+            <div class="flex items-center gap-6">
+              <button
+                type="button"
+                class="bg-transparent border-0 w-auto h-auto flex items-center justify-center cursor-pointer text-[16px] transition-opacity duration-200 hover:opacity-60 p-0"
+                data-action="decrease"
+              >
+                −
+              </button>
+              <input
+                type="number"
+                name="quantity"
+                id="quantity"
+                value="1"
+                min="1"
+                class="border-0 w-[60px] h-auto text-center text-[14px] bg-transparent p-0 focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:m-0 [&::-webkit-inner-spin-button]:m-0"
+              >
+              <button
+                type="button"
+                class="bg-transparent border-0 w-auto h-auto flex items-center justify-center cursor-pointer text-[16px] transition-opacity duration-200 hover:opacity-60 p-0"
+                data-action="increase"
+              >
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Size Selector (if product has variants) -->
+        {% if product.variants.size > 1 %}
+          <div class="mb-8 pb-4 flex justify-between items-center">
+            <label class="block text-[12px] font-normal uppercase tracking-[0.05em] mb-0">SIZE</label>
+            <select
+              name="id"
+              class="w-auto min-w-[200px] py-2 pr-8 pl-0 text-[16px] border-0 bg-transparent bg-[url('data:image/svg+xml,%3Csvg%20width=%2712%27%20height=%278%27%20viewBox=%270%200%2012%208%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath%20d=%27M1%201L6%206L11%201%27%20stroke=%27black%27%20stroke-width=%272%27/%3E%3C/svg%3E')] bg-no-repeat bg-[right_center] cursor-pointer appearance-none focus:outline-none font-medium"
+            >
+              {% for variant in product.variants %}
+                <option
+                  value="{{ variant.id }}"
+                  {% if variant.available %}
+                  {% else %}
+                    disabled
+                  {% endif %}
+                >
+                  {{ variant.title }}
+                  {% unless variant.available %}(Sold Out){% endunless %}
+                </option>
+              {% endfor %}
+            </select>
+          </div>
+        {% else %}
+          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+        {% endif %}
+
+        <!-- Add to Bag Button -->
+        <button
+          type="submit"
+          class="w-full py-4 px-8 text-[14px] font-normal tracking-wide text-black border-1 border-b-black  cursor-pointer transition-colors duration-200 hover:text-[#f6f5f1] hover:bg-black disabled:bg-[#ccc] disabled:cursor-not-allowed lg:mt-[55px]"
+          {% unless product.available %}
+            disabled
+          {% endunless %}
+        >
+          {% if product.available %}
+            Add to bag
+          {% else %}
+            Sold Out
+          {% endif %}
+        </button>
+      {% endform %}
+    </div>
+  </div>
 </section>
 
 <script>
-  (function() {
-    // Thumbnail image switching
+  (function () {
     const mainImage = document.getElementById('main-product-image');
-    const thumbnails = document.querySelectorAll('[data-image-src]');
+    const thumbnails = document.querySelectorAll('[data-src]');
 
-    thumbnails.forEach(thumb => {
-      thumb.addEventListener('click', function() {
-        // Update main image
-        mainImage.src = this.dataset.imageSrc;
+    if (mainImage && thumbnails.length) {
+      thumbnails.forEach((thumb) => {
+        thumb.addEventListener('click', function () {
+          const newSrc = this.dataset.src;
+          const newSrcset = this.dataset.srcset;
 
-        // Update active state (opacity)
-        thumbnails.forEach(t => {
-          t.classList.remove('opacity-100');
-          t.classList.add('opacity-60');
+          // Update main image (important: update srcset too)
+          if (newSrc) mainImage.src = newSrc;
+          if (newSrcset) mainImage.setAttribute('srcset', newSrcset);
+
+          // Optional: keep your sizes (or set it again)
+          // mainImage.setAttribute('sizes', "(max-width: 768px) 100vw, 50vw");
+
+          // Active state (opacity)
+          thumbnails.forEach((t) => {
+            t.classList.remove('opacity-100');
+            t.classList.add('opacity-60');
+          });
+          this.classList.remove('opacity-60');
+          this.classList.add('opacity-100');
         });
-        this.classList.remove('opacity-60');
-        this.classList.add('opacity-100');
       });
-    });
+    }
 
-    // Quantity controls
+    // Quantity controls (unchanged)
     const qtyInput = document.getElementById('quantity');
     const qtyBtns = document.querySelectorAll('[data-action]');
 
-    qtyBtns.forEach(btn => {
-      btn.addEventListener('click', function() {
+    qtyBtns.forEach((btn) => {
+      btn.addEventListener('click', function () {
         const currentValue = parseInt(qtyInput.value);
-
-        if (this.dataset.action === 'increase') {
-          qtyInput.value = currentValue + 1;
-        } else if (this.dataset.action === 'decrease' && currentValue > 1) {
-          qtyInput.value = currentValue - 1;
-        }
+        if (this.dataset.action === 'increase') qtyInput.value = currentValue + 1;
+        if (this.dataset.action === 'decrease' && currentValue > 1) qtyInput.value = currentValue - 1;
       });
     });
   })();
