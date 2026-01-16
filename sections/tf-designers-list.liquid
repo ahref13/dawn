@@ -35,7 +35,12 @@
     <div class="hidden">
         {% for page in pages %}
             {% if page.template_suffix == 'designer' and page.metafields.custom.designer_thumbnail %}
-                <img src="{{ page.metafields.custom.designer_thumbnail | image_url }}" alt="">
+                <img
+                    src="{{ image | img_url: '1024x1024' }}"
+                    srcset="{{ image | img_url: '2048x2048' }} 2x,
+                    {{ image | img_url: '1024x1024' }} 1x"
+                    alt="{{ image.alt }}"
+                >
             {% endif %}
         {% endfor %}
     </div>
