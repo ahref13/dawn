@@ -32,7 +32,7 @@
       "type": "tf-designers-carousel",
       "name": "TF • Designers Carousel",
       "settings": {
-        "page_handles": "prea-james, otiumberg",
+        "page_handles": "prea-james, otiumberg, cassandra-graham",
         "rotation_interval": 4500,
         "enable_dark_overlay": false,
         "link_url": "shopify://pages/designers",
