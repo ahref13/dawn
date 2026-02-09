@@ -91,16 +91,16 @@
 
       {% assign v = product.selected_or_first_available_variant %}
 
-      <div class="font-sm font-normal md:mb-[86px] flex items-center gap-3">
+      <div id="product-price" class="font-sm font-normal md:mb-[86px] flex items-center gap-3">
         {% if v.compare_at_price > v.price %}
-          <span class="line-through opacity-60">
+          <span class="line-through opacity-60" data-compare-price>
             {{ v.compare_at_price | money }}
           </span>
-          <span>
+          <span data-price>
             {{ v.price | money }}
           </span>
         {% else %}
-          <span>
+          <span data-price>
             {{ v.price | money }}
           </span>
         {% endif %}
@@ -314,6 +314,35 @@
           });
           thumb.classList.add('thumb-active');
         });
+      });
+    }
+
+    // Variant price update
+    const variantData = {
+      {% for variant in product.variants %}
+        '{{ variant.id }}': {
+          price: '{{ variant.price | money }}',
+          compareAtPrice: {% if variant.compare_at_price > variant.price %}'{{ variant.compare_at_price | money }}'{% else %}null{% endif %}
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    };
+
+    const variantSelect = document.querySelector('select[name="id"]');
+    const priceContainer = document.getElementById('product-price');
+
+    if (variantSelect && priceContainer) {
+      variantSelect.addEventListener('change', function() {
+        const data = variantData[this.value];
+        if (!data) return;
+
+        if (data.compareAtPrice) {
+          priceContainer.innerHTML =
+            '<span class="line-through opacity-60" data-compare-price>' + data.compareAtPrice + '</span>' +
+            '<span data-price>' + data.price + '</span>';
+        } else {
+          priceContainer.innerHTML =
+            '<span data-price>' + data.price + '</span>';
+        }
       });
     }
 
