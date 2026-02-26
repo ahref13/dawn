@@ -20,28 +20,61 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_GAakhC": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/200807_PREAJAMESBRIDAL_13_0184_a9ed70d7-8ee7-4fcb-b8cb-742a8b0a5ca7.jpg",
+            "designer": "Prea James",
+            "style": "Amelie",
+            "size": "12",
+            "price": ""
+          }
+        },
+        "gallery_item_W99HnH": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Prea_James_Bridal-Viola_w_Sleeves.jpg",
+            "designer": "Prea James",
+            "style": "Viola",
+            "size": "12",
+            "price": "WAS £3200 | NOW £1600"
+          }
+        },
+        "gallery_item_K3nWBA": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/dfd528_039146ed23a3472fb3700540cc22f585_mv2_c6fd8a55-caae-47a7-8a05-4a57b4a076a1.jpg",
+            "designer": "Katherine Tash",
+            "style": "Bennet",
+            "size": "10",
+            "price": "WAS £4300 | NOW £2000"
+          }
+        },
         "gallery_item_Eh4zE9": {
           "type": "gallery_item",
           "settings": {
-            "image": "shopify://shop_images/PJB_Mar24_LB-8_df2c1a8f-bc2b-4e78-b69d-30b3f53e82d6.jpg",
-            "designer": "Prea James",
-            "style": "Mariska + Eloise",
-            "size": "16 - 20",
-            "price": "£1500"
+            "image": "shopify://shop_images/CelesteKatherineTashBridal4_1800x1800_b6a4762a-2a3d-479a-88e7-e99930e2b543.jpg",
+            "designer": "Katherine Tash",
+            "style": "Celeste",
+            "size": "12",
+            "price": "WAS £630 | NOW £2750"
           }
         },
         "gallery_item_UQg8j9": {
           "type": "gallery_item",
           "settings": {
-            "image": "shopify://shop_images/download_2.jpg",
-            "designer": "Alex Perry",
-            "style": "L/Sleeve Gown",
-            "size": "16 - 20",
-            "price": ""
+            "image": "shopify://shop_images/SHOT_07_0873.jpg",
+            "designer": "Katherine Tash",
+            "style": "Isolde Overlay",
+            "size": "12",
+            "price": "WAS £2000 | NOW £900"
           }
         }
       },
       "block_order": [
+        "gallery_item_GAakhC",
+        "gallery_item_W99HnH",
+        "gallery_item_K3nWBA",
         "gallery_item_Eh4zE9",
         "gallery_item_UQg8j9"
       ],
