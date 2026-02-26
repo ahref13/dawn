@@ -20,6 +20,75 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_JQtwNx": {
+          "type": "gallery_item",
+          "settings": {
+            "designer": "Katherine Tash",
+            "style": "Cecilia",
+            "size": "16 - 18",
+            "price": ""
+          }
+        },
+        "gallery_item_6684kH": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SS25-255X-C_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Flower Maxi",
+            "size": "10, 16",
+            "price": "NOW £150"
+          }
+        },
+        "gallery_item_KcptUP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SS25-254S-CH_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Flower Mini",
+            "size": "10, 16",
+            "price": "NOW £130"
+          }
+        },
+        "gallery_item_jKL9ek": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SS25-259S-W_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Pearl Bow Mini",
+            "size": "10",
+            "price": "NOW £175"
+          }
+        },
+        "gallery_item_GEPb9H": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SS25-266S-W_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Tulle Bow Mini",
+            "size": "12",
+            "price": "NOW £175"
+          }
+        },
+        "gallery_item_qVCYzU": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AW25-088SA-W_1.webp",
+            "designer": "Self Portrait",
+            "style": "Floral Lace Mini",
+            "size": "10, 16",
+            "price": "NOW £175"
+          }
+        },
+        "gallery_item_q6NmJt": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SS25-092S-C_1_d19e7ec9-da97-4d5f-8a16-e139a65bd268.jpg",
+            "designer": "Self Portrait",
+            "style": "Polka Dot Mini",
+            "size": "16",
+            "price": "NOW £150"
+          }
+        },
         "gallery_item_LFUGFh": {
           "type": "gallery_item",
           "settings": {
@@ -592,6 +661,13 @@
         }
       },
       "block_order": [
+        "gallery_item_JQtwNx",
+        "gallery_item_6684kH",
+        "gallery_item_KcptUP",
+        "gallery_item_jKL9ek",
+        "gallery_item_GEPb9H",
+        "gallery_item_qVCYzU",
+        "gallery_item_q6NmJt",
         "gallery_item_LFUGFh",
         "gallery_item_mjV77K",
         "gallery_item_V8hwKw",
