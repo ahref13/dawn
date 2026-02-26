@@ -20,6 +20,116 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_caBRfa": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-164_196e9f1b-b940-4d6d-a97e-19914bae6dca.jpg",
+            "designer": "Jessica Bennett",
+            "style": "She Midi w/Bow",
+            "size": "12",
+            "price": "NOW £900"
+          }
+        },
+        "gallery_item_TyNUAz": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/2023_01_12_JessicaBennett_Look23_6.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Freya (no train)",
+            "size": "12",
+            "price": "NOW £1000"
+          }
+        },
+        "gallery_item_QmXwaA": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_55681952022AGNESBLACKCOPYRIGHT_bf31d26c-8323-484d-88e5-2c8c629502a7.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Magda",
+            "size": "10",
+            "price": "NOW £700"
+          }
+        },
+        "gallery_item_c3Jx4e": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-295.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Alexa Bow",
+            "size": "12",
+            "price": "NOW £330"
+          }
+        },
+        "gallery_item_dyHkrB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FL_2021-22-53_e726399a-2083-480e-bc75-abf17a4ff4ab.jpg",
+            "designer": "& For Love",
+            "style": "Auldyn Linen",
+            "size": "10 - 12",
+            "price": "NOW £1200"
+          }
+        },
+        "gallery_item_3CUk8G": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/L1060484_b5ece23a-4836-473e-aeba-0ac3a61a55f4.jpg",
+            "designer": "& For Love",
+            "style": "Lulu Set",
+            "size": "12",
+            "price": "NOW £1000"
+          }
+        },
+        "gallery_item_UejhzL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH54_3209as_153bbd6e-28f7-4d8d-9be7-91b2347bc875.jpg",
+            "designer": "Lola Varma",
+            "style": "Robin Overlay",
+            "size": "10",
+            "price": "NOW £500"
+          }
+        },
+        "gallery_item_cLjnKE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH46_2526as.jpg",
+            "designer": "Lola Varma",
+            "style": "Romi Overlay",
+            "size": "8",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_K8yPPN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/220603_LV_Shoot_46_0726s.jpg",
+            "designer": "Lola Varma",
+            "style": "Stone Blouse",
+            "size": "12",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_yRB8Tk": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/3d375b_f739c48e10da4c87ac0fab58719a8516_mv2.webp",
+            "designer": "Lola Varma",
+            "style": "Saana Cami",
+            "size": "12",
+            "price": "NOW £165"
+          }
+        },
+        "gallery_item_fpn8HT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A5121_f35a5be1-b6ad-4b86-97ef-3d7397198c81.jpg",
+            "designer": "Harriette Gordon",
+            "style": "1.7 Violet Slip",
+            "size": "14",
+            "price": "NOW £800"
+          }
+        },
         "gallery_item_Cy98dw": {
           "type": "gallery_item",
           "settings": {
@@ -792,6 +902,17 @@
         }
       },
       "block_order": [
+        "gallery_item_caBRfa",
+        "gallery_item_TyNUAz",
+        "gallery_item_QmXwaA",
+        "gallery_item_c3Jx4e",
+        "gallery_item_dyHkrB",
+        "gallery_item_3CUk8G",
+        "gallery_item_UejhzL",
+        "gallery_item_cLjnKE",
+        "gallery_item_K8yPPN",
+        "gallery_item_yRB8Tk",
+        "gallery_item_fpn8HT",
         "gallery_item_Cy98dw",
         "gallery_item_C8VPGc",
         "gallery_item_9YfwM9",
