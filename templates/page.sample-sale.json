@@ -20,13 +20,34 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_7kajVG": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AW25-201XA-W_1.webp",
+            "designer": "Self Portrait",
+            "style": "Lace Taffeta Maxi",
+            "size": "16",
+            "price": "£250"
+          }
+        },
+        "gallery_item_rCrMcX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AW25-201X-W_1.webp",
+            "designer": "Self Portrait",
+            "style": "Satin Lace Maxi",
+            "size": "10, 16",
+            "price": "NOW £200"
+          }
+        },
         "gallery_item_JQtwNx": {
           "type": "gallery_item",
           "settings": {
-            "designer": "Katherine Tash",
-            "style": "Cecilia",
-            "size": "16 - 18",
-            "price": ""
+            "image": "shopify://shop_images/AW25-201S-W_1.webp",
+            "designer": "Self Portrait",
+            "style": "Lace Bow Mini",
+            "size": "10",
+            "price": "NOW £200"
           }
         },
         "gallery_item_6684kH": {
@@ -661,6 +682,8 @@
         }
       },
       "block_order": [
+        "gallery_item_7kajVG",
+        "gallery_item_rCrMcX",
         "gallery_item_JQtwNx",
         "gallery_item_6684kH",
         "gallery_item_KcptUP",
