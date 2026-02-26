@@ -20,6 +20,26 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_3JtzqF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Lirio-dress-2-cortana-bridal-collection-2019.jpg",
+            "designer": "Cortana",
+            "style": "Lirio",
+            "size": "16 - 22",
+            "price": ""
+          }
+        },
+        "gallery_item_KUtpMN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH44_2432as_b355748f-f315-4181-8b4a-c26028ec91a0.jpg",
+            "designer": "Katherine Tash",
+            "style": "Paola",
+            "size": "16 - 18",
+            "price": ""
+          }
+        },
         "gallery_item_APqDyY": {
           "type": "gallery_item",
           "settings": {
@@ -32,6 +52,8 @@
         }
       },
       "block_order": [
+        "gallery_item_3JtzqF",
+        "gallery_item_KUtpMN",
         "gallery_item_APqDyY"
       ],
       "settings": {
