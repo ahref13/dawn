@@ -20,6 +20,196 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_KprHAb": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-63.webp",
+            "designer": "Jessica Bennett",
+            "style": "Delphine Scarf",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_dfVQAT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/lolavarma0497.webp",
+            "designer": "Lola Varma",
+            "style": "Beverly Belt",
+            "size": "M-L",
+            "price": "NOW £80"
+          }
+        },
+        "gallery_item_xbW89K": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1694180071339-NEWHITE_9CO_32013_result.webp",
+            "designer": "NEWHITE",
+            "style": "W Sleeves",
+            "size": "",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_cr9MpL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Gloves.webp",
+            "designer": "Lola Varma",
+            "style": "Daisy Gloves",
+            "size": "",
+            "price": "NOW £110"
+          }
+        },
+        "gallery_item_B4d9TR": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0078BSS25_LAUREL_1.webp",
+            "designer": "Alex Perry",
+            "style": "Mesh Gloves",
+            "size": "S",
+            "price": "NOW £120"
+          }
+        },
+        "gallery_item_Kz6deN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1738078576646-IMG_3731.webp",
+            "designer": "Harriette Gordon",
+            "style": "7.25 Paloma Gloves",
+            "size": "",
+            "price": "NOW £200"
+          }
+        },
+        "gallery_item_XJQmWg": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/02_8071_0e9983b0-43fe-41e4-8ca9-286e6a65fd57.jpg",
+            "designer": "Harriette Gordon",
+            "style": "7.5 Bow",
+            "size": "",
+            "price": "NOW £90"
+          }
+        },
+        "gallery_item_dk9FQc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A1620c_websize_84b73230-bb34-49c0-85ed-a1bf5b1efc2f.jpg",
+            "designer": "Harriette Gordon",
+            "style": "4.5 Pearl",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_p4QAD6": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2021-08-03_at_2.22.26_PM_c5f7e9de-840d-4d98-97bd-106cff227cd4.jpg",
+            "designer": "Harriette Gordon",
+            "style": "5.3 Circular",
+            "size": "",
+            "price": "NOW £90"
+          }
+        },
+        "gallery_item_KqJxrM": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/upload-1.webp",
+            "designer": "AURA",
+            "style": "Gwendolyn (Ivory)",
+            "size": "",
+            "price": "NOW £65"
+          }
+        },
+        "gallery_item_xTJ7cF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/ChanelPearlCrown2_280x420_cefead46-4757-4dc2-8f8a-9fa2ca804ddb.webp",
+            "designer": "AURA",
+            "style": "Chanel",
+            "size": "",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_Cxiydg": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_04_050.webp",
+            "designer": "Cassandra Graham",
+            "style": "Celeste Cape",
+            "size": "",
+            "price": "NOW £750"
+          }
+        },
+        "gallery_item_qCDzKF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_109.jpg",
+            "designer": "Talc x TFB",
+            "style": "Ray Cape",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_PxxLBr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_119.jpg",
+            "designer": "Talc",
+            "style": "Confetti Veil",
+            "size": "1-Tier Chapel",
+            "price": "NOW £120"
+          }
+        },
+        "gallery_item_7g6mq4": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_237.webp",
+            "designer": "Talc",
+            "style": "Daisy Birdcage",
+            "size": "",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_MbgY8c": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/53DAEEBB-D5BC-43F0-B3B3-7982EE6C8FD6.webp",
+            "designer": "Talc",
+            "style": "Lauro Birdcage with Pearls",
+            "size": "",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_jaqN4k": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM66678.webp",
+            "designer": "Talc",
+            "style": "Luxe Minimal",
+            "size": "1-Tier Cathedral",
+            "price": "NOW £210"
+          }
+        },
+        "gallery_item_wcR8rP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AN4642_2Bcopy.webp",
+            "designer": "Talc",
+            "style": "Margarita",
+            "size": "1-Tier Chapel",
+            "price": "NOW £290"
+          }
+        },
+        "gallery_item_GY44Q6": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/long-3.webp",
+            "designer": "Talc",
+            "style": "Minimal Veil",
+            "size": "1-Tier Shoulder",
+            "price": "NOW £30"
+          }
+        },
         "gallery_item_BJA6yE": {
           "type": "gallery_item",
           "settings": {
@@ -372,6 +562,25 @@
         }
       },
       "block_order": [
+        "gallery_item_KprHAb",
+        "gallery_item_dfVQAT",
+        "gallery_item_xbW89K",
+        "gallery_item_cr9MpL",
+        "gallery_item_B4d9TR",
+        "gallery_item_Kz6deN",
+        "gallery_item_XJQmWg",
+        "gallery_item_dk9FQc",
+        "gallery_item_p4QAD6",
+        "gallery_item_KqJxrM",
+        "gallery_item_xTJ7cF",
+        "gallery_item_Cxiydg",
+        "gallery_item_qCDzKF",
+        "gallery_item_PxxLBr",
+        "gallery_item_7g6mq4",
+        "gallery_item_MbgY8c",
+        "gallery_item_jaqN4k",
+        "gallery_item_wcR8rP",
+        "gallery_item_GY44Q6",
         "gallery_item_BJA6yE",
         "gallery_item_AewCUh",
         "gallery_item_kVikRB",
