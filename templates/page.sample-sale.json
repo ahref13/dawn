@@ -20,6 +20,96 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_9YfwM9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-09-24_at_15.36.08.webp",
+            "designer": "Kamperett",
+            "style": "Lalique",
+            "size": "S, M",
+            "price": "NOW £800"
+          }
+        },
+        "gallery_item_3bbmD3": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/kamperette.webp",
+            "designer": "Kamperett",
+            "style": "Adelaide",
+            "size": "XS, S, XL",
+            "price": "NOW £775"
+          }
+        },
+        "gallery_item_tGNBNw": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Mae-Dress_1_900x_ec5eecfe-f45e-4d96-9f47-6ade1e492c94.jpg",
+            "designer": "Kamperett",
+            "style": "Mae",
+            "size": "XS - M",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_4HfKRh": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/WrapDressCream_01_1024x1024_2x_d6082333-0e71-4469-9e64-eb4a19ff49f5.webp",
+            "designer": "Kamperett",
+            "style": "Loretta",
+            "size": "S - 1X",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_bnmfAj": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-22_at_15.57.40.webp",
+            "designer": "Kamperett",
+            "style": "Meiere Midi",
+            "size": "XS - 1X",
+            "price": "NOW £500"
+          }
+        },
+        "gallery_item_N4PcYk": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/5279913_5279913-R9-044-20A.webp",
+            "designer": "Kamperett",
+            "style": "Sq Midi Slip",
+            "size": "XS - 1X",
+            "price": "NOW £215"
+          }
+        },
+        "gallery_item_q3M43j": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1686840213365-V-NeckMidiSlipfront_Ivory.webp",
+            "designer": "Kamperett",
+            "style": "V Midi Slip",
+            "size": "XS, S, 1X",
+            "price": "NOW £215"
+          }
+        },
+        "gallery_item_6PhVfn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/ShortSlipIvory.webp",
+            "designer": "Kamperett",
+            "style": "Short Slip",
+            "size": "S - XL",
+            "price": "NOW £160"
+          }
+        },
+        "gallery_item_Q6B7jE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4006_900x_e82dae44-e7fd-45c8-b7f6-e662fdcdf3b4.webp",
+            "designer": "Kamperett",
+            "style": "Long Slip",
+            "size": "XS - 1X",
+            "price": "NOW £250"
+          }
+        },
         "gallery_item_7kajVG": {
           "type": "gallery_item",
           "settings": {
@@ -682,6 +772,15 @@
         }
       },
       "block_order": [
+        "gallery_item_9YfwM9",
+        "gallery_item_3bbmD3",
+        "gallery_item_tGNBNw",
+        "gallery_item_4HfKRh",
+        "gallery_item_bnmfAj",
+        "gallery_item_N4PcYk",
+        "gallery_item_q3M43j",
+        "gallery_item_6PhVfn",
+        "gallery_item_Q6B7jE",
         "gallery_item_7kajVG",
         "gallery_item_rCrMcX",
         "gallery_item_JQtwNx",
