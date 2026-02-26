@@ -20,6 +20,26 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_Cy98dw": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A7872_43ec7af4-12c9-4a3c-bf80-4c98125b1c13.jpg",
+            "designer": "Harriette Gordon",
+            "style": "2.9a Blanca",
+            "size": "12",
+            "price": "NOW £1500"
+          }
+        },
+        "gallery_item_C8VPGc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Kamperett_2025_VOL14_0220.jpg",
+            "designer": "Kamperett",
+            "style": "Thea Lace",
+            "size": "XS, S",
+            "price": "NOW £600"
+          }
+        },
         "gallery_item_9YfwM9": {
           "type": "gallery_item",
           "settings": {
@@ -772,6 +792,8 @@
         }
       },
       "block_order": [
+        "gallery_item_Cy98dw",
+        "gallery_item_C8VPGc",
         "gallery_item_9YfwM9",
         "gallery_item_3bbmD3",
         "gallery_item_tGNBNw",
