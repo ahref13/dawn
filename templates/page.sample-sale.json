@@ -20,6 +20,106 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_WztFh8": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/CelesteKatherineTashBridal4_1800x1800_b6a4762a-2a3d-479a-88e7-e99930e2b543.jpg",
+            "designer": "Katherine Tash",
+            "style": "Celeste",
+            "size": "12",
+            "price": "NOW £1500"
+          }
+        },
+        "gallery_item_cmfxLP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SHOT_07_0873.jpg",
+            "designer": "Katherine Tash",
+            "style": "Isolde Overlay",
+            "size": "12",
+            "price": "NOW £900"
+          }
+        },
+        "gallery_item_Kdpp8w": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/dfd528_039146ed23a3472fb3700540cc22f585_mv2_c6fd8a55-caae-47a7-8a05-4a57b4a076a1.jpg",
+            "designer": "Katherine Tash",
+            "style": "Bennet",
+            "size": "10",
+            "price": "NOW £2000"
+          }
+        },
+        "gallery_item_fddiDi": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Prea_James_Bridal-Viola_w_Sleeves.jpg",
+            "designer": "Prea James",
+            "style": "Viola",
+            "size": "12",
+            "price": "NOW £1600"
+          }
+        },
+        "gallery_item_gAxeEH": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/200807_PREAJAMESBRIDAL_13_0184_a9ed70d7-8ee7-4fcb-b8cb-742a8b0a5ca7.jpg",
+            "designer": "Prea James",
+            "style": "Amelie",
+            "size": "12",
+            "price": "NOW £2500"
+          }
+        },
+        "gallery_item_qT9pdQ": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/220712_PREA_JAMES_23_05_1560.jpg",
+            "designer": "Prea James",
+            "style": "Orla Top",
+            "size": "12",
+            "price": "NOW £550"
+          }
+        },
+        "gallery_item_rh7hNc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_9CO_31013.jpg",
+            "designer": "NEWHITE",
+            "style": "Soleil",
+            "size": "12",
+            "price": "NOW £1800"
+          }
+        },
+        "gallery_item_jLC9H6": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_CO_VIII_18480.jpg",
+            "designer": "NEWHITE",
+            "style": "Bryant",
+            "size": "12",
+            "price": "NOW £1200"
+          }
+        },
+        "gallery_item_KrpVkT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_11_012.jpg",
+            "designer": "Cassandra Graham",
+            "style": "Luella Mini",
+            "size": "12",
+            "price": "NOW £800"
+          }
+        },
+        "gallery_item_XbN8iE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-142.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Delphine",
+            "size": "6 (NEW)",
+            "price": "NOW £3000"
+          }
+        },
         "gallery_item_caBRfa": {
           "type": "gallery_item",
           "settings": {
@@ -378,6 +478,16 @@
             "style": "Beverly Belt",
             "size": "M-L",
             "price": "NOW £80"
+          }
+        },
+        "gallery_item_Pqge9R": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/32005434474651-5.webp",
+            "designer": "NEWHITE",
+            "style": "R. Sleeves",
+            "size": "S",
+            "price": "NOW £300"
           }
         },
         "gallery_item_xbW89K": {
@@ -902,6 +1012,16 @@
         }
       },
       "block_order": [
+        "gallery_item_WztFh8",
+        "gallery_item_cmfxLP",
+        "gallery_item_Kdpp8w",
+        "gallery_item_fddiDi",
+        "gallery_item_gAxeEH",
+        "gallery_item_qT9pdQ",
+        "gallery_item_rh7hNc",
+        "gallery_item_jLC9H6",
+        "gallery_item_KrpVkT",
+        "gallery_item_XbN8iE",
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
         "gallery_item_QmXwaA",
@@ -938,6 +1058,7 @@
         "gallery_item_V8hwKw",
         "gallery_item_KprHAb",
         "gallery_item_dfVQAT",
+        "gallery_item_Pqge9R",
         "gallery_item_xbW89K",
         "gallery_item_cr9MpL",
         "gallery_item_B4d9TR",
