@@ -13,7 +13,7 @@
       "type": "tf-hero-anim",
       "name": "TF • Hero Animation",
       "settings": {
-        "image": "shopify://shop_images/250312_LolaVarma_SH23_1091a.webp",
+        "image": "shopify://shop_images/Cassandra_Graham_1512_copy.jpg",
         "title_image": "shopify://shop_images/the-fall-logo-type.svg",
         "title_image_alt": "Logo"
       }
@@ -32,7 +32,7 @@
       "type": "tf-designers-carousel",
       "name": "TF • Designers Carousel",
       "settings": {
-        "page_handles": "prea-james, otiumberg, cassandra-graham",
+        "page_handles": "lola-varma, otiumberg, cassandra-graham",
         "rotation_interval": 4500,
         "enable_dark_overlay": false,
         "link_url": "shopify://pages/designers",
