@@ -20,6 +20,36 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_LFUGFh": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SS25-272S-C_1_3400x_345133ec-a0ad-4844-a3d8-e52752284e0c.jpg",
+            "designer": "Self Portrait",
+            "style": "Boucle Mini",
+            "size": "12",
+            "price": "NOW £150"
+          }
+        },
+        "gallery_item_mjV77K": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AW24-023MA-C_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Sequin Midi",
+            "size": "16",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_V8hwKw": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-07-18_at_12.34.55.png",
+            "designer": "Self Portrait",
+            "style": "Lace Bandeau Mini",
+            "size": "16",
+            "price": "NOW £150"
+          }
+        },
         "gallery_item_KprHAb": {
           "type": "gallery_item",
           "settings": {
@@ -562,6 +592,9 @@
         }
       },
       "block_order": [
+        "gallery_item_LFUGFh",
+        "gallery_item_mjV77K",
+        "gallery_item_V8hwKw",
         "gallery_item_KprHAb",
         "gallery_item_dfVQAT",
         "gallery_item_xbW89K",
