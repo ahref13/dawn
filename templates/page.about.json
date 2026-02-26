@@ -26,7 +26,8 @@
         "visit_us": "Dalston Works - Ground Floor\n9 Martel Place, London E8 2FR",
         "hours": "Mon - 16:00-19:30\nTue-Fri - 10:00-19:30\nSat-Sun - 10:00-18:30",
         "hours_subtext": "By appointment only",
-        "hours_subtext_link": ""
+        "hours_subtext_link": "",
+        "contact_email": "hello@thefallbride.com"
       }
     }
   },
