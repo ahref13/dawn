@@ -1,23 +1,18 @@
-<style type="text/css">
-  .template-404 .title + * {
-    margin-top: 1rem;
-  }
+{% comment %} THE FALL – 404 Page {% endcomment %}
 
-  @media screen and (min-width: 750px) {
-    .template-404 .title + * {
-      margin-top: 2rem;
-    }
-  }
-</style>
+<section class="flex flex-col items-center justify-center min-h-screen px-[20px] md:px-[30px] lg:px-[50px]">
+  <div class="text-center">
+    <h1 class="font-sm uppercase font-normal mb-4">Page not found</h1>
+    <p class="font-sm mb-8">The page you are looking for does not exist.</p>
+    <a href="{{ routes.root_url }}" class="font-sm uppercase underline">
+      Return home
+    </a>
+  </div>
+</section>
 
-<div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  <h1 class="title">
-    {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
-</div>
+{% schema %}
+{
+  "name": "TF • 404",
+  "settings": []
+}
+{% endschema %}

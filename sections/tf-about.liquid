@@ -57,6 +57,17 @@
         </div>
     </div>
 
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 px-[20px] md:px-[30px] lg:px-[50px] gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]">
+        <div class="col-span-1 col-start-1 md:col-span-1  md:col-start-3 lg:col-span-1 lg:col-start-4 xl:col-span-1 xl:col-start-5 font-sm leading-[1.4]">
+            <h3 class="uppercase m-0">Contact</h3>
+        </div>
+        <div class="col-span-1 col-start-1 md:col-span-1 md:col-start-4 lg:col-span-2 lg:col-start-5 xl:col-span-2 xl:col-start-6 font-sm leading-[1.4]">
+            <a href="mailto:{{ section.settings.contact_email }}" class="m-0">
+                {{ section.settings.contact_email }}
+            </a>
+        </div>
+    </div>
+
 </section>
 
 {% schema %}
@@ -96,6 +107,12 @@
       "type": "url",
       "id": "hours_subtext_link",
       "label": "Opening Hours Sub Text Link"
+    },
+    {
+      "type": "text",
+      "id": "contact_email",
+      "label": "Contact Email",
+      "default": "hello@thefall.london"
     }
   ],
   "presets": [
