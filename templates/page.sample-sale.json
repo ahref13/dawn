@@ -20,16 +20,6 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
-        "gallery_item_Eh4zE9": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/PJB_Mar24_LB-8_df2c1a8f-bc2b-4e78-b69d-30b3f53e82d6.jpg",
-            "designer": "Prea James",
-            "style": "Mariska + Eloise",
-            "size": "16 - 20",
-            "price": ""
-          }
-        },
         "gallery_item_kEdTnJ": {
           "type": "gallery_item",
           "settings": {
@@ -242,7 +232,6 @@
         }
       },
       "block_order": [
-        "gallery_item_Eh4zE9",
         "gallery_item_kEdTnJ",
         "gallery_item_8fY6bf",
         "gallery_item_6XR3Cc",
@@ -268,7 +257,7 @@
       "name": "TF • Sample Sale",
       "settings": {
         "heading": "Sample Sale",
-        "description": "A curated edit of our collections for sizes 16-22"
+        "description": "Select styles available for immediate purchase"
       }
     }
   },
