@@ -1,0 +1,256 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "tf_curve_edit": {
+      "type": "tf-curve-edit",
+      "blocks": {
+        "gallery_item_Eh4zE9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Mar24_LB-8_df2c1a8f-bc2b-4e78-b69d-30b3f53e82d6.jpg",
+            "designer": "Prea James",
+            "style": "Mariska + Eloise",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_kEdTnJ": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Grace_Overskirt_4441ac60-8b40-464c-9784-aebb28241d8a.jpg",
+            "designer": "Prea James",
+            "style": "Mariska + Grace",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_8fY6bf": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Emiline.1_82eeef22-562c-474f-a137-e287a6082826.jpg",
+            "designer": "Prea James",
+            "style": "Emiline",
+            "size": "16 - 22"
+          }
+        },
+        "gallery_item_6XR3Cc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Mabel_Sadie_ef0479de-6bac-4d3e-aa00-df6a9b6a7808.jpg",
+            "designer": "Prea James",
+            "style": "Mabel + Eden",
+            "size": "16 - 22"
+          }
+        },
+        "gallery_item_9m4AhL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Prea_James_Bridal-Gianna_w_Sleeves_fe3cb477-e037-4695-88a0-417845999281.jpg",
+            "designer": "Prea James",
+            "style": "Gianna",
+            "size": "16 - 22"
+          }
+        },
+        "gallery_item_iEibbR": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Prea_James_Bridal-Nina_1_834b49aa-bd12-4b28-8ef7-3df179d7f5e4.jpg",
+            "designer": "Prea James",
+            "style": "Nina",
+            "size": "16"
+          }
+        },
+        "gallery_item_Tkcbze": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SML_Prea_James_Studio_Editorial_61_copy.jpg",
+            "designer": "Prea James",
+            "style": "Winona + Bowie",
+            "size": "16 - 22"
+          }
+        },
+        "gallery_item_WyD88E": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/9C1A8814_4446d141-a124-4e9a-a3b1-6b6b38836006.jpg",
+            "designer": "Katherine Tash",
+            "style": "Cecilia",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_MKexYt": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_09_0696.png",
+            "designer": "Katherine Tash",
+            "style": "Paloma Corset + Skirt",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_7WpebW": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SHOT_09_1111.png",
+            "designer": "Katherine Tash",
+            "style": "Leona",
+            "size": "16 - 22"
+          }
+        },
+        "gallery_item_Qnmq7b": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/BB_1_2048x_d4efdcc6-eda8-4a26-9d4e-ef0d63358c53.png",
+            "designer": "NEWHITE",
+            "style": "B.B",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_zFtKWB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Newhite4190_Small_Size.png",
+            "designer": "NEWHITE",
+            "style": "B.B. + A.",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_6VkRC8": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_BRIDAL_S135187.png",
+            "designer": "NEWHITE",
+            "style": "Aceno",
+            "size": "16 - 22"
+          }
+        },
+        "gallery_item_QjVB48": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_9CO_30907.png",
+            "designer": "NEWHITE",
+            "style": "Haven + S. Sleeve",
+            "size": "16 - 22"
+          }
+        },
+        "gallery_item_REXJHB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/lirio-dress-F29_4855.jpg",
+            "designer": "Cortana",
+            "style": "Lirio",
+            "size": "16 - 20"
+          }
+        },
+        "gallery_item_cPFE3n": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH44_2432as_f972b9c7-3ae9-419a-b54d-07646601b449.jpg",
+            "designer": "Lola Varma",
+            "style": "Paola + Vincent",
+            "size": "16 - 18"
+          }
+        },
+        "gallery_item_EirRfk": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/unnamed-3_983c48a9-c2af-4379-b177-d64f71db3fea.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Alexa Midi",
+            "size": "16 - 18"
+          }
+        },
+        "gallery_item_FMXX3b": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-308_485af384-88f3-4436-b867-e299b9b34542.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Alexa Mini",
+            "size": "16 - 18"
+          }
+        },
+        "gallery_item_mLLKdx": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-142.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Delphine",
+            "size": "16"
+          }
+        },
+        "gallery_item_RAMKGm": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FL_2021-22-53.jpg",
+            "designer": "& For Love",
+            "style": "Auldyn",
+            "size": "16 - 18"
+          }
+        },
+        "gallery_item_rdKATG": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FORLOVE_FINAL-2_copy.jpg",
+            "designer": "& For Love",
+            "style": "Isolde",
+            "size": "16 - 18"
+          }
+        },
+        "gallery_item_UQg8j9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/download_2.jpg",
+            "designer": "Alex Perry",
+            "style": "L/Sleeve Gown",
+            "size": "16 - 20"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_item_Eh4zE9",
+        "gallery_item_kEdTnJ",
+        "gallery_item_8fY6bf",
+        "gallery_item_6XR3Cc",
+        "gallery_item_9m4AhL",
+        "gallery_item_iEibbR",
+        "gallery_item_Tkcbze",
+        "gallery_item_WyD88E",
+        "gallery_item_MKexYt",
+        "gallery_item_7WpebW",
+        "gallery_item_Qnmq7b",
+        "gallery_item_zFtKWB",
+        "gallery_item_6VkRC8",
+        "gallery_item_QjVB48",
+        "gallery_item_REXJHB",
+        "gallery_item_cPFE3n",
+        "gallery_item_EirRfk",
+        "gallery_item_FMXX3b",
+        "gallery_item_mLLKdx",
+        "gallery_item_RAMKGm",
+        "gallery_item_rdKATG",
+        "gallery_item_UQg8j9"
+      ],
+      "settings": {
+        "heading": "CURVE EDIT",
+        "description": "A curated edit of our collections for sizes 16-22"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "tf_curve_edit"
+  ]
+}
