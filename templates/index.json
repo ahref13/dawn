@@ -13,8 +13,8 @@
       "type": "tf-hero-anim",
       "name": "TF • Hero Animation",
       "settings": {
-        "image": "shopify://shop_images/Cassandra_Graham_1512_copy.jpg",
-        "title_image": "shopify://shop_images/the-fall-logo-type.svg",
+        "image": "shopify://shop_images/HipstamaticPhoto-613109659.423937ffin.jpg",
+        "title_image": "shopify://shop_images/Logo_fabric_white.png",
         "title_image_alt": "Logo"
       }
     },
@@ -53,7 +53,6 @@
       "type": "tf-private-fittings",
       "name": "TF • Private Fittings",
       "settings": {
-        "image": "shopify://shop_images/The_Fall_Bride-5.jpg",
         "enable_dark_overlay": true,
         "title": "PRIVATE FITTINGS",
         "subtitle_label": "",
