@@ -44,7 +44,7 @@
       "name": "TF • Collections feature",
       "settings": {
         "heading": "Shop Our Collections",
-        "collection": "frontpage-feature",
+        "collection": "frontpage",
         "show_view_all": true,
         "view_all_label": "Shop All"
       }
