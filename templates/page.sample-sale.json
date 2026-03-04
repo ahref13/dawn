@@ -50,16 +50,6 @@
             "price": "NOW £2000"
           }
         },
-        "gallery_item_fddiDi": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Prea_James_Bridal-Viola_w_Sleeves.jpg",
-            "designer": "Prea James",
-            "style": "Viola",
-            "size": "12",
-            "price": "NOW £1600"
-          }
-        },
         "gallery_item_gAxeEH": {
           "type": "gallery_item",
           "settings": {
@@ -1015,7 +1005,6 @@
         "gallery_item_WztFh8",
         "gallery_item_cmfxLP",
         "gallery_item_Kdpp8w",
-        "gallery_item_fddiDi",
         "gallery_item_gAxeEH",
         "gallery_item_qT9pdQ",
         "gallery_item_rh7hNc",
