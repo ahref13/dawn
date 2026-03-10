@@ -860,16 +860,6 @@
             "price": "NOW £125"
           }
         },
-        "gallery_item_Dj6NUC": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Lelett2769copy-833366-238704_800x_e6be1e08-e5e9-488d-b1e9-5b28cad5b3fc.webp",
-            "designer": "Lelet NY",
-            "style": "Allison Comb",
-            "size": "",
-            "price": "NOW £30"
-          }
-        },
         "gallery_item_ATznU9": {
           "type": "gallery_item",
           "settings": {
@@ -1086,7 +1076,6 @@
         "gallery_item_CHNCbn",
         "gallery_item_9X8DA7",
         "gallery_item_YVp9iC",
-        "gallery_item_Dj6NUC",
         "gallery_item_ATznU9",
         "gallery_item_FDYXWk",
         "gallery_item_FmrhPh",
