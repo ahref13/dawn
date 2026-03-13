@@ -20,26 +20,6 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
-        "gallery_item_9rMQ4q": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1726068011030-P186-G_earrings_02-1_2160x_e35a8d7b-d730-42fc-abf6-3d594fe368d9.webp",
-            "designer": "CW",
-            "style": "Whispering Plinths",
-            "size": "",
-            "price": "NOW £175"
-          }
-        },
-        "gallery_item_PGMW3f": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1723728584715-Z84-S_earrings_02-1_2160x_c123ebec-f1b8-4226-bfda-faddc4e5d295.webp",
-            "designer": "CW",
-            "style": "Z84",
-            "size": "",
-            "price": "NOW £150"
-          }
-        },
         "gallery_item_KxrXaK": {
           "type": "gallery_item",
           "settings": {
@@ -840,6 +820,46 @@
             "price": "NOW £100"
           }
         },
+        "gallery_item_pWD8Vf": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1739202875845-P171-S_earrings_NAP_02-1_2160x_bab08e92-e682-47f8-9440-02054c2cbe9b.jpg",
+            "designer": "CW",
+            "style": "The Alchemy of Time",
+            "size": "",
+            "price": "NOW £150"
+          }
+        },
+        "gallery_item_NBYmGM": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1739103340818-P203-S_earrings_02-1_2160x_93501c64-c094-4315-87d5-b09a088c1953.webp",
+            "designer": "CW",
+            "style": "Once in a Blue Moon",
+            "size": "",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_PGMW3f": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1723728584715-Z84-S_earrings_02-1_2160x_c123ebec-f1b8-4226-bfda-faddc4e5d295.webp",
+            "designer": "CW",
+            "style": "Z84",
+            "size": "",
+            "price": "NOW £150"
+          }
+        },
+        "gallery_item_9rMQ4q": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1726068011030-P186-G_earrings_02-1_2160x_e35a8d7b-d730-42fc-abf6-3d594fe368d9.webp",
+            "designer": "CW",
+            "style": "Whispering Plinths",
+            "size": "",
+            "price": "NOW £175"
+          }
+        },
         "gallery_item_geEg3Y": {
           "type": "gallery_item",
           "settings": {
@@ -1082,8 +1102,6 @@
         }
       },
       "block_order": [
-        "gallery_item_9rMQ4q",
-        "gallery_item_PGMW3f",
         "gallery_item_KxrXaK",
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
@@ -1164,6 +1182,10 @@
         "gallery_item_xHfMWQ",
         "gallery_item_MEtwkq",
         "gallery_item_BheWzW",
+        "gallery_item_pWD8Vf",
+        "gallery_item_NBYmGM",
+        "gallery_item_PGMW3f",
+        "gallery_item_9rMQ4q",
         "gallery_item_geEg3Y",
         "gallery_item_AF9JHe",
         "gallery_item_dVJH9x",
