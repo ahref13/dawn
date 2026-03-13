@@ -150,6 +150,16 @@
             "price": "NOW £950"
           }
         },
+        "gallery_item_B4d9TR": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0078BSS25_LAUREL_1.webp",
+            "designer": "Alex Perry",
+            "style": "Mesh Gloves",
+            "size": "S",
+            "price": "NOW £120"
+          }
+        },
         "gallery_item_KrpVkT": {
           "type": "gallery_item",
           "settings": {
@@ -348,6 +358,46 @@
             "style": "2.9a Blanca",
             "size": "12",
             "price": "NOW £1500"
+          }
+        },
+        "gallery_item_p4QAD6": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2021-08-03_at_2.22.26_PM_c5f7e9de-840d-4d98-97bd-106cff227cd4.jpg",
+            "designer": "Harriette Gordon",
+            "style": "5.3 Circular",
+            "size": "",
+            "price": "NOW £90"
+          }
+        },
+        "gallery_item_dk9FQc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A1620c_websize_84b73230-bb34-49c0-85ed-a1bf5b1efc2f.jpg",
+            "designer": "Harriette Gordon",
+            "style": "4.5 Pearl",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_XJQmWg": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/02_8071_0e9983b0-43fe-41e4-8ca9-286e6a65fd57.jpg",
+            "designer": "Harriette Gordon",
+            "style": "7.5 Bow",
+            "size": "",
+            "price": "NOW £90"
+          }
+        },
+        "gallery_item_Kz6deN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1738078576646-IMG_3731.webp",
+            "designer": "Harriette Gordon",
+            "style": "7.25 Paloma Gloves",
+            "size": "",
+            "price": "NOW £200"
           }
         },
         "gallery_item_C8VPGc": {
@@ -568,56 +618,6 @@
             "style": "Lace Bandeau Mini",
             "size": "16",
             "price": "NOW £150"
-          }
-        },
-        "gallery_item_B4d9TR": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/B0078BSS25_LAUREL_1.webp",
-            "designer": "Alex Perry",
-            "style": "Mesh Gloves",
-            "size": "S",
-            "price": "NOW £120"
-          }
-        },
-        "gallery_item_Kz6deN": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1738078576646-IMG_3731.webp",
-            "designer": "Harriette Gordon",
-            "style": "7.25 Paloma Gloves",
-            "size": "",
-            "price": "NOW £200"
-          }
-        },
-        "gallery_item_XJQmWg": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/02_8071_0e9983b0-43fe-41e4-8ca9-286e6a65fd57.jpg",
-            "designer": "Harriette Gordon",
-            "style": "7.5 Bow",
-            "size": "",
-            "price": "NOW £90"
-          }
-        },
-        "gallery_item_dk9FQc": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/0G3A1620c_websize_84b73230-bb34-49c0-85ed-a1bf5b1efc2f.jpg",
-            "designer": "Harriette Gordon",
-            "style": "4.5 Pearl",
-            "size": "",
-            "price": "NOW £250"
-          }
-        },
-        "gallery_item_p4QAD6": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2021-08-03_at_2.22.26_PM_c5f7e9de-840d-4d98-97bd-106cff227cd4.jpg",
-            "designer": "Harriette Gordon",
-            "style": "5.3 Circular",
-            "size": "",
-            "price": "NOW £90"
           }
         },
         "gallery_item_KqJxrM": {
@@ -1115,6 +1115,7 @@
         "gallery_item_Pqge9R",
         "gallery_item_xbW89K",
         "gallery_item_fUr7Ug",
+        "gallery_item_B4d9TR",
         "gallery_item_KrpVkT",
         "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
@@ -1135,6 +1136,10 @@
         "gallery_item_cr9MpL",
         "gallery_item_fpn8HT",
         "gallery_item_Cy98dw",
+        "gallery_item_p4QAD6",
+        "gallery_item_dk9FQc",
+        "gallery_item_XJQmWg",
+        "gallery_item_Kz6deN",
         "gallery_item_C8VPGc",
         "gallery_item_9YfwM9",
         "gallery_item_3bbmD3",
@@ -1157,11 +1162,6 @@
         "gallery_item_LFUGFh",
         "gallery_item_mjV77K",
         "gallery_item_V8hwKw",
-        "gallery_item_B4d9TR",
-        "gallery_item_Kz6deN",
-        "gallery_item_XJQmWg",
-        "gallery_item_dk9FQc",
-        "gallery_item_p4QAD6",
         "gallery_item_KqJxrM",
         "gallery_item_xTJ7cF",
         "gallery_item_Cxiydg",
