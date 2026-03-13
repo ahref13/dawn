@@ -20,6 +20,26 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_D64FdR": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_11_0800_c76a93cc-4654-40ae-8729-13e155b2915e.jpg",
+            "designer": "Katherine Tash",
+            "style": "Vale",
+            "size": "12",
+            "price": "NOW £2000"
+          }
+        },
+        "gallery_item_QDdgje": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_17_1224_6b5c2677-f65f-4ad0-90af-962a1f98b0f0.jpg",
+            "designer": "Katherine Tash",
+            "style": "Rose",
+            "size": "14",
+            "price": "NOW £2200"
+          }
+        },
         "gallery_item_WztFh8": {
           "type": "gallery_item",
           "settings": {
@@ -170,6 +190,16 @@
             "price": "NOW £1000"
           }
         },
+        "gallery_item_MEVR4W": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH46_2526as_6b165d20-d85b-49ab-9b5b-6aba6401be25.jpg",
+            "designer": "Lola Varma",
+            "style": "Romi Overlay",
+            "size": "10",
+            "price": "NOW £500"
+          }
+        },
         "gallery_item_UejhzL": {
           "type": "gallery_item",
           "settings": {
@@ -198,6 +228,16 @@
             "style": "Stone Blouse",
             "size": "12",
             "price": "NOW £300"
+          }
+        },
+        "gallery_item_ddeKq3": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/220603_LV_Shoot_46_0778-5s.jpg",
+            "designer": "Lola Varma",
+            "style": "Delfina Skirt",
+            "size": "10",
+            "price": "NOW £900"
           }
         },
         "gallery_item_yRB8Tk": {
@@ -992,6 +1032,8 @@
         }
       },
       "block_order": [
+        "gallery_item_D64FdR",
+        "gallery_item_QDdgje",
         "gallery_item_WztFh8",
         "gallery_item_cmfxLP",
         "gallery_item_Kdpp8w",
@@ -1007,9 +1049,11 @@
         "gallery_item_c3Jx4e",
         "gallery_item_dyHkrB",
         "gallery_item_3CUk8G",
+        "gallery_item_MEVR4W",
         "gallery_item_UejhzL",
         "gallery_item_cLjnKE",
         "gallery_item_K8yPPN",
+        "gallery_item_ddeKq3",
         "gallery_item_yRB8Tk",
         "gallery_item_fpn8HT",
         "gallery_item_Cy98dw",
