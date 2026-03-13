@@ -20,6 +20,26 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_9rMQ4q": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1726068011030-P186-G_earrings_02-1_2160x_e35a8d7b-d730-42fc-abf6-3d594fe368d9.webp",
+            "designer": "CW",
+            "style": "Whispering Plinths",
+            "size": "",
+            "price": "NOW £175"
+          }
+        },
+        "gallery_item_PGMW3f": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1723728584715-Z84-S_earrings_02-1_2160x_c123ebec-f1b8-4226-bfda-faddc4e5d295.webp",
+            "designer": "CW",
+            "style": "Z84",
+            "size": "",
+            "price": "NOW £150"
+          }
+        },
         "gallery_item_KxrXaK": {
           "type": "gallery_item",
           "settings": {
@@ -855,7 +875,7 @@
           "settings": {
             "image": "shopify://shop_images/Z103_earrings_02-1_2160x_160f06e1-c1b2-4508-98ca-c20c54055c0a.webp",
             "designer": "CW",
-            "style": "Z103",
+            "style": "Never Give Up The Ghost",
             "size": "",
             "price": "NOW £165"
           }
@@ -864,7 +884,7 @@
           "type": "gallery_item",
           "settings": {
             "image": "shopify://shop_images/Z64-R_earrings02-1_1200x_602386da-6a89-42e8-91d8-a6d59f6f22c6.webp",
-            "designer": "CQ",
+            "designer": "CW",
             "style": "Z64",
             "size": "",
             "price": "NOW £125"
@@ -1062,6 +1082,8 @@
         }
       },
       "block_order": [
+        "gallery_item_9rMQ4q",
+        "gallery_item_PGMW3f",
         "gallery_item_KxrXaK",
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
