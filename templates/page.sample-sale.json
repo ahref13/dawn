@@ -120,6 +120,26 @@
             "price": "NOW £1200"
           }
         },
+        "gallery_item_Pqge9R": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/32005434474651-5.webp",
+            "designer": "NEWHITE",
+            "style": "R. Sleeves",
+            "size": "S",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_xbW89K": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1694180071339-NEWHITE_9CO_32013_result.webp",
+            "designer": "NEWHITE",
+            "style": "W Sleeves",
+            "size": "",
+            "price": "NOW £300"
+          }
+        },
         "gallery_item_fUr7Ug": {
           "type": "gallery_item",
           "settings": {
@@ -200,6 +220,16 @@
             "price": "NOW £330"
           }
         },
+        "gallery_item_KprHAb": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-63.webp",
+            "designer": "Jessica Bennett",
+            "style": "Delphine Scarf",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
         "gallery_item_dyHkrB": {
           "type": "gallery_item",
           "settings": {
@@ -278,6 +308,26 @@
             "style": "Saana Cami",
             "size": "12",
             "price": "NOW £165"
+          }
+        },
+        "gallery_item_dfVQAT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/lolavarma0497.webp",
+            "designer": "Lola Varma",
+            "style": "Beverly Belt",
+            "size": "M-L",
+            "price": "NOW £80"
+          }
+        },
+        "gallery_item_cr9MpL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Gloves.webp",
+            "designer": "Lola Varma",
+            "style": "Daisy Gloves",
+            "size": "",
+            "price": "NOW £110"
           }
         },
         "gallery_item_fpn8HT": {
@@ -518,56 +568,6 @@
             "style": "Lace Bandeau Mini",
             "size": "16",
             "price": "NOW £150"
-          }
-        },
-        "gallery_item_KprHAb": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/JB23-63.webp",
-            "designer": "Jessica Bennett",
-            "style": "Delphine Scarf",
-            "size": "",
-            "price": "NOW £250"
-          }
-        },
-        "gallery_item_dfVQAT": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/lolavarma0497.webp",
-            "designer": "Lola Varma",
-            "style": "Beverly Belt",
-            "size": "M-L",
-            "price": "NOW £80"
-          }
-        },
-        "gallery_item_Pqge9R": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/32005434474651-5.webp",
-            "designer": "NEWHITE",
-            "style": "R. Sleeves",
-            "size": "S",
-            "price": "NOW £300"
-          }
-        },
-        "gallery_item_xbW89K": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1694180071339-NEWHITE_9CO_32013_result.webp",
-            "designer": "NEWHITE",
-            "style": "W Sleeves",
-            "size": "",
-            "price": "NOW £300"
-          }
-        },
-        "gallery_item_cr9MpL": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Gloves.webp",
-            "designer": "Lola Varma",
-            "style": "Daisy Gloves",
-            "size": "",
-            "price": "NOW £110"
           }
         },
         "gallery_item_B4d9TR": {
@@ -1112,6 +1112,8 @@
         "gallery_item_qT9pdQ",
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
+        "gallery_item_Pqge9R",
+        "gallery_item_xbW89K",
         "gallery_item_fUr7Ug",
         "gallery_item_KrpVkT",
         "gallery_item_BUzFJV",
@@ -1120,6 +1122,7 @@
         "gallery_item_TyNUAz",
         "gallery_item_QmXwaA",
         "gallery_item_c3Jx4e",
+        "gallery_item_KprHAb",
         "gallery_item_dyHkrB",
         "gallery_item_3CUk8G",
         "gallery_item_MEVR4W",
@@ -1128,6 +1131,8 @@
         "gallery_item_K8yPPN",
         "gallery_item_ddeKq3",
         "gallery_item_yRB8Tk",
+        "gallery_item_dfVQAT",
+        "gallery_item_cr9MpL",
         "gallery_item_fpn8HT",
         "gallery_item_Cy98dw",
         "gallery_item_C8VPGc",
@@ -1152,11 +1157,6 @@
         "gallery_item_LFUGFh",
         "gallery_item_mjV77K",
         "gallery_item_V8hwKw",
-        "gallery_item_KprHAb",
-        "gallery_item_dfVQAT",
-        "gallery_item_Pqge9R",
-        "gallery_item_xbW89K",
-        "gallery_item_cr9MpL",
         "gallery_item_B4d9TR",
         "gallery_item_Kz6deN",
         "gallery_item_XJQmWg",
