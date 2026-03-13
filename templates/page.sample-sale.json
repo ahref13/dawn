@@ -20,16 +20,6 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
-        "gallery_item_fUr7Ug": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/download_4_66c4de73-6aa7-4b95-9c88-92001e5bfa23.jpg",
-            "designer": "Alex Perry",
-            "style": "Crystal Mesh Set",
-            "size": "12",
-            "price": "NOW £950"
-          }
-        },
         "gallery_item_D64FdR": {
           "type": "gallery_item",
           "settings": {
@@ -118,6 +108,16 @@
             "style": "Bryant",
             "size": "12",
             "price": "NOW £1200"
+          }
+        },
+        "gallery_item_fUr7Ug": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/download_4_66c4de73-6aa7-4b95-9c88-92001e5bfa23.jpg",
+            "designer": "Alex Perry",
+            "style": "Crystal Mesh Set",
+            "size": "12",
+            "price": "NOW £950"
           }
         },
         "gallery_item_KrpVkT": {
@@ -1052,7 +1052,6 @@
         }
       },
       "block_order": [
-        "gallery_item_fUr7Ug",
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
         "gallery_item_WztFh8",
@@ -1062,6 +1061,7 @@
         "gallery_item_qT9pdQ",
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
+        "gallery_item_fUr7Ug",
         "gallery_item_KrpVkT",
         "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
