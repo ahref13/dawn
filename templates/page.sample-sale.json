@@ -120,6 +120,16 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_BUzFJV": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-227_24412169-c5bc-4882-aa35-235abe325f43.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Emelia",
+            "size": "12",
+            "price": "NOW £1900"
+          }
+        },
         "gallery_item_XbN8iE": {
           "type": "gallery_item",
           "settings": {
@@ -1042,6 +1052,7 @@
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
         "gallery_item_KrpVkT",
+        "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
