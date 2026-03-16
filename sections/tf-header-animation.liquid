@@ -94,22 +94,34 @@
              aria-modal="true"
              aria-labelledby="tf-menu-title-{{ section.id }}">
 
-            <div class="pt-[18px] px-[0px] md:px-[10px] lg:px-[40px] flex items-center justify-between pb-[1.35rem]">
-        <span class="font-{{ section.settings.overlay_font_size_variant }} text-[#f6f5f1] mix-blend-difference py-2.5">
-          {% if section.settings.menu.links.first %}
-              <a href="{{ section.settings.menu.links.first.url }}" class="no-underline text-[#f6f5f1]">{{ section.settings.menu.links.first.title }}</a>
-          {% endif %}
-        </span>
+            <!-- Mobile: London / New York + Close -->
+            <div class="flex md:hidden pt-[18px] px-[0px] items-center justify-between pb-[1.35rem]">
+                <div class="flex items-center font-{{ section.settings.font_size_variant }}" style="gap: 22px;">
+                    <a href="https://thefallbride.com/" class="tf-strikethrough text-[#f6f5f1] no-underline">London</a>
+                    <span class="text-[#f6f5f1]">New York</span>
+                </div>
+                <button class="bg-transparent border-0 text-[#f6f5f1] cursor-pointer mix-blend-difference font-{{ section.settings.font_size_variant }}"
+                        type="button"
+                        aria-label="Close">{{ section.settings.close_label }}</button>
+            </div>
+            <!-- Desktop: First menu item + Close -->
+            <div class="hidden md:flex pt-[18px] px-[0px] md:px-[10px] lg:px-[40px] items-center justify-between pb-[1.35rem]">
+                <span class="font-{{ section.settings.overlay_font_size_variant }} text-[#f6f5f1] mix-blend-difference py-2.5">
+                    {% if section.settings.menu.links.first %}
+                        <a href="{{ section.settings.menu.links.first.url }}" class="no-underline text-[#f6f5f1]">{{ section.settings.menu.links.first.title }}</a>
+                    {% endif %}
+                </span>
                 <button class="bg-transparent border-0 text-[#f6f5f1] cursor-pointer mix-blend-difference font-{{ section.settings.font_size_variant }}"
                         type="button"
                         aria-label="Close">{{ section.settings.close_label }}</button>
             </div>
 
             <nav aria-label="Main">
-                <ul class="list-none m-0 p-0 px-[0px] md:px-[10px] lg:px-[40px]">
-                    {% for link in section.settings.menu.links offset: 1 %}
+                <ul id="tf-menu-list-{{ section.id }}" class="list-none m-0 p-0 px-[0px] md:px-[10px] lg:px-[40px]" style="padding-top: 60px;">
+                    <!-- Mobile: all items / Desktop: skip first (shown above) -->
+                    {% for link in section.settings.menu.links %}
                         {% assign child_count = link.links | size %}
-                        <li class="font-{{ section.settings.overlay_font_size_variant }} {% if child_count > 0 %}group{% endif %}">
+                        <li class="font-{{ section.settings.overlay_font_size_variant }} {% if child_count > 0 %}group{% endif %}{% if forloop.first %} tf-first-menu-item{% endif %}">
                             <a href="{{ link.url }}"
                                class="block py-[1.35rem] no-underline text-[#f6f5f1] mix-blend-difference {% if child_count > 0 %}relative pr-6{% endif %}"
                                {% if child_count > 0 %}data-toggle{% endif %}>
@@ -138,6 +150,15 @@
     button,
     a {
         font-family: 'PPRadioGrotesk', sans-serif;
+    }
+
+    @media (min-width: 768px) {
+        [id^="tf-menu-list-"] {
+            padding-top: 0 !important;
+        }
+        .tf-first-menu-item {
+            display: none;
+        }
     }
 
     #tf-main-header {
@@ -199,7 +220,7 @@
     const openBtn = document.getElementById('tf-menu-open-{{ section.id }}');
     const overlay = document.getElementById('tf-menu-overlay-{{ section.id }}');
     const panel   = overlay?.querySelector('[role="dialog"]');
-    const closeBtn = overlay?.querySelector('[aria-label="Close"]');
+    const closeBtns = overlay?.querySelectorAll('[aria-label="Close"]');
 
     const open = () => {
       overlay.hidden = false;
@@ -210,7 +231,7 @@
       openBtn.setAttribute('aria-expanded', 'true');
       document.documentElement.style.overflow = 'hidden';
       const firstLink = overlay.querySelector('nav a');
-      (firstLink || closeBtn)?.focus({ preventScroll: true });
+      (firstLink || closeBtns?.[0])?.focus({ preventScroll: true });
     };
 
     const close = () => {
@@ -224,7 +245,7 @@
     };
 
     openBtn?.addEventListener('click', open);
-    closeBtn?.addEventListener('click', close);
+    closeBtns?.forEach(btn => btn.addEventListener('click', close));
     overlay?.addEventListener('click', (e) => { if (e.target === overlay) close(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !overlay.hidden) close(); });
 
