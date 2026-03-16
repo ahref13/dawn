@@ -68,13 +68,17 @@
                 {{ section.settings.menu_label }}
             </button>
 
-            <!-- Cart -->
-            <a class="md:col-start-4 lg:col-start-6 xl:col-start-8 md:justify-self-end relative text-[#f6f5f1] no-underline font-{{ section.settings.font_size_variant }}" href="{{ routes.cart_url }}" aria-label="{{ 'sections.cart.title' | t }}">
-                {{ 'templates.cart.cart' | t | default: 'Cart' }}
-                {% if cart != empty and cart.item_count > 0 %}
-                    <span class="absolute -top-3.5 -right-3.5 min-w-[1.2rem] h-[1.2rem] text-[#f6f5f1] text-sm leading-[1.2rem] text-center" aria-live="polite">{{ cart.item_count }}</span>
-                {% endif %}
-            </a>
+            <!-- Cart + Location -->
+            <div class="md:col-start-4 lg:col-start-6 xl:col-start-8 md:justify-self-end flex items-center font-{{ section.settings.font_size_variant }}" style="gap: 22px;">
+                <a class="relative text-[#f6f5f1] no-underline" href="{{ routes.cart_url }}" aria-label="{{ 'sections.cart.title' | t }}" style="margin-right: 2px;">
+                    {{ 'templates.cart.cart' | t | default: 'Cart' }}
+                    {% if cart != empty and cart.item_count > 0 %}
+                        <span class="absolute -top-3.5 -right-3.5 min-w-[1.2rem] h-[1.2rem] text-[#f6f5f1] text-sm leading-[1.2rem] text-center" aria-live="polite">{{ cart.item_count }}</span>
+                    {% endif %}
+                </a>
+                <a href="https://thefallbride.com/" class="tf-strikethrough text-[#f6f5f1] no-underline">LND</a>
+                <span class="text-[#f6f5f1]">NY</span>
+            </div>
         </div>
     </div>
 </header>
@@ -136,6 +140,21 @@
 
     #tf-main-header {
         transition: opacity 0.3s ease;
+    }
+
+    .tf-strikethrough {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tf-strikethrough::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40%;
+        height: 2px;
+        background: #f6f5f1;
     }
 
     .tf-overlay {
