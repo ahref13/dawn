@@ -49,7 +49,7 @@
       "type": "tf-header-animation",
       "name": "TF • Header animation",
       "settings": {
-        "logo": "shopify://shop_images/the-fall-logo-type.svg",
+        "logo": "shopify://shop_images/TFNY.svg",
         "menu_label": "Menu",
         "menu": "main-menu",
         "close_label": "Close",
