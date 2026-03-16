@@ -1,68 +1,243 @@
-v# Dawn
+# The Fall Bride — Custom Shopify Theme
 
-[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)
+A custom Shopify theme for [The Fall Bride](https://london.thefallbride.com), a bridal store from London, built on a fork of Shopify's [Dawn](https://github.com/Shopify/dawn) v15.4.0.
 
-[Getting started](#getting-started) |
-[Staying up to date with Dawn changes](#staying-up-to-date-with-dawn-changes) |
-[Developer tools](#developer-tools) |
-[Contributing](#contributing) |
-[Code of conduct](#code-of-conduct) |
-[Theme Store submission](#theme-store-submission) |
-[License](#license)
+[Project Overview](#project-overview) |
+[Stores & Branches](#stores--branches) |
+[Getting Started](#getting-started) |
+[Branch Workflow](#branch-workflow) |
+[Staying Up to Date with Dawn](#staying-up-to-date-with-dawn) |
+[Architecture](#architecture) |
+[Developer Tools](#developer-tools) |
+[Code Style](#code-style)
 
-Dawn represents a HTML-first, JavaScript-only-as-needed approach to theme development. It's Shopify's first source available theme with performance, flexibility, and [Online Store 2.0 features](https://www.shopify.com/partners/blog/shopify-online-store) built-in and acts as a reference for building Shopify themes.
+---
 
-* **Web-native in its purest form:** Themes run on the [evergreen web](https://www.w3.org/2001/tag/doc/evergreen-web/). We leverage the latest web browsers to their fullest, while maintaining support for the older ones through progressive enhancement—not polyfills.
-* **Lean, fast, and reliable:** Functionality and design defaults to “no” until it meets this requirement. Code ships on quality. Themes must be built with purpose. They shouldn’t support each and every feature in Shopify.
-* **Server-rendered:** HTML must be rendered by Shopify servers using Liquid. Business logic and platform primitives such as translations and money formatting don’t belong on the client. Async and on-demand rendering of parts of the page is OK, but we do it sparingly as a progressive enhancement.
-* **Functional, not pixel-perfect:** The Web doesn’t require each page to be rendered pixel-perfect by each browser engine. Using semantic markup, progressive enhancement, and clever design, we ensure that themes remain functional regardless of the browser.
+## Project Overview
 
-You can find a more detailed version of our theme code principles in the [contribution guide](https://github.com/Shopify/dawn/blob/main/.github/CONTRIBUTING.md#theme-code-principles).
+The Fall Bride theme follows Dawn's web-native, HTML-first, JavaScript-only-as-needed philosophy:
 
-## Getting started
-We recommend using Dawn as a starting point for theme development. [Learn more on Shopify.dev](https://shopify.dev/themes/getting-started/create).
+* **Server-rendered:** All HTML is rendered by Shopify via Liquid. JavaScript is used sparingly for progressive enhancement only.
+* **Lean, fast, and reliable:** No render-blocking JS, no DOM manipulation before user input, no frameworks.
+* **Functional, not pixel-perfect:** Semantic markup and progressive enhancement ensure the theme works across all browsers.
 
-> If you're building a theme for the Shopify Theme Store, then you can use Dawn as a starting point. However, the theme that you submit needs to be [substantively different from Dawn](https://shopify.dev/themes/store/requirements#uniqueness) so that it provides added value for merchants. Learn about the [ways that you can use Dawn](https://shopify.dev/themes/tools/dawn#ways-to-use-dawn).
+### Remotes
 
-Please note that the main branch may include code for features not yet released. The "stable" version of Dawn is available in the theme store.
+| Remote | URL |
+|--------|-----|
+| `origin` | `git@github.com:ahref13/dawn.git` |
+| `upstream` | `https://github.com/Shopify/dawn.git` |
 
-## Staying up to date with Dawn changes
+---
 
-Say you're building a new theme off Dawn but you still want to be able to pull in the latest changes, you can add a remote `upstream` pointing to this Dawn repository.
+## Stores & Branches
 
-1. Navigate to your local theme folder.
-2. Verify the list of remotes and validate that you have both an `origin` and `upstream`:
+The theme serves two separate Shopify stores, each connected to its own branch:
+
+| Branch | Store | Live URL |
+|--------|-------|----------|
+| `london` | The Fall Bride London | [london.thefallbride.com](https://london.thefallbride.com) |
+| `newyork` | The Fall Bride New York | [newyork.thefallbride.com](https://newyork.thefallbride.com) |
+| `main` | Development / shared base | Dev store: `the-fall-dev.myshopify.com` |
+
+The `main` branch is the shared development base. The `london` and `newyork` branches are the production branches deployed to each store.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Shopify CLI](https://shopify.dev/docs/themes/tools/cli)
+- [Node.js](https://nodejs.org/) (for Tailwind CSS compilation)
+
+### Commands
+
+| Command | Purpose |
+|---------|---------|
+| `npm run build:css` | Compile Tailwind CSS in watch mode (`assets/app.css` → `assets/output.css`) |
+| `shopify theme dev --store the-fall-dev.myshopify.com` | Start local dev server (main/dev) |
+| `shopify theme check` | Lint theme (Liquid, performance, best practices) |
+| `shopify theme push --development` | Push to development theme on store |
+
+---
+
+## Branch Workflow
+
+### Golden Rules
+
+1. **Never work directly on `london` or `newyork` branches.** Always develop on `main` or a feature branch off `main`.
+2. **Never merge `london` into `newyork` or vice versa.** The two store branches should never exchange changes directly — this prevents store-specific config and content from leaking between stores.
+3. **All shared code flows through `main`.** Both store branches receive updates from `main`, never from each other.
+
+### Developing a Shared Feature (applies to both stores)
+
+```
+main ← feature/my-feature
+```
+
+1. Create a feature branch from `main`:
+   ```sh
+   git checkout main
+   git pull origin main
+   git checkout -b feature/my-feature
+   ```
+2. Develop and test your changes.
+3. Merge (or PR) into `main`:
+   ```sh
+   git checkout main
+   git merge feature/my-feature
+   git push origin main
+   ```
+4. Then propagate to both store branches:
+   ```sh
+   git checkout london
+   git pull origin london
+   git merge main
+   git push origin london
+
+   git checkout newyork
+   git pull origin newyork
+   git merge main
+   git push origin newyork
+   ```
+
+### Developing a Store-Specific Feature (one store only)
+
+```
+london ← feature/london-specific-thing
+```
+
+1. Branch off the target store branch:
+   ```sh
+   git checkout london
+   git pull origin london
+   git checkout -b feature/london-specific-thing
+   ```
+2. Develop and test.
+3. Merge back into **only** that store branch:
+   ```sh
+   git checkout london
+   git merge feature/london-specific-thing
+   git push origin london
+   ```
+4. **Do NOT merge this into `main` or `newyork`.**
+
+### Quick Reference: What Goes Where
+
+| Change type | Develop on | Merge into |
+|-------------|-----------|------------|
+| Shared feature / bug fix | `feature/*` off `main` | `main` → `london` + `newyork` |
+| London-only change | `feature/*` off `london` | `london` only |
+| New York-only change | `feature/*` off `newyork` | `newyork` only |
+| Dawn upstream update | `main` (merge from upstream) | `main` → `london` + `newyork` |
+
+### Handling Merge Conflicts
+
+When merging `main` into a store branch, conflicts will typically appear in:
+- `config/settings_data.json` — Each store has its own customizer settings. **Always keep the store branch version** for this file.
+- `templates/*.json` — Template configurations may differ per store. Review carefully and keep the store-specific version when in doubt.
+
+---
+
+## Staying Up to Date with Dawn
+
+This theme tracks Shopify's Dawn as an `upstream` remote so we can pull in bug fixes and new features.
+
+### Setup (one-time)
+
+Verify you have both remotes:
 ```sh
 git remote -v
 ```
-3. If you don't see an `upstream`, you can add one that points to Shopify's Dawn repository:
+
+If `upstream` is missing, add it:
 ```sh
 git remote add upstream https://github.com/Shopify/dawn.git
 ```
-4. Pull in the latest Dawn changes into your repository:
-```sh
-git fetch upstream
-git pull upstream main
-```
 
-## Developer tools
+### Pulling Dawn Updates
 
-There are a number of really useful tools that the Shopify Themes team uses during development. Dawn is already set up to work with these tools.
+1. Fetch and merge upstream into `main`:
+   ```sh
+   git checkout main
+   git fetch upstream
+   git merge upstream/main
+   ```
+2. Resolve any merge conflicts. Our custom sections (`tf-*` prefix) should rarely conflict since they don't exist in Dawn.
+3. Test thoroughly, then push:
+   ```sh
+   git push origin main
+   ```
+4. Propagate to both store branches:
+   ```sh
+   git checkout london
+   git pull origin london
+   git merge main
+   git push origin london
+
+   git checkout newyork
+   git pull origin newyork
+   git merge main
+   git push origin newyork
+   ```
+
+### Tips for Dawn Merges
+
+- Dawn's `config/settings_schema.json` changes frequently — review these carefully as our custom settings live here too.
+- New Dawn sections/snippets won't conflict with our `tf-*` prefixed files.
+- Always run `shopify theme check` after merging to catch any regressions.
+
+---
+
+## Architecture
+
+### Directory Layout
+
+| Directory | Purpose |
+|-----------|---------|
+| `layout/` | Root layouts (`theme.liquid` is the main entry point) |
+| `sections/` | Modular page sections (Online Store 2.0). Custom sections use `tf-` prefix |
+| `snippets/` | Reusable Liquid partials included via `{% render %}` |
+| `templates/` | JSON templates composing sections into pages. Includes `customers/` and `metaobject/` subdirectories |
+| `assets/` | CSS and JS files. `app.css` is the Tailwind input; `output.css` is generated (**do not edit directly**) |
+| `config/` | `settings_schema.json` (theme customizer definition) and `settings_data.json` (current values) |
+| `locales/` | 53+ translation files; `en.default.json` is the source of truth |
+
+### Styling
+
+- **Tailwind CSS v4** compiled via `@tailwindcss/cli`. Config scans `layout/`, `sections/`, `snippets/`, and `templates/`
+- **CSS custom properties** for color schemes, defined in `settings_schema.json` and applied in `theme.liquid`
+- **Component CSS** files (`tf-*.css`) for complex custom sections
+
+### JavaScript
+
+Vanilla JS only — no frameworks. Key files:
+
+| File | Purpose |
+|------|---------|
+| `global.js` | Core utilities (`HTMLUpdateUtility`, `SectionId`, focusable element helpers) |
+| `pubsub.js` | Pub/sub event system for cross-component communication |
+| `product-form.js` / `product-info.js` | Product page logic |
+| `cart-drawer.js` | AJAX cart drawer |
+| `facets.js` | Collection filtering |
+| `animations.js` | Scroll-triggered animations (toggled via theme settings) |
+
+### Custom Sections (`tf-*`)
+
+The Fall adds 24 custom sections for: hero animations, designer carousels/galleries/lists, collections feature, FAQ, appointments, newsletter signup, sustainability, trunk shows, and custom header/footer.
+
+---
+
+## Developer Tools
 
 ### Shopify CLI
 
-[Shopify CLI](https://github.com/Shopify/shopify-cli) helps you build Shopify themes faster and is used to automate and enhance your local development workflow. It comes bundled with a suite of commands for developing Shopify themes—everything from working with themes on a Shopify store (e.g. creating, publishing, deleting themes) or launching a development server for local theme development.
-
-You can follow this [quick start guide for theme developers](https://shopify.dev/docs/themes/tools/cli) to get started.
+[Shopify CLI](https://github.com/Shopify/shopify-cli) is used for local development, theme pushing, and store management. Follow the [quick start guide](https://shopify.dev/docs/themes/tools/cli) to get started.
 
 ### Theme Check
 
-We recommend using [Theme Check](https://github.com/shopify/theme-check) as a way to validate and lint your Shopify themes.
-
-We've added Theme Check to Dawn's [list of VS Code extensions](/.vscode/extensions.json) so if you're using Visual Studio Code as your code editor of choice, you'll be prompted to install the [Theme Check VS Code](https://marketplace.visualstudio.com/items?itemName=Shopify.theme-check-vscode) extension upon opening VS Code after you've forked and cloned Dawn.
-
-You can also run it from a terminal with the following Shopify CLI command:
+[Theme Check](https://github.com/shopify/theme-check) validates and lints Shopify themes. It's included in the [VS Code extensions list](/.vscode/extensions.json) and can be run from the terminal:
 
 ```bash
 shopify theme check
@@ -70,30 +245,24 @@ shopify theme check
 
 ### Continuous Integration
 
-Dawn uses [GitHub Actions](https://github.com/features/actions) to maintain the quality of the theme. [This is a starting point](https://github.com/Shopify/dawn/blob/main/.github/workflows/ci.yml) and what we suggest to use in order to ensure you're building better themes. Feel free to build off of it!
+GitHub Actions runs on every push:
+- **[Lighthouse CI](https://github.com/Shopify/lighthouse-ci-action)** — Performance audits on home, product, and collection pages
+- **[Theme Check](https://github.com/Shopify/theme-check-action)** — Shopify theme linting
 
-#### Shopify/lighthouse-ci-action
+---
 
-We love fast websites! Which is why we created [Shopify/lighthouse-ci-action](https://github.com/Shopify/lighthouse-ci-action). This runs a series of [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) audits for the home, product and collections pages on a store to ensure code that gets added doesn't degrade storefront performance over time.
+## Code Style
 
-#### Shopify/theme-check-action
+- **Prettier** with `@shopify/prettier-plugin-liquid`: 120 char width, single quotes (JS), double quotes (Liquid)
+- **Theme Check** with `MatchingTranslations` and `TemplateLength` disabled
+- All user-facing strings belong in `locales/en.default.json`, not hardcoded in templates
 
-Dawn runs [Theme Check](#Theme-Check) on every commit via [Shopify/theme-check-action](https://github.com/Shopify/theme-check-action).
+---
 
-## Contributing
+## Dawn Base Theme
 
-Want to make commerce better for everyone by contributing to Dawn? We'd love your help! Please read our [contributing guide](https://github.com/Shopify/dawn/blob/main/.github/CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements, and how to build for Dawn.
-
-## Code of conduct
-
-All developers who wish to contribute through code or issues, please first read our [Code of Conduct](https://github.com/Shopify/dawn/blob/main/.github/CODE_OF_CONDUCT.md).
-
-
+This theme is forked from [Shopify/Dawn](https://github.com/Shopify/dawn) v15.4.0. Dawn is Shopify's first source-available theme, following a web-native, HTML-first approach. See the [Dawn contribution guide](https://github.com/Shopify/dawn/blob/main/.github/CONTRIBUTING.md#theme-code-principles) for its core code principles.
 
 ## License
 
 Copyright (c) 2021-present Shopify Inc. See [LICENSE](/LICENSE.md) for further details.
-
-shopify theme dev --store the-fall-dev.myshopify.com 
-
-npm run build:css   
