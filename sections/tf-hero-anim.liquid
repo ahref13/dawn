@@ -141,12 +141,15 @@
       const centerX = window.innerWidth / 2;
       const centerY = window.innerHeight / 2;
 
-      const deltaX = headerRect.left + headerRect.width / 2 - centerX;
-      const deltaY = headerRect.top + headerRect.height / 2 - centerY;
+      // Scale based on height (hero logo is THE FALL, header logo is THE FALL / NY)
+      const targetScale = headerRect.height / logoRect.height;
 
-      const scaleX = headerRect.width / logoRect.width;
-      const scaleY = headerRect.height / logoRect.height;
-      const targetScale = Math.min(scaleX, scaleY);
+      // After scaling, the logo's rendered width will be:
+      const scaledWidth = logoRect.width * targetScale;
+
+      // Align left edge of scaled logo with left edge of header logo
+      const deltaX = headerRect.left + scaledWidth / 2 - centerX;
+      const deltaY = headerRect.top + headerRect.height / 2 - centerY;
 
       const tl = gsap.timeline({
         scrollTrigger: {
