@@ -1010,6 +1010,16 @@
             "price": "NOW £55"
           }
         },
+        "gallery_item_jUEqyQ": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PENNY-PLA-GOLD-1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Penny - Gold",
+            "size": "UK 4.5 - 7",
+            "price": "NOW £155"
+          }
+        },
         "gallery_item_BJA6yE": {
           "type": "gallery_item",
           "settings": {
@@ -1511,6 +1521,7 @@
         "gallery_item_E7EPGQ",
         "gallery_item_zpbMxt",
         "gallery_item_fPyD9d",
+        "gallery_item_jUEqyQ",
         "gallery_item_BJA6yE",
         "gallery_item_AewCUh",
         "gallery_item_kVikRB",
