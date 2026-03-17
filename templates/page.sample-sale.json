@@ -340,6 +340,16 @@
             "price": "NOW £120"
           }
         },
+        "gallery_item_cfUhih": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1772641960207-Mandy_CloseUp.jpg",
+            "designer": "Former Girlfriend",
+            "style": "Floral Lace Turtleneck",
+            "size": "L",
+            "price": "NOW £125"
+          }
+        },
         "gallery_item_exapGE": {
           "type": "gallery_item",
           "settings": {
@@ -1130,6 +1140,16 @@
             "price": "NOW £100"
           }
         },
+        "gallery_item_NxPQD8": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/reverie_pearl_drop_earrings_714x1000_crop_center.progressive_d5ad7b9a-1784-4fa0-b7f8-94b700ff3f1e.jpg",
+            "designer": "Otiumberg",
+            "style": "Reverie",
+            "size": "",
+            "price": "NOW £95"
+          }
+        },
         "gallery_item_aqrdCx": {
           "type": "gallery_item",
           "settings": {
@@ -1464,6 +1484,7 @@
         "gallery_item_UL4aHN",
         "gallery_item_fUr7Ug",
         "gallery_item_B4d9TR",
+        "gallery_item_cfUhih",
         "gallery_item_exapGE",
         "gallery_item_KrpVkT",
         "gallery_item_Cxiydg",
@@ -1543,6 +1564,7 @@
         "gallery_item_xHfMWQ",
         "gallery_item_MEtwkq",
         "gallery_item_BheWzW",
+        "gallery_item_NxPQD8",
         "gallery_item_aqrdCx",
         "gallery_item_ypnCjW",
         "gallery_item_pWD8Vf",
