@@ -880,6 +880,16 @@
             "price": "NOW £100"
           }
         },
+        "gallery_item_exapGE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_06_002.jpg",
+            "designer": "Cassandra Graham",
+            "style": "Phaedra",
+            "size": "12",
+            "price": "NOW £1600"
+          }
+        },
         "gallery_item_Cxiydg": {
           "type": "gallery_item",
           "settings": {
@@ -894,7 +904,7 @@
           "type": "gallery_item",
           "settings": {
             "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_109.jpg",
-            "designer": "Talc x TFB",
+            "designer": "Talc",
             "style": "Ray Cape",
             "size": "",
             "price": "NOW £250"
@@ -1508,6 +1518,7 @@
         "gallery_item_V8hwKw",
         "gallery_item_KqJxrM",
         "gallery_item_xTJ7cF",
+        "gallery_item_exapGE",
         "gallery_item_Cxiydg",
         "gallery_item_qCDzKF",
         "gallery_item_PxxLBr",
