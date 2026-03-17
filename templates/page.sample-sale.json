@@ -160,6 +160,26 @@
             "price": "NOW £300"
           }
         },
+        "gallery_item_hfBRR3": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/160553B4-7DF6-48A4-A0AA-F23E4D84A313_303cff0c-1c25-474d-9db8-ec6b4066fac9.jpg",
+            "designer": "NEWHITE",
+            "style": "Naia",
+            "size": "12",
+            "price": "NOW £1750"
+          }
+        },
+        "gallery_item_yq6im9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B478A74E-5DAD-41B6-9629-CBDBA8AB7761.jpg",
+            "designer": "NEWHITE",
+            "style": "L.S. Scarf",
+            "size": "O/S",
+            "price": "NOW £200"
+          }
+        },
         "gallery_item_rh7hNc": {
           "type": "gallery_item",
           "settings": {
@@ -178,6 +198,36 @@
             "style": "Bryant",
             "size": "12",
             "price": "NOW £1200"
+          }
+        },
+        "gallery_item_yQwHPU": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/newhite.webp",
+            "designer": "NEWHITE",
+            "style": "Nalu",
+            "size": "8 - 10",
+            "price": "NOW £1000"
+          }
+        },
+        "gallery_item_Wetki7": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/DSC_7409_cef924de-ce0e-4c4a-bbff-caec6487ad8e.jpg",
+            "designer": "NEWHITE",
+            "style": "Laine",
+            "size": "8 - 10",
+            "price": "NOW £800"
+          }
+        },
+        "gallery_item_dWerGT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/DSC_7465.jpg",
+            "designer": "NEWHITE",
+            "style": "Val Sleeves",
+            "size": "8 - 10",
+            "price": "NOW £300"
           }
         },
         "gallery_item_nDbmwe": {
@@ -258,6 +308,16 @@
             "style": "L/S Off Shoulder Gown",
             "size": "12, 20",
             "price": "NOW £1000"
+          }
+        },
+        "gallery_item_UL4aHN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/OS_Draped_Mini_Dress_1_0205f116-4549-4ec5-bd1d-7a47f2b28feb.jpg",
+            "designer": "Alex Perry",
+            "style": "Draped Mini Dress",
+            "size": "12",
+            "price": "NOW £900"
           }
         },
         "gallery_item_fUr7Ug": {
@@ -1000,6 +1060,16 @@
             "price": "NOW £100"
           }
         },
+        "gallery_item_ypnCjW": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P43_earrings_02-1_2160x_7d5bd992-cac6-4abf-bc32-e58e6ec44a16.webp",
+            "designer": "CW",
+            "style": "The Light of the Past",
+            "size": "",
+            "price": "NOW £120"
+          }
+        },
         "gallery_item_pWD8Vf": {
           "type": "gallery_item",
           "settings": {
@@ -1296,8 +1366,13 @@
         "gallery_item_cJWnQK",
         "gallery_item_qT9pdQ",
         "gallery_item_NFjqtn",
+        "gallery_item_hfBRR3",
+        "gallery_item_yq6im9",
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
+        "gallery_item_yQwHPU",
+        "gallery_item_Wetki7",
+        "gallery_item_dWerGT",
         "gallery_item_nDbmwe",
         "gallery_item_Pqge9R",
         "gallery_item_xbW89K",
@@ -1306,6 +1381,7 @@
         "gallery_item_Rfi3da",
         "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
+        "gallery_item_UL4aHN",
         "gallery_item_fUr7Ug",
         "gallery_item_B4d9TR",
         "gallery_item_KrpVkT",
@@ -1380,6 +1456,7 @@
         "gallery_item_xHfMWQ",
         "gallery_item_MEtwkq",
         "gallery_item_BheWzW",
+        "gallery_item_ypnCjW",
         "gallery_item_pWD8Vf",
         "gallery_item_NBYmGM",
         "gallery_item_PGMW3f",
