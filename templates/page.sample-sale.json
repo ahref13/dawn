@@ -220,6 +220,16 @@
             "price": "NOW £2000"
           }
         },
+        "gallery_item_zbfmtc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0069BSS25_EMERSON_1.jpg",
+            "designer": "Alex Perry",
+            "style": "Emerson",
+            "size": "12",
+            "price": "NOW £1800"
+          }
+        },
         "gallery_item_Rfi3da": {
           "type": "gallery_item",
           "settings": {
@@ -230,14 +240,14 @@
             "price": "NOW £1200"
           }
         },
-        "gallery_item_zbfmtc": {
+        "gallery_item_zxwHYd": {
           "type": "gallery_item",
           "settings": {
-            "image": "shopify://shop_images/B0069BSS25_EMERSON_1.jpg",
+            "image": "shopify://shop_images/download.jpg",
             "designer": "Alex Perry",
-            "style": "Emerson",
+            "style": "Corset Tiered Gown",
             "size": "12",
-            "price": "NOW £1800"
+            "price": "NOW £1200"
           }
         },
         "gallery_item_X4dFhT": {
@@ -1292,8 +1302,9 @@
         "gallery_item_Pqge9R",
         "gallery_item_xbW89K",
         "gallery_item_CtU4nR",
-        "gallery_item_Rfi3da",
         "gallery_item_zbfmtc",
+        "gallery_item_Rfi3da",
+        "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
         "gallery_item_fUr7Ug",
         "gallery_item_B4d9TR",
