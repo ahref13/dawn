@@ -130,6 +130,16 @@
             "price": "NOW £1800"
           }
         },
+        "gallery_item_cJWnQK": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Rebecca_Small_4bdea880-b384-463c-af2b-7ef0eb97627f.jpg",
+            "designer": "Prea James",
+            "style": "Rebecca",
+            "size": "12",
+            "price": "NOW £1000"
+          }
+        },
         "gallery_item_qT9pdQ": {
           "type": "gallery_item",
           "settings": {
@@ -138,6 +148,16 @@
             "style": "Orla Top",
             "size": "12",
             "price": "NOW £550"
+          }
+        },
+        "gallery_item_NFjqtn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Gianna_Bowie_6.jpg",
+            "designer": "Prea James",
+            "style": "Gianna Bow",
+            "size": "O/S",
+            "price": "NOW £300"
           }
         },
         "gallery_item_rh7hNc": {
@@ -1213,7 +1233,9 @@
         "gallery_item_V8TjhX",
         "gallery_item_Kdpp8w",
         "gallery_item_gAxeEH",
+        "gallery_item_cJWnQK",
         "gallery_item_qT9pdQ",
+        "gallery_item_NFjqtn",
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
         "gallery_item_Pqge9R",
