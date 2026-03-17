@@ -210,6 +210,26 @@
             "price": "NOW £300"
           }
         },
+        "gallery_item_CtU4nR": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0077BSS25_OLIVIA_1.jpg",
+            "designer": "Alex Perry",
+            "style": "Olivia",
+            "size": "12",
+            "price": "NOW £2000"
+          }
+        },
+        "gallery_item_zbfmtc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0069BSS25_EMERSON_1.jpg",
+            "designer": "Alex Perry",
+            "style": "Emerson",
+            "size": "12",
+            "price": "NOW £1800"
+          }
+        },
         "gallery_item_fUr7Ug": {
           "type": "gallery_item",
           "settings": {
@@ -1251,6 +1271,8 @@
         "gallery_item_nDbmwe",
         "gallery_item_Pqge9R",
         "gallery_item_xbW89K",
+        "gallery_item_CtU4nR",
+        "gallery_item_zbfmtc",
         "gallery_item_fUr7Ug",
         "gallery_item_B4d9TR",
         "gallery_item_KrpVkT",
