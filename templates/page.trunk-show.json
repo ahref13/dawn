@@ -23,10 +23,23 @@
             "button_url": "shopify://pages/appointment",
             "button_text": "Book Trunk Show"
           }
+        },
+        "trunk_show_CXYPQV": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "BON BRIDÉ",
+            "collection": "The Icons",
+            "date": "30 March - 5 April",
+            "image": "shopify://shop_images/Look_11_07-08-2024_Bon_Bride0583_SML.jpg",
+            "description": "To launch our new partnership with BON BRIDÉ, we'll be welcoming a best-selling edit of pieces from the U.K. label. \n\nEnjoy 10% off all BON BRIDÉ orders throughout the trunk show.",
+            "button_url": "https://thefallbride.com/pages/appointment",
+            "button_text": "Book Trunk Show"
+          }
         }
       },
       "block_order": [
-        "trunk_show_AjAmqF"
+        "trunk_show_AjAmqF",
+        "trunk_show_CXYPQV"
       ],
       "settings": {}
     }
