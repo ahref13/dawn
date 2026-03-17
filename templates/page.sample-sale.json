@@ -400,6 +400,16 @@
             "price": "NOW £90"
           }
         },
+        "gallery_item_dTNhCN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A8732_80c4a088-df30-4132-bc77-9db455db0d6f.jpg",
+            "designer": "Harriette Gordon",
+            "style": "4.18 Ruched Circular Veil",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
         "gallery_item_dk9FQc": {
           "type": "gallery_item",
           "settings": {
@@ -1170,6 +1180,7 @@
         "gallery_item_fpn8HT",
         "gallery_item_Cy98dw",
         "gallery_item_p4QAD6",
+        "gallery_item_dTNhCN",
         "gallery_item_dk9FQc",
         "gallery_item_XJQmWg",
         "gallery_item_Kz6deN",
