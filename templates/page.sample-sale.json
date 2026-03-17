@@ -180,6 +180,16 @@
             "price": "NOW £1200"
           }
         },
+        "gallery_item_nDbmwe": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AE9F5D66-475B-43C4-8204-C8865A0FDC76.jpg",
+            "designer": "NEWHITE",
+            "style": "L.D. Sleeves",
+            "size": "O/S",
+            "price": "NOW £325"
+          }
+        },
         "gallery_item_Pqge9R": {
           "type": "gallery_item",
           "settings": {
@@ -1238,6 +1248,7 @@
         "gallery_item_NFjqtn",
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
+        "gallery_item_nDbmwe",
         "gallery_item_Pqge9R",
         "gallery_item_xbW89K",
         "gallery_item_fUr7Ug",
