@@ -340,6 +340,16 @@
             "price": "NOW £120"
           }
         },
+        "gallery_item_exapGE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_06_002.jpg",
+            "designer": "Cassandra Graham",
+            "style": "Phaedra",
+            "size": "12",
+            "price": "NOW £1600"
+          }
+        },
         "gallery_item_KrpVkT": {
           "type": "gallery_item",
           "settings": {
@@ -348,6 +358,16 @@
             "style": "Luella Mini",
             "size": "12",
             "price": "NOW £800"
+          }
+        },
+        "gallery_item_Cxiydg": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_04_050.webp",
+            "designer": "Cassandra Graham",
+            "style": "Celeste Cape",
+            "size": "",
+            "price": "NOW £750"
           }
         },
         "gallery_item_BUzFJV": {
@@ -878,26 +898,6 @@
             "style": "Chanel",
             "size": "",
             "price": "NOW £100"
-          }
-        },
-        "gallery_item_exapGE": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_06_002.jpg",
-            "designer": "Cassandra Graham",
-            "style": "Phaedra",
-            "size": "12",
-            "price": "NOW £1600"
-          }
-        },
-        "gallery_item_Cxiydg": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_04_050.webp",
-            "designer": "Cassandra Graham",
-            "style": "Celeste Cape",
-            "size": "",
-            "price": "NOW £750"
           }
         },
         "gallery_item_qCDzKF": {
@@ -1464,7 +1464,9 @@
         "gallery_item_UL4aHN",
         "gallery_item_fUr7Ug",
         "gallery_item_B4d9TR",
+        "gallery_item_exapGE",
         "gallery_item_KrpVkT",
+        "gallery_item_Cxiydg",
         "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
         "gallery_item_caBRfa",
@@ -1518,8 +1520,6 @@
         "gallery_item_V8hwKw",
         "gallery_item_KqJxrM",
         "gallery_item_xTJ7cF",
-        "gallery_item_exapGE",
-        "gallery_item_Cxiydg",
         "gallery_item_qCDzKF",
         "gallery_item_PxxLBr",
         "gallery_item_7g6mq4",
