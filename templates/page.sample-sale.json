@@ -220,6 +220,16 @@
             "price": "NOW £2000"
           }
         },
+        "gallery_item_Rfi3da": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/download_91361748-62d9-4c05-9a5e-04bacd9d761f.jpg",
+            "designer": "Alex Perry",
+            "style": "Longline Draped Column Gown",
+            "size": "12",
+            "price": "NOW £1200"
+          }
+        },
         "gallery_item_zbfmtc": {
           "type": "gallery_item",
           "settings": {
@@ -1282,6 +1292,7 @@
         "gallery_item_Pqge9R",
         "gallery_item_xbW89K",
         "gallery_item_CtU4nR",
+        "gallery_item_Rfi3da",
         "gallery_item_zbfmtc",
         "gallery_item_X4dFhT",
         "gallery_item_fUr7Ug",
