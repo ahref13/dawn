@@ -230,6 +230,16 @@
             "price": "NOW £1800"
           }
         },
+        "gallery_item_X4dFhT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/download_2_eb665577-7515-4a35-8a4d-3d80190a1a4c.jpg",
+            "designer": "Alex Perry",
+            "style": "L/S Off Shoulder Gown",
+            "size": "12, 20",
+            "price": "NOW £1000"
+          }
+        },
         "gallery_item_fUr7Ug": {
           "type": "gallery_item",
           "settings": {
@@ -1273,6 +1283,7 @@
         "gallery_item_xbW89K",
         "gallery_item_CtU4nR",
         "gallery_item_zbfmtc",
+        "gallery_item_X4dFhT",
         "gallery_item_fUr7Ug",
         "gallery_item_B4d9TR",
         "gallery_item_KrpVkT",
