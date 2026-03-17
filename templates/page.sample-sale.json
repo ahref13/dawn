@@ -290,6 +290,16 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_tGjVFc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FORLOVE_FINAL-2_copy_d0e98cb0-a54f-4e21-b73d-eb912060618c.jpg",
+            "designer": "& For Love",
+            "style": "Isolde",
+            "size": "12, 16",
+            "price": "NOW £1750"
+          }
+        },
         "gallery_item_MieJtC": {
           "type": "gallery_item",
           "settings": {
@@ -1219,6 +1229,7 @@
         "gallery_item_QmXwaA",
         "gallery_item_c3Jx4e",
         "gallery_item_KprHAb",
+        "gallery_item_tGjVFc",
         "gallery_item_MieJtC",
         "gallery_item_dyHkrB",
         "gallery_item_3CUk8G",
