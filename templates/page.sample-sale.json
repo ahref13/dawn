@@ -20,14 +20,34 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
+        "gallery_item_FcqVjX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/jara-top-jara-skirt-05_537-cortana-bridal.jpg",
+            "designer": "Cortana",
+            "style": "Jara Top",
+            "size": "12",
+            "price": "NOW £200"
+          }
+        },
+        "gallery_item_dP6RnT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Bahia-Top-Jara-skirt-1-cortana-bridal-collection-2019_53ccfbcd-36b5-44ab-b0cd-8a9898ea8b78.jpg",
+            "designer": "Cortana",
+            "style": "Bahia Top",
+            "size": "12",
+            "price": "NOW £250"
+          }
+        },
         "gallery_item_KxrXaK": {
           "type": "gallery_item",
           "settings": {
             "image": "shopify://shop_images/Bahia-Top-Jara-skirt-1-cortana-bridal-collection-2019_53ccfbcd-36b5-44ab-b0cd-8a9898ea8b78.jpg",
             "designer": "Cortana",
-            "style": "Bahia Top + Jara Skirt",
+            "style": "Jara Skirt",
             "size": "12",
-            "price": "NOW £950"
+            "price": "NOW £600"
           }
         },
         "gallery_item_D64FdR": {
@@ -1112,6 +1132,8 @@
         }
       },
       "block_order": [
+        "gallery_item_FcqVjX",
+        "gallery_item_dP6RnT",
         "gallery_item_KxrXaK",
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
