@@ -70,6 +70,16 @@
             "price": "NOW £2000"
           }
         },
+        "gallery_item_eK9VMX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SHOT_09_1111_97e517fb-dcaf-457e-bdf6-7b8e79c57c60.jpg",
+            "designer": "Katherine Tash",
+            "style": "Leona",
+            "size": "12, 18",
+            "price": "NOW £2000"
+          }
+        },
         "gallery_item_WztFh8": {
           "type": "gallery_item",
           "settings": {
@@ -78,6 +88,16 @@
             "style": "Celeste",
             "size": "12",
             "price": "NOW £1500"
+          }
+        },
+        "gallery_item_V8TjhX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Katherine-Tash-Spring-2024-Moonlight-Luna.jpg",
+            "designer": "Katherine Tash",
+            "style": "Luna (White)",
+            "size": "12",
+            "price": "NOW £2000"
           }
         },
         "gallery_item_cmfxLP": {
@@ -288,6 +308,16 @@
             "style": "Lulu Set",
             "size": "12",
             "price": "NOW £1000"
+          }
+        },
+        "gallery_item_CxGaCM": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH02_0099as_dc930196-0d68-4e24-aef5-687d23829ae5.jpg",
+            "designer": "Lola Varma",
+            "style": "Clunes",
+            "size": "12",
+            "price": "NOW £1500"
           }
         },
         "gallery_item_MEVR4W": {
@@ -1147,7 +1177,9 @@
         "gallery_item_KxrXaK",
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
+        "gallery_item_eK9VMX",
         "gallery_item_WztFh8",
+        "gallery_item_V8TjhX",
         "gallery_item_cmfxLP",
         "gallery_item_Kdpp8w",
         "gallery_item_gAxeEH",
@@ -1169,6 +1201,7 @@
         "gallery_item_KprHAb",
         "gallery_item_dyHkrB",
         "gallery_item_3CUk8G",
+        "gallery_item_CxGaCM",
         "gallery_item_MEVR4W",
         "gallery_item_cLjnKE",
         "gallery_item_UejhzL",
