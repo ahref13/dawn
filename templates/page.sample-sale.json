@@ -210,6 +210,16 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_XFiEVn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/2023_01_12_JessicaBennett_Look23_9.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Freya Bustle",
+            "size": "12",
+            "price": "NOW £700"
+          }
+        },
         "gallery_item_QmXwaA": {
           "type": "gallery_item",
           "settings": {
@@ -1121,6 +1131,7 @@
         "gallery_item_XbN8iE",
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
+        "gallery_item_XFiEVn",
         "gallery_item_QmXwaA",
         "gallery_item_c3Jx4e",
         "gallery_item_KprHAb",
