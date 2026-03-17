@@ -90,16 +90,6 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_V8TjhX": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Katherine-Tash-Spring-2024-Moonlight-Luna.jpg",
-            "designer": "Katherine Tash",
-            "style": "Luna (White)",
-            "size": "12",
-            "price": "NOW £2000"
-          }
-        },
         "gallery_item_cmfxLP": {
           "type": "gallery_item",
           "settings": {
@@ -108,6 +98,16 @@
             "style": "Isolde Overlay",
             "size": "12",
             "price": "NOW £900"
+          }
+        },
+        "gallery_item_V8TjhX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Katherine-Tash-Spring-2024-Moonlight-Luna.jpg",
+            "designer": "Katherine Tash",
+            "style": "Luna (White)",
+            "size": "12",
+            "price": "NOW £2000"
           }
         },
         "gallery_item_Kdpp8w": {
@@ -1179,8 +1179,8 @@
         "gallery_item_QDdgje",
         "gallery_item_eK9VMX",
         "gallery_item_WztFh8",
-        "gallery_item_V8TjhX",
         "gallery_item_cmfxLP",
+        "gallery_item_V8TjhX",
         "gallery_item_Kdpp8w",
         "gallery_item_gAxeEH",
         "gallery_item_qT9pdQ",
