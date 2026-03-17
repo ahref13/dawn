@@ -290,6 +290,16 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_MieJtC": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FL_2021-22-40-2.jpg",
+            "designer": "& For Love",
+            "style": "Oceans",
+            "size": "12",
+            "price": "NOW £1500"
+          }
+        },
         "gallery_item_dyHkrB": {
           "type": "gallery_item",
           "settings": {
@@ -1209,6 +1219,7 @@
         "gallery_item_QmXwaA",
         "gallery_item_c3Jx4e",
         "gallery_item_KprHAb",
+        "gallery_item_MieJtC",
         "gallery_item_dyHkrB",
         "gallery_item_3CUk8G",
         "gallery_item_684pMr",
