@@ -1,9 +1,9 @@
 {
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.10.0",
-    "@tailwindcss/cli": "^4.1.16",
+    "@tailwindcss/cli": "^4.2.2",
     "prettier": "^3.8.0",
-    "tailwindcss": "^4.1.16"
+    "tailwindcss": "^4.2.2"
   },
   "scripts": {
     "build:css": "npx @tailwindcss/cli -i ./assets/app.css -o ./assets/output.css --watch"
