@@ -79,7 +79,7 @@
   /* DARK OVERLAY */
   #tf-designers.hovering::before {
     content: '';
-    position: absolute;
+    position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.3);
     pointer-events: none;
@@ -100,7 +100,7 @@
   /* BACKGROUND FADE LAYER — MUST STAY BEHIND EVERYTHING */
   #tf-designers::after {
     content: '';
-    position: absolute;
+    position: fixed;
     inset: 0;
     background-image: var(--designer-bg);
     background-size: cover;
