@@ -520,16 +520,6 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_684pMr": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/250312_LolaVarma_SH03_0152as_0ea6b71b-07a3-4da2-a5b7-9156226c3fd6.jpg",
-            "designer": "Lola Varma",
-            "style": "Odette",
-            "size": "12",
-            "price": "NOW £1500"
-          }
-        },
         "gallery_item_CxGaCM": {
           "type": "gallery_item",
           "settings": {
@@ -1522,7 +1512,6 @@
         "gallery_item_dyHkrB",
         "gallery_item_3CUk8G",
         "gallery_item_kPjVmY",
-        "gallery_item_684pMr",
         "gallery_item_CxGaCM",
         "gallery_item_MEVR4W",
         "gallery_item_cLjnKE",
