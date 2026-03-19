@@ -150,6 +150,16 @@
             "price": "NOW £550"
           }
         },
+        "gallery_item_cVcpfp": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1736420138814-210922_Prea_James_AST_05_0977.jpg",
+            "designer": "Prea James",
+            "style": "Eden Skirt",
+            "size": "12, 22",
+            "price": "NOW £800"
+          }
+        },
         "gallery_item_NFjqtn": {
           "type": "gallery_item",
           "settings": {
@@ -1474,6 +1484,7 @@
         "gallery_item_gAxeEH",
         "gallery_item_cJWnQK",
         "gallery_item_qT9pdQ",
+        "gallery_item_cVcpfp",
         "gallery_item_NFjqtn",
         "gallery_item_hfBRR3",
         "gallery_item_yq6im9",
