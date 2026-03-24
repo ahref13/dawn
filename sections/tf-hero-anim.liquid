@@ -2,13 +2,14 @@
 <section class="relative min-h-screen w-full" id="tf-hero-section">
   {% if section.settings.image != blank %}
     {{ section.settings.image
-    | image_url: width: 2400
+    | image_url: width: 3000
     | image_tag:
-    class: 'absolute inset-0 w-full h-screen object-cover',
+    class: 'absolute inset-0 w-full h-screen max-w-none object-cover',
+    style: 'height: 100vh !important;',
     loading: 'eager',
     fetchpriority: 'high',
     decoding: 'async',
-    widths: '640, 750, 828, 960, 1080, 1280, 1440, 1600, 1920, 2048, 2400',
+    widths: '640, 750, 828, 960, 1080, 1280, 1440, 1600, 1920, 2048, 2400, 3000',
     sizes: '100vw' }}
   {% endif %}
 
