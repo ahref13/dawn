@@ -1160,6 +1160,16 @@
             "price": "NOW £95"
           }
         },
+        "gallery_item_KhdeWa": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_242_fbb68c62-3b59-415e-a7b5-7627637638b3.jpg",
+            "designer": "Talc",
+            "style": "Flora Birdcage",
+            "size": "O/S",
+            "price": "NOW £80"
+          }
+        },
         "gallery_item_fPyD9d": {
           "type": "gallery_item",
           "settings": {
@@ -1726,6 +1736,7 @@
         "gallery_item_aUVg8d",
         "gallery_item_E7EPGQ",
         "gallery_item_zpbMxt",
+        "gallery_item_KhdeWa",
         "gallery_item_fPyD9d",
         "gallery_item_jUEqyQ",
         "gallery_item_BJA6yE",
