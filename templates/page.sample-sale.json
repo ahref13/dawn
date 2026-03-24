@@ -1440,16 +1440,6 @@
             "price": "NOW £60"
           }
         },
-        "gallery_item_KQntVK": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/MIRROR-WATER-SOAK-Bath-Salts.webp",
-            "designer": "Mirror Water",
-            "style": "Bath Salts",
-            "size": "",
-            "price": "NOW £20"
-          }
-        },
         "gallery_item_RAMKGm": {
           "type": "gallery_item",
           "settings": {
@@ -1604,7 +1594,6 @@
         "gallery_item_mUFHYk",
         "gallery_item_F7z4z4",
         "gallery_item_kEDHF4",
-        "gallery_item_KQntVK",
         "gallery_item_RAMKGm"
       ],
       "name": "TF • Sample Sale",
