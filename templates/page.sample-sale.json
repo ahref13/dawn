@@ -900,6 +900,36 @@
             "price": "NOW £150"
           }
         },
+        "gallery_item_Xxa3b7": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/2024.03.30_Tanner_Fletcher_wedding_Day_21146.jpg",
+            "designer": "Tanner Fletcher",
+            "style": "Adeline Mini",
+            "size": "L",
+            "price": "NOW £550"
+          }
+        },
+        "gallery_item_HGeDHH": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/2024.03.30_Tanner_Fletcher_wedding_Day_20222.jpg",
+            "designer": "Tanner Fletcher",
+            "style": "Bow Suit - Ivory",
+            "size": "XS",
+            "price": "NOW £800"
+          }
+        },
+        "gallery_item_WhjKhq": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/2024.03.30_Tanner_Fletcher_wedding_Day_20230-1.jpg",
+            "designer": "Tanner Fletcher",
+            "style": "Bow Suit - Blue",
+            "size": "M-L",
+            "price": "NOW £800"
+          }
+        },
         "gallery_item_KqJxrM": {
           "type": "gallery_item",
           "settings": {
@@ -1570,6 +1600,9 @@
         "gallery_item_LFUGFh",
         "gallery_item_mjV77K",
         "gallery_item_V8hwKw",
+        "gallery_item_Xxa3b7",
+        "gallery_item_HGeDHH",
+        "gallery_item_WhjKhq",
         "gallery_item_KqJxrM",
         "gallery_item_xTJ7cF",
         "gallery_item_qCDzKF",
