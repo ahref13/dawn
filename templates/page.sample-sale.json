@@ -930,6 +930,106 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_LYH4XY": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/ATHENA_PEARL_DRESS_BRIDAL_1000x_a340a1ed-20da-4ba5-aace-d3ed11d1222c.jpg",
+            "designer": "Galvan",
+            "style": "Athena Pearl",
+            "size": "S, M, L",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_GmzkQG": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/nm_4274279_100189_m.jpg",
+            "designer": "Galvan",
+            "style": "Cova",
+            "size": "36, 38, 42",
+            "price": "NOW £475"
+          }
+        },
+        "gallery_item_PiaApV": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/GalvanLondon_LeithBridalBlazerDress_1_295_1_495_1_495_800x_955dfcbe-b4ea-4041-9d34-ccfd3e1b9f8a.jpg",
+            "designer": "Galvan",
+            "style": "Leith",
+            "size": "36",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_WTa6LL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/CD1146100_USHUAIADRESS_2476_600x_fd8c16f5-dc22-4848-aaa8-167bba0a641c.jpg",
+            "designer": "Galvan",
+            "style": "Cropped Ushuaia",
+            "size": "42",
+            "price": "£400"
+          }
+        },
+        "gallery_item_yPtVTk": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Cropped_Pandora_Dress_apple_1_1_af5de2b9-1e02-4a32-b1fb-f527ad3fef2b.jpg",
+            "designer": "Galvan",
+            "style": "Cropped Pandora",
+            "size": "42",
+            "price": "NOW £450"
+          }
+        },
+        "gallery_item_GwyFkj": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/DR0123_SATINMAYFAIRDRESS_WHITE_1_800x_c797f2b7-6363-4c09-b394-7db34fc7a08f.jpg",
+            "designer": "Katherine Tash",
+            "style": "Pandora",
+            "size": "36, 46",
+            "price": "NOW £650"
+          }
+        },
+        "gallery_item_jjHBeA": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/GalvanLondon_SiennaBridalJumpsuit_1_095_1_295_1_195_600x_4f717593-ea8a-46d1-9d98-5b51723b786c.jpg",
+            "designer": "Galvan",
+            "style": "Sienna Jumpsuit",
+            "size": "34, 36, 38, 40",
+            "price": "NOW £450"
+          }
+        },
+        "gallery_item_LptFNF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P00873486_b1.jpg",
+            "designer": "Galvan",
+            "style": "Iona",
+            "size": "34, 36, 38",
+            "price": "NOW £200"
+          }
+        },
+        "gallery_item_4WfxWT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/s-l1200.jpg",
+            "designer": "Katherine Tash",
+            "style": "Ushuaia",
+            "size": "34, 36, 38, 40, 44",
+            "price": "NOW £400"
+          }
+        },
+        "gallery_item_qpHdCm": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/w2000_q60.jpg",
+            "designer": "Galvan",
+            "style": "Sculpted Bridal Suit",
+            "size": "34, 36, 40",
+            "price": "NOW £750"
+          }
+        },
         "gallery_item_KqJxrM": {
           "type": "gallery_item",
           "settings": {
@@ -1603,6 +1703,16 @@
         "gallery_item_Xxa3b7",
         "gallery_item_HGeDHH",
         "gallery_item_WhjKhq",
+        "gallery_item_LYH4XY",
+        "gallery_item_GmzkQG",
+        "gallery_item_PiaApV",
+        "gallery_item_WTa6LL",
+        "gallery_item_yPtVTk",
+        "gallery_item_GwyFkj",
+        "gallery_item_jjHBeA",
+        "gallery_item_LptFNF",
+        "gallery_item_4WfxWT",
+        "gallery_item_qpHdCm",
         "gallery_item_KqJxrM",
         "gallery_item_xTJ7cF",
         "gallery_item_qCDzKF",
