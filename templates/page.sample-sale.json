@@ -1080,44 +1080,14 @@
             "price": "NOW £100"
           }
         },
-        "gallery_item_MbgY8c": {
+        "gallery_item_KhdeWa": {
           "type": "gallery_item",
           "settings": {
-            "image": "shopify://shop_images/53DAEEBB-D5BC-43F0-B3B3-7982EE6C8FD6.webp",
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_242_fbb68c62-3b59-415e-a7b5-7627637638b3.jpg",
             "designer": "Talc",
-            "style": "Lauro Birdcage with Pearls",
-            "size": "",
-            "price": "NOW £100"
-          }
-        },
-        "gallery_item_jaqN4k": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM66678.webp",
-            "designer": "Talc",
-            "style": "Luxe Minimal",
-            "size": "1-Tier Cathedral",
-            "price": "NOW £210"
-          }
-        },
-        "gallery_item_wcR8rP": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AN4642_2Bcopy.webp",
-            "designer": "Talc",
-            "style": "Margarita",
-            "size": "1-Tier Chapel",
-            "price": "NOW £290"
-          }
-        },
-        "gallery_item_GY44Q6": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/long-3.webp",
-            "designer": "Talc",
-            "style": "Minimal Veil",
-            "size": "1-Tier Shoulder",
-            "price": "NOW £30"
+            "style": "Flora Birdcage",
+            "size": "O/S",
+            "price": "NOW £80"
           }
         },
         "gallery_item_FwqhXj": {
@@ -1160,16 +1130,6 @@
             "price": "NOW £95"
           }
         },
-        "gallery_item_KhdeWa": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_242_fbb68c62-3b59-415e-a7b5-7627637638b3.jpg",
-            "designer": "Talc",
-            "style": "Flora Birdcage",
-            "size": "O/S",
-            "price": "NOW £80"
-          }
-        },
         "gallery_item_fPyD9d": {
           "type": "gallery_item",
           "settings": {
@@ -1178,6 +1138,46 @@
             "style": "Pearl Snap Clips",
             "size": "",
             "price": "NOW £55"
+          }
+        },
+        "gallery_item_MbgY8c": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/53DAEEBB-D5BC-43F0-B3B3-7982EE6C8FD6.webp",
+            "designer": "Talc",
+            "style": "Lauro Birdcage with Pearls",
+            "size": "",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_jaqN4k": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM66678.webp",
+            "designer": "Talc",
+            "style": "Luxe Minimal",
+            "size": "1-Tier Cathedral",
+            "price": "NOW £210"
+          }
+        },
+        "gallery_item_wcR8rP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AN4642_2Bcopy.webp",
+            "designer": "Talc",
+            "style": "Margarita",
+            "size": "1-Tier Chapel",
+            "price": "NOW £290"
+          }
+        },
+        "gallery_item_GY44Q6": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/long-3.webp",
+            "designer": "Talc",
+            "style": "Minimal Veil",
+            "size": "1-Tier Shoulder",
+            "price": "NOW £30"
           }
         },
         "gallery_item_jUEqyQ": {
@@ -1728,16 +1728,16 @@
         "gallery_item_qCDzKF",
         "gallery_item_PxxLBr",
         "gallery_item_7g6mq4",
-        "gallery_item_MbgY8c",
-        "gallery_item_jaqN4k",
-        "gallery_item_wcR8rP",
-        "gallery_item_GY44Q6",
+        "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
         "gallery_item_aUVg8d",
         "gallery_item_E7EPGQ",
         "gallery_item_zpbMxt",
-        "gallery_item_KhdeWa",
         "gallery_item_fPyD9d",
+        "gallery_item_MbgY8c",
+        "gallery_item_jaqN4k",
+        "gallery_item_wcR8rP",
+        "gallery_item_GY44Q6",
         "gallery_item_jUEqyQ",
         "gallery_item_BJA6yE",
         "gallery_item_AewCUh",
