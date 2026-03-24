@@ -5,7 +5,11 @@
     | image_url: width: 2400
     | image_tag:
     class: 'absolute inset-0 w-full h-screen object-cover',
-    loading: 'eager' }}
+    loading: 'eager',
+    fetchpriority: 'high',
+    decoding: 'async',
+    widths: '640, 750, 828, 960, 1080, 1280, 1440, 1600, 1920, 2048, 2400',
+    sizes: '100vw' }}
   {% endif %}
 
   {% comment %} Animated logo - only for first time or refresh {% endcomment %}
