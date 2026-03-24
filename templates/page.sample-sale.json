@@ -1130,16 +1130,6 @@
             "price": "NOW £95"
           }
         },
-        "gallery_item_fPyD9d": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_262_2fb2a771-08c9-43b9-bf31-27c772c0315e.jpg",
-            "designer": "Talc",
-            "style": "Pearl Snap Clips",
-            "size": "",
-            "price": "NOW £55"
-          }
-        },
         "gallery_item_MbgY8c": {
           "type": "gallery_item",
           "settings": {
@@ -1733,7 +1723,6 @@
         "gallery_item_aUVg8d",
         "gallery_item_E7EPGQ",
         "gallery_item_zpbMxt",
-        "gallery_item_fPyD9d",
         "gallery_item_MbgY8c",
         "gallery_item_jaqN4k",
         "gallery_item_wcR8rP",
