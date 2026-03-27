@@ -320,6 +320,16 @@
             "price": "NOW £1800"
           }
         },
+        "gallery_item_AKJpn8": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0073BSS25_MARGOT_1.jpg",
+            "designer": "Alex Perry",
+            "style": "Margot",
+            "size": "12",
+            "price": "NOW £1,500"
+          }
+        },
         "gallery_item_Rfi3da": {
           "type": "gallery_item",
           "settings": {
@@ -1692,6 +1702,7 @@
         "gallery_item_xbW89K",
         "gallery_item_CtU4nR",
         "gallery_item_zbfmtc",
+        "gallery_item_AKJpn8",
         "gallery_item_Rfi3da",
         "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
