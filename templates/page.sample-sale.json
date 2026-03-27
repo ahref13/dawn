@@ -530,6 +530,16 @@
             "price": "NOW £1200"
           }
         },
+        "gallery_item_QfVEHi": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FL_2021-22-53_e726399a-2083-480e-bc75-abf17a4ff4ab.jpg",
+            "designer": "& For Love",
+            "style": "Auldyn Crepe",
+            "size": "12, 16",
+            "price": "NOW £1,400"
+          }
+        },
         "gallery_item_3CUk8G": {
           "type": "gallery_item",
           "settings": {
@@ -1693,6 +1703,7 @@
         "gallery_item_tGjVFc",
         "gallery_item_MieJtC",
         "gallery_item_dyHkrB",
+        "gallery_item_QfVEHi",
         "gallery_item_3CUk8G",
         "gallery_item_kPjVmY",
         "gallery_item_CxGaCM",
