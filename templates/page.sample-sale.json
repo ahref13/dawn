@@ -600,6 +600,16 @@
             "price": "NOW £500"
           }
         },
+        "gallery_item_xaCWND": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH30_1647as.jpg",
+            "designer": "Lola Varma",
+            "style": "Augustine",
+            "size": "12-14",
+            "price": "NOW £1,400"
+          }
+        },
         "gallery_item_K8yPPN": {
           "type": "gallery_item",
           "settings": {
@@ -1710,6 +1720,7 @@
         "gallery_item_MEVR4W",
         "gallery_item_cLjnKE",
         "gallery_item_UejhzL",
+        "gallery_item_xaCWND",
         "gallery_item_K8yPPN",
         "gallery_item_ddeKq3",
         "gallery_item_yRB8Tk",
