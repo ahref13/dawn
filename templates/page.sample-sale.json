@@ -150,6 +150,16 @@
             "price": "NOW £550"
           }
         },
+        "gallery_item_GMbTwd": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/220712_PREA_JAMES_23_12_3278.jpg",
+            "designer": "Prea James",
+            "style": "Anouk",
+            "size": "10",
+            "price": "NOW £800"
+          }
+        },
         "gallery_item_cVcpfp": {
           "type": "gallery_item",
           "settings": {
@@ -168,6 +178,16 @@
             "style": "Gianna Bow",
             "size": "O/S",
             "price": "NOW £300"
+          }
+        },
+        "gallery_item_nxHqEe": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/404DA723-CBE1-423E-B45B-A45FDF184C42_f88a9ee6-dda4-4324-950a-615b4086715d.jpg",
+            "designer": "NEWHITE",
+            "style": "Ophelia",
+            "size": "12",
+            "price": "NOW £2,000"
           }
         },
         "gallery_item_hfBRR3": {
@@ -208,6 +228,16 @@
             "style": "Bryant",
             "size": "12",
             "price": "NOW £1200"
+          }
+        },
+        "gallery_item_AQMNby": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_BRIDAL_S135187.png",
+            "designer": "NEWHITE",
+            "style": "Aceno",
+            "size": "10, 20",
+            "price": "NOW £2,000"
           }
         },
         "gallery_item_yQwHPU": {
@@ -1625,12 +1655,15 @@
         "gallery_item_gAxeEH",
         "gallery_item_cJWnQK",
         "gallery_item_qT9pdQ",
+        "gallery_item_GMbTwd",
         "gallery_item_cVcpfp",
         "gallery_item_NFjqtn",
+        "gallery_item_nxHqEe",
         "gallery_item_hfBRR3",
         "gallery_item_yq6im9",
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
+        "gallery_item_AQMNby",
         "gallery_item_yQwHPU",
         "gallery_item_Wetki7",
         "gallery_item_dWerGT",
