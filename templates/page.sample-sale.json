@@ -1100,16 +1100,6 @@
             "price": "NOW £65"
           }
         },
-        "gallery_item_xTJ7cF": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/ChanelPearlCrown2_280x420_cefead46-4757-4dc2-8f8a-9fa2ca804ddb.webp",
-            "designer": "AURA",
-            "style": "Chanel",
-            "size": "",
-            "price": "NOW £100"
-          }
-        },
         "gallery_item_qCDzKF": {
           "type": "gallery_item",
           "settings": {
@@ -1780,7 +1770,6 @@
         "gallery_item_4WfxWT",
         "gallery_item_qpHdCm",
         "gallery_item_KqJxrM",
-        "gallery_item_xTJ7cF",
         "gallery_item_qCDzKF",
         "gallery_item_PxxLBr",
         "gallery_item_7g6mq4",
