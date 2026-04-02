@@ -23,10 +23,23 @@
             "button_url": "https://thefallbride.com/pages/appointment",
             "button_text": "Book Trunk Show"
           }
+        },
+        "trunk_show_KPfwy8": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Jessica Bennett",
+            "collection": "Sloane",
+            "date": "17 - 26 April",
+            "image": "shopify://shop_images/EmmaPilkington-JessicaBennett-previews-40_copy.jpg",
+            "description": "The 2026 Sloane collection by Jessica Bennett reimagines modern bridalwear with evolved silhouettes, balancing structure and softness to reflect how contemporary brides want to dress and celebrate. Designed for a new era, the collection blends delicate craftsmanship with versatile, fashion-led pieces that feel both timeless and effortlessly current.",
+            "button_url": "https://thefallbride.com/pages/appointment",
+            "button_text": "Book Trunk Show"
+          }
         }
       },
       "block_order": [
-        "trunk_show_CXYPQV"
+        "trunk_show_CXYPQV",
+        "trunk_show_KPfwy8"
       ],
       "settings": {}
     }
