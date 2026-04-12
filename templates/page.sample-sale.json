@@ -420,6 +420,16 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_Cxiydg": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_04_050.webp",
+            "designer": "Cassandra Graham",
+            "style": "Celeste Cape",
+            "size": "",
+            "price": "NOW £750"
+          }
+        },
         "gallery_item_BUzFJV": {
           "type": "gallery_item",
           "settings": {
@@ -736,7 +746,7 @@
             "image": "shopify://shop_images/Screenshot_2024-09-24_at_15.36.08.webp",
             "designer": "Kamperett",
             "style": "Lalique",
-            "size": "M",
+            "size": "S, M",
             "price": "NOW £800"
           }
         },
@@ -1024,9 +1034,9 @@
           "type": "gallery_item",
           "settings": {
             "image": "shopify://shop_images/DR0123_SATINMAYFAIRDRESS_WHITE_1_800x_c797f2b7-6363-4c09-b394-7db34fc7a08f.jpg",
-            "designer": "Katherine Tash",
+            "designer": "Galvan",
             "style": "Pandora",
-            "size": "36, 46",
+            "size": "36 - 46",
             "price": "NOW £650"
           }
         },
@@ -1148,6 +1158,16 @@
             "style": "Maxi Minimal",
             "size": "Ballet",
             "price": "NOW £130"
+          }
+        },
+        "gallery_item_zpbMxt": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AMFAULKNER-lisajanephoto-274.jpg",
+            "designer": "Talc",
+            "style": "Maxi Minimal Veil",
+            "size": "Fingertip",
+            "price": "NOW £95"
           }
         },
         "gallery_item_MbgY8c": {
@@ -1652,6 +1672,7 @@
         "gallery_item_cfUhih",
         "gallery_item_exapGE",
         "gallery_item_KrpVkT",
+        "gallery_item_Cxiydg",
         "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
         "gallery_item_caBRfa",
@@ -1725,6 +1746,7 @@
         "gallery_item_FwqhXj",
         "gallery_item_aUVg8d",
         "gallery_item_E7EPGQ",
+        "gallery_item_zpbMxt",
         "gallery_item_MbgY8c",
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
