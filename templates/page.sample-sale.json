@@ -390,16 +390,6 @@
             "price": "NOW £125"
           }
         },
-        "gallery_item_exapGE": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_06_002.jpg",
-            "designer": "Cassandra Graham",
-            "style": "Phaedra",
-            "size": "12",
-            "price": "NOW £1600"
-          }
-        },
         "gallery_item_KrpVkT": {
           "type": "gallery_item",
           "settings": {
@@ -1006,7 +996,7 @@
             "image": "shopify://shop_images/Cropped_Pandora_Dress_apple_1_1_af5de2b9-1e02-4a32-b1fb-f527ad3fef2b.jpg",
             "designer": "Galvan",
             "style": "Cropped Pandora",
-            "size": "42",
+            "size": "36, 42",
             "price": "NOW £450"
           }
         },
@@ -1639,7 +1629,6 @@
         "gallery_item_fUr7Ug",
         "gallery_item_B4d9TR",
         "gallery_item_cfUhih",
-        "gallery_item_exapGE",
         "gallery_item_KrpVkT",
         "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
