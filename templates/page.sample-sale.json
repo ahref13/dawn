@@ -1380,16 +1380,6 @@
             "price": "NOW £100"
           }
         },
-        "gallery_item_PGMW3f": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1723728584715-Z84-S_earrings_02-1_2160x_c123ebec-f1b8-4226-bfda-faddc4e5d295.webp",
-            "designer": "CW",
-            "style": "Z84",
-            "size": "",
-            "price": "NOW £150"
-          }
-        },
         "gallery_item_9rMQ4q": {
           "type": "gallery_item",
           "settings": {
@@ -1798,7 +1788,6 @@
         "gallery_item_ypnCjW",
         "gallery_item_pWD8Vf",
         "gallery_item_NBYmGM",
-        "gallery_item_PGMW3f",
         "gallery_item_9rMQ4q",
         "gallery_item_geEg3Y",
         "gallery_item_AF9JHe",
