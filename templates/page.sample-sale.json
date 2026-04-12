@@ -420,16 +420,6 @@
             "price": "NOW £800"
           }
         },
-        "gallery_item_Cxiydg": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_04_050.webp",
-            "designer": "Cassandra Graham",
-            "style": "Celeste Cape",
-            "size": "",
-            "price": "NOW £750"
-          }
-        },
         "gallery_item_BUzFJV": {
           "type": "gallery_item",
           "settings": {
@@ -746,7 +736,7 @@
             "image": "shopify://shop_images/Screenshot_2024-09-24_at_15.36.08.webp",
             "designer": "Kamperett",
             "style": "Lalique",
-            "size": "S, M",
+            "size": "M",
             "price": "NOW £800"
           }
         },
@@ -1672,7 +1662,6 @@
         "gallery_item_cfUhih",
         "gallery_item_exapGE",
         "gallery_item_KrpVkT",
-        "gallery_item_Cxiydg",
         "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
         "gallery_item_caBRfa",
