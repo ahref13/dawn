@@ -690,16 +690,6 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_p4QAD6": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2021-08-03_at_2.22.26_PM_c5f7e9de-840d-4d98-97bd-106cff227cd4.jpg",
-            "designer": "Harriette Gordon",
-            "style": "5.3 Circular",
-            "size": "",
-            "price": "NOW £90"
-          }
-        },
         "gallery_item_dTNhCN": {
           "type": "gallery_item",
           "settings": {
@@ -1188,16 +1178,6 @@
             "style": "Lauro Birdcage with Pearls",
             "size": "",
             "price": "NOW £100"
-          }
-        },
-        "gallery_item_jaqN4k": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM66678.webp",
-            "designer": "Talc",
-            "style": "Luxe Minimal",
-            "size": "1-Tier Cathedral",
-            "price": "NOW £210"
           }
         },
         "gallery_item_wcR8rP": {
@@ -1719,7 +1699,6 @@
         "gallery_item_cr9MpL",
         "gallery_item_fpn8HT",
         "gallery_item_Cy98dw",
-        "gallery_item_p4QAD6",
         "gallery_item_dTNhCN",
         "gallery_item_dk9FQc",
         "gallery_item_XJQmWg",
@@ -1769,7 +1748,6 @@
         "gallery_item_E7EPGQ",
         "gallery_item_zpbMxt",
         "gallery_item_MbgY8c",
-        "gallery_item_jaqN4k",
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
         "gallery_item_jUEqyQ",
