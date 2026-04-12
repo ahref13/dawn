@@ -120,16 +120,6 @@
             "price": "NOW £1800"
           }
         },
-        "gallery_item_gAxeEH": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/200807_PREAJAMESBRIDAL_13_0184_a9ed70d7-8ee7-4fcb-b8cb-742a8b0a5ca7.jpg",
-            "designer": "Prea James",
-            "style": "Amelie",
-            "size": "12",
-            "price": "NOW £1800"
-          }
-        },
         "gallery_item_cJWnQK": {
           "type": "gallery_item",
           "settings": {
@@ -1622,7 +1612,6 @@
         "gallery_item_cmfxLP",
         "gallery_item_V8TjhX",
         "gallery_item_Kdpp8w",
-        "gallery_item_gAxeEH",
         "gallery_item_cJWnQK",
         "gallery_item_qT9pdQ",
         "gallery_item_GMbTwd",
