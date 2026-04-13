@@ -1549,46 +1549,6 @@
             "size": "",
             "price": "NOW £60"
           }
-        },
-        "gallery_item_9776CF": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/220715_SolaceLondon_SS23_29_029_R1_2048x2048_d4bcbf4f-3b28-4e2d-bdd4-9af563768e9e.webp",
-            "designer": "Solace",
-            "style": "Dakota",
-            "size": "8",
-            "price": "NOW £95"
-          }
-        },
-        "gallery_item_rHk6fU": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/s-l400.jpg",
-            "designer": "Solace",
-            "style": "Lula",
-            "size": "6, 8, 10",
-            "price": "NOW £75"
-          }
-        },
-        "gallery_item_hGWLmy": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Sleeper_SH2101P_PartyPajamaSetwithFeathersinWhite.webp",
-            "designer": "Sleeper",
-            "style": "Party PJs",
-            "size": "XL",
-            "price": "NOW £100"
-          }
-        },
-        "gallery_item_RAMKGm": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/BodyTape_6.webp",
-            "designer": "BOOMBA",
-            "style": "Body Tape - Taupe, Cocoa",
-            "size": "",
-            "price": "NOW £5"
-          }
         }
       },
       "block_order": [
@@ -1744,11 +1704,7 @@
         "gallery_item_jewNLp",
         "gallery_item_mUFHYk",
         "gallery_item_F7z4z4",
-        "gallery_item_kEDHF4",
-        "gallery_item_9776CF",
-        "gallery_item_rHk6fU",
-        "gallery_item_hGWLmy",
-        "gallery_item_RAMKGm"
+        "gallery_item_kEDHF4"
       ],
       "name": "TF • Sample Sale",
       "settings": {
