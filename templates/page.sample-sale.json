@@ -90,6 +90,16 @@
             "price": "NOW £2000"
           }
         },
+        "gallery_item_dgYyeP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-07-19_at_17.02.39_3f607395-7bf4-4b53-95c0-b0c01f1a3d90.png",
+            "designer": "Katherine Tash",
+            "style": "Aruna",
+            "size": "12",
+            "price": "NOW £2000"
+          }
+        },
         "gallery_item_V8TjhX": {
           "type": "gallery_item",
           "settings": {
@@ -959,6 +969,7 @@
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
         "gallery_item_eK9VMX",
+        "gallery_item_dgYyeP",
         "gallery_item_V8TjhX",
         "gallery_item_cJWnQK",
         "gallery_item_GMbTwd",
