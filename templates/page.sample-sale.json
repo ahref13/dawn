@@ -300,26 +300,6 @@
             "price": "NOW £900"
           }
         },
-        "gallery_item_fUr7Ug": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/download_4_66c4de73-6aa7-4b95-9c88-92001e5bfa23.jpg",
-            "designer": "Alex Perry",
-            "style": "Crystal Mesh Set",
-            "size": "12",
-            "price": "NOW £950"
-          }
-        },
-        "gallery_item_B4d9TR": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/B0078BSS25_LAUREL_1.webp",
-            "designer": "Alex Perry",
-            "style": "Mesh Gloves",
-            "size": "S",
-            "price": "NOW £120"
-          }
-        },
         "gallery_item_cfUhih": {
           "type": "gallery_item",
           "settings": {
@@ -390,26 +370,6 @@
             "price": "NOW £700"
           }
         },
-        "gallery_item_QmXwaA": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_55681952022AGNESBLACKCOPYRIGHT_bf31d26c-8323-484d-88e5-2c8c629502a7.jpg",
-            "designer": "Jessica Bennett",
-            "style": "Magda",
-            "size": "10",
-            "price": "NOW £600"
-          }
-        },
-        "gallery_item_c3Jx4e": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/JB23-295.jpg",
-            "designer": "Jessica Bennett",
-            "style": "Alexa Bow",
-            "size": "12",
-            "price": "NOW £330"
-          }
-        },
         "gallery_item_KprHAb": {
           "type": "gallery_item",
           "settings": {
@@ -438,16 +398,6 @@
             "style": "Oceans",
             "size": "12",
             "price": "NOW £1500"
-          }
-        },
-        "gallery_item_dyHkrB": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/FL_2021-22-53_e726399a-2083-480e-bc75-abf17a4ff4ab.jpg",
-            "designer": "& For Love",
-            "style": "Auldyn Linen",
-            "size": "10 - 12",
-            "price": "NOW £1200"
           }
         },
         "gallery_item_QfVEHi": {
@@ -490,36 +440,6 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_MEVR4W": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/250312_LolaVarma_SH46_2526as_6b165d20-d85b-49ab-9b5b-6aba6401be25.jpg",
-            "designer": "Lola Varma",
-            "style": "Romi Overlay",
-            "size": "12",
-            "price": "NOW £500"
-          }
-        },
-        "gallery_item_cLjnKE": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/250312_LolaVarma_SH46_2526as.jpg",
-            "designer": "Lola Varma",
-            "style": "Romi Overlay",
-            "size": "8",
-            "price": "300"
-          }
-        },
-        "gallery_item_UejhzL": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/250312_LolaVarma_SH54_3209as_153bbd6e-28f7-4d8d-9be7-91b2347bc875.jpg",
-            "designer": "Lola Varma",
-            "style": "Robin Overlay",
-            "size": "10",
-            "price": "NOW £500"
-          }
-        },
         "gallery_item_xaCWND": {
           "type": "gallery_item",
           "settings": {
@@ -528,76 +448,6 @@
             "style": "Augustine",
             "size": "12-14",
             "price": "NOW £1,400"
-          }
-        },
-        "gallery_item_K8yPPN": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/220603_LV_Shoot_46_0726s.jpg",
-            "designer": "Lola Varma",
-            "style": "Stone Blouse",
-            "size": "12",
-            "price": "NOW £300"
-          }
-        },
-        "gallery_item_ddeKq3": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/220603_LV_Shoot_46_0778-5s.jpg",
-            "designer": "Lola Varma",
-            "style": "Delfina Skirt",
-            "size": "10",
-            "price": "NOW £900"
-          }
-        },
-        "gallery_item_yRB8Tk": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/3d375b_f739c48e10da4c87ac0fab58719a8516_mv2.webp",
-            "designer": "Lola Varma",
-            "style": "Saana Cami",
-            "size": "12",
-            "price": "NOW £165"
-          }
-        },
-        "gallery_item_dfVQAT": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/lolavarma0497.webp",
-            "designer": "Lola Varma",
-            "style": "Beverly Belt",
-            "size": "M-L",
-            "price": "NOW £80"
-          }
-        },
-        "gallery_item_cr9MpL": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Gloves.webp",
-            "designer": "Lola Varma",
-            "style": "Daisy Gloves",
-            "size": "",
-            "price": "NOW £110"
-          }
-        },
-        "gallery_item_fpn8HT": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/0G3A5121_f35a5be1-b6ad-4b86-97ef-3d7397198c81.jpg",
-            "designer": "Harriette Gordon",
-            "style": "1.7 Violet Slip",
-            "size": "14",
-            "price": "NOW £800"
-          }
-        },
-        "gallery_item_Cy98dw": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/0G3A7872_43ec7af4-12c9-4a3c-bf80-4c98125b1c13.jpg",
-            "designer": "Harriette Gordon",
-            "style": "2.9a Blanca",
-            "size": "12",
-            "price": "NOW £1500"
           }
         },
         "gallery_item_dTNhCN": {
@@ -618,26 +468,6 @@
             "style": "4.5 Pearl",
             "size": "",
             "price": "NOW £250"
-          }
-        },
-        "gallery_item_XJQmWg": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/02_8071_0e9983b0-43fe-41e4-8ca9-286e6a65fd57.jpg",
-            "designer": "Harriette Gordon",
-            "style": "7.5 Bow",
-            "size": "",
-            "price": "NOW £90"
-          }
-        },
-        "gallery_item_Kz6deN": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1738078576646-IMG_3731.webp",
-            "designer": "Harriette Gordon",
-            "style": "7.25 Paloma Gloves",
-            "size": "",
-            "price": "NOW £200"
           }
         },
         "gallery_item_C8VPGc": {
@@ -1340,8 +1170,6 @@
         "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
-        "gallery_item_fUr7Ug",
-        "gallery_item_B4d9TR",
         "gallery_item_cfUhih",
         "gallery_item_KrpVkT",
         "gallery_item_BUzFJV",
@@ -1349,31 +1177,16 @@
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
         "gallery_item_XFiEVn",
-        "gallery_item_QmXwaA",
-        "gallery_item_c3Jx4e",
         "gallery_item_KprHAb",
         "gallery_item_tGjVFc",
         "gallery_item_MieJtC",
-        "gallery_item_dyHkrB",
         "gallery_item_QfVEHi",
         "gallery_item_3CUk8G",
         "gallery_item_kPjVmY",
         "gallery_item_CxGaCM",
-        "gallery_item_MEVR4W",
-        "gallery_item_cLjnKE",
-        "gallery_item_UejhzL",
         "gallery_item_xaCWND",
-        "gallery_item_K8yPPN",
-        "gallery_item_ddeKq3",
-        "gallery_item_yRB8Tk",
-        "gallery_item_dfVQAT",
-        "gallery_item_cr9MpL",
-        "gallery_item_fpn8HT",
-        "gallery_item_Cy98dw",
         "gallery_item_dTNhCN",
         "gallery_item_dk9FQc",
-        "gallery_item_XJQmWg",
-        "gallery_item_Kz6deN",
         "gallery_item_C8VPGc",
         "gallery_item_9YfwM9",
         "gallery_item_3bbmD3",
