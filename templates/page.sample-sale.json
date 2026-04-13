@@ -90,16 +90,6 @@
             "price": "NOW £2000"
           }
         },
-        "gallery_item_cmfxLP": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/SHOT_07_0873.jpg",
-            "designer": "Katherine Tash",
-            "style": "Isolde Overlay",
-            "size": "12",
-            "price": "NOW £900"
-          }
-        },
         "gallery_item_V8TjhX": {
           "type": "gallery_item",
           "settings": {
@@ -110,16 +100,6 @@
             "price": "NOW £2000"
           }
         },
-        "gallery_item_Kdpp8w": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/dfd528_039146ed23a3472fb3700540cc22f585_mv2_c6fd8a55-caae-47a7-8a05-4a57b4a076a1.jpg",
-            "designer": "Katherine Tash",
-            "style": "Bennet",
-            "size": "10",
-            "price": "NOW £1800"
-          }
-        },
         "gallery_item_cJWnQK": {
           "type": "gallery_item",
           "settings": {
@@ -128,16 +108,6 @@
             "style": "Rebecca",
             "size": "12",
             "price": "NOW £1000"
-          }
-        },
-        "gallery_item_qT9pdQ": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/220712_PREA_JAMES_23_05_1560.jpg",
-            "designer": "Prea James",
-            "style": "Orla Top",
-            "size": "12",
-            "price": "NOW £550"
           }
         },
         "gallery_item_GMbTwd": {
@@ -158,16 +128,6 @@
             "style": "Eden Skirt",
             "size": "12, 22",
             "price": "NOW £800"
-          }
-        },
-        "gallery_item_NFjqtn": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/PJB_Gianna_Bowie_6.jpg",
-            "designer": "Prea James",
-            "style": "Gianna Bow",
-            "size": "O/S",
-            "price": "NOW £300"
           }
         },
         "gallery_item_nxHqEe": {
@@ -268,26 +228,6 @@
             "style": "L.D. Sleeves",
             "size": "O/S",
             "price": "NOW £325"
-          }
-        },
-        "gallery_item_Pqge9R": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/32005434474651-5.webp",
-            "designer": "NEWHITE",
-            "style": "R. Sleeves",
-            "size": "S",
-            "price": "NOW £300"
-          }
-        },
-        "gallery_item_xbW89K": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1694180071339-NEWHITE_9CO_32013_result.webp",
-            "designer": "NEWHITE",
-            "style": "W Sleeves",
-            "size": "",
-            "price": "NOW £300"
           }
         },
         "gallery_item_CtU4nR": {
@@ -1379,14 +1319,10 @@
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
         "gallery_item_eK9VMX",
-        "gallery_item_cmfxLP",
         "gallery_item_V8TjhX",
-        "gallery_item_Kdpp8w",
         "gallery_item_cJWnQK",
-        "gallery_item_qT9pdQ",
         "gallery_item_GMbTwd",
         "gallery_item_cVcpfp",
-        "gallery_item_NFjqtn",
         "gallery_item_nxHqEe",
         "gallery_item_hfBRR3",
         "gallery_item_yq6im9",
@@ -1397,8 +1333,6 @@
         "gallery_item_Wetki7",
         "gallery_item_dWerGT",
         "gallery_item_nDbmwe",
-        "gallery_item_Pqge9R",
-        "gallery_item_xbW89K",
         "gallery_item_CtU4nR",
         "gallery_item_zbfmtc",
         "gallery_item_AKJpn8",
