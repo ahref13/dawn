@@ -180,6 +180,16 @@
             "price": "NOW £200"
           }
         },
+        "gallery_item_nDbmwe": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AE9F5D66-475B-43C4-8204-C8865A0FDC76.jpg",
+            "designer": "NEWHITE",
+            "style": "L.D. Sleeves",
+            "size": "O/S",
+            "price": "NOW £325"
+          }
+        },
         "gallery_item_rh7hNc": {
           "type": "gallery_item",
           "settings": {
@@ -240,14 +250,14 @@
             "price": "NOW £300"
           }
         },
-        "gallery_item_nDbmwe": {
+        "gallery_item_dDBbhk": {
           "type": "gallery_item",
           "settings": {
-            "image": "shopify://shop_images/AE9F5D66-475B-43C4-8204-C8865A0FDC76.jpg",
+            "image": "shopify://shop_images/newhite-2_web.jpg",
             "designer": "NEWHITE",
-            "style": "L.D. Sleeves",
-            "size": "O/S",
-            "price": "NOW £325"
+            "style": "Fate",
+            "size": "12",
+            "price": "NOW £1200"
           }
         },
         "gallery_item_CtU4nR": {
@@ -988,13 +998,14 @@
         "gallery_item_nxHqEe",
         "gallery_item_hfBRR3",
         "gallery_item_yq6im9",
+        "gallery_item_nDbmwe",
         "gallery_item_rh7hNc",
         "gallery_item_jLC9H6",
         "gallery_item_AQMNby",
         "gallery_item_yQwHPU",
         "gallery_item_Wetki7",
         "gallery_item_dWerGT",
-        "gallery_item_nDbmwe",
+        "gallery_item_dDBbhk",
         "gallery_item_CtU4nR",
         "gallery_item_zbfmtc",
         "gallery_item_AKJpn8",
