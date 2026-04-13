@@ -1010,76 +1010,6 @@
             "price": "NOW £650"
           }
         },
-        "gallery_item_jjHBeA": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/GalvanLondon_SiennaBridalJumpsuit_1_095_1_295_1_195_600x_4f717593-ea8a-46d1-9d98-5b51723b786c.jpg",
-            "designer": "Galvan",
-            "style": "Sienna Jumpsuit",
-            "size": "34, 36, 38, 40",
-            "price": "NOW £450"
-          }
-        },
-        "gallery_item_LptFNF": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/P00873486_b1.jpg",
-            "designer": "Galvan",
-            "style": "Iona",
-            "size": "34, 36, 38",
-            "price": "NOW £200"
-          }
-        },
-        "gallery_item_4WfxWT": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/s-l1200.jpg",
-            "designer": "Katherine Tash",
-            "style": "Ushuaia",
-            "size": "34, 36, 38, 40, 44",
-            "price": "NOW £400"
-          }
-        },
-        "gallery_item_qpHdCm": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/w2000_q60.jpg",
-            "designer": "Galvan",
-            "style": "Sculpted Bridal Suit",
-            "size": "34, 36, 40",
-            "price": "NOW £750"
-          }
-        },
-        "gallery_item_KqJxrM": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/upload-1.webp",
-            "designer": "AURA",
-            "style": "Gwendolyn (Ivory)",
-            "size": "",
-            "price": "NOW £65"
-          }
-        },
-        "gallery_item_qCDzKF": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_109.jpg",
-            "designer": "Talc",
-            "style": "Ray Cape",
-            "size": "",
-            "price": "NOW £250"
-          }
-        },
-        "gallery_item_PxxLBr": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_119.jpg",
-            "designer": "Talc",
-            "style": "Confetti Veil",
-            "size": "1-Tier Chapel",
-            "price": "NOW £120"
-          }
-        },
         "gallery_item_7g6mq4": {
           "type": "gallery_item",
           "settings": {
@@ -1541,13 +1471,6 @@
         "gallery_item_WTa6LL",
         "gallery_item_yPtVTk",
         "gallery_item_GwyFkj",
-        "gallery_item_jjHBeA",
-        "gallery_item_LptFNF",
-        "gallery_item_4WfxWT",
-        "gallery_item_qpHdCm",
-        "gallery_item_KqJxrM",
-        "gallery_item_qCDzKF",
-        "gallery_item_PxxLBr",
         "gallery_item_7g6mq4",
         "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
