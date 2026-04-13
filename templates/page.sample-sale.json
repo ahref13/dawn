@@ -1130,16 +1130,6 @@
             "price": "NOW £130"
           }
         },
-        "gallery_item_MbgY8c": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/53DAEEBB-D5BC-43F0-B3B3-7982EE6C8FD6.webp",
-            "designer": "Talc",
-            "style": "Lauro Birdcage with Pearls",
-            "size": "",
-            "price": "NOW £100"
-          }
-        },
         "gallery_item_wcR8rP": {
           "type": "gallery_item",
           "settings": {
@@ -1430,106 +1420,6 @@
             "price": "NOW £25"
           }
         },
-        "gallery_item_YVp9iC": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Lelet1607copy_800x_0fcf00bc-8131-4833-af09-e0cf5da3e4ae.webp",
-            "designer": "Lelet NY",
-            "style": "Poppies Halo",
-            "size": "",
-            "price": "NOW £125"
-          }
-        },
-        "gallery_item_ATznU9": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/February13_2023at10_37AM2693_800x_3e590ba6-926e-4374-b685-a8a46af2bc4e.webp",
-            "designer": "Lelet NY",
-            "style": "Double Headband",
-            "size": "",
-            "price": "NOW £90"
-          }
-        },
-        "gallery_item_FDYXWk": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/halo3_800x_ba862e82-761a-427f-9046-a9f429a543bd.webp",
-            "designer": "Lelet NY",
-            "style": "Elle Halo",
-            "size": "",
-            "price": "NOW £100"
-          }
-        },
-        "gallery_item_FmrhPh": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/February13_2023at10_37AM4233_800x_51c1d04d-e216-4401-ad2a-87d3fc646f13.webp",
-            "designer": "Lelet NY",
-            "style": "Maci Headband",
-            "size": "",
-            "price": "NOW £75"
-          }
-        },
-        "gallery_item_dEV6AA": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/LELET_HE_23_229_1000x_efe58252-0772-41ed-ab17-b57df5a292b8.webp",
-            "designer": "Lelet NY",
-            "style": "Pin Pearl Halo",
-            "size": "",
-            "price": "NOW £60"
-          }
-        },
-        "gallery_item_7DgqBR": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Untitled8-4_800x_53048ba1-02f4-4de4-8fcf-af6de7a3718d.webp",
-            "designer": "Lelet NY",
-            "style": "Ada Crystal Headband",
-            "size": "",
-            "price": "NOW £50"
-          }
-        },
-        "gallery_item_Ld8XgQ": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/1.webp",
-            "designer": "Lelet NY",
-            "style": "Penelope Headband",
-            "size": "",
-            "price": "NOW £95"
-          }
-        },
-        "gallery_item_aVQQUp": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1726234897749-LELSS24-1777_800x_c8bc26d1-6623-4695-afcc-03e1ee34adbb.webp",
-            "designer": "Lelet NY",
-            "style": "Aria Double Headband",
-            "size": "",
-            "price": "NOW £100"
-          }
-        },
-        "gallery_item_jewNLp": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Green_Travel_Agency_Flyer.webp",
-            "designer": "Katherine Tash",
-            "style": "Lunar Headband",
-            "size": "",
-            "price": "NOW £65"
-          }
-        },
-        "gallery_item_mUFHYk": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design.webp",
-            "designer": "Lelet NY",
-            "style": "Figure Eight Halo",
-            "size": "",
-            "price": "NOW £85"
-          }
-        },
         "gallery_item_F7z4z4": {
           "type": "gallery_item",
           "settings": {
@@ -1663,7 +1553,6 @@
         "gallery_item_FwqhXj",
         "gallery_item_aUVg8d",
         "gallery_item_E7EPGQ",
-        "gallery_item_MbgY8c",
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
         "gallery_item_jUEqyQ",
@@ -1693,16 +1582,6 @@
         "gallery_item_Mhzq7h",
         "gallery_item_CHNCbn",
         "gallery_item_9X8DA7",
-        "gallery_item_YVp9iC",
-        "gallery_item_ATznU9",
-        "gallery_item_FDYXWk",
-        "gallery_item_FmrhPh",
-        "gallery_item_dEV6AA",
-        "gallery_item_7DgqBR",
-        "gallery_item_Ld8XgQ",
-        "gallery_item_aVQQUp",
-        "gallery_item_jewNLp",
-        "gallery_item_mUFHYk",
         "gallery_item_F7z4z4",
         "gallery_item_kEDHF4"
       ],
