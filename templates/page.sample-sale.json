@@ -669,56 +669,6 @@
             "size": "1-Tier Shoulder",
             "price": "NOW £30"
           }
-        },
-        "gallery_item_Mhzq7h": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/NURIA_EARRINGS_SILVER_PEARL.jpg",
-            "designer": "Shyla",
-            "style": "Nuria - Silver",
-            "size": "",
-            "price": "NOW £28"
-          }
-        },
-        "gallery_item_CHNCbn": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/PERINILLE_PEARL.webp",
-            "designer": "Shyla",
-            "style": "Pernille",
-            "size": "",
-            "price": "NOW £32"
-          }
-        },
-        "gallery_item_9X8DA7": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/josephine-pearl.webp",
-            "designer": "Shyla",
-            "style": "Josephine",
-            "size": "",
-            "price": "NOW £25"
-          }
-        },
-        "gallery_item_F7z4z4": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1749819588174-JODIE1_800x_75e9b7ca-74f3-46bb-93fb-896d928ffe7c.webp",
-            "designer": "Lelet NY",
-            "style": "Jodi Crystal Earrings",
-            "size": "",
-            "price": "NOW £75"
-          }
-        },
-        "gallery_item_kEDHF4": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1726576087907-IMG_0103.webp",
-            "designer": "Lelet NY",
-            "style": "Mary Jane Earrings",
-            "size": "",
-            "price": "NOW £60"
-          }
         }
       },
       "block_order": [
@@ -786,12 +736,7 @@
         "gallery_item_FwqhXj",
         "gallery_item_aUVg8d",
         "gallery_item_wcR8rP",
-        "gallery_item_GY44Q6",
-        "gallery_item_Mhzq7h",
-        "gallery_item_CHNCbn",
-        "gallery_item_9X8DA7",
-        "gallery_item_F7z4z4",
-        "gallery_item_kEDHF4"
+        "gallery_item_GY44Q6"
       ],
       "name": "TF • Sample Sale",
       "settings": {
