@@ -140,6 +140,16 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_9MVTmq": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Prea_James_Bridal-2-Yolanda.jpg",
+            "designer": "Prea James Studio",
+            "style": "Yolanda w/Scarf",
+            "size": "12",
+            "price": "NOW £3000"
+          }
+        },
         "gallery_item_nxHqEe": {
           "type": "gallery_item",
           "settings": {
@@ -974,6 +984,7 @@
         "gallery_item_cJWnQK",
         "gallery_item_GMbTwd",
         "gallery_item_cVcpfp",
+        "gallery_item_9MVTmq",
         "gallery_item_nxHqEe",
         "gallery_item_hfBRR3",
         "gallery_item_yq6im9",
