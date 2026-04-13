@@ -627,7 +627,7 @@
             "designer": "Talc",
             "style": "Flora Birdcage",
             "size": "O/S",
-            "price": "NOW £80"
+            "price": "NOW £100"
           }
         },
         "gallery_item_FwqhXj": {
@@ -648,16 +648,6 @@
             "style": "Ribbon Pins (2)",
             "size": "",
             "price": "NOW £85"
-          }
-        },
-        "gallery_item_E7EPGQ": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AMFAULKNER-lisajanephoto-477.jpg",
-            "designer": "Talc",
-            "style": "Maxi Minimal",
-            "size": "Ballet",
-            "price": "NOW £130"
           }
         },
         "gallery_item_wcR8rP": {
@@ -1035,7 +1025,6 @@
         "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
         "gallery_item_aUVg8d",
-        "gallery_item_E7EPGQ",
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
         "gallery_item_jUEqyQ",
