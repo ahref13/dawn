@@ -340,6 +340,16 @@
             "price": "NOW £125"
           }
         },
+        "gallery_item_krRaXt": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/20240321_CASSANDRA_GRAHAM_01_037.jpg",
+            "designer": "Cassandra Graham",
+            "style": "Paloma Overlay",
+            "size": "12",
+            "price": "NOW £750"
+          }
+        },
         "gallery_item_KrpVkT": {
           "type": "gallery_item",
           "settings": {
@@ -704,6 +714,7 @@
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
         "gallery_item_cfUhih",
+        "gallery_item_krRaXt",
         "gallery_item_KrpVkT",
         "gallery_item_BUzFJV",
         "gallery_item_XbN8iE",
