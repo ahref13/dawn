@@ -130,6 +130,16 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_4HyPaF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/210922_Prea_James_AST_03_0553.jpg",
+            "designer": "Prea James",
+            "style": "Isobel",
+            "size": "12",
+            "price": "NOW £1500"
+          }
+        },
         "gallery_item_cVcpfp": {
           "type": "gallery_item",
           "settings": {
@@ -683,6 +693,7 @@
         "gallery_item_V8TjhX",
         "gallery_item_cJWnQK",
         "gallery_item_GMbTwd",
+        "gallery_item_4HyPaF",
         "gallery_item_cVcpfp",
         "gallery_item_9MVTmq",
         "gallery_item_nxHqEe",
