@@ -110,16 +110,6 @@
             "price": "NOW £2000"
           }
         },
-        "gallery_item_cJWnQK": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Rebecca_Small_4bdea880-b384-463c-af2b-7ef0eb97627f.jpg",
-            "designer": "Prea James",
-            "style": "Rebecca",
-            "size": "12",
-            "price": "NOW £1000"
-          }
-        },
         "gallery_item_GMbTwd": {
           "type": "gallery_item",
           "settings": {
@@ -691,7 +681,6 @@
         "gallery_item_eK9VMX",
         "gallery_item_dgYyeP",
         "gallery_item_V8TjhX",
-        "gallery_item_cJWnQK",
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
         "gallery_item_cVcpfp",
