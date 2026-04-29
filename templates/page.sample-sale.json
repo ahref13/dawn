@@ -110,6 +110,16 @@
             "price": "NOW £2000"
           }
         },
+        "gallery_item_z6fAxx": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Prea_James_Bridal-Nina_1_834b49aa-bd12-4b28-8ef7-3df179d7f5e4.jpg",
+            "designer": "Prea James",
+            "style": "Nina",
+            "size": "12 (NEW)",
+            "price": "£2600"
+          }
+        },
         "gallery_item_GMbTwd": {
           "type": "gallery_item",
           "settings": {
@@ -681,6 +691,7 @@
         "gallery_item_eK9VMX",
         "gallery_item_dgYyeP",
         "gallery_item_V8TjhX",
+        "gallery_item_z6fAxx",
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
         "gallery_item_cVcpfp",
