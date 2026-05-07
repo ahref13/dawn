@@ -1,2 +1,5 @@
 @import "tailwindcss";
-@config "../tailwind.config.js";
+@source "../layout";
+@source "../sections";
+@source "../snippets";
+@source "../templates";

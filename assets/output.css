@@ -384,9 +384,6 @@
   .mb-24 {
     margin-bottom: calc(var(--spacing) * 24);
   }
-  .mb-\[42px\] {
-    margin-bottom: 42px;
-  }
   .-ml-11 {
     margin-left: calc(var(--spacing) * -11);
   }
@@ -625,6 +622,12 @@
       margin-block-start: calc(calc(var(--spacing) * 6) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse)));
     }
+  }
+  .gap-x-\[15px\] {
+    column-gap: 15px;
+  }
+  .gap-y-\[42px\] {
+    row-gap: 42px;
   }
   .self-end {
     align-self: flex-end;
