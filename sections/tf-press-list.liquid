@@ -13,39 +13,31 @@
     </div>
   </div>
 
-  {% comment %} Featured press items — 2-column, larger {% endcomment %}
-  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]" id="tf-press-featured">
-    {% for article in shop.metaobjects.press_article.values %}
-      {% if article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
-        <div class="col-span-1 md:col-span-2 flex flex-col">
-          {% render 'tf-press-card', article: article %}
-        </div>
-      {% endif %}
+  {% comment %} First row — 2 most recent items, larger {% endcomment %}
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[15px] md:pb-[20px] lg:pb-[40px]">
+    {% for article in shop.metaobjects.press_article.values limit: 2 %}
+      <div class="col-span-1 md:col-span-2 flex flex-col">
+        {% render 'tf-press-card', article: article %}
+      </div>
     {% endfor %}
   </div>
 
-  {% comment %} Press grid — remaining items, 3 per row {% endcomment %}
+  {% comment %} Remaining items — 4 per row, matching curve-edit grid {% endcomment %}
   {% assign items_per_page = section.settings.items_per_page %}
-  <div class="w-full grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]" id="tf-press-grid">
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]" id="tf-press-grid">
     {% assign index = 0 %}
-    {% for article in shop.metaobjects.press_article.values %}
-      {% unless article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
-        <div class="tf-press-grid-item col-span-1 md:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
-          {% render 'tf-press-card', article: article %}
-        </div>
-        {% assign index = index | plus: 1 %}
-      {% endunless %}
+    {% for article in shop.metaobjects.press_article.values offset: 2 %}
+      <div class="tf-press-grid-item col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
+        {% render 'tf-press-card', article: article %}
+      </div>
+      {% assign index = index | plus: 1 %}
     {% endfor %}
   </div>
 
   {% comment %} Load More button {% endcomment %}
-  {% assign non_featured_count = 0 %}
-  {% for article in shop.metaobjects.press_article.values %}
-    {% unless article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
-      {% assign non_featured_count = non_featured_count | plus: 1 %}
-    {% endunless %}
-  {% endfor %}
-  {% if non_featured_count > items_per_page %}
+  {% assign total = shop.metaobjects.press_article.values.size %}
+  {% assign remaining = total | minus: 2 %}
+  {% if remaining > items_per_page %}
     <div class="text-center pb-[60px]" id="tf-press-load-more-wrap">
       <button type="button" id="tf-press-load-more" class="font-sm underline text-black bg-transparent border-none cursor-pointer">
         Load More
@@ -117,9 +109,9 @@
     {
       "type": "range",
       "id": "items_per_page",
-      "min": 6,
+      "min": 4,
       "max": 24,
-      "step": 3,
+      "step": 4,
       "label": "Items shown before 'Load More'",
       "default": 12
     }
