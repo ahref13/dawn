@@ -18,7 +18,7 @@
     {% assign count = 0 %}
     {% assign max = section.settings.max_items %}
     {% for article in shop.metaobjects.press_article.values %}
-      {% if article.featured_homepage.value == true %}
+      {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
         {% if count < max %}
           {% render 'tf-press-card', article: article %}
           {% assign count = count | plus: 1 %}

@@ -16,7 +16,7 @@
   {% comment %} Featured press items — 2-column, larger {% endcomment %}
   <div class="grid grid-cols-1 md:grid-cols-2 gap-[15px] md:gap-[20px] lg:gap-[40px] mb-[15px] md:mb-[20px] lg:mb-[40px]" id="tf-press-featured">
     {% for article in shop.metaobjects.press_article.values %}
-      {% if article.featured_presspage.value == true %}
+      {% if article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
         {% render 'tf-press-card', article: article %}
       {% endif %}
     {% endfor %}
@@ -27,7 +27,7 @@
   <div class="grid grid-cols-1 md:grid-cols-3 gap-[15px] md:gap-[20px] lg:gap-[40px]" id="tf-press-grid">
     {% assign index = 0 %}
     {% for article in shop.metaobjects.press_article.values %}
-      {% unless article.featured_presspage.value == true %}
+      {% unless article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
         <div class="tf-press-grid-item{% if index >= items_per_page %} hidden{% endif %}">
           {% render 'tf-press-card', article: article %}
         </div>
@@ -39,7 +39,7 @@
   {% comment %} Load More button {% endcomment %}
   {% assign non_featured_count = 0 %}
   {% for article in shop.metaobjects.press_article.values %}
-    {% unless article.featured_presspage.value == true %}
+    {% unless article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
       {% assign non_featured_count = non_featured_count | plus: 1 %}
     {% endunless %}
   {% endfor %}
