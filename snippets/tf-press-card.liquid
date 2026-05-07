@@ -8,7 +8,7 @@
   href="{{ article.external_url.value }}"
   target="_blank"
   rel="noopener noreferrer"
-  class="tf-press-card col-span-1 no-underline text-inherit flex flex-col items-start"
+  class="tf-press-card no-underline text-inherit flex flex-col items-start"
 >
   {% if article.cover_image.value %}
     <div class="relative w-full aspect-[3/4] overflow-hidden bg-[#f4f4f4]">
@@ -41,12 +41,12 @@
     <div class="w-full aspect-[3/4] bg-[#eee]"></div>
   {% endif %}
 
-  <div class="mt-2 flex flex-col gap-[2px]">
-    <h3 class="text-[14px] font-medium leading-[1.3]">{{ article.title.value }}</h3>
-    <p class="text-[14px] text-[#6F6F6F] leading-[1.3]">
-      {{ article.magazine_name.value }}
-      {%- if article.publication_date.value != blank %} &middot; {{ article.publication_date.value | date: "%B %Y" }}{% endif -%}
-    </p>
-    <span class="text-[14px] mt-1">Read &#8599;</span>
+  <h3 class="font-sm leading-[1.3] font-medium mt-3 mb-1">{{ article.title.value }}</h3>
+  <div class="flex w-full justify-between font-sm leading-[1.3] text-[#6F6F6F]">
+    <span>{{ article.magazine_name.value }}</span>
+    {% if article.publication_date.value != blank %}
+      <span>{{ article.publication_date.value | date: "%B %Y" }}</span>
+    {% endif %}
   </div>
+  <span class="font-sm mt-4">Read &#8599;</span>
 </a>
