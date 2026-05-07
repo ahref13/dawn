@@ -2,33 +2,35 @@
 
 {{ 'tf-press.css' | asset_url | stylesheet_tag }}
 
-<section class="w-full px-[20px] md:px-[30px] lg:px-[50px] py-[40px] md:py-[60px]" id="tf-press-list" style="padding-top: 130px;">
-  {% comment %} Header: heading left, description right — matching About section grid {% endcomment %}
-  <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px] mb-[30px] md:mb-[40px]">
-    {% if section.settings.heading != blank %}
-      <h2 class="col-span-1 font-sm leading-[1.4] uppercase m-0">{{ section.settings.heading }}</h2>
-    {% endif %}
-    {% if section.settings.description != blank %}
-      <p class="col-span-2 md:col-span-2 md:col-start-3 lg:col-span-3 lg:col-start-4 xl:col-span-3 xl:col-start-5 font-sm leading-[1.4] m-0">{{ section.settings.description }}</p>
-    {% endif %}
+<section class="px-[20px] md:px-[30px] lg:px-[50px] flex flex-col" style="margin-top: 130px;" id="tf-press-list">
+  <!-- Header -->
+  <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px] pb-8">
+    <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+      <h2 class="font-sm uppercase">{{ section.settings.heading }}</h2>
+    </div>
+    <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
+      <div class="font-sm leading-tight">{{ section.settings.description }}</div>
+    </div>
   </div>
 
   {% comment %} Featured press items — 2-column, larger {% endcomment %}
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-[15px] md:gap-[20px] lg:gap-[40px] mb-[15px] md:mb-[20px] lg:mb-[40px]" id="tf-press-featured">
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]" id="tf-press-featured">
     {% for article in shop.metaobjects.press_article.values %}
       {% if article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
-        {% render 'tf-press-card', article: article %}
+        <div class="col-span-1 md:col-span-2 flex flex-col">
+          {% render 'tf-press-card', article: article %}
+        </div>
       {% endif %}
     {% endfor %}
   </div>
 
-  {% comment %} Press grid — remaining items, 3 columns {% endcomment %}
+  {% comment %} Press grid — remaining items, 3 per row {% endcomment %}
   {% assign items_per_page = section.settings.items_per_page %}
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-[15px] md:gap-[20px] lg:gap-[40px]" id="tf-press-grid">
+  <div class="w-full grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]" id="tf-press-grid">
     {% assign index = 0 %}
     {% for article in shop.metaobjects.press_article.values %}
       {% unless article.featured_presspage.value == true or article.featured_presspage.value == "true" %}
-        <div class="tf-press-grid-item{% if index >= items_per_page %} hidden{% endif %}">
+        <div class="tf-press-grid-item col-span-1 md:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
           {% render 'tf-press-card', article: article %}
         </div>
         {% assign index = index | plus: 1 %}
@@ -44,7 +46,7 @@
     {% endunless %}
   {% endfor %}
   {% if non_featured_count > items_per_page %}
-    <div class="text-center mt-[40px] md:mt-[60px]" id="tf-press-load-more-wrap">
+    <div class="text-center pb-[60px]" id="tf-press-load-more-wrap">
       <button type="button" id="tf-press-load-more" class="font-sm underline text-black bg-transparent border-none cursor-pointer">
         Load More
       </button>
@@ -54,7 +56,6 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // Image loading
     var pressImages = document.querySelectorAll('#tf-press-list [data-press-image]');
     pressImages.forEach(function (img) {
       if (img.complete) {
@@ -76,7 +77,6 @@
       }
     }
 
-    // Load More
     var loadMoreBtn = document.getElementById('tf-press-load-more');
     var loadMoreWrap = document.getElementById('tf-press-load-more-wrap');
     if (loadMoreBtn) {
