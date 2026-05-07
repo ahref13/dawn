@@ -12,7 +12,7 @@
   style="gap: 46px;"
 >
   {% if article.cover_image.value %}
-    <div class="relative w-1/2 shrink-0 aspect-[3/4] overflow-hidden bg-[#f4f4f4]">
+    <div class="relative w-1/2 shrink-0 overflow-hidden bg-[#f4f4f4]" style="aspect-ratio: 3/4;">
       <!-- Blurred placeholder -->
       <img
         src="{{ article.cover_image.value | image_url: width: 50 }}"
@@ -39,19 +39,19 @@
       >
     </div>
   {% else %}
-    <div class="w-1/2 shrink-0 aspect-[3/4] bg-[#eee]"></div>
+    <div class="w-1/2 shrink-0 bg-[#eee]" style="aspect-ratio: 3/4;"></div>
   {% endif %}
 
   <div class="flex flex-col justify-between py-2">
     <div>
       <h3 class="font-sm leading-[1.3] font-medium m-0">{{ article.title.value }}</h3>
-      <div class="flex justify-between text-[20px] leading-[1.3] text-[#6F6F6F] mt-2">
+      <div class="flex text-[20px] leading-[1.3] text-[#6F6F6F] mt-2" style="gap: 20px;">
         <span>{{ article.magazine_name.value }}</span>
         {% if article.publication_date.value != blank %}
-          <span class="ml-4">{{ article.publication_date.value | date: "%B %Y" }}</span>
+          <span>{{ article.publication_date.value | date: "%B %Y" }}</span>
         {% endif %}
       </div>
     </div>
-    <span class="text-[20px] text-right">Read &#8599;</span>
+    <span class="text-[20px]">Read &#8599;</span>
   </div>
 </a>
