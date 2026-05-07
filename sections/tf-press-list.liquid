@@ -13,12 +13,10 @@
     </div>
   </div>
 
-  {% comment %} First row — 2 most recent items, larger {% endcomment %}
-  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[15px] md:pb-[20px] lg:pb-[40px]">
+  {% comment %} First row — 2 most recent items, horizontal layout {% endcomment %}
+  <div class="w-full grid grid-cols-1 md:grid-cols-2 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[15px] md:pb-[20px] lg:pb-[40px]">
     {% for article in shop.metaobjects.press_article.values limit: 2 %}
-      <div class="col-span-1 md:col-span-2 flex flex-col">
-        {% render 'tf-press-card', article: article %}
-      </div>
+      {% render 'tf-press-card-featured', article: article %}
     {% endfor %}
   </div>
 
