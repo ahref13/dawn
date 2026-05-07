@@ -1,0 +1,108 @@
+{% comment %} TF • Press (Homepage Section) {% endcomment %}
+
+{{ 'tf-press.css' | asset_url | stylesheet_tag }}
+
+<section class="px-[20px] md:px-[30px] lg:px-[50px] py-[40px] md:py-[60px]" id="tf-press-home">
+  {% comment %} Header: heading left, description right {% endcomment %}
+  <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-[30px] md:mb-[40px]">
+    {% if section.settings.heading != blank %}
+      <h2 class="text-[14px] font-medium uppercase tracking-wide shrink-0">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% if section.settings.description != blank %}
+      <p class="text-[14px] leading-[1.5] md:max-w-[50%] text-[#6F6F6F]">{{ section.settings.description }}</p>
+    {% endif %}
+  </div>
+
+  {% comment %} Press grid — featured items only {% endcomment %}
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-[15px] md:gap-[20px] lg:gap-[40px]">
+    {% assign count = 0 %}
+    {% assign max = section.settings.max_items %}
+    {% for article in shop.metaobjects.press_article.values %}
+      {% if article.featured_homepage.value == true %}
+        {% if count < max %}
+          {% render 'tf-press-card', article: article %}
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% comment %} Full archive link {% endcomment %}
+  {% if section.settings.archive_url != blank %}
+    <div class="text-center mt-[40px] md:mt-[60px]">
+      <a href="{{ section.settings.archive_url }}" class="text-[14px] underline text-black">
+        {{ section.settings.archive_label }}
+      </a>
+    </div>
+  {% endif %}
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const pressImages = document.querySelectorAll('#tf-press-home [data-press-image]');
+    pressImages.forEach(function (img) {
+      if (img.complete) {
+        handlePressImageLoad(img);
+      } else {
+        img.addEventListener('load', function () {
+          handlePressImageLoad(img);
+        });
+      }
+    });
+
+    function handlePressImageLoad(img) {
+      img.style.opacity = '1';
+      var placeholder = img.previousElementSibling;
+      if (placeholder && placeholder.hasAttribute('data-placeholder')) {
+        setTimeout(function () {
+          placeholder.style.opacity = '0';
+        }, 100);
+      }
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "TF • Press",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "PRESS"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "The Fall has been quietly reshaping the bridal conversation. A selection of press that captures our approach to modern dressing, independent retail, and the contemporary bride."
+    },
+    {
+      "type": "range",
+      "id": "max_items",
+      "min": 3,
+      "max": 12,
+      "step": 3,
+      "label": "Maximum items to show",
+      "default": 6
+    },
+    {
+      "type": "url",
+      "id": "archive_url",
+      "label": "Full archive page URL"
+    },
+    {
+      "type": "text",
+      "id": "archive_label",
+      "label": "Archive link text",
+      "default": "Full Press Archive"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TF • Press"
+    }
+  ]
+}
+{% endschema %}

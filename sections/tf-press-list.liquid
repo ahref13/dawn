@@ -1,0 +1,133 @@
+{% comment %} TF • Press List (Full Press Page) {% endcomment %}
+
+{{ 'tf-press.css' | asset_url | stylesheet_tag }}
+
+<section class="px-[20px] md:px-[30px] lg:px-[50px] py-[40px] md:py-[60px]" id="tf-press-list" style="padding-top: 130px;">
+  {% comment %} Header: heading left, description right {% endcomment %}
+  <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-[30px] md:mb-[40px]">
+    {% if section.settings.heading != blank %}
+      <h2 class="text-[14px] font-medium uppercase tracking-wide shrink-0">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% if section.settings.description != blank %}
+      <p class="text-[14px] leading-[1.5] md:max-w-[50%] text-[#6F6F6F]">{{ section.settings.description }}</p>
+    {% endif %}
+  </div>
+
+  {% comment %} Featured press items — 2-column, larger {% endcomment %}
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-[15px] md:gap-[20px] lg:gap-[40px] mb-[15px] md:mb-[20px] lg:mb-[40px]" id="tf-press-featured">
+    {% for article in shop.metaobjects.press_article.values %}
+      {% if article.featured_presspage.value == true %}
+        {% render 'tf-press-card', article: article %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% comment %} Press grid — remaining items {% endcomment %}
+  {% assign items_per_page = section.settings.items_per_page %}
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-[15px] md:gap-[20px] lg:gap-[40px]" id="tf-press-grid">
+    {% assign index = 0 %}
+    {% for article in shop.metaobjects.press_article.values %}
+      {% unless article.featured_presspage.value == true %}
+        <div class="tf-press-grid-item{% if index >= items_per_page %} hidden{% endif %}">
+          {% render 'tf-press-card', article: article %}
+        </div>
+        {% assign index = index | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+  </div>
+
+  {% comment %} Load More button {% endcomment %}
+  {% assign non_featured_count = 0 %}
+  {% for article in shop.metaobjects.press_article.values %}
+    {% unless article.featured_presspage.value == true %}
+      {% assign non_featured_count = non_featured_count | plus: 1 %}
+    {% endunless %}
+  {% endfor %}
+  {% if non_featured_count > items_per_page %}
+    <div class="text-center mt-[40px] md:mt-[60px]" id="tf-press-load-more-wrap">
+      <button type="button" id="tf-press-load-more" class="text-[14px] underline text-black bg-transparent border-none cursor-pointer">
+        Load More
+      </button>
+    </div>
+  {% endif %}
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Image loading
+    var pressImages = document.querySelectorAll('#tf-press-list [data-press-image]');
+    pressImages.forEach(function (img) {
+      if (img.complete) {
+        handlePressImageLoad(img);
+      } else {
+        img.addEventListener('load', function () {
+          handlePressImageLoad(img);
+        });
+      }
+    });
+
+    function handlePressImageLoad(img) {
+      img.style.opacity = '1';
+      var placeholder = img.previousElementSibling;
+      if (placeholder && placeholder.hasAttribute('data-placeholder')) {
+        setTimeout(function () {
+          placeholder.style.opacity = '0';
+        }, 100);
+      }
+    }
+
+    // Load More
+    var loadMoreBtn = document.getElementById('tf-press-load-more');
+    var loadMoreWrap = document.getElementById('tf-press-load-more-wrap');
+    if (loadMoreBtn) {
+      var perPage = {{ section.settings.items_per_page }};
+      var visible = perPage;
+      var items = document.querySelectorAll('#tf-press-grid .tf-press-grid-item');
+
+      loadMoreBtn.addEventListener('click', function () {
+        var next = Math.min(visible + perPage, items.length);
+        for (var i = visible; i < next; i++) {
+          items[i].classList.remove('hidden');
+        }
+        visible = next;
+        if (visible >= items.length) {
+          loadMoreWrap.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "TF • Press list",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "PRESS"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "The Fall has been quietly reshaping the bridal conversation. A selection of press that captures our approach to modern dressing, independent retail, and the contemporary bride."
+    },
+    {
+      "type": "range",
+      "id": "items_per_page",
+      "min": 6,
+      "max": 24,
+      "step": 3,
+      "label": "Items shown before 'Load More'",
+      "default": 12
+    }
+  ],
+  "presets": [
+    {
+      "name": "TF • Press list"
+    }
+  ]
+}
+{% endschema %}
