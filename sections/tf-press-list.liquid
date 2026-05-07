@@ -15,7 +15,7 @@
 
   {% comment %} Single unified grid — designers page system {% endcomment %}
   {% assign items_per_page = section.settings.items_per_page %}
-  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]" id="tf-press-grid">
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]" id="tf-press-grid">
 
     {% comment %} Featured cards — first 2 items, subgrid layout {% endcomment %}
     {% for article in shop.metaobjects.press_article.values limit: 2 %}
