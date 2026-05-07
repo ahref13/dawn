@@ -41,12 +41,11 @@
     <div class="w-full aspect-[3/4] bg-[#eee]"></div>
   {% endif %}
 
-  <h3 class="font-sm leading-[1.3] font-medium mt-3 mb-1">{{ article.title.value }}</h3>
-  <div class="flex w-full justify-between font-sm leading-[1.3] text-[#6F6F6F]">
+  <h3 class="font-sm leading-[1.3] font-medium m-0 mt-3">{{ article.title.value }}</h3>
+  <div class="flex text-[20px] leading-[1.3] text-[#6F6F6F] mt-2" style="gap: 20px;">
     <span>{{ article.magazine_name.value }}</span>
     {% if article.publication_date.value != blank %}
       <span>{{ article.publication_date.value | date: "%B %Y" }}</span>
     {% endif %}
   </div>
-  <span class="font-sm mt-4">Read &#8599;</span>
 </a>
