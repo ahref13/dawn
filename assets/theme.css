@@ -35,6 +35,12 @@ body {
     letter-spacing: -0.01em;
 }
 
+.font-subtitle {
+    font-size: 1.25rem;
+    line-height: normal;
+    letter-spacing: 0;
+}
+
 .font-xs {
     font-size: 1.15rem;
     line-height: normal;
