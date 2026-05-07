@@ -45,8 +45,8 @@
 
   <div class="col-span-2 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col justify-between">
     <div>
-      <h3 class="font-sm leading-[1.3] font-medium m-0">{{ article.title.value }}</h3>
-      <div class="flex text-[20px] leading-[1.3] text-[#6F6F6F] mt-2" style="gap: 20px;">
+      <h3 class="font-sm leading-[1.3] font-medium m-0 mt-[18px] md:mt-0">{{ article.title.value }}</h3>
+      <div class="flex text-[20px] leading-[1.3] text-[#6F6F6F]" style="margin-top: 18px; gap: 20px;">
         <span>{{ article.magazine_name.value }}</span>
         {% if article.publication_date.value != blank %}
           <span>{{ article.publication_date.value | date: "%B %Y" }}</span>
