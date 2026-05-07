@@ -384,6 +384,9 @@
   .mb-24 {
     margin-bottom: calc(var(--spacing) * 24);
   }
+  .mb-\[42px\] {
+    margin-bottom: 42px;
+  }
   .-ml-11 {
     margin-left: calc(var(--spacing) * -11);
   }
@@ -1408,6 +1411,11 @@
   .md\:mr-\[2px\] {
     @media (width >= 48rem) {
       margin-right: 2px;
+    }
+  }
+  .md\:mb-0 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 0);
     }
   }
   .md\:mb-\[86px\] {
