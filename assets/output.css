@@ -279,6 +279,9 @@
   .col-start-1 {
     grid-column-start: 1;
   }
+  .col-start-2 {
+    grid-column-start: 2;
+  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -580,6 +583,9 @@
   .items-center {
     align-items: center;
   }
+  .items-end {
+    align-items: flex-end;
+  }
   .items-start {
     align-items: flex-start;
   }
@@ -791,6 +797,9 @@
   }
   .py-\[1\.35rem\] {
     padding-block: 1.35rem;
+  }
+  .py-\[46px\] {
+    padding-block: 46px;
   }
   .pt-1 {
     padding-top: calc(var(--spacing) * 1);
@@ -1538,6 +1547,11 @@
   .md\:py-20 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 20);
+    }
+  }
+  .md\:py-\[126px\] {
+    @media (width >= 48rem) {
+      padding-block: 126px;
     }
   }
   .md\:pt-26 {

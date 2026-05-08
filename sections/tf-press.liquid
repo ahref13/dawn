@@ -2,9 +2,9 @@
 
 {{ 'tf-press.css' | asset_url | stylesheet_tag }}
 
-<section class="px-[20px] md:px-[30px] lg:px-[50px] flex flex-col" id="tf-press-home" style="margin-top: 130px;">
+<section class="px-[20px] md:px-[30px] lg:px-[50px] flex flex-col py-[46px] md:py-[126px]" id="tf-press-home">
   <!-- Header -->
-  <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px] pb-8">
+  <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px]">
     <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
       <h2 class="font-sm uppercase">{{ section.settings.heading }}</h2>
     </div>
@@ -14,7 +14,7 @@
   </div>
 
   {% comment %} Press grid — 3 per row on lg, 2 on md, 2 on mobile {% endcomment %}
-  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]">
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px]">
     {% assign count = 0 %}
     {% assign max = section.settings.max_items %}
     {% for article in shop.metaobjects.press_article.values %}
@@ -26,15 +26,12 @@
       {% endif %}
     {% endfor %}
 
-    {% comment %} Full archive link — inside the grid as a card-sized item {% endcomment %}
+    {% comment %} Full archive link — starts at page midpoint {% endcomment %}
     {% if section.settings.archive_url != blank %}
-      <div class="col-span-1 md:col-span-2 no-underline text-inherit" style="display: grid; grid-template-columns: subgrid;">
-        <div class="hidden md:block md:col-span-1"></div>
-        <div class="col-span-1 md:col-span-1 flex flex-col justify-end">
-          <a href="{{ section.settings.archive_url }}" class="text-[16px] leading-none no-underline text-black">
-            <span class="border-b border-black">{{ section.settings.archive_label }}</span>
-          </a>
-        </div>
+      <div class="col-start-2 md:col-start-3 lg:col-start-4 col-span-1 md:col-span-2 lg:col-span-3 flex items-end">
+        <a href="{{ section.settings.archive_url }}" class="text-[16px] leading-none no-underline text-black">
+          <span class="border-b border-black">{{ section.settings.archive_label }}</span>
+        </a>
       </div>
     {% endif %}
   </div>
