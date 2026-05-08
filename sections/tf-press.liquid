@@ -19,8 +19,8 @@
     {% comment %} Full archive link — starts at page midpoint {% endcomment %}
     {% if section.settings.archive_url != blank %}
       <div class="col-start-2 md:col-start-3 lg:col-start-4 col-span-1 md:col-span-2 lg:col-span-3 flex items-end">
-        <a href="{{ section.settings.archive_url }}" class="text-[16px] leading-none no-underline text-black">
-          <span class="border-b border-black">{{ section.settings.archive_label }}</span>
+        <a href="{{ section.settings.archive_url }}" class="font-sm inline-block mt-22 underline">
+          {{ section.settings.archive_label }}
         </a>
       </div>
     {% endif %}
