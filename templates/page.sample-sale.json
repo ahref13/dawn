@@ -270,6 +270,16 @@
             "price": "NOW £1200"
           }
         },
+        "gallery_item_eJTzQF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0078BSS25_LAUREL_1.jpg",
+            "designer": "Alex Perry",
+            "style": "Laurel",
+            "size": "12",
+            "price": "NOW £2000"
+          }
+        },
         "gallery_item_CtU4nR": {
           "type": "gallery_item",
           "settings": {
@@ -707,6 +717,7 @@
         "gallery_item_Wetki7",
         "gallery_item_dWerGT",
         "gallery_item_dDBbhk",
+        "gallery_item_eJTzQF",
         "gallery_item_CtU4nR",
         "gallery_item_zbfmtc",
         "gallery_item_AKJpn8",
