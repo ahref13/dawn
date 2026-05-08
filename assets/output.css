@@ -1500,6 +1500,16 @@
       gap: 20px;
     }
   }
+  .md\:gap-x-\[20px\] {
+    @media (width >= 48rem) {
+      column-gap: 20px;
+    }
+  }
+  .md\:gap-y-\[124px\] {
+    @media (width >= 48rem) {
+      row-gap: 124px;
+    }
+  }
   .md\:self-start {
     @media (width >= 48rem) {
       align-self: flex-start;
@@ -1643,6 +1653,16 @@
   .lg\:gap-\[40px\] {
     @media (width >= 64rem) {
       gap: 40px;
+    }
+  }
+  .lg\:gap-x-\[40px\] {
+    @media (width >= 64rem) {
+      column-gap: 40px;
+    }
+  }
+  .lg\:gap-y-\[124px\] {
+    @media (width >= 64rem) {
+      row-gap: 124px;
     }
   }
   .lg\:px-\[40px\] {
