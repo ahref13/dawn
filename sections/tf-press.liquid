@@ -13,16 +13,14 @@
     </div>
   </div>
 
-  {% comment %} Press grid — featured items, 3 per row {% endcomment %}
-  <div class="w-full grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]">
+  {% comment %} Press grid — featured items, 3 per row on lg {% endcomment %}
+  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]">
     {% assign count = 0 %}
     {% assign max = section.settings.max_items %}
     {% for article in shop.metaobjects.press_article.values %}
       {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
         {% if count < max %}
-          <div class="col-span-1 md:col-span-2 flex flex-col">
-            {% render 'tf-press-card', article: article %}
-          </div>
+          {% render 'tf-press-card-home', article: article %}
           {% assign count = count | plus: 1 %}
         {% endif %}
       {% endif %}
@@ -32,8 +30,8 @@
   {% comment %} Full archive link {% endcomment %}
   {% if section.settings.archive_url != blank %}
     <div class="text-center pb-[60px]">
-      <a href="{{ section.settings.archive_url }}" class="font-sm underline text-black">
-        {{ section.settings.archive_label }}
+      <a href="{{ section.settings.archive_url }}" class="text-[16px] leading-none no-underline text-black">
+        <span class="border-b border-black">{{ section.settings.archive_label }}</span>
       </a>
     </div>
   {% endif %}
@@ -84,7 +82,7 @@
       "type": "range",
       "id": "max_items",
       "min": 3,
-      "max": 12,
+      "max": 6,
       "step": 3,
       "label": "Maximum items to show",
       "default": 6
