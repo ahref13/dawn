@@ -83,12 +83,23 @@
         "button_text": "Subscribe",
         "success_message": "Thanks for subscribing!"
       }
+    },
+    "tf_side_title_text_DEHqAf": {
+      "type": "tf-side-title-text",
+      "name": "TF • Side Title + Text",
+      "settings": {
+        "heading": "Press",
+        "paragraph": "<p>The Fall has been quietly reshaping the bridal conversation. A selection of press that captures our approach to modern dressing, independent retail, and the contemporary bride.</p>",
+        "link_url": "",
+        "link_text": "Learn more"
+      }
     }
   },
   "order": [
     "tf_hero_anim_9WJ3LG",
     "tf_side_title_text_4CCmNX",
     "tf_designers_carousel_xEdQfh",
+    "tf_side_title_text_DEHqAf",
     "tf_press_z497Lz",
     "tf_collections_feature_FMR7Hp",
     "tf_private_fittings_R8tVMx",
