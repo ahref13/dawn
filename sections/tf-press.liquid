@@ -2,17 +2,7 @@
 
 {{ 'tf-press.css' | asset_url | stylesheet_tag }}
 
-<section class="px-[20px] md:px-[30px] lg:px-[50px] flex flex-col py-[46px] md:py-[126px]" id="tf-press-home">
-  <!-- Header -->
-  <div class="mb-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-[15px] md:gap-[20px] lg:gap-[40px]">
-    <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
-      <h2 class="font-sm uppercase">{{ section.settings.heading }}</h2>
-    </div>
-    <div class="col-span-2 md:col-span-2 lg:col-span-3 xl:col-span-4">
-      <div class="font-sm leading-tight">{{ section.settings.description }}</div>
-    </div>
-  </div>
-
+<section class="px-[20px] md:px-[30px] lg:px-[50px] flex flex-col" id="tf-press-home">
   {% comment %} Press grid — 3 per row on lg, 2 on md, 2 on mobile {% endcomment %}
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px]">
     {% assign count = 0 %}
