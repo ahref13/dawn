@@ -789,6 +789,9 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
+  .py-11\.5 {
+    padding-block: calc(var(--spacing) * 11.5);
+  }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
   }
@@ -797,9 +800,6 @@
   }
   .py-\[1\.35rem\] {
     padding-block: 1.35rem;
-  }
-  .py-\[46px\] {
-    padding-block: 46px;
   }
   .pt-1 {
     padding-top: calc(var(--spacing) * 1);
@@ -1529,6 +1529,11 @@
       justify-self: flex-start;
     }
   }
+  .md\:px-7\.5 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 7.5);
+    }
+  }
   .md\:px-\[10px\] {
     @media (width >= 48rem) {
       padding-inline: 10px;
@@ -1549,9 +1554,9 @@
       padding-block: calc(var(--spacing) * 20);
     }
   }
-  .md\:py-\[126px\] {
+  .md\:py-31\.5 {
     @media (width >= 48rem) {
-      padding-block: 126px;
+      padding-block: calc(var(--spacing) * 31.5);
     }
   }
   .md\:pt-26 {
@@ -1672,6 +1677,11 @@
   .lg\:gap-y-\[124px\] {
     @media (width >= 64rem) {
       row-gap: 124px;
+    }
+  }
+  .lg\:px-12\.5 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 12.5);
     }
   }
   .lg\:px-\[40px\] {
