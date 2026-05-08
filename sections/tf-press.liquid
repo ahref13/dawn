@@ -13,31 +13,31 @@
     </div>
   </div>
 
-  {% comment %} Press grid — same as featured section on press list page {% endcomment %}
-  <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]">
-    {% assign count = 0 %}
-    {% assign max = section.settings.max_items %}
-    {% for article in shop.metaobjects.press_article.values %}
-      {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
-        {% if count < max %}
-          {% render 'tf-press-card-featured', article: article %}
-          {% assign count = count | plus: 1 %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    {% comment %} Full archive link — inside the grid as a card-sized item {% endcomment %}
-    {% if section.settings.archive_url != blank %}
-      <div class="col-span-2 md:col-span-2 lg:col-span-3 2xl:col-span-4 no-underline text-inherit" style="display: grid; grid-template-columns: subgrid;">
-        <div class="col-span-2 md:col-span-1 lg:col-span-2 2xl:col-span-3"></div>
-        <div class="col-span-2 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col justify-end">
-          <a href="{{ section.settings.archive_url }}" class="text-[16px] leading-none no-underline text-black">
-            <span class="border-b border-black">{{ section.settings.archive_label }}</span>
-          </a>
-        </div>
-      </div>
-    {% endif %}
-  </div>
+  {% comment %}{% comment %} Press grid — same as featured section on press list page {% endcomment %}{% endcomment %}
+  {% comment %}<div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px] pb-[60px]">{% endcomment %}
+    {% comment %}{% assign count = 0 %}{% endcomment %}
+    {% comment %}{% assign max = section.settings.max_items %}{% endcomment %}
+    {% comment %}{% for article in shop.metaobjects.press_article.values %}{% endcomment %}
+      {% comment %}{% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}{% endcomment %}
+        {% comment %}{% if count < max %}{% endcomment %}
+          {% comment %}{% render 'tf-press-card-featured', article: article %}{% endcomment %}
+          {% comment %}{% assign count = count | plus: 1 %}{% endcomment %}
+        {% comment %}{% endif %}{% endcomment %}
+      {% comment %}{% endif %}{% endcomment %}
+    {% comment %}{% endfor %}{% endcomment %}
+{% comment %}{% endcomment %}
+    {% comment %}{% comment %} Full archive link — inside the grid as a card-sized item {% endcomment %}{% endcomment %}
+    {% comment %}{% if section.settings.archive_url != blank %}{% endcomment %}
+      {% comment %}<div class="col-span-2 md:col-span-2 lg:col-span-3 2xl:col-span-4 no-underline text-inherit" style="display: grid; grid-template-columns: subgrid;">{% endcomment %}
+        {% comment %}<div class="col-span-2 md:col-span-1 lg:col-span-2 2xl:col-span-3"></div>{% endcomment %}
+        {% comment %}<div class="col-span-2 md:col-span-1 lg:col-span-1 xl:col-span-1 flex flex-col justify-end">{% endcomment %}
+          {% comment %}<a href="{{ section.settings.archive_url }}" class="text-[16px] leading-none no-underline text-black">{% endcomment %}
+            {% comment %}<span class="border-b border-black">{{ section.settings.archive_label }}</span>{% endcomment %}
+          {% comment %}</a>{% endcomment %}
+        {% comment %}</div>{% endcomment %}
+      {% comment %}</div>{% endcomment %}
+    {% comment %}{% endif %}{% endcomment %}
+  {% comment %}</div>{% endcomment %}
 </section>
 
 <script>
