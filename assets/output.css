@@ -342,9 +342,6 @@
   .mt-22 {
     margin-top: calc(var(--spacing) * 22);
   }
-  .mt-\[14px\] {
-    margin-top: 14px;
-  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -618,6 +615,9 @@
   }
   .gap-\[15px\] {
     gap: 15px;
+  }
+  .gap-\[20px\] {
+    gap: 20px;
   }
   .space-y-6 {
     :where(& > :not(:last-child)) {
