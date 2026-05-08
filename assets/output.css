@@ -345,6 +345,9 @@
   .mt-22 {
     margin-top: calc(var(--spacing) * 22);
   }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -386,6 +389,9 @@
   }
   .mb-\[42px\] {
     margin-bottom: 42px;
+  }
+  .mb-\[44px\] {
+    margin-bottom: 44px;
   }
   .-ml-11 {
     margin-left: calc(var(--spacing) * -11);
@@ -788,9 +794,6 @@
   }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
-  }
-  .py-11\.5 {
-    padding-block: calc(var(--spacing) * 11.5);
   }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
@@ -1414,6 +1417,11 @@
       margin-top: 60px;
     }
   }
+  .md\:mt-\[80px\] {
+    @media (width >= 48rem) {
+      margin-top: 80px;
+    }
+  }
   .md\:mr-\[2px\] {
     @media (width >= 48rem) {
       margin-right: 2px;
@@ -1437,6 +1445,11 @@
   .md\:mb-\[124px\] {
     @media (width >= 48rem) {
       margin-bottom: 124px;
+    }
+  }
+  .md\:mb-\[126px\] {
+    @media (width >= 48rem) {
+      margin-bottom: 126px;
     }
   }
   .md\:block {
@@ -1529,11 +1542,6 @@
       justify-self: flex-start;
     }
   }
-  .md\:px-7\.5 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 7.5);
-    }
-  }
   .md\:px-\[10px\] {
     @media (width >= 48rem) {
       padding-inline: 10px;
@@ -1552,11 +1560,6 @@
   .md\:py-20 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 20);
-    }
-  }
-  .md\:py-31\.5 {
-    @media (width >= 48rem) {
-      padding-block: calc(var(--spacing) * 31.5);
     }
   }
   .md\:pt-26 {
@@ -1677,11 +1680,6 @@
   .lg\:gap-y-\[124px\] {
     @media (width >= 64rem) {
       row-gap: 124px;
-    }
-  }
-  .lg\:px-12\.5 {
-    @media (width >= 64rem) {
-      padding-inline: calc(var(--spacing) * 12.5);
     }
   }
   .lg\:px-\[40px\] {
