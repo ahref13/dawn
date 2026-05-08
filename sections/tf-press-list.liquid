@@ -25,7 +25,7 @@
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 auto-rows-min gap-x-[15px] gap-y-[42px] md:gap-x-[20px] md:gap-y-[124px] lg:gap-x-[40px] lg:gap-y-[124px] pb-[60px]" id="tf-press-grid">
     {% assign index = 0 %}
     {% for article in shop.metaobjects.press_article.values offset: 2 %}
-      <div class="tf-press-grid-item col-span-1 md:col-span-2 lg:col-span-1 xl:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
+      <div class="tf-press-grid-item col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
         {% render 'tf-press-card', article: article %}
       </div>
       {% assign index = index | plus: 1 %}
