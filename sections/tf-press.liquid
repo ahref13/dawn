@@ -5,28 +5,15 @@
 <section class="px-[20px] md:px-[30px] lg:px-[50px] flex flex-col mb-[44px] md:mb-[126px] mt-[20px] md:mt-[80px]" id="tf-press-home">
   {% comment %} Press grid — 3 per row on lg, 2 on md, 2 on mobile {% endcomment %}
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px]">
-    {%- capture date_handles -%}
-      {%- for article in shop.metaobjects.press_article.values -%}
-        {{- article.publication_date.value | date: '%Y-%m-%d' | default: '1970-01-01' -}}~{{- article.handle -}}
-        {%- unless forloop.last -%}|{%- endunless -%}
-      {%- endfor -%}
-    {%- endcapture -%}
-    {% assign sorted_entries = date_handles | split: '|' | sort | reverse %}
     {% assign count = 0 %}
     {% assign max = section.settings.max_items %}
-    {% for entry in sorted_entries %}
-      {% assign sorted_handle = entry | split: '~' | last %}
-      {% for article in shop.metaobjects.press_article.values %}
-        {% if article.handle == sorted_handle %}
-          {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
-            {% if count < max %}
-              {% render 'tf-press-card-home', article: article %}
-              {% assign count = count | plus: 1 %}
-            {% endif %}
-          {% endif %}
-          {% break %}
+    {% for article in shop.metaobjects.press_article.values %}
+      {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
+        {% if count < max %}
+          {% render 'tf-press-card-home', article: article %}
+          {% assign count = count | plus: 1 %}
         {% endif %}
-      {% endfor %}
+      {% endif %}
     {% endfor %}
 
     {% comment %} Full archive link — starts at page midpoint {% endcomment %}
