@@ -5,9 +5,10 @@
 <section class="px-[20px] md:px-[30px] lg:px-[50px] flex flex-col mb-[44px] md:mb-[126px] mt-[20px] md:mt-[80px]" id="tf-press-home">
   {% comment %} Press grid — 3 per row on lg, 2 on md, 2 on mobile {% endcomment %}
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 auto-rows-min gap-[15px] md:gap-[20px] lg:gap-[40px]">
+    {% assign sorted_press = shop.metaobjects.press_article.values | sort: 'publication_date' | reverse %}
     {% assign count = 0 %}
     {% assign max = section.settings.max_items %}
-    {% for article in shop.metaobjects.press_article.values %}
+    {% for article in sorted_press %}
       {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
         {% if count < max %}
           {% render 'tf-press-card-home', article: article %}

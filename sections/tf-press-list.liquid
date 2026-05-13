@@ -13,9 +13,11 @@
     </div>
   </div>
 
+  {% assign sorted_press = shop.metaobjects.press_article.values | sort: 'publication_date' | reverse %}
+
   {% comment %} Featured row — its own grid (lg:6, 2xl:8) {% endcomment %}
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 auto-rows-min gap-x-[15px] gap-y-[42px] md:gap-[20px] lg:gap-[40px] mb-[42px] md:mb-0">
-    {% for article in shop.metaobjects.press_article.values limit: 2 %}
+    {% for article in sorted_press limit: 2 %}
       {% render 'tf-press-card-featured', article: article %}
     {% endfor %}
   </div>
@@ -24,7 +26,7 @@
   {% assign items_per_page = section.settings.items_per_page %}
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 auto-rows-min gap-x-[15px] gap-y-[42px] md:gap-x-[20px] md:gap-y-[124px] lg:gap-x-[40px] lg:gap-y-[124px] pb-[60px]" id="tf-press-grid">
     {% assign index = 0 %}
-    {% for article in shop.metaobjects.press_article.values offset: 2 %}
+    {% for article in sorted_press offset: 2 %}
       <div class="tf-press-grid-item col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
         {% render 'tf-press-card', article: article %}
       </div>
@@ -33,7 +35,7 @@
   </div>
 
   {% comment %} Load More button {% endcomment %}
-  {% assign total = shop.metaobjects.press_article.values.size %}
+  {% assign total = sorted_press.size %}
   {% assign remaining = total | minus: 2 %}
   {% if remaining > items_per_page %}
     <div class="text-center pb-[60px]" id="tf-press-load-more-wrap">
