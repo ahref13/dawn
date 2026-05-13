@@ -15,14 +15,18 @@
     {% assign count = 0 %}
     {% assign max = section.settings.max_items %}
     {% for entry in sorted_entries %}
-      {% assign article_handle = entry | split: '~' | last %}
-      {% assign article = shop.metaobjects.press_article[article_handle] %}
-      {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
-        {% if count < max %}
-          {% render 'tf-press-card-home', article: article %}
-          {% assign count = count | plus: 1 %}
+      {% assign sorted_handle = entry | split: '~' | last %}
+      {% for article in shop.metaobjects.press_article.values %}
+        {% if article.handle == sorted_handle %}
+          {% if article.featured_homepage.value == true or article.featured_homepage.value == "true" %}
+            {% if count < max %}
+              {% render 'tf-press-card-home', article: article %}
+              {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endif %}
+          {% break %}
         {% endif %}
-      {% endif %}
+      {% endfor %}
     {% endfor %}
 
     {% comment %} Full archive link — starts at page midpoint {% endcomment %}
