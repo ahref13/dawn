@@ -16,7 +16,7 @@
   {% comment %} Sort press articles by publication_date, newest first {% endcomment %}
   {%- capture date_handles -%}
     {%- for article in shop.metaobjects.press_article.values -%}
-      {{ article.publication_date.value | date: '%Y-%m-%d' | default: '1970-01-01' }}~{{ article.handle }}
+      {{- article.publication_date.value | date: '%Y-%m-%d' | default: '1970-01-01' -}}~{{- article.handle -}}
       {%- unless forloop.last -%}|{%- endunless -%}
     {%- endfor -%}
   {%- endcapture -%}
