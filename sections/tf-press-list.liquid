@@ -13,23 +13,25 @@
     </div>
   </div>
 
-  {% comment %} DEBUG: inspect metaobject properties {% endcomment %}
-  <div style="background:yellow;padding:20px;margin:20px 0;font-family:monospace;font-size:12px;">
-    {% for article in shop.metaobjects.press_article.values limit: 1 %}
-      <p>handle: [{{ article.handle }}]</p>
-      <p>system.handle: [{{ article.system.handle }}]</p>
-      <p>id: [{{ article.id }}]</p>
-      <p>system.id: [{{ article.system.id }}]</p>
-      <p>title: [{{ article.title.value }}]</p>
-      <p>pub_date raw: [{{ article.publication_date.value }}]</p>
-      <p>pub_date formatted: [{{ article.publication_date.value | date: '%Y-%m-%d' }}]</p>
-    {% endfor %}
-  </div>
+  {% comment %} Sort press articles by publication_date, newest first {% endcomment %}
+  {%- capture date_handles -%}
+    {%- for article in shop.metaobjects.press_article.values -%}
+      {{- article.publication_date.value | default: '1970-01-01' -}}~{{- article.system.handle -}}
+      {%- unless forloop.last -%}|{%- endunless -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {% assign sorted_entries = date_handles | split: '|' | sort | reverse %}
 
   {% comment %} Featured row — its own grid (lg:6, 2xl:8) {% endcomment %}
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 auto-rows-min gap-x-[15px] gap-y-[42px] md:gap-[20px] lg:gap-[40px] mb-[42px] md:mb-0">
-    {% for article in shop.metaobjects.press_article.values limit: 2 %}
-      {% render 'tf-press-card-featured', article: article %}
+    {% for entry in sorted_entries limit: 2 %}
+      {% assign sorted_handle = entry | split: '~' | last %}
+      {% for article in shop.metaobjects.press_article.values %}
+        {% if article.system.handle == sorted_handle %}
+          {% render 'tf-press-card-featured', article: article %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </div>
 
@@ -37,16 +39,22 @@
   {% assign items_per_page = section.settings.items_per_page %}
   <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 auto-rows-min gap-x-[15px] gap-y-[42px] md:gap-x-[20px] md:gap-y-[124px] lg:gap-x-[40px] lg:gap-y-[124px] pb-[60px]" id="tf-press-grid">
     {% assign index = 0 %}
-    {% for article in shop.metaobjects.press_article.values offset: 2 %}
-      <div class="tf-press-grid-item col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
-        {% render 'tf-press-card', article: article %}
-      </div>
-      {% assign index = index | plus: 1 %}
+    {% for entry in sorted_entries offset: 2 %}
+      {% assign sorted_handle = entry | split: '~' | last %}
+      {% for article in shop.metaobjects.press_article.values %}
+        {% if article.system.handle == sorted_handle %}
+          <div class="tf-press-grid-item col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-2 flex flex-col{% if index >= items_per_page %} hidden{% endif %}">
+            {% render 'tf-press-card', article: article %}
+          </div>
+          {% assign index = index | plus: 1 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </div>
 
   {% comment %} Load More button {% endcomment %}
-  {% assign total = shop.metaobjects.press_article.values.size %}
+  {% assign total = sorted_entries.size %}
   {% assign remaining = total | minus: 2 %}
   {% if remaining > items_per_page %}
     <div class="text-center pb-[60px]" id="tf-press-load-more-wrap">
