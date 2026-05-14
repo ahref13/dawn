@@ -40,16 +40,6 @@
             "price": "NOW £250"
           }
         },
-        "gallery_item_KxrXaK": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Bahia-Top-Jara-skirt-1-cortana-bridal-collection-2019_53ccfbcd-36b5-44ab-b0cd-8a9898ea8b78.jpg",
-            "designer": "Cortana",
-            "style": "Jara Skirt",
-            "size": "12",
-            "price": "NOW £600"
-          }
-        },
         "gallery_item_xiAnVg": {
           "type": "gallery_item",
           "settings": {
@@ -694,7 +684,6 @@
       "block_order": [
         "gallery_item_FcqVjX",
         "gallery_item_dP6RnT",
-        "gallery_item_KxrXaK",
         "gallery_item_xiAnVg",
         "gallery_item_D64FdR",
         "gallery_item_QDdgje",
