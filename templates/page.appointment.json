@@ -24,35 +24,28 @@
           "type": "appointment",
           "settings": {
             "title": "First fitting",
-            "description": "1hr appointment for your first visit."
+            "description": "1hr15 appointment for your first visit."
           }
         },
         "appointment_WNnBLM": {
           "type": "appointment",
           "settings": {
             "title": "Follow up fitting",
-            "description": "30min to retry favourites."
+            "description": "45min to retry favorites."
           }
         },
         "appointment_mTQPQe": {
           "type": "appointment",
           "settings": {
             "title": "Accessories",
-            "description": "30min for veils, shoes and jewellery."
+            "description": "45min for veils and jewelry."
           }
         },
         "appointment_6khi6a": {
           "type": "appointment",
           "settings": {
             "title": "Order pickup",
-            "description": "30min appointment to collect your gown."
-          }
-        },
-        "appointment_D8BzA3": {
-          "type": "appointment",
-          "settings": {
-            "title": "Order pickup and accessories",
-            "description": "60min appointment to collect your gown and tie it in with an accessories appointment."
+            "description": "45min appointment to collect your gown."
           }
         },
         "appointment_N3hRXy": {
@@ -75,7 +68,6 @@
         "appointment_WNnBLM",
         "appointment_mTQPQe",
         "appointment_6khi6a",
-        "appointment_D8BzA3",
         "appointment_N3hRXy",
         "appointment_R4tkCY"
       ],
