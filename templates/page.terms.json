@@ -148,8 +148,78 @@
         "terms_item_R7W9nf": {
           "type": "terms_item",
           "settings": {
-            "title": "User Content",
-            "description": "<p>If you submit reviews, photographs, testimonials, social media content, or other materials to us, you grant The Fall Bridal LLC a non-exclusive, royalty-free, worldwide license to use, reproduce, publish, and display such content for marketing and business purposes.</p><p>You represent that you have the necessary rights to provide such content.</p>"
+            "title": "Disclaimer of Warranties",
+            "description": "<p>To the fullest extent permitted by law:</p><p>Our website, products, and services are provided \"as is\" and \"as available.\"</p><p>We make no warranties, express or implied, regarding:</p><ul><li>Merchantability<br/></li><li>Fitness for a particular purpose<br/></li><li>Availability<br/></li><li>Accuracy<br/></li><li>Uninterrupted access</li></ul>"
+          }
+        },
+        "terms_item_7QKLEx": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Limitation of Liability",
+            "description": "<p>To the fullest extent permitted by law, The Fall Bridal LLC shall not be liable for any indirect, incidental, consequential, special, punitive, or exemplary damages arising from:</p><ul><li>Website use<br/></li><li>Product purchases<br/></li><li>Appointment bookings<br/></li><li>Delayed deliveries<br/></li><li>Alteration issues<br/></li><li>Wedding-related expenses<br/></li><li>Lost profits<br/></li><li>Emotional distress<br/></li></ul><p>Our total liability shall not exceed the amount actually paid by the customer for the product or service giving rise to the claim.</p><p>Nothing in these Terms limits liability where such limitation is prohibited by law.</p>"
+          }
+        },
+        "terms_item_BizYMR": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Indemnification",
+            "description": "<p>You agree to indemnify and hold harmless The Fall Bridal LLC and its owners, employees, contractors, affiliates, and representatives from claims, losses, damages, liabilities, and expenses arising from:</p><ul><li>Your violation of these Terms<br/></li><li>Your misuse of the website<br/></li><li>Your violation of applicable law</li></ul>"
+          }
+        },
+        "terms_item_YrQMtm": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Privacy",
+            "description": "<p>Your use of our website and services is also governed by our Privacy Policy and Cookie Policy, which are incorporated into these Terms by reference.</p>"
+          }
+        },
+        "terms_item_JW3hcy": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Force Majeure",
+            "description": "<p>We shall not be liable for delays or failures resulting from events beyond our reasonable control, including:</p><ul><li>Natural disasters<br/></li><li>Severe weather<br/></li><li>Labor disputes<br/></li><li>Government actions<br/></li><li>Pandemics<br/></li><li>Supply chain disruptions<br/></li><li>Transportation interruptions<br/></li><li>Internet outages</li></ul>"
+          }
+        },
+        "terms_item_YnwpGm": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Governing Law",
+            "description": "<p>These Terms shall be governed by and construed in accordance with the laws of the State of New York, without regard to conflict of law principles.</p>"
+          }
+        },
+        "terms_item_mQWpex": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Dispute Resolution and Venue",
+            "description": "<p>Any dispute arising out of or relating to these Terms, our products, services, or website shall be resolved exclusively in the state or federal courts located in Kings County, New York.</p><p>You consent to the personal jurisdiction of such courts.</p>"
+          }
+        },
+        "terms_item_jYzQQ7": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Severability",
+            "description": "<p>If any provision of these Terms is determined to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.</p>"
+          }
+        },
+        "terms_item_9fM8T9": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Entire Agreement",
+            "description": "<p>These Terms constitute the entire agreement between you and The Fall Bridal LLC regarding your use of our website, products, and services and supersede all prior communications and understandings.</p>"
+          }
+        },
+        "terms_item_T49BwF": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Changes to These Terms",
+            "description": "<p>We may update these Terms from time to time.</p><p>Any changes will become effective upon posting to our website.</p><p>Your continued use of our website or services after changes are posted constitutes acceptance of the revised Terms.</p>"
+          }
+        },
+        "terms_item_UeJYHj": {
+          "type": "terms_item",
+          "settings": {
+            "title": "Contact Us",
+            "description": "<p>The Fall Bridal LLC<br/>45 Main Street<br/>Brooklyn, NY 11201<br/>United States</p><p>Email: <a>newyork@thefallbride.com</a></p>"
           }
         }
       },
@@ -173,7 +243,17 @@
         "terms_item_HVmdhK",
         "terms_item_JByzCt",
         "terms_item_UBWcKG",
-        "terms_item_R7W9nf"
+        "terms_item_R7W9nf",
+        "terms_item_7QKLEx",
+        "terms_item_BizYMR",
+        "terms_item_YrQMtm",
+        "terms_item_JW3hcy",
+        "terms_item_YnwpGm",
+        "terms_item_mQWpex",
+        "terms_item_jYzQQ7",
+        "terms_item_9fM8T9",
+        "terms_item_T49BwF",
+        "terms_item_UeJYHj"
       ],
       "settings": {
         "heading": "Terms & Conditions"
