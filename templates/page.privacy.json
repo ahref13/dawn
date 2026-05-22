@@ -121,8 +121,36 @@
         "privacy_item_i6YJWY": {
           "type": "privacy_item",
           "settings": {
-            "title": "Third-Party Websites",
-            "description": "<p>Our website may contain links to third-party websites, services, or social media platforms.</p><p>We are not responsible for the privacy practices, security, or content of third-party websites.</p><p>We encourage users to review the privacy policies of those third parties before providing personal information.</p>"
+            "title": "International Data Transfers",
+            "description": "<p>Some of our service providers may process information outside of your state or country of residence.</p><p>By using our website and services, you understand that information may be transferred, stored, and processed in jurisdictions with different data protection laws than your own.</p>"
+          }
+        },
+        "privacy_item_EAHgci": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Your Privacy Rights",
+            "description": "<p>Depending on your jurisdiction and applicable law, you may have rights regarding your personal information.</p><p>These rights may include the ability to:</p><ul><li>Request access to personal information we maintain about you<br/></li><li>Request correction of inaccurate information<br/></li><li>Request deletion of personal information where legally permitted<br/></li><li>Withdraw consent where processing is based on consent<br/></li><li>Request information about how your information is used<br/></li></ul><p>To exercise these rights, please contact us using the information below.</p><p>We may verify your identity before processing requests.</p>"
+          }
+        },
+        "privacy_item_FYWMcM": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Do Not Track Signals",
+            "description": "<p>Some web browsers offer a \"Do Not Track\" feature.</p><p>Because there is currently no universally accepted standard for responding to Do Not Track signals, our website may not respond to such signals.</p>"
+          }
+        },
+        "privacy_item_3wwWMt": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Changes to This Privacy Policy",
+            "description": "<p>We may update this Privacy Policy from time to time.</p><p>Changes become effective upon posting to our website.</p><p>The \"Last Updated\" date at the top of this Privacy Policy will reflect the effective date of any revisions.</p>"
+          }
+        },
+        "privacy_item_npW8Gt": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Contact Us",
+            "description": "<p>If you have questions about this Privacy Policy or our privacy practices, please contact:</p><p><strong>The Fall Bridal LLC</strong><br/>45 Main Street<br/>Brooklyn, NY 11201<br/>United States</p><p>Email: <a>newyork@thefallbride.com</a></p><p>Website: <a href=\"https://newyork.thefallbride.com\">https://newyork.thefallbride.com</a></p>"
           }
         }
       },
@@ -141,7 +169,11 @@
         "privacy_item_YAifw4",
         "privacy_item_rn8GQT",
         "privacy_item_TAUeGJ",
-        "privacy_item_i6YJWY"
+        "privacy_item_i6YJWY",
+        "privacy_item_EAHgci",
+        "privacy_item_FYWMcM",
+        "privacy_item_3wwWMt",
+        "privacy_item_npW8Gt"
       ],
       "name": "TF • Privacy Policy",
       "settings": {
