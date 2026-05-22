@@ -23,53 +23,125 @@
         "privacy_item_cgzGin": {
           "type": "privacy_item",
           "settings": {
-            "title": "Information We Collect",
-            "description": "<p>We collect information you provide directly to us, such as your name, email address, shipping address, and payment information when you make a purchase or create an account.</p>"
+            "title": "Who We Are",
+            "description": "<p>The Fall Bridal LLC</p><p>45 Main Street<br/>Brooklyn, NY 11201<br/>United States</p><p>Email: <a>newyork@thefallbride.com</a></p><p>This Privacy Policy applies to all websites, online services, appointment booking systems, communications, and customer interactions operated by The Fall Bridal LLC.</p>"
           }
         },
         "privacy_item_nf8MaL": {
           "type": "privacy_item",
           "settings": {
-            "title": "How We Use Your Information",
-            "description": "<p>We use the information we collect to process orders, communicate with you, improve our services, and provide personalized shopping experiences.</p>"
+            "title": "Information We Collect",
+            "description": "<p>We may collect personal information directly from you, automatically through your use of our website, and from third-party service providers.</p><p>We may collect: personal details; contact details; appointment information; style preferences; wedding event details; budget information; purchase history; payment-related information; communications and correspondence.</p>"
+          }
+        },
+        "privacy_item_wxVNyX": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Information Collected Automatically",
+            "description": "<p>When you visit our website, certain information may be collected automatically, including: IP address; browser type; device information; operating system; website activity; referring website; pages viewed; date and time of visits; purchase activity; session information.</p><p>We may use cookies, pixels, tags, and similar technologies to collect this information.</p>"
           }
         },
         "privacy_item_BCkn3V": {
           "type": "privacy_item",
           "settings": {
-            "title": "Information Sharing",
-            "description": "<p>We do not sell your personal information. We may share information with service providers who help us operate our business, such as payment processors and shipping companies.</p>"
+            "title": "Payment Information",
+            "description": "<p>Payments are processed through third-party payment processors.</p><p>We do not store complete credit card numbers on our own servers.</p><p>Payment information is processed and secured by our payment providers in accordance with applicable industry standards.</p>"
           }
         },
         "privacy_item_4zjgGx": {
           "type": "privacy_item",
           "settings": {
-            "title": "Data Security",
-            "description": "<p>We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure.</p>"
+            "title": "How We Use Your Information",
+            "description": "<p>We may use personal information to:</p><ul><li>Process purchases and transactions<br/></li><li>Fulfill and ship orders<br/></li><li>Schedule and manage appointments<br/></li><li>Communicate regarding products and services<br/></li><li>Provide customer support<br/></li><li>Manage bridal consultations<br/></li><li>Process payments<br/></li><li>Improve our website and services<br/></li><li>Analyze website performance<br/></li><li>Detect fraud and security incidents<br/></li><li>Comply with legal obligations<br/></li><li>Enforce our Terms & Conditions<br/></li><li>Conduct marketing and promotional activities where permitted by law</li></ul>"
           }
         },
         "privacy_item_DeP6Nz": {
           "type": "privacy_item",
           "settings": {
-            "title": "Your Rights",
-            "description": "<p>You have the right to access, correct, or delete your personal information. Contact us to exercise these rights or if you have any questions about our privacy practices.</p>"
+            "title": "Marketing Communications",
+            "description": "<p>If you subscribe to our mailing list, create an account, book an appointment, make a purchase, or otherwise provide your contact information, we may send:</p><ul><li>Newsletters<br/></li><li>Promotions<br/></li><li>Event invitations<br/></li><li>Product announcements<br/></li><li>Marketing communications<br/></li></ul><p>You may opt out of marketing emails at any time by clicking the unsubscribe link in any email, or contacting us directly at <a>newyork@thefallbride.com</a><br/></p><p>Please note that transactional communications relating to appointments, orders, or customer service may continue even if you opt out of marketing messages.</p>"
           }
         },
         "privacy_item_qiVRG7": {
           "type": "privacy_item",
           "settings": {
-            "title": "Cookies and Tracking",
-            "description": "<p>We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, and understand user preferences.</p>"
+            "title": "Third-Party Platforms and Service Providers",
+            "description": "<p>We use trusted third-party providers to operate our business and services.</p><h2>Shopify</h2><p>Our online store is hosted on Shopify.</p><p>Shopify provides the ecommerce platform that enables us to sell products and services.</p><p>Information collected through Shopify may include:</p><ul><li>Order details<br/></li><li>Payment information<br/></li><li>Device information<br/></li><li>Website activity<br/></li><li>Customer account information<br/></li></ul><p>Shopify processes information according to its own privacy practices.</p><h2>BridalLive</h2><p>We use BridalLive to manage:</p><ul><li>Appointments<br/></li><li>Customer records<br/></li><li>Bridal consultations<br/></li><li>Orders<br/></li><li>Client communications<br/></li></ul><p>Information provided during consultations and appointment bookings may be stored within BridalLive.</p><h2>Mailchimp</h2><p>We use Mailchimp for email marketing and customer communications.</p><p>If you subscribe to our mailing list or otherwise consent to receive marketing communications, your information may be processed by Mailchimp.</p><h2>Google Analytics</h2><p>We use Google Analytics to understand website traffic and visitor behavior.</p><p>Google Analytics may collect information such as:</p><ul><li>Device information<br/></li><li>Browser information<br/></li><li>Website interactions<br/></li><li>Referral sources<br/></li></ul><p>This information helps us improve our website and customer experience.</p><h2>Meta Pixel</h2><p>We use Meta Pixel and related technologies provided by Meta Platforms.</p><p>These technologies help us:</p><ul><li>Measure advertising effectiveness<br/></li><li>Understand website usage<br/></li><li>Improve marketing performance<br/></li><li>Deliver relevant advertisements<br/></li></ul><p>Meta may collect information about your interactions with our website and combine it with information collected elsewhere in accordance with Meta's privacy practices.</p>"
+          }
+        },
+        "privacy_item_niTC7Y": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "How We Share Information",
+            "description": "<p>We do not sell your personal information for monetary compensation.</p><p>We may share information with:</p><h2>Service Providers</h2><p>Including providers that assist with:</p><ul><li>Ecommerce operations<br/></li><li>Appointment scheduling<br/></li><li>Customer relationship management<br/></li><li>Payment processing<br/></li><li>Shipping and fulfilment<br/></li><li>Marketing communications<br/></li><li>Analytics<br/></li><li>Website hosting<br/></li></ul><h2>Legal Compliance</h2><p>We may disclose information if required by:</p><ul><li>Law<br/></li><li>Court order<br/></li><li>Government request<br/></li><li>Regulatory authority<br/></li></ul><p>We may also disclose information when necessary to protect our rights, customers, employees, or business operations.</p><h2>Business Transactions</h2><p>Information may be transferred in connection with:</p><ul><li>Mergers<br/></li><li>Acquisitions<br/></li><li>Reorganizations<br/></li><li>Financing transactions<br/></li><li>Asset sales</li></ul>"
+          }
+        },
+        "privacy_item_XBEAie": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Cookies and Similar Technologies",
+            "description": "<p>We use cookies and similar technologies to:</p><ul><li>Operate our website<br/></li><li>Remember preferences<br/></li><li>Maintain shopping cart functionality<br/></li><li>Analyze website performance<br/></li><li>Measure advertising effectiveness<br/></li><li>Improve user experience<br/></li></ul><p>Cookies may be placed by us or by third-party providers including Shopify, Google Analytics, and Meta.</p><p>Most browsers allow users to manage cookie preferences through browser settings.</p><p>For additional information, please review our Cookie Policy.</p>"
+          }
+        },
+        "privacy_item_Nw4Nzt": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Data Retention",
+            "description": "<p>We retain personal information only for as long as reasonably necessary to:</p><ul><li>Provide services<br/></li><li>Complete transactions<br/></li><li>Manage appointments<br/></li><li>Maintain business records<br/></li><li>Resolve disputes<br/></li><li>Enforce agreements<br/></li><li>Comply with legal obligations<br/></li></ul><p>Retention periods may vary depending on the type of information and applicable legal requirements.</p>"
+          }
+        },
+        "privacy_item_DzMDEb": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Data Security",
+            "description": "<p>The Fall Bridal LLC maintains reasonable administrative, technical, and physical safeguards designed to protect personal information against unauthorized access, disclosure, alteration, misuse, or destruction.</p><p>Our security measures may include:</p><ul><li>Access controls<br/></li><li>Password protections<br/></li><li>Secure payment processing<br/></li><li>Employee training<br/></li><li>Vendor oversight<br/></li><li>System monitoring<br/></li></ul><p>While we take reasonable measures to protect information, no transmission or storage system can be guaranteed to be completely secure.</p>"
+          }
+        },
+        "privacy_item_YAifw4": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "New York Data Protection",
+            "description": "<p>We implement reasonable safeguards designed to protect the personal information of New York residents and comply with applicable New York data security requirements, including obligations imposed by the New York SHIELD Act where applicable.</p>"
+          }
+        },
+        "privacy_item_rn8GQT": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Children's Privacy",
+            "description": "<p>Our website and services are not directed to children under the age of 13.</p><p>We do not knowingly collect personal information from children under 13.</p><p>If we become aware that information has been collected from a child without appropriate authorization, we will take reasonable steps to delete the information.</p>"
+          }
+        },
+        "privacy_item_TAUeGJ": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Third-Party Websites",
+            "description": "<p>Our website may contain links to third-party websites, services, or social media platforms.</p><p>We are not responsible for the privacy practices, security, or content of third-party websites.</p><p>We encourage users to review the privacy policies of those third parties before providing personal information.</p>"
+          }
+        },
+        "privacy_item_i6YJWY": {
+          "type": "privacy_item",
+          "settings": {
+            "title": "Third-Party Websites",
+            "description": "<p>Our website may contain links to third-party websites, services, or social media platforms.</p><p>We are not responsible for the privacy practices, security, or content of third-party websites.</p><p>We encourage users to review the privacy policies of those third parties before providing personal information.</p>"
           }
         }
       },
       "block_order": [
         "privacy_item_cgzGin",
         "privacy_item_nf8MaL",
+        "privacy_item_wxVNyX",
         "privacy_item_BCkn3V",
         "privacy_item_4zjgGx",
         "privacy_item_DeP6Nz",
-        "privacy_item_qiVRG7"
+        "privacy_item_qiVRG7",
+        "privacy_item_niTC7Y",
+        "privacy_item_XBEAie",
+        "privacy_item_Nw4Nzt",
+        "privacy_item_DzMDEb",
+        "privacy_item_YAifw4",
+        "privacy_item_rn8GQT",
+        "privacy_item_TAUeGJ",
+        "privacy_item_i6YJWY"
       ],
       "name": "TF • Privacy Policy",
       "settings": {
