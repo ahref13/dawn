@@ -25,7 +25,7 @@
           "settings": {
             "faq_group": "general",
             "title": "When should I start shopping?",
-            "description": "We recommend starting shopping up to a year prior to your wedding date, and purchasing around 7-10 months prior depending on the designer. We do have faster turnaround and ready-to-wear options but these are limited, please enquire to discuss."
+            "description": "We recommend starting shopping up to a year prior to your wedding date, and purchasing around 7-10 months prior depending on the designer. Please enquire if you have less time than this - rush options may be possible depending on individual designer production capacity."
           }
         },
         "faq_pNcJEk": {
@@ -33,7 +33,7 @@
           "settings": {
             "faq_group": "general",
             "title": "What type of appointment do I need?",
-            "description": "For your first visit we recommend a First Fitting Appointment to try our permanent collections. We do not recommend sale or trunk show appointments for your first visit."
+            "description": "For your first visit we recommend a First Fitting Appointment to try our permanent collections."
           }
         },
         "faq_Ybw8rc": {
@@ -41,7 +41,7 @@
           "settings": {
             "faq_group": "general",
             "title": "Do you charge an appointment fee?",
-            "description": "We charge a fee for your first appointment, which secures your personal styling session with us. Follow Up fittings to retry favourites, and any further appointments (including Accessories) are complimentary after your first visit."
+            "description": "We charge a fee for your first appointment, which secures your personal styling session with us. Any further appointments are complimentary after your first visit."
           }
         },
         "faq_WRPtkH": {
@@ -49,7 +49,7 @@
           "settings": {
             "faq_group": "general",
             "title": "How long are appointments?",
-            "description": "First Fittings are 1 hour, Follow Up fittings and Accessories appointments are 30 minutes."
+            "description": "First Fittings are 1 hour 15 minutes, Follow Up and Accessories appointments are 45 minutes."
           }
         },
         "faq_cMwgMw": {
@@ -65,7 +65,7 @@
           "settings": {
             "faq_group": "general",
             "title": "Is your store accessible?",
-            "description": "Our store is fully accessible. Please let us know if you do have accessibilty needs so that we can ensure you are booked into our slightly larger fitting area."
+            "description": "Our store is fully accessible. Please let us know if you do have accessibility needs so we can accommodate."
           }
         },
         "faq_zy4kmd": {
@@ -73,7 +73,7 @@
           "settings": {
             "faq_group": "general",
             "title": "Do you serve refreshments?",
-            "description": "We serve refreshments, including prosecco, at all of our appointments except for Sale events. Please kindly refrain from bringing your own refreshments to your appointment."
+            "description": "We serve refreshments, including prosecco, at all of our appointments. Please kindly refrain from bringing your own refreshments to your appointment."
           }
         },
         "faq_hgFC7W": {
@@ -105,7 +105,7 @@
           "settings": {
             "faq_group": "general",
             "title": "Do I need an appointment?",
-            "description": "Yes - our store is by appointment only."
+            "description": "Yes - our showroom is by appointment only."
           }
         },
         "faq_gdhqdy": {
@@ -124,14 +124,6 @@
             "description": "Made-to-order garments are pieces that are made specifically for you, by hand, at the designer’s atelier. Alterations will be required to perfect the length and, in most cases, tweak the fit. Our designer lead times range from 6-7 months plus alterations time (4-8 weeks)."
           }
         },
-        "faq_PMatfi": {
-          "type": "faq",
-          "settings": {
-            "faq_group": "general",
-            "title": "What is ready-to-wear?",
-            "description": "We carry a selection of off-the-rack, shorter turnaround and more affordable options. In most cases alterations are still required to perfect the length and fit. Please enquire for style availability."
-          }
-        },
         "faq_cdCPHM": {
           "type": "faq",
           "settings": {
@@ -145,7 +137,7 @@
           "settings": {
             "faq_group": "general",
             "title": "What is your price range?",
-            "description": "Our made-to-order gowns range from approximately £2,500-7,000. Each Designer page specifies their typical price range."
+            "description": "Our made-to-order gowns range from $3,000-7,000. Each Designer page specifies their typical price range."
           }
         },
         "faq_t84mjh": {
@@ -153,7 +145,7 @@
           "settings": {
             "faq_group": "general",
             "title": "What sizes do you carry?",
-            "description": "Sample answer content.Made-to-order samples sizing varies and as a general rule we can fit sizes 6-14 in most samples, for curve sizing (sizes 16+) please see The Curve Edit."
+            "description": "Made-to-order samples sizing varies and as a general rule we can fit sizes US 4-12 in most samples, for curve sizing (sizes 14+) please enquire about our Curve Edit."
           }
         },
         "faq_TdKwbR": {
@@ -177,7 +169,7 @@
           "settings": {
             "faq_group": "general",
             "title": "What is your returns policy?",
-            "description": "Made-to-order, and sale* styles are final sale - no refunds, no exchanges. Stock items purchased at full price have a 14-day returns period from the date you receive the item, and must be returned in new and unworn condition. \n\nDue to hygiene reasons bra solutions and any pierced jewellery are also final sale.\n\n*A sale item is classified as an item either permanently marked down or with a temporary discount code."
+            "description": "All purchases are final sale - no refunds or exchanges."
           }
         },
         "faq_nMUY3W": {
@@ -186,46 +178,6 @@
             "faq_group": "general",
             "title": "Do you allow dogs in store?",
             "description": "We have a strict no-pet policy and aren’t able to accommodate (even small or well behaved!) dogs."
-          }
-        },
-        "faq_Xf8RMJ": {
-          "type": "faq",
-          "settings": {
-            "faq_group": "resale",
-            "title": "What is resale?",
-            "description": "We’re thrilled to offer our customers an edit of pre-loved wedding gowns. You can purchase a pre-loved gown from a previous The Fall bride, authenticated and managed by us."
-          }
-        },
-        "faq_bUz7yd": {
-          "type": "faq",
-          "settings": {
-            "faq_group": "resale",
-            "title": "Which designers do you accept for resale?",
-            "description": "We only accept gowns and accessories that have been originally purchased from The Fall."
-          }
-        },
-        "faq_WLi9gB": {
-          "type": "faq",
-          "settings": {
-            "faq_group": "resale",
-            "title": "What’s the typical discount for resale?",
-            "description": "Pre-loved gowns range in price, depending on the original RRP and condition of the gown."
-          }
-        },
-        "faq_QmGBLJ": {
-          "type": "faq",
-          "settings": {
-            "faq_group": "resale",
-            "title": "What if I like a style that is not my size?",
-            "description": "Seamstresses can alter the gown that is too large to your perfect fit - please note this is an additional and separate cost."
-          }
-        },
-        "faq_J6pwtP": {
-          "type": "faq",
-          "settings": {
-            "faq_group": "resale",
-            "title": "Can I try resale styles on in-store?",
-            "description": "Yes - you can request to have a previous bride ship their resale gown to us so you can try it on in person. See more on our resale portal."
           }
         }
       },
@@ -243,24 +195,18 @@
         "faq_xV88DP",
         "faq_gdhqdy",
         "faq_LkKMQK",
-        "faq_PMatfi",
         "faq_cdCPHM",
         "faq_RjDxJF",
         "faq_t84mjh",
         "faq_TdKwbR",
         "faq_4e3dbp",
         "faq_9kWFq4",
-        "faq_nMUY3W",
-        "faq_Xf8RMJ",
-        "faq_bUz7yd",
-        "faq_WLi9gB",
-        "faq_QmGBLJ",
-        "faq_J6pwtP"
+        "faq_nMUY3W"
       ],
       "name": "TF • FAQ",
       "settings": {
         "heading": "GENERAL FAQs",
-        "heading_2": "RESALE FAQs"
+        "heading_2": ""
       }
     }
   },
