@@ -500,6 +500,26 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_WAnw6M": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/download.png",
+            "designer": "Kamperett",
+            "style": "Anemoia",
+            "size": "S, L",
+            "price": "£900"
+          }
+        },
+        "gallery_item_aR6T4G": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/download_1.png",
+            "designer": "Kamperett",
+            "style": "Anemoia Midi",
+            "size": "L",
+            "price": "£600"
+          }
+        },
         "gallery_item_C8VPGc": {
           "type": "gallery_item",
           "settings": {
@@ -730,6 +750,8 @@
         "gallery_item_CxGaCM",
         "gallery_item_xaCWND",
         "gallery_item_dk9FQc",
+        "gallery_item_WAnw6M",
+        "gallery_item_aR6T4G",
         "gallery_item_C8VPGc",
         "gallery_item_9YfwM9",
         "gallery_item_3bbmD3",
