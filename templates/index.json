@@ -32,11 +32,21 @@
       "type": "tf-designers-carousel",
       "name": "TF • Designers Carousel",
       "settings": {
-        "page_handles": "lola-varma, harriette-gordon, cassandra-graham",
+        "page_handles": "lola-varma, cassandra-graham, jessica-bennett, talc",
         "rotation_interval": 4500,
         "enable_dark_overlay": false,
         "link_url": "shopify://pages/designers",
         "link_label": "MEET OUR DESIGNERS"
+      }
+    },
+    "tf_side_title_text_DEHqAf": {
+      "type": "tf-side-title-text",
+      "name": "TF • Side Title + Text",
+      "settings": {
+        "heading": "Press",
+        "paragraph": "<p>The Fall has been quietly reshaping the bridal conversation. A selection of press that captures our approach to modern dressing, independent retail, and the contemporary bride.</p>",
+        "link_url": "",
+        "link_text": "Learn more"
       }
     },
     "tf_press_z497Lz": {
@@ -82,16 +92,6 @@
         "placeholder": "Enter email address",
         "button_text": "Subscribe",
         "success_message": "Thanks for subscribing!"
-      }
-    },
-    "tf_side_title_text_DEHqAf": {
-      "type": "tf-side-title-text",
-      "name": "TF • Side Title + Text",
-      "settings": {
-        "heading": "Press",
-        "paragraph": "<p>The Fall has been quietly reshaping the bridal conversation. A selection of press that captures our approach to modern dressing, independent retail, and the contemporary bride.</p>",
-        "link_url": "",
-        "link_text": "Learn more"
       }
     }
   },
