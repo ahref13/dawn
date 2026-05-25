@@ -1,0 +1,35 @@
+{
+  "redirects": [
+    {
+      "source": "/products/:path*",
+      "destination": "https://london.thefallbride.com/products/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/collections/:path*",
+      "destination": "https://london.thefallbride.com/collections/:path*",
+      "permanent": true
+    },
+    { "source": "/pages/:path*", "destination": "https://london.thefallbride.com/pages/:path*", "permanent": true },
+    { "source": "/blogs/:path*", "destination": "https://london.thefallbride.com/blogs/:path*", "permanent": true },
+    {
+      "source": "/policies/:path*",
+      "destination": "https://london.thefallbride.com/policies/:path*",
+      "permanent": true
+    },
+    { "source": "/cart", "destination": "https://london.thefallbride.com/cart", "permanent": false },
+    { "source": "/cart/:path*", "destination": "https://london.thefallbride.com/cart/:path*", "permanent": false },
+    { "source": "/account", "destination": "https://london.thefallbride.com/account", "permanent": false },
+    {
+      "source": "/account/:path*",
+      "destination": "https://london.thefallbride.com/account/:path*",
+      "permanent": false
+    },
+    { "source": "/search", "destination": "https://london.thefallbride.com/search", "permanent": false },
+    {
+      "source": "/checkout/:path*",
+      "destination": "https://london.thefallbride.com/checkout/:path*",
+      "permanent": false
+    }
+  ]
+}
