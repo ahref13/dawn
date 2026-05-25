@@ -60,16 +60,6 @@
             "price": "NOW £1800"
           }
         },
-        "gallery_item_QDdgje": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_17_1224_6b5c2677-f65f-4ad0-90af-962a1f98b0f0.jpg",
-            "designer": "Katherine Tash",
-            "style": "Rose",
-            "size": "14",
-            "price": "NOW £2000"
-          }
-        },
         "gallery_item_eK9VMX": {
           "type": "gallery_item",
           "settings": {
@@ -348,16 +338,6 @@
             "style": "Floral Lace Turtleneck",
             "size": "L",
             "price": "NOW £125"
-          }
-        },
-        "gallery_item_AFDFDt": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Cassandra_Graham_1162.jpg",
-            "designer": "Cassandra Graham",
-            "style": "Francine",
-            "size": "12",
-            "price": "NOW £1500"
           }
         },
         "gallery_item_krRaXt": {
@@ -706,7 +686,6 @@
         "gallery_item_dP6RnT",
         "gallery_item_xiAnVg",
         "gallery_item_D64FdR",
-        "gallery_item_QDdgje",
         "gallery_item_eK9VMX",
         "gallery_item_dgYyeP",
         "gallery_item_V8TjhX",
@@ -735,7 +714,6 @@
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
         "gallery_item_cfUhih",
-        "gallery_item_AFDFDt",
         "gallery_item_krRaXt",
         "gallery_item_KrpVkT",
         "gallery_item_XbN8iE",
