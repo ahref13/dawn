@@ -15,13 +15,13 @@
         "trunk_show_AjAmqF": {
           "type": "trunk_show",
           "settings": {
-            "designer": "Coming Soon",
-            "collection": "",
-            "date": "",
-            "image": "shopify://shop_images/250312_LolaVarma_SH25_1258as_f5ed823f-2dcb-41a3-8672-48dcfb0ef45b.jpg",
-            "description": "Stay tuned for trunk show announcements.",
-            "button_url": "",
-            "button_text": ""
+            "designer": "& For Love",
+            "collection": "The Lovers Part II",
+            "date": "26 June - 2 August",
+            "image": "shopify://shop_images/the-lovers-partie-deux-176_copy.jpg",
+            "description": "Join us for an exclusive trunk show with & For Love - welcoming their most recent collection The Lovers Part II, as well as previous collection best sellers: Juliet; Isolde; Romeo; Auldyn (Crepe); Oceans; and Chloe.\n\nThis extended trunk show will be with us across the summer. Book a Fitting Appointment to try these styles between 26 June - 1 August.",
+            "button_url": "https://newyork.thefallbride.com/pages/appointment",
+            "button_text": "Book A Fitting"
           }
         }
       },
