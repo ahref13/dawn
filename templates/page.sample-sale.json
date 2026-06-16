@@ -516,7 +516,7 @@
             "image": "shopify://shop_images/Screenshot_2024-09-24_at_15.36.08.webp",
             "designer": "Kamperett",
             "style": "Lalique",
-            "size": "S, M",
+            "size": "M",
             "price": "NOW £800"
           }
         },
@@ -536,7 +536,7 @@
             "image": "shopify://shop_images/Mae-Dress_1_900x_ec5eecfe-f45e-4d96-9f47-6ade1e492c94.jpg",
             "designer": "Kamperett",
             "style": "Mae",
-            "size": "XS - M",
+            "size": "XS, S",
             "price": "NOW £300"
           }
         },
@@ -556,7 +556,7 @@
             "image": "shopify://shop_images/Screenshot_2026-02-22_at_15.57.40.webp",
             "designer": "Kamperett",
             "style": "Meiere Midi",
-            "size": "XS - 1X",
+            "size": "M, XL, 1X",
             "price": "NOW £500"
           }
         },
@@ -586,7 +586,7 @@
             "image": "shopify://shop_images/ShortSlipIvory.webp",
             "designer": "Kamperett",
             "style": "Short Slip",
-            "size": "S - XL",
+            "size": "S - L",
             "price": "NOW £160"
           }
         },
