@@ -260,16 +260,6 @@
             "price": "NOW £2000"
           }
         },
-        "gallery_item_zbfmtc": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/B0069BSS25_EMERSON_1.jpg",
-            "designer": "Alex Perry",
-            "style": "Emerson",
-            "size": "12",
-            "price": "NOW £1800"
-          }
-        },
         "gallery_item_AKJpn8": {
           "type": "gallery_item",
           "settings": {
@@ -696,7 +686,6 @@
         "gallery_item_dDBbhk",
         "gallery_item_eJTzQF",
         "gallery_item_CtU4nR",
-        "gallery_item_zbfmtc",
         "gallery_item_AKJpn8",
         "gallery_item_Rfi3da",
         "gallery_item_zxwHYd",
