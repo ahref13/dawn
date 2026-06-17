@@ -23,10 +23,23 @@
             "button_url": "https://testhttps://london.thefallbride.com/pages/appointment",
             "button_text": "Booking Coming Soon"
           }
+        },
+        "trunk_show_XCW7NA": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Cortana",
+            "collection": "Select Styles",
+            "date": "17 - 19 July",
+            "image": "shopify://shop_images/1775530875397-new-20260326_Katherine_Tash_Lookbook27193_1800x1800_ed7504d8-5a26-4dc0-8a2f-43d52c1d240c.jpg",
+            "description": "Chrysalis marks an evolution for Katherine Tash as the brand enters its eighth year.\n\nApproached with clarity and restraint, the collection centres on intention, femininity, romance, and structure. New textiles and more directional silhouettes reflect an expansion of the Katherine Tash design language - while remaining grounded in the craftsmanship and sensibility that defines the label.\n\nEnjoy 10% off all Chrysalis orders throughout the trunk show.",
+            "button_url": "https://testhttps://london.thefallbride.com/pages/appointment",
+            "button_text": "Booking Coming Soon"
+          }
         }
       },
       "block_order": [
-        "trunk_show_KPfwy8"
+        "trunk_show_KPfwy8",
+        "trunk_show_XCW7NA"
       ],
       "settings": {}
     }
