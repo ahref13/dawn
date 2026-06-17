@@ -140,16 +140,6 @@
             "price": "NOW £3000"
           }
         },
-        "gallery_item_nxHqEe": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/404DA723-CBE1-423E-B45B-A45FDF184C42_f88a9ee6-dda4-4324-950a-615b4086715d.jpg",
-            "designer": "NEWHITE",
-            "style": "Ophelia",
-            "size": "12",
-            "price": "NOW £2,000"
-          }
-        },
         "gallery_item_hfBRR3": {
           "type": "gallery_item",
           "settings": {
@@ -694,7 +684,6 @@
         "gallery_item_4HyPaF",
         "gallery_item_cVcpfp",
         "gallery_item_9MVTmq",
-        "gallery_item_nxHqEe",
         "gallery_item_hfBRR3",
         "gallery_item_yq6im9",
         "gallery_item_nDbmwe",
