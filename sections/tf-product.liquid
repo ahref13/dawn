@@ -147,7 +147,7 @@
         {% if product.variants.size > 1 %}
           <div class="mb-8 pb-8 border-b border-black">
             <div class="flex items-center justify-between">
-              <label class="block text-[12px] font-normal uppercase tracking-[0.05em] mb-0">SIZE</label>
+              <label class="block text-[12px] font-normal uppercase tracking-[0.05em] mb-0">{{ product.options | join: ' / ' }}</label>
               <select
                 name="id"
                 class="w-auto min-w-[70px] py-0 text-[14px] border-0 bg-transparent bg-[url('data:image/svg+xml,%3Csvg%20width=%2712%27%20height=%278%27%20viewBox=%270%200%2012%208%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath%20d=%27M1%201L6%206L11%201%27%20stroke=%27black%27%20stroke-width=%272%27/%3E%3C/svg%3E')] bg-no-repeat bg-[100%_center] cursor-pointer appearance-none focus:outline-none font-normal text-center"
