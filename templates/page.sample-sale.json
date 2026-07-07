@@ -320,6 +320,16 @@
             "price": "NOW £125"
           }
         },
+        "gallery_item_46JR7d": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/DSCF4161_ret.webp",
+            "designer": "Cassandra Graham",
+            "style": "Alma",
+            "size": "6 (NEW)",
+            "price": "£3150"
+          }
+        },
         "gallery_item_krRaXt": {
           "type": "gallery_item",
           "settings": {
@@ -692,6 +702,7 @@
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
         "gallery_item_cfUhih",
+        "gallery_item_46JR7d",
         "gallery_item_krRaXt",
         "gallery_item_KrpVkT",
         "gallery_item_XbN8iE",
