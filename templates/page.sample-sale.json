@@ -310,6 +310,16 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_J7rXAc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1750348815744-Screenshot_2025-06-19_at_16.59.53.png",
+            "designer": "Former Girlfriend",
+            "style": "Nicole",
+            "size": "10-12",
+            "price": "NOW £900"
+          }
+        },
         "gallery_item_cfUhih": {
           "type": "gallery_item",
           "settings": {
@@ -709,6 +719,16 @@
             "size": "Chapel",
             "price": "NOW £150"
           }
+        },
+        "gallery_item_zfLeQT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AMFAULKNER-lisajanephoto-477_7be94712-2c19-474e-8213-6e0bbaba9547.jpg",
+            "designer": "Talc",
+            "style": "Maxi Minimal Veil",
+            "size": "Ballet",
+            "price": "NOW £150"
+          }
         }
       },
       "block_order": [
@@ -741,6 +761,7 @@
         "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
+        "gallery_item_J7rXAc",
         "gallery_item_cfUhih",
         "gallery_item_46JR7d",
         "gallery_item_krRaXt",
@@ -780,7 +801,8 @@
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
         "gallery_item_VCJYxL",
-        "gallery_item_QFr8UV"
+        "gallery_item_QFr8UV",
+        "gallery_item_zfLeQT"
       ],
       "name": "TF • Sample Sale",
       "settings": {
