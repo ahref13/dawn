@@ -340,6 +340,15 @@
             "price": "£3150"
           }
         },
+        "gallery_item_EnPpYM": {
+          "type": "gallery_item",
+          "settings": {
+            "designer": "Cassandra Graham",
+            "style": "Luella",
+            "size": "12",
+            "price": "NOW £1750"
+          }
+        },
         "gallery_item_krRaXt": {
           "type": "gallery_item",
           "settings": {
@@ -784,6 +793,7 @@
         "gallery_item_J7rXAc",
         "gallery_item_cfUhih",
         "gallery_item_46JR7d",
+        "gallery_item_EnPpYM",
         "gallery_item_krRaXt",
         "gallery_item_KrpVkT",
         "gallery_item_XbN8iE",
