@@ -779,6 +779,16 @@
             "size": "Ballet",
             "price": "NOW £150"
           }
+        },
+        "gallery_item_VM6ybV": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1773242791446-BONBRIDE_Ecom_197.jpg",
+            "designer": "BON BRIDÉ",
+            "style": "BB 91 Sheer Cape",
+            "size": "O/S",
+            "price": "NOW £450"
+          }
         }
       },
       "block_order": [
@@ -857,7 +867,8 @@
         "gallery_item_GY44Q6",
         "gallery_item_VCJYxL",
         "gallery_item_QFr8UV",
-        "gallery_item_zfLeQT"
+        "gallery_item_zfLeQT",
+        "gallery_item_VM6ybV"
       ],
       "name": "TF • Sample Sale",
       "settings": {
