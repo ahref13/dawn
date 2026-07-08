@@ -140,6 +140,16 @@
             "price": "NOW £3000"
           }
         },
+        "gallery_item_tqewLn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/92645BCB-6E26-4617-9D13-EA248A1F0FD5_a57a3bb9-43ae-4bd5-ae82-3f31bea215e1.jpg",
+            "designer": "NEWHITE",
+            "style": "Marline",
+            "size": "12",
+            "price": "NOW £2000"
+          }
+        },
         "gallery_item_hfBRR3": {
           "type": "gallery_item",
           "settings": {
@@ -343,6 +353,7 @@
         "gallery_item_EnPpYM": {
           "type": "gallery_item",
           "settings": {
+            "image": "shopify://shop_images/Cassandra_Graham_Luella.jpg",
             "designer": "Cassandra Graham",
             "style": "Luella",
             "size": "12",
@@ -773,6 +784,7 @@
         "gallery_item_4HyPaF",
         "gallery_item_cVcpfp",
         "gallery_item_9MVTmq",
+        "gallery_item_tqewLn",
         "gallery_item_hfBRR3",
         "gallery_item_yq6im9",
         "gallery_item_nDbmwe",
