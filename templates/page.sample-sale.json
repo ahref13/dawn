@@ -500,6 +500,26 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_7gtQXX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LL_Orchestra_3.22_3.19B_4.19B_-_5437.jpg",
+            "designer": "Harriette Gordon",
+            "style": "4.19b Paloma Veil",
+            "size": "Fingertip",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_QJKnb9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/HG_ORCHESTRA_121_15.38.32.jpg",
+            "designer": "Harriette Gordon",
+            "style": "7.18 Anouk Gloves",
+            "size": "M",
+            "price": "NOW £175"
+          }
+        },
         "gallery_item_WAnw6M": {
           "type": "gallery_item",
           "settings": {
@@ -780,6 +800,8 @@
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
         "gallery_item_dk9FQc",
+        "gallery_item_7gtQXX",
+        "gallery_item_QJKnb9",
         "gallery_item_WAnw6M",
         "gallery_item_aR6T4G",
         "gallery_item_C8VPGc",
