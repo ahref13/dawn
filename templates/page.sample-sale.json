@@ -460,6 +460,26 @@
             "price": "NOW £1,400"
           }
         },
+        "gallery_item_kL36rB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Farrah_1.jpg",
+            "designer": "Lola Varma",
+            "style": "Farrah Veil",
+            "size": "Cathedral (3m)",
+            "price": "NOW £225"
+          }
+        },
+        "gallery_item_dUwix9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/unnamed-1_009223b7-6857-4d86-9f8f-71cef4c7b682.png",
+            "designer": "Lola Varma",
+            "style": "Immy Veil",
+            "size": "",
+            "price": "NOW £200"
+          }
+        },
         "gallery_item_dk9FQc": {
           "type": "gallery_item",
           "settings": {
@@ -669,6 +689,26 @@
             "size": "1-Tier Shoulder",
             "price": "NOW £30"
           }
+        },
+        "gallery_item_VCJYxL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_158_b6e70c6d-e632-4232-9ca7-83852ecc796c.jpg",
+            "designer": "Talc",
+            "style": "Wild Daisy Veil",
+            "size": "Chapel",
+            "price": "NOW £200"
+          }
+        },
+        "gallery_item_QFr8UV": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_40.jpg",
+            "designer": "Talc",
+            "style": "Faye Juliet Cap Veil",
+            "size": "Chapel",
+            "price": "NOW £150"
+          }
         }
       },
       "block_order": [
@@ -716,6 +756,8 @@
         "gallery_item_kPjVmY",
         "gallery_item_CxGaCM",
         "gallery_item_xaCWND",
+        "gallery_item_kL36rB",
+        "gallery_item_dUwix9",
         "gallery_item_dk9FQc",
         "gallery_item_WAnw6M",
         "gallery_item_aR6T4G",
@@ -736,7 +778,9 @@
         "gallery_item_FwqhXj",
         "gallery_item_aUVg8d",
         "gallery_item_wcR8rP",
-        "gallery_item_GY44Q6"
+        "gallery_item_GY44Q6",
+        "gallery_item_VCJYxL",
+        "gallery_item_QFr8UV"
       ],
       "name": "TF • Sample Sale",
       "settings": {
