@@ -490,6 +490,16 @@
             "price": "NOW £1,400"
           }
         },
+        "gallery_item_Hp6qnK": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH46_2526as_6b165d20-d85b-49ab-9b5b-6aba6401be25.jpg",
+            "designer": "Lola Varma",
+            "style": "Romi Overlay",
+            "size": "12",
+            "price": "NOW £600"
+          }
+        },
         "gallery_item_kL36rB": {
           "type": "gallery_item",
           "settings": {
@@ -819,6 +829,7 @@
         "gallery_item_kPjVmY",
         "gallery_item_CxGaCM",
         "gallery_item_xaCWND",
+        "gallery_item_Hp6qnK",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
         "gallery_item_dk9FQc",
