@@ -49,7 +49,7 @@
           "settings": {
             "faq_group": "general",
             "title": "How long are appointments?",
-            "description": "First Fittings are 1 hour 15 minutes, Follow Up and Accessories appointments are 45 minutes."
+            "description": "First Fittings are 1 hour 30 minutes, Follow Up and Accessories appointments are 45 minutes."
           }
         },
         "faq_cMwgMw": {
@@ -58,6 +58,14 @@
             "faq_group": "general",
             "title": "How many guests can I bring?",
             "description": "We’re able to accommodate yourself +3 guests maximum. We are unable to make exceptions to this policy."
+          }
+        },
+        "faq_WtczR8": {
+          "type": "faq",
+          "settings": {
+            "faq_group": "general",
+            "title": "Do you allow babies/children?",
+            "description": "To ensure a calm, safe, and focused bridal experience, we welcome guests over the age of 18 only, and we are not able to accommodate babies or children. We are unable to make exceptions to this policy."
           }
         },
         "faq_KbDhPr": {
@@ -187,6 +195,7 @@
         "faq_Ybw8rc",
         "faq_WRPtkH",
         "faq_cMwgMw",
+        "faq_WtczR8",
         "faq_KbDhPr",
         "faq_zy4kmd",
         "faq_hgFC7W",
