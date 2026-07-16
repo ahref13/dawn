@@ -80,16 +80,6 @@
             "price": "NOW £2000"
           }
         },
-        "gallery_item_V8TjhX": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Katherine-Tash-Spring-2024-Moonlight-Luna.jpg",
-            "designer": "Katherine Tash",
-            "style": "Luna (White)",
-            "size": "12",
-            "price": "NOW £2000"
-          }
-        },
         "gallery_item_z6fAxx": {
           "type": "gallery_item",
           "settings": {
@@ -798,7 +788,6 @@
         "gallery_item_D64FdR",
         "gallery_item_eK9VMX",
         "gallery_item_dgYyeP",
-        "gallery_item_V8TjhX",
         "gallery_item_z6fAxx",
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
