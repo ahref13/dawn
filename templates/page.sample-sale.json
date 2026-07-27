@@ -40,16 +40,6 @@
             "price": "NOW £250"
           }
         },
-        "gallery_item_xiAnVg": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/jara-dress-5.jpg",
-            "designer": "Cortana",
-            "style": "Jara Dress",
-            "size": "12",
-            "price": "NOW £900"
-          }
-        },
         "gallery_item_D64FdR": {
           "type": "gallery_item",
           "settings": {
@@ -784,7 +774,6 @@
       "block_order": [
         "gallery_item_FcqVjX",
         "gallery_item_dP6RnT",
-        "gallery_item_xiAnVg",
         "gallery_item_D64FdR",
         "gallery_item_eK9VMX",
         "gallery_item_dgYyeP",
