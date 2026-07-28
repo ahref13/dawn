@@ -12,18 +12,6 @@
     "tf_trunk_shows": {
       "type": "tf-trunk-shows",
       "blocks": {
-        "trunk_show_KPfwy8": {
-          "type": "trunk_show",
-          "settings": {
-            "designer": "Katherine Tash",
-            "collection": "Chrysalis",
-            "date": "17 - 19 July",
-            "image": "shopify://shop_images/1775530875397-new-20260326_Katherine_Tash_Lookbook27193_1800x1800_ed7504d8-5a26-4dc0-8a2f-43d52c1d240c.jpg",
-            "description": "Chrysalis marks an evolution for Katherine Tash as the brand enters its eighth year.\n\nApproached with clarity and restraint, the collection centres on intention, femininity, romance, and structure. New textiles and more directional silhouettes reflect an expansion of the Katherine Tash design language - while remaining grounded in the craftsmanship and sensibility that defines the label.\n\nEnjoy 10% off all Chrysalis orders throughout the trunk show.",
-            "button_url": "https://london.thefallbride.com/pages/appointment",
-            "button_text": "Book Trunk Show"
-          }
-        },
         "trunk_show_XCW7NA": {
           "type": "trunk_show",
           "settings": {
@@ -31,14 +19,13 @@
             "collection": "Select Styles",
             "date": "24 July - 2 August",
             "image": "shopify://shop_images/caracola-dress-0168WEB.webp",
-            "description": "Join us for a U.K. first - a trunk show from coveted Spanish designer Cortana.\n\nWe will be hosting an exclusive edit of gowns during 24 July - 2 August - you can expect to see Verveine, Mio Gown, Hana Jacket, Caracola, Esparta Skirt, Audrey, Acacia, Kiss, Rama Top, Mara Skirt, Mimosa Top, Leah Top, Dahlia Top, Dahlia Skirt, and Aura.\n\nEnjoy 10% off the trunk show edit.",
+            "description": "Join us for a U.K. first - a trunk show from coveted Spanish designer Cortana.\n\nWe will be hosting an exclusive edit of gowns during 24 July - 2 August - you can expect to see Mio Gown, Hana Jacket, Caracola, Esparta Skirt, Audrey, Acacia, Kiss, Rama Top, Mara Skirt, Mimosa Top, Leah Top, Dahlia Top, Dahlia Skirt, and Aura.\n\nEnjoy 10% off the trunk show edit.",
             "button_url": "https://testhttps//london.thefallbride.com/pages/appointment",
             "button_text": "Book Trunk Show"
           }
         }
       },
       "block_order": [
-        "trunk_show_KPfwy8",
         "trunk_show_XCW7NA"
       ],
       "settings": {}
