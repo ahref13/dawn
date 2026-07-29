@@ -40,6 +40,16 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_wBTa3w": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_07_0524_3a27ee89-8abf-4ce6-90a1-d9e15fbcb6ab.jpg",
+            "designer": "Katherine Tash",
+            "style": "Eva",
+            "size": "14",
+            "price": "NOW £2500"
+          }
+        },
         "gallery_item_D64FdR": {
           "type": "gallery_item",
           "settings": {
@@ -774,6 +784,7 @@
       "block_order": [
         "gallery_item_FcqVjX",
         "gallery_item_dP6RnT",
+        "gallery_item_wBTa3w",
         "gallery_item_D64FdR",
         "gallery_item_eK9VMX",
         "gallery_item_dgYyeP",
