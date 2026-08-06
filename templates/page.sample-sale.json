@@ -730,16 +730,6 @@
             "price": "NOW £30"
           }
         },
-        "gallery_item_VCJYxL": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_158_b6e70c6d-e632-4232-9ca7-83852ecc796c.jpg",
-            "designer": "Talc",
-            "style": "Wild Daisy Veil",
-            "size": "Chapel",
-            "price": "NOW £200"
-          }
-        },
         "gallery_item_QFr8UV": {
           "type": "gallery_item",
           "settings": {
@@ -843,7 +833,6 @@
         "gallery_item_aUVg8d",
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
-        "gallery_item_VCJYxL",
         "gallery_item_QFr8UV",
         "gallery_item_zfLeQT",
         "gallery_item_VM6ybV"
