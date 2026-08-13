@@ -15,18 +15,31 @@
         "trunk_show_XCW7NA": {
           "type": "trunk_show",
           "settings": {
-            "designer": "Cortana",
-            "collection": "Select Styles",
-            "date": "24 July - 9 August",
-            "image": "shopify://shop_images/caracola-dress-0168WEB.webp",
-            "description": "Join us for a U.K. first - a trunk show from coveted Spanish designer Cortana.\n\nWe will be hosting an exclusive edit of gowns during 24 July - 2 August - you can expect to see Mio Gown, Hana Jacket, Caracola, Esparta Skirt, Audrey, Acacia, Kiss, Rama Top, Mara Skirt, Mimosa Top, Leah Top, Dahlia Top, Dahlia Skirt, and Aura.\n\nEnjoy 10% off the trunk show edit.\n\nTrunk show now extended through 9th August.",
-            "button_url": "https://testhttps//london.thefallbride.com/pages/appointment",
-            "button_text": "Book Trunk Show"
+            "designer": "BON BRIDÉ",
+            "collection": "Sevén",
+            "date": "23 - 27 September",
+            "image": "shopify://shop_images/Still_sharing_a_bit_more_of_the_new_SEVEN_collection_and_honestly_we_are_just_so_happy_you_guys_2.jpg",
+            "description": "Introducing Collection Sevén from Bon Bridé,  a confident evolution for the woman who defines bridal on her own terms.\n\nStripped back yet impactful, Sevén moves beyond traditional bridal codes with architectural silhouettes, sculptural tailoring and unexpected structure. Clean lines meet raw, luxurious textures, creating pieces that feel modern, directional and distinctly fashion-led.\n\nEnjoy 10% off trunk show orders.",
+            "button_url": "https://london.thefallbride.com/pages/appointment",
+            "button_text": "Coming Soon"
+          }
+        },
+        "trunk_show_rcahVR": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Prea James",
+            "collection": "In Continuum",
+            "date": "9 - 18 October",
+            "image": "shopify://shop_images/Cordelia_PreaJames_06.jpg",
+            "description": "Join us for the In Continuum trunk show, celebrating ten years of the brand through a collection that revisits its defining silhouettes, reimagined for the bride of today.\n\nWith an emphasis on form, fit and fabrication, each piece feels modern, effortless and enduring. More than a look back, In Continuum is an evolution - shaped by a decade of listening, refining and designing for the women who wear the gowns.\n\nEnjoy 10% off trunk show orders.",
+            "button_url": "https://london.thefallbride.com/pages/appointment",
+            "button_text": "Coming Soon"
           }
         }
       },
       "block_order": [
-        "trunk_show_XCW7NA"
+        "trunk_show_XCW7NA",
+        "trunk_show_rcahVR"
       ],
       "settings": {}
     }
