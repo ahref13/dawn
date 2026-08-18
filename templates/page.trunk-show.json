@@ -33,13 +33,26 @@
             "image": "shopify://shop_images/Tayler_Resized.jpg",
             "description": "Calling all girlfriends! We will be hosting an exclusive trunk show for Canadian label Former Girlfriend.\n\nDesigned and made in Toronto, Former Girlfriend celebrates the beauty of friendship and the women who shape our lives. Blending considered silhouettes with thoughtful detailing, the collections strike the perfect balance between understated elegance and contemporary fashion.\n\nBook a Fitting Appointment to try these styles between 6 - 16 November.\n\nEnjoy 10% off all trunk show orders placed during this time.",
             "button_url": "https://newyork.thefallbride.com/pages/appointment",
-            "button_text": "BOOK A FITTING"
+            "button_text": "COMING SOON"
+          }
+        },
+        "trunk_show_3z4H8M": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Alex Perry",
+            "collection": "SS27",
+            "date": "20 - 29 November",
+            "image": "shopify://shop_images/B0099BSS27_LIORA_1.jpg",
+            "description": "For the 2027 season Alex Perry explores exciting new fabrications for the label, including delicate and sheer leavers lace - one of the most intricate and coveted types of lace in the world.\n\nFeaturing the designer's signature corsetry, expect sharp silhouettes tempered with soft detailing.\n\nEnjoy 10% off trunk show orders.",
+            "button_url": "https://newyork.thefallbride.com/pages/appointment",
+            "button_text": "COMING SOON"
           }
         }
       },
       "block_order": [
         "trunk_show_AjAmqF",
-        "trunk_show_mUf8dV"
+        "trunk_show_mUf8dV",
+        "trunk_show_3z4H8M"
       ],
       "settings": {}
     }
