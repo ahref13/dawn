@@ -20,16 +20,6 @@
     "tf_curve_edit": {
       "type": "tf-curve-edit",
       "blocks": {
-        "gallery_item_FcqVjX": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/jara-top-jara-skirt-05_537-cortana-bridal.jpg",
-            "designer": "Cortana",
-            "style": "Jara Top",
-            "size": "12",
-            "price": "NOW £200"
-          }
-        },
         "gallery_item_wBTa3w": {
           "type": "gallery_item",
           "settings": {
@@ -288,6 +278,16 @@
             "style": "Draped Mini Dress",
             "size": "12",
             "price": "NOW £900"
+          }
+        },
+        "gallery_item_FcqVjX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/jara-top-jara-skirt-05_537-cortana-bridal.jpg",
+            "designer": "Cortana",
+            "style": "Jara Top",
+            "size": "12",
+            "price": "NOW £200"
           }
         },
         "gallery_item_J7rXAc": {
@@ -752,7 +752,6 @@
         }
       },
       "block_order": [
-        "gallery_item_FcqVjX",
         "gallery_item_wBTa3w",
         "gallery_item_D64FdR",
         "gallery_item_eK9VMX",
@@ -779,6 +778,7 @@
         "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
+        "gallery_item_FcqVjX",
         "gallery_item_J7rXAc",
         "gallery_item_cfUhih",
         "gallery_item_46JR7d",
