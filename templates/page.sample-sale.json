@@ -350,16 +350,6 @@
             "price": "NOW £800"
           }
         },
-        "gallery_item_XbN8iE": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/JB23-142.jpg",
-            "designer": "Jessica Bennett",
-            "style": "Delphine",
-            "size": "6 (NEW)",
-            "price": "£3500"
-          }
-        },
         "gallery_item_BUzFJV": {
           "type": "gallery_item",
           "settings": {
@@ -785,7 +775,6 @@
         "gallery_item_EnPpYM",
         "gallery_item_krRaXt",
         "gallery_item_KrpVkT",
-        "gallery_item_XbN8iE",
         "gallery_item_BUzFJV",
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
