@@ -24,6 +24,18 @@
             "button_text": "Book Trunk Show"
           }
         },
+        "trunk_show_jGchNc": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Cassandra Graham",
+            "collection": "CG04",
+            "date": "5 - 11 October",
+            "image": "shopify://shop_images/270818-CASSANDRA-GRAHAM-BRIDAL123380.jpg",
+            "description": "This eclectic new collection demonstrates a distinct mood and point of view. Each style has its own character, designed with a different bride and her individual sense of\nstyle in mind. From clean, pared-back silhouettes to softer, more romantic and playful pieces, the collection reflects the individuality of modern bridal dressing.\n\nHistoric fashion remains a constant source of inspiration, be it 50’s silhouettes, 80’s fabrics or 90’s elegance, reworked to feel fresh, modern and distinctly CG.\n\nEnjoy 10% off trunk show orders.",
+            "button_url": "https://newyork.thefallbride.com/pages/appointment",
+            "button_text": "BOOKING COMING SOON"
+          }
+        },
         "trunk_show_mUf8dV": {
           "type": "trunk_show",
           "settings": {
@@ -51,6 +63,7 @@
       },
       "block_order": [
         "trunk_show_AjAmqF",
+        "trunk_show_jGchNc",
         "trunk_show_mUf8dV",
         "trunk_show_3z4H8M"
       ],
