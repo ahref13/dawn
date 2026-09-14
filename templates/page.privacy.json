@@ -94,70 +94,49 @@
           "type": "privacy_item",
           "settings": {
             "title": "Payment Processing",
-            "description": "<p>We use Stripe to process payments. When You make a payment, Stripe may collect and<br/>process payment-card details, billing information, transaction information, device<br/>information, and information used for fraud prevention and regulatory compliance.<br/>Payment information is submitted directly to Stripe and processed in accordance with<br/>Stripe’s terms, privacy practices, and applicable security requirements. We do not store<br/>complete payment-card numbers on Our own systems, although We may receive<br/>transaction identifiers, payment status, limited card details, and other information needed<br/>to reconcile transactions, provide services, process refunds, and maintain business<br/>records.</p>"
+            "description": "<p>We use Stripe to process payments. When You make a payment, Stripe may collect and process payment-card details, billing information, transaction information, device<br/>information, and information used for fraud prevention and regulatory compliance.<br/>Payment information is submitted directly to Stripe and processed in accordance with Stripe’s terms, privacy practices, and applicable security requirements. We do not store complete payment-card numbers on Our own systems, although We may receive transaction identifiers, payment status, limited card details, and other information needed to reconcile transactions, provide services, process refunds, and maintain business<br/>records.</p>"
           }
         },
         "privacy_item_DzMDEb": {
           "type": "privacy_item",
           "settings": {
-            "title": "Data Security",
-            "description": "<p>The Fall Bridal LLC maintains reasonable administrative, technical, and physical safeguards designed to protect personal information against unauthorized access, disclosure, alteration, misuse, or destruction.</p><p>Our security measures may include:</p><ul><li>Access controls<br/></li><li>Password protections<br/></li><li>Secure payment processing<br/></li><li>Employee training<br/></li><li>Vendor oversight<br/></li><li>System monitoring<br/></li></ul><p>While we take reasonable measures to protect information, no transmission or storage system can be guaranteed to be completely secure.</p>"
+            "title": "Detailed Information on the Processing of Your Personal Data",
+            "description": "<p>The Service Providers We use may have access to Your Personal Data. These third-party vendors collect, store, use, process and transfer information about Your activity on Our Service in accordance with their Privacy Policies.<br/><em>Analytics</em><br/>We may use third-party Service providers to monitor and analyze the use of our Service.<br/><strong>Google Analytics</strong><br/>Google Analytics is a web analytics service provided by Google. It uses cookies and<br/>similar technologies to help Us understand Website traffic and visitor interactions, such as pages viewed, navigation paths, referring sources, approximate location, device and browser information, and the date, time, and duration of visits. We use this information to measure Website performance and improve Our services. Google may process this information in accordance with its own privacy practices.<br/>You may limit Google Analytics through the Website privacy controls, browser settings,<br/>or Google’s currently available opt-out tools. A browser add-on may not apply to every browser, Device, analytics configuration, or non-cookie technology.<br/>For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: https://policies.google.com/privacy<br/><em>Behavioral Remarketing</em><br/>We use the Meta Pixel and related Meta advertising services to measure advertising performance, create audiences, and show advertisements to people who previously visited or interacted with Our Website. Depending on the service and configuration, the Company and Meta Platforms, Inc. may independently determine certain purposes and means of processing. Meta may process online identifiers, IP address, device and browser information, pages viewed, actions taken, referral information, and date and time information in accordance with Meta’s privacy practices.<br/>These third-party vendors collect, store, use, process and transfer information about Your activity on Our Service in accordance with their Privacy Policies and to enable Us to:<br/>- Measure and analyze traffic and browsing activity on Our Service<br/>- Show advertisements for our products and/or services to You on third-party<br/>websites or apps<br/>- Measure and analyze the performance of Our advertising campaigns<br/>Some of these third-party vendors may use non-cookie technologies that may not be impacted by browser settings that block cookies. Your browser may not permit You to block such technologies. You can use the following third-party tools to decline the<br/>collection and use of information for the purpose of serving You interest-based<br/>advertising:<br/>- The NAI's opt-out platform: http://www.networkadvertising.org/choices/<br/>- The EDAA's opt-out platform http://www.youronlinechoices.com/<br/>- The DAA's opt-out platform: http://optout.aboutads.info/?c=2&lang=EN<br/>You may opt-out of all personalized advertising by enabling privacy features on Your mobile device such as Limit Ad Tracking (iOS) and Opt Out of Ads Personalization (Android). See Your mobile device Help system for more information.<br/>We may disclose online identifiers and Website activity to Meta through the Meta Pixel and related technologies so that Meta can measure advertising, create audiences, and<br/>deliver advertisements across devices and browsers, subject to Your choices and<br/>applicable law.<br/>The third-party vendors We use are:<br/><strong>Meta</strong><br/>Meta remarketing services and the Meta Pixel are provided by Meta Platforms, Inc.<br/>These services help Us deliver advertisements on Meta platforms to previous Website visitors, create advertising audiences, and measure campaign performance.<br/>You can learn more about Meta’s advertising controls and privacy practices through the privacy and advertising settings that Meta makes available for its services.</p>"
           }
         },
         "privacy_item_YAifw4": {
           "type": "privacy_item",
           "settings": {
-            "title": "New York Data Protection",
-            "description": "<p>We implement reasonable safeguards designed to protect the personal information of New York residents and comply with applicable New York data security requirements, including obligations imposed by the New York SHIELD Act where applicable.</p>"
+            "title": "New York Privacy Information",
+            "description": "<p>The Company is based in New York. New York generally does not provide consumers with the same comprehensive access, correction, deletion, portability, or opt-out rights established by certain other state privacy statutes. Nevertheless, You may contact Us to request access to, correction of, or deletion of Personal Data that You have provided to Us. We will consider and respond to such requests in accordance with applicable law and may retain information where reasonably necessary for appointments, transactions, accounting, fraud prevention, security, dispute resolution, legal compliance, or other legitimate business purposes.<br/>We send marketing emails only with Your opt-in and provide an unsubscribe method in each marketing email. Unsubscribing from marketing emails does not prevent Us from sending appointment confirmations, reminders, payment or order communications, or other non-marketing messages relating to services You request.<br/>We maintain reasonable administrative, technical, and physical safeguards appropriate to the nature of the Personal Data We maintain. If a security incident involving Personal Data requires notice under applicable New York law, We will provide notice as required.<br/>We do not collect biometric identifier information, such as a retina or iris scan,<br/>fingerprint, voiceprint, or scan of hand or face geometry, for marketing or advertising<br/>purposes, and We do not sell biometric identifier information or disclose it for advertising purposes.</p>"
           }
         },
         "privacy_item_rn8GQT": {
           "type": "privacy_item",
           "settings": {
             "title": "Children's Privacy",
-            "description": "<p>Our website and services are not directed to children under the age of 13.</p><p>We do not knowingly collect personal information from children under 13.</p><p>If we become aware that information has been collected from a child without appropriate authorization, we will take reasonable steps to delete the information.</p>"
+            "description": "<p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers. </p><p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>"
           }
         },
         "privacy_item_TAUeGJ": {
           "type": "privacy_item",
           "settings": {
-            "title": "Third-Party Websites",
-            "description": "<p>Our website may contain links to third-party websites, services, or social media platforms.</p><p>We are not responsible for the privacy practices, security, or content of third-party websites.</p><p>We encourage users to review the privacy policies of those third parties before providing personal information.</p>"
+            "title": "Links to Other Websites",
+            "description": "<p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.<br/>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>"
           }
         },
         "privacy_item_i6YJWY": {
           "type": "privacy_item",
           "settings": {
-            "title": "International Data Transfers",
-            "description": "<p>Some of our service providers may process information outside of your state or country of residence.</p><p>By using our website and services, you understand that information may be transferred, stored, and processed in jurisdictions with different data protection laws than your own.</p>"
+            "title": "Changes to this Privacy Policy",
+            "description": "<p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.<br/>We will post the updated Privacy Policy on this page and revise the “Last updated” date.<br/>If required by applicable law, We will provide additional notice before a material change becomes effective.<br/>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>"
           }
         },
         "privacy_item_EAHgci": {
           "type": "privacy_item",
           "settings": {
-            "title": "Your Privacy Rights",
-            "description": "<p>Depending on your jurisdiction and applicable law, you may have rights regarding your personal information.</p><p>These rights may include the ability to:</p><ul><li>Request access to personal information we maintain about you<br/></li><li>Request correction of inaccurate information<br/></li><li>Request deletion of personal information where legally permitted<br/></li><li>Withdraw consent where processing is based on consent<br/></li><li>Request information about how your information is used<br/></li></ul><p>To exercise these rights, please contact us using the information below.</p><p>We may verify your identity before processing requests.</p>"
-          }
-        },
-        "privacy_item_FYWMcM": {
-          "type": "privacy_item",
-          "settings": {
-            "title": "Do Not Track Signals",
-            "description": "<p>Some web browsers offer a \"Do Not Track\" feature.</p><p>Because there is currently no universally accepted standard for responding to Do Not Track signals, our website may not respond to such signals.</p>"
-          }
-        },
-        "privacy_item_3wwWMt": {
-          "type": "privacy_item",
-          "settings": {
-            "title": "Changes to This Privacy Policy",
-            "description": "<p>We may update this Privacy Policy from time to time.</p><p>Changes become effective upon posting to our website.</p><p>The \"Last Updated\" date at the top of this Privacy Policy will reflect the effective date of any revisions.</p>"
-          }
-        },
-        "privacy_item_npW8Gt": {
-          "type": "privacy_item",
-          "settings": {
             "title": "Contact Us",
-            "description": "<p>If you have questions about this Privacy Policy or our privacy practices, please contact:</p><p><strong>The Fall Bridal LLC</strong><br/>45 Main Street<br/>Brooklyn, NY 11201<br/>United States</p><p>Email: <a>newyork@thefallbride.com</a></p><p>Website: <a href=\"https://newyork.thefallbride.com\">https://newyork.thefallbride.com</a></p>"
+            "description": "<p>If You have questions about this Privacy Policy or wish to submit a privacy request, You may contact Us at newyork@thefallbride.com or by mail at The Fall Bridal LLC, Suite 318, 45 Main Street, Brooklyn, New York 11201, United States.</p>"
           }
         }
       },
@@ -178,10 +157,7 @@
         "privacy_item_rn8GQT",
         "privacy_item_TAUeGJ",
         "privacy_item_i6YJWY",
-        "privacy_item_EAHgci",
-        "privacy_item_FYWMcM",
-        "privacy_item_3wwWMt",
-        "privacy_item_npW8Gt"
+        "privacy_item_EAHgci"
       ],
       "name": "TF • Privacy Policy",
       "settings": {
