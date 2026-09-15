@@ -12,16 +12,16 @@
     "tf_trunk_shows": {
       "type": "tf-trunk-shows",
       "blocks": {
-        "trunk_show_AjAmqF": {
+        "trunk_show_TYzr4T": {
           "type": "trunk_show",
           "settings": {
-            "designer": "Kate Willa",
-            "collection": "Two",
-            "date": "Postponed",
-            "image": "shopify://shop_images/LeniAliStudios_KateWilla_BridalLeniAliStudios_KateWilla_BridalSH9_2327_7b3991ff-1e91-4643-9377-31a895e32e5b.webp",
-            "description": "Join us for an exclusive NYC trunk show for the latest collection from Kate Willa. \n\nThe Australian designer is pushing the bridal design envelope through timeless silhouettes consisting of rich, elevated fabrications and details. Each piece is created to be a treasured keepsake.\n\nWe will be welcoming the entire second collection as well as iconic favorite Roj.",
+            "designer": "Lola Varma",
+            "collection": "Verset",
+            "date": "9 - 10 October",
+            "image": "shopify://shop_images/LolaVarma_VERSET_S11_1595a.jpg",
+            "description": "Meaning a short verse, passage or musical interlude, Verset reflects a decade of Lola Varma’s evolving design language — a study in silhouette, fabric and restraint. Each piece exists as its own expression, while forming part of a greater composition.\n\nVerset will land at The Fall Bride exclusively, to launch New York Bridal Fashion Week. \n\nEnjoy 10% off trunk show orders.",
             "button_url": "https://newyork.thefallbride.com/pages/appointment",
-            "button_text": "COMING SOON"
+            "button_text": "Book Trunk Show"
           }
         },
         "trunk_show_jGchNc": {
@@ -33,7 +33,7 @@
             "image": "shopify://shop_images/270818-CASSANDRA-GRAHAM-BRIDAL123380.jpg",
             "description": "This eclectic new collection demonstrates a distinct mood and point of view. Each style has its own character, designed with a different bride and her individual sense of\nstyle in mind. From clean, pared-back silhouettes to softer, more romantic and playful pieces, the collection reflects the individuality of modern bridal dressing.\n\nHistoric fashion remains a constant source of inspiration, be it 50’s silhouettes, 80’s fabrics or 90’s elegance, reworked to feel fresh, modern and distinctly CG.\n\nEnjoy 10% off trunk show orders.",
             "button_url": "https://newyork.thefallbride.com/pages/appointment",
-            "button_text": "BOOKING COMING SOON"
+            "button_text": "BOOK TRUNK SHOW"
           }
         },
         "trunk_show_mUf8dV": {
@@ -45,7 +45,7 @@
             "image": "shopify://shop_images/Tayler_Resized.jpg",
             "description": "Calling all girlfriends! We will be hosting an exclusive trunk show for Canadian label Former Girlfriend.\n\nDesigned and made in Toronto, Former Girlfriend celebrates the beauty of friendship and the women who shape our lives. Blending considered silhouettes with thoughtful detailing, the collections strike the perfect balance between understated elegance and contemporary fashion.\n\nBook a Fitting Appointment to try these styles between 6 - 16 November.\n\nEnjoy 10% off all trunk show orders placed during this time.",
             "button_url": "https://newyork.thefallbride.com/pages/appointment",
-            "button_text": "COMING SOON"
+            "button_text": "BOOKING COMING SOON"
           }
         },
         "trunk_show_3z4H8M": {
@@ -57,15 +57,28 @@
             "image": "shopify://shop_images/B0099BSS27_LIORA_1.jpg",
             "description": "For the 2027 season Alex Perry explores exciting new fabrications for the label, including delicate and sheer leavers lace - one of the most intricate and coveted types of lace in the world.\n\nFeaturing the designer's signature corsetry, expect sharp silhouettes tempered with soft detailing.\n\nEnjoy 10% off trunk show orders.",
             "button_url": "https://newyork.thefallbride.com/pages/appointment",
+            "button_text": "BOOKING COMING SOON"
+          }
+        },
+        "trunk_show_AjAmqF": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Kate Willa",
+            "collection": "Two",
+            "date": "Postponed",
+            "image": "shopify://shop_images/LeniAliStudios_KateWilla_BridalLeniAliStudios_KateWilla_BridalSH9_2327_7b3991ff-1e91-4643-9377-31a895e32e5b.webp",
+            "description": "Join us for an exclusive NYC trunk show for the latest collection from Kate Willa. \n\nThe Australian designer is pushing the bridal design envelope through timeless silhouettes consisting of rich, elevated fabrications and details. Each piece is created to be a treasured keepsake.\n\nWe will be welcoming the entire second collection as well as iconic favorite Roj.",
+            "button_url": "https://newyork.thefallbride.com/pages/appointment",
             "button_text": "COMING SOON"
           }
         }
       },
       "block_order": [
-        "trunk_show_AjAmqF",
+        "trunk_show_TYzr4T",
         "trunk_show_jGchNc",
         "trunk_show_mUf8dV",
-        "trunk_show_3z4H8M"
+        "trunk_show_3z4H8M",
+        "trunk_show_AjAmqF"
       ],
       "settings": {}
     }
