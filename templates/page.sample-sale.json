@@ -100,6 +100,16 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_KzbrhA": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Penelope_Sadie_1.jpg",
+            "designer": "Prea James",
+            "style": "Sadie Skirt",
+            "size": "12",
+            "price": "NOW £1200"
+          }
+        },
         "gallery_item_9MVTmq": {
           "type": "gallery_item",
           "settings": {
@@ -760,6 +770,7 @@
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
         "gallery_item_cVcpfp",
+        "gallery_item_KzbrhA",
         "gallery_item_9MVTmq",
         "gallery_item_tqewLn",
         "gallery_item_hfBRR3",
