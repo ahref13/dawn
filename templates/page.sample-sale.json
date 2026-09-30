@@ -1219,6 +1219,16 @@
             "price": "NOW £100"
           }
         },
+        "gallery_item_dGPhBJ": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/53DAEEBB-D5BC-43F0-B3B3-7982EE6C8FD6.webp",
+            "designer": "Talc",
+            "style": "Lauro Birdcage Veil",
+            "size": "",
+            "price": "NOW £50"
+          }
+        },
         "gallery_item_aUVg8d": {
           "type": "gallery_item",
           "settings": {
@@ -1811,6 +1821,7 @@
         "gallery_item_7g6mq4",
         "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
+        "gallery_item_dGPhBJ",
         "gallery_item_aUVg8d",
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
