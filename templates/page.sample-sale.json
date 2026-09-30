@@ -1269,6 +1269,26 @@
             "price": "NOW £90"
           }
         },
+        "gallery_item_zjVtMb": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_221_ae58a466-99b1-4665-8649-8c716291cf7b.jpg",
+            "designer": "Talc",
+            "style": "Cloud Veil",
+            "size": "",
+            "price": "NOW £50"
+          }
+        },
+        "gallery_item_yTJBmd": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_119_b40a0b59-2ace-423a-9646-77201827b923.jpg",
+            "designer": "Talc",
+            "style": "Confetti Veil - 1-Tier Chapel",
+            "size": "",
+            "price": "NOW £90"
+          }
+        },
         "gallery_item_zfLeQT": {
           "type": "gallery_item",
           "settings": {
@@ -1289,14 +1309,14 @@
             "price": "NOW £50"
           }
         },
-        "gallery_item_VM6ybV": {
+        "gallery_item_gWA9Mi": {
           "type": "gallery_item",
           "settings": {
-            "image": "shopify://shop_images/uploads_1773242791446-BONBRIDE_Ecom_197.jpg",
-            "designer": "BON BRIDÉ",
-            "style": "BB 91 Sheer Cape",
-            "size": "O/S",
-            "price": "NOW £450"
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_264_0273ede5-dd64-4baf-830d-075c1749d87d.jpg",
+            "designer": "Talc",
+            "style": "Flora Snap Clips",
+            "size": "",
+            "price": "NOW £50"
           }
         },
         "gallery_item_YgWXma": {
@@ -1796,9 +1816,11 @@
         "gallery_item_GY44Q6",
         "gallery_item_QFr8UV",
         "gallery_item_8TFCP4",
+        "gallery_item_zjVtMb",
+        "gallery_item_yTJBmd",
         "gallery_item_zfLeQT",
         "gallery_item_EzjcWY",
-        "gallery_item_VM6ybV",
+        "gallery_item_gWA9Mi",
         "gallery_item_YgWXma",
         "gallery_item_T4cYq4",
         "gallery_item_r73cDi",
