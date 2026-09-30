@@ -1189,6 +1189,36 @@
             "price": "NOW £650"
           }
         },
+        "gallery_item_kTxD6n": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/5.png",
+            "designer": "Tanner Fletcher",
+            "style": "Adeline Mini",
+            "size": "12",
+            "price": "NOW £500"
+          }
+        },
+        "gallery_item_NJj8nB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/TFSS2024__1583.jpg",
+            "designer": "Tanner Fletcher",
+            "style": "Walt Suit - Blue",
+            "size": "10-12",
+            "price": "NOW £600"
+          }
+        },
+        "gallery_item_Ua6gYM": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/2024.03.30_Tanner_Fletcher_wedding_Day_21419.jpg",
+            "designer": "Tanner Fletcher",
+            "style": "Walt Suit - Ivory",
+            "size": "6",
+            "price": "NOW £600"
+          }
+        },
         "gallery_item_7g6mq4": {
           "type": "gallery_item",
           "settings": {
@@ -1818,6 +1848,9 @@
         "gallery_item_Q6B7jE",
         "gallery_item_yPtVTk",
         "gallery_item_GwyFkj",
+        "gallery_item_kTxD6n",
+        "gallery_item_NJj8nB",
+        "gallery_item_Ua6gYM",
         "gallery_item_7g6mq4",
         "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
