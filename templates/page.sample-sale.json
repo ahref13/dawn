@@ -150,6 +150,26 @@
             "price": "£950"
           }
         },
+        "gallery_item_3qTMHW": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Prea_James_Bridal-Gianna_w_Sleeves.jpg",
+            "designer": "Prea James",
+            "style": "Gianna w/sleeves and straps",
+            "size": "12",
+            "price": "NOW £1600"
+          }
+        },
+        "gallery_item_dpyKDL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Gianna_Bowie_6.jpg",
+            "designer": "Prea James",
+            "style": "Gianna Bow",
+            "size": "",
+            "price": "NOW £300"
+          }
+        },
         "gallery_item_XTLQF9": {
           "type": "gallery_item",
           "settings": {
@@ -157,6 +177,16 @@
             "designer": "Prea James",
             "style": "Juliette",
             "size": "10",
+            "price": "NOW £700"
+          }
+        },
+        "gallery_item_A8QA9D": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJBSofia_mini.1_a051ca8f-5326-441e-b66a-cfecc3f88824.jpg",
+            "designer": "Prea James",
+            "style": "Sofia Mini",
+            "size": "12",
             "price": "NOW £700"
           }
         },
@@ -180,26 +210,6 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_3qTMHW": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Prea_James_Bridal-Gianna_w_Sleeves.jpg",
-            "designer": "Prea James",
-            "style": "Gianna w/sleeves and straps",
-            "size": "12",
-            "price": "NOW £1600"
-          }
-        },
-        "gallery_item_dpyKDL": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/PJB_Gianna_Bowie_6.jpg",
-            "designer": "Prea James",
-            "style": "Gianna Bow",
-            "size": "",
-            "price": "NOW £300"
-          }
-        },
         "gallery_item_FhHNma": {
           "type": "gallery_item",
           "settings": {
@@ -208,16 +218,6 @@
             "style": "Grace Overskirt",
             "size": "12",
             "price": "NOW £600"
-          }
-        },
-        "gallery_item_A8QA9D": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/PJBSofia_mini.1_a051ca8f-5326-441e-b66a-cfecc3f88824.jpg",
-            "designer": "Prea James",
-            "style": "Sofia Mini",
-            "size": "12",
-            "price": "NOW £700"
           }
         },
         "gallery_item_bT733A": {
@@ -1145,13 +1145,13 @@
         "gallery_item_aVCajB",
         "gallery_item_z6fAxx",
         "gallery_item_fk6cXB",
-        "gallery_item_XTLQF9",
-        "gallery_item_GMbTwd",
-        "gallery_item_4HyPaF",
         "gallery_item_3qTMHW",
         "gallery_item_dpyKDL",
-        "gallery_item_FhHNma",
+        "gallery_item_XTLQF9",
         "gallery_item_A8QA9D",
+        "gallery_item_GMbTwd",
+        "gallery_item_4HyPaF",
+        "gallery_item_FhHNma",
         "gallery_item_bT733A",
         "gallery_item_jMeRUr",
         "gallery_item_KzbrhA",
