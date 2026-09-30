@@ -1238,6 +1238,16 @@
             "price": "NOW £150"
           }
         },
+        "gallery_item_8TFCP4": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_249_79381a51-73ba-4a5d-b7bd-da297e001b2e.jpg",
+            "designer": "Talc",
+            "style": "Felina Bow",
+            "size": "",
+            "price": "NOW £90"
+          }
+        },
         "gallery_item_zfLeQT": {
           "type": "gallery_item",
           "settings": {
@@ -1248,6 +1258,16 @@
             "price": "NOW £150"
           }
         },
+        "gallery_item_EzjcWY": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_169_051d95e7-8f6e-48e5-97c2-e90dfd8c1a37.jpg",
+            "designer": "Talc",
+            "style": "Jasmine Clips",
+            "size": "",
+            "price": "NOW £50"
+          }
+        },
         "gallery_item_VM6ybV": {
           "type": "gallery_item",
           "settings": {
@@ -1256,6 +1276,16 @@
             "style": "BB 91 Sheer Cape",
             "size": "O/S",
             "price": "NOW £450"
+          }
+        },
+        "gallery_item_YgWXma": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/BELEL_is_romance_reimagined_sleek_modern_lines_meet_delicate_French_lace_creating_the_perfect.jpg",
+            "designer": "NEOUS",
+            "style": "BELEL",
+            "size": "UK 4-7",
+            "price": "NOW £250"
           }
         },
         "gallery_item_T4cYq4": {
@@ -1612,8 +1642,11 @@
         "gallery_item_wcR8rP",
         "gallery_item_GY44Q6",
         "gallery_item_QFr8UV",
+        "gallery_item_8TFCP4",
         "gallery_item_zfLeQT",
+        "gallery_item_EzjcWY",
         "gallery_item_VM6ybV",
+        "gallery_item_YgWXma",
         "gallery_item_T4cYq4",
         "gallery_item_r73cDi",
         "gallery_item_8NimmV",
