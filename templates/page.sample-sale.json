@@ -570,6 +570,15 @@
             "price": "NOW £600"
           }
         },
+        "gallery_item_wnQPFU": {
+          "type": "gallery_item",
+          "settings": {
+            "designer": "Former Girlfriend",
+            "style": "Mina Mini Skirt",
+            "size": "12",
+            "price": "NOW £300"
+          }
+        },
         "gallery_item_J7rXAc": {
           "type": "gallery_item",
           "settings": {
@@ -588,6 +597,16 @@
             "style": "Floral Lace Turtleneck",
             "size": "L",
             "price": "NOW £125"
+          }
+        },
+        "gallery_item_RgP7cU": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Marta_Veil_Small_89a3b3d2-1a84-42c6-8ca0-e1346b3ecc81.jpg",
+            "designer": "Former Girlfriend",
+            "style": "Marta Veil",
+            "size": "",
+            "price": "NOW £400"
           }
         },
         "gallery_item_46JR7d": {
@@ -1307,8 +1326,10 @@
         "gallery_item_BweGft",
         "gallery_item_H3mX3r",
         "gallery_item_E67pgE",
+        "gallery_item_wnQPFU",
         "gallery_item_J7rXAc",
         "gallery_item_cfUhih",
+        "gallery_item_RgP7cU",
         "gallery_item_46JR7d",
         "gallery_item_EnPpYM",
         "gallery_item_krRaXt",
