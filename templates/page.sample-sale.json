@@ -709,6 +709,46 @@
             "price": "NOW £1750"
           }
         },
+        "gallery_item_qjz9QN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/the-lovers-partie-deux-176_copy_da073eac-c9fc-4273-9069-9474004e9239.jpg",
+            "designer": "& For Love",
+            "style": "Degas",
+            "size": "12",
+            "price": "£1600"
+          }
+        },
+        "gallery_item_KGCfVJ": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/the-lovers-partie-deux-111_copy.jpg",
+            "designer": "& For Love",
+            "style": "Dauphine Corset",
+            "size": "12",
+            "price": "NOW £950"
+          }
+        },
+        "gallery_item_EgPBh3": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/the-lovers-partie-deux-44-3_copy.jpg",
+            "designer": "& For Love",
+            "style": "Ophelia Lace Skirt (Lined)",
+            "size": "12",
+            "price": "NOW £700"
+          }
+        },
+        "gallery_item_LxQNkC": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/the-lovers-partie-deux-65.webp",
+            "designer": "& For Love",
+            "style": "Hamlet Skirt",
+            "size": "12",
+            "price": "NOW £650"
+          }
+        },
         "gallery_item_MieJtC": {
           "type": "gallery_item",
           "settings": {
@@ -727,6 +767,16 @@
             "style": "Auldyn Crepe",
             "size": "12, 16",
             "price": "NOW £1,400"
+          }
+        },
+        "gallery_item_jfPxDq": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FL_2021-22-79.jpg",
+            "designer": "& For Love",
+            "style": "Ada",
+            "size": "12",
+            "price": "NOW £1000"
           }
         },
         "gallery_item_kPjVmY": {
@@ -1350,8 +1400,13 @@
         "gallery_item_yeBw3y",
         "gallery_item_KprHAb",
         "gallery_item_tGjVFc",
+        "gallery_item_qjz9QN",
+        "gallery_item_KGCfVJ",
+        "gallery_item_EgPBh3",
+        "gallery_item_LxQNkC",
         "gallery_item_MieJtC",
         "gallery_item_QfVEHi",
+        "gallery_item_jfPxDq",
         "gallery_item_kPjVmY",
         "gallery_item_CxGaCM",
         "gallery_item_xaCWND",
