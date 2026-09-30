@@ -909,6 +909,46 @@
             "size": "",
             "price": "NOW £95"
           }
+        },
+        "gallery_item_R3hicr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NURIA_CHAMPAGNE.jpg",
+            "designer": "Shlya",
+            "style": "Nuria - Champagne",
+            "size": "",
+            "price": "NOW £30"
+          }
+        },
+        "gallery_item_B4cdEk": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NURIA_EARRINGS_SILVER_PEARL.jpg",
+            "designer": "Shyla",
+            "style": "Nuria - Pearl",
+            "size": "",
+            "price": "NOW £30"
+          }
+        },
+        "gallery_item_L8KHA7": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LIMAEARRINGSPEARLEMERALD.webp",
+            "designer": "Shyla",
+            "style": "Lima - Emerald",
+            "size": "",
+            "price": "NOW £30"
+          }
+        },
+        "gallery_item_y97Nd3": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LIMAEARRINGSPEARLCLEAR.webp",
+            "designer": "Shyla",
+            "style": "Lima - Crystal",
+            "size": "",
+            "price": "NOW £30"
+          }
         }
       },
       "block_order": [
@@ -1000,7 +1040,11 @@
         "gallery_item_MxT4P3",
         "gallery_item_NtXTyy",
         "gallery_item_iernDb",
-        "gallery_item_THAy7p"
+        "gallery_item_THAy7p",
+        "gallery_item_R3hicr",
+        "gallery_item_B4cdEk",
+        "gallery_item_L8KHA7",
+        "gallery_item_y97Nd3"
       ],
       "name": "TF • Sample Sale",
       "settings": {
