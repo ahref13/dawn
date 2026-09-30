@@ -80,6 +80,26 @@
             "price": "£1800"
           }
         },
+        "gallery_item_3Wcf4b": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/dfd528_039146ed23a3472fb3700540cc22f585_mv2_ea3778a3-a1f3-4232-ba9c-9ce2bcf25bbd.jpg",
+            "designer": "Katherine Tash",
+            "style": "Bennet",
+            "size": "12",
+            "price": "NOW £1800"
+          }
+        },
+        "gallery_item_aVCajB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SHOT_07_0915.jpg",
+            "designer": "Katherine Tash",
+            "style": "Isolde - Lace Overlay Only",
+            "size": "12",
+            "price": "NOW £900"
+          }
+        },
         "gallery_item_z6fAxx": {
           "type": "gallery_item",
           "settings": {
@@ -1028,6 +1048,8 @@
         "gallery_item_PzTb3m",
         "gallery_item_NGYhA4",
         "gallery_item_9PcDCr",
+        "gallery_item_3Wcf4b",
+        "gallery_item_aVCajB",
         "gallery_item_z6fAxx",
         "gallery_item_fk6cXB",
         "gallery_item_XTLQF9",
