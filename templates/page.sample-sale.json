@@ -1517,6 +1517,106 @@
             "size": "",
             "price": "NOW £22"
           }
+        },
+        "gallery_item_KtnrFm": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Z108-R_earrings02-1_2160x_9315579e-fa1e-4ec7-a154-a201a6797697.jpg",
+            "designer": "Completedworks",
+            "style": "Z108",
+            "size": "",
+            "price": "NOW £70"
+          }
+        },
+        "gallery_item_Gd3zbg": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P145-R_earrings_02-1_2160x_54455682-3e4b-4adc-afbf-76e8d977c541.webp",
+            "designer": "Completedworks",
+            "style": "Bonafide Madness",
+            "size": "",
+            "price": "NOW £125"
+          }
+        },
+        "gallery_item_kBK7yN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Completedworks-Gold-Vermeil-Earring-Gotcha-1-1_2048x_56620559-2b30-4c6d-9fd3-c7677ad18eb2.webp",
+            "designer": "Completedworks",
+            "style": "Gotcha",
+            "size": "",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_bCfmiE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P217_earrings02-1_2160x_ed44dcfb-049c-438e-9b3d-4c4f3bb55cfe.webp",
+            "designer": "Completedworks",
+            "style": "Woah!",
+            "size": "",
+            "price": "NOW £115"
+          }
+        },
+        "gallery_item_T6FkGc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P224-G_earrings02-1_2160x_71b91575-3cea-4681-84ac-95df01446a4c.jpg",
+            "designer": "Completedworks",
+            "style": "Moontide",
+            "size": "",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_fAC7W9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P226-G_earrings02-1_2160x_b3e56755-db23-489a-a8d0-fbf665b406fc.jpg",
+            "designer": "Completedworks",
+            "style": "Voyage",
+            "size": "",
+            "price": "NOW £75"
+          }
+        },
+        "gallery_item_dLJfig": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1772887898948-P236-G_earrings_02-1_2160x_9f0cf7cf-1fb3-4fbb-a844-e729234ca43b.jpg",
+            "designer": "Completedworks",
+            "style": "Time Waits for No One",
+            "size": "",
+            "price": "NOW £85"
+          }
+        },
+        "gallery_item_jnjgeD": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2022-07-22_at_12.01.22_PM.webp",
+            "designer": "Completedworks",
+            "style": "Past in a Future Tense",
+            "size": "",
+            "price": "NOW £95"
+          }
+        },
+        "gallery_item_9CqeJX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P56_earrings_02-1_2160x_f8af9cb7-480d-4f26-9486-8ff2f24fa30e.webp",
+            "designer": "Completedworks",
+            "style": "Pulp",
+            "size": "",
+            "price": "NOW £75"
+          }
+        },
+        "gallery_item_6GFx4i": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P139-G_earrings_02-1_2160x_d0cbc2b6-5793-4817-86bd-115cfe600bdf.webp",
+            "designer": "Completedworks",
+            "style": "The Break Between The Clouds",
+            "size": "",
+            "price": "NOW £80"
+          }
         }
       },
       "block_order": [
@@ -1669,7 +1769,17 @@
         "gallery_item_y97Nd3",
         "gallery_item_EPWktj",
         "gallery_item_nHLVTf",
-        "gallery_item_3pc7mi"
+        "gallery_item_3pc7mi",
+        "gallery_item_KtnrFm",
+        "gallery_item_Gd3zbg",
+        "gallery_item_kBK7yN",
+        "gallery_item_bCfmiE",
+        "gallery_item_T6FkGc",
+        "gallery_item_fAC7W9",
+        "gallery_item_dLJfig",
+        "gallery_item_jnjgeD",
+        "gallery_item_9CqeJX",
+        "gallery_item_6GFx4i"
       ],
       "name": "TF • Sample Sale",
       "settings": {
