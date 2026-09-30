@@ -520,6 +520,16 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_bNkBrx": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/BONBRIDE_Ecom_020_copy_e970887e-1ed4-4371-986d-9d473726d2b6.jpg",
+            "designer": "BON BRIDÉ",
+            "style": "BB 39 Corset Bodice Dress",
+            "size": "12",
+            "price": "NOW £1200"
+          }
+        },
         "gallery_item_FcqVjX": {
           "type": "gallery_item",
           "settings": {
@@ -1701,6 +1711,7 @@
         "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
+        "gallery_item_bNkBrx",
         "gallery_item_FcqVjX",
         "gallery_item_mcQkrF",
         "gallery_item_BweGft",
