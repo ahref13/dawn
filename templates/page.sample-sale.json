@@ -810,6 +810,36 @@
             "price": "NOW £100"
           }
         },
+        "gallery_item_tCxBNN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-14_at_14.36.54.webp",
+            "designer": "Loeffler Randall",
+            "style": "Steph",
+            "size": "UK 6.5, 7",
+            "price": "NOW £140"
+          }
+        },
+        "gallery_item_dgBM4K": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-14_at_16.55.15.webp",
+            "designer": "Loeffler Randall",
+            "style": "Carmen",
+            "size": "UK 4.5-5.5",
+            "price": "NOW £120"
+          }
+        },
+        "gallery_item_gDxQwG": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/ADA-ML-GOLD_1_720x_77776827-28e4-4efd-a57a-8d208171543c.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Ada",
+            "size": "UK 4, 4.5, 6, 6.5, 7",
+            "price": "NOW £100"
+          }
+        },
         "gallery_item_UeA7nt": {
           "type": "gallery_item",
           "settings": {
@@ -868,6 +898,16 @@
             "style": "Hazel",
             "size": "UK 7",
             "price": "NOW £100"
+          }
+        },
+        "gallery_item_THAy7p": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/01e8f06f02e44c5e935318a48e4653c2.webp",
+            "designer": "Loeffler Randall",
+            "style": "Ruby Bag",
+            "size": "",
+            "price": "NOW £95"
           }
         }
       },
@@ -951,12 +991,16 @@
         "gallery_item_qpFaVW",
         "gallery_item_hmYVnd",
         "gallery_item_Mxjh6j",
+        "gallery_item_tCxBNN",
+        "gallery_item_dgBM4K",
+        "gallery_item_gDxQwG",
         "gallery_item_UeA7nt",
         "gallery_item_X9EJ8A",
         "gallery_item_8KMxjy",
         "gallery_item_MxT4P3",
         "gallery_item_NtXTyy",
-        "gallery_item_iernDb"
+        "gallery_item_iernDb",
+        "gallery_item_THAy7p"
       ],
       "name": "TF • Sample Sale",
       "settings": {
