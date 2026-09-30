@@ -679,6 +679,16 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_yeBw3y": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/EmmaPilkington_JB_previews-55_c1ad033f-07ed-4e18-a6cf-c349e91800e9.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Sian Scarf",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
         "gallery_item_KprHAb": {
           "type": "gallery_item",
           "settings": {
@@ -1337,6 +1347,7 @@
         "gallery_item_BUzFJV",
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
+        "gallery_item_yeBw3y",
         "gallery_item_KprHAb",
         "gallery_item_tGjVFc",
         "gallery_item_MieJtC",
