@@ -530,6 +530,26 @@
             "price": "NOW £200"
           }
         },
+        "gallery_item_mcQkrF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/helene-dress-1410.jpg",
+            "designer": "Cortana",
+            "style": "Helene",
+            "size": "12-14",
+            "price": "NOW £900"
+          }
+        },
+        "gallery_item_BweGft": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/rouge-new-dress-tulle-mittens-veil-0052.jpg",
+            "designer": "Cortana",
+            "style": "New Rouge",
+            "size": "12",
+            "price": "NOW £900"
+          }
+        },
         "gallery_item_J7rXAc": {
           "type": "gallery_item",
           "settings": {
@@ -1263,6 +1283,8 @@
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
         "gallery_item_FcqVjX",
+        "gallery_item_mcQkrF",
+        "gallery_item_BweGft",
         "gallery_item_J7rXAc",
         "gallery_item_cfUhih",
         "gallery_item_46JR7d",
