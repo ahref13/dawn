@@ -550,6 +550,26 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_H3mX3r": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-19_at_11.27.26.png",
+            "designer": "Former Girlfriend",
+            "style": "Donna Set (Corset, Skirt, Train, Sleeves)",
+            "size": "12",
+            "price": "NOW £1600"
+          }
+        },
+        "gallery_item_E67pgE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-19_at_11.27.40.png",
+            "designer": "Former Girlfriend",
+            "style": "Emily Skirt",
+            "size": "12",
+            "price": "NOW £600"
+          }
+        },
         "gallery_item_J7rXAc": {
           "type": "gallery_item",
           "settings": {
@@ -1285,6 +1305,8 @@
         "gallery_item_FcqVjX",
         "gallery_item_mcQkrF",
         "gallery_item_BweGft",
+        "gallery_item_H3mX3r",
+        "gallery_item_E67pgE",
         "gallery_item_J7rXAc",
         "gallery_item_cfUhih",
         "gallery_item_46JR7d",
