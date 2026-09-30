@@ -859,6 +859,26 @@
             "price": "NOW £600"
           }
         },
+        "gallery_item_GXEjhM": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH10_0485as_f9ab9579-e55b-4ec8-91c9-d8da3f8ecf3c.jpg",
+            "designer": "Lola Varma",
+            "style": "Lumi Overlay",
+            "size": "12",
+            "price": "NOW £600"
+          }
+        },
+        "gallery_item_jT6QL4": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH54_3209as_c859431d-9ec8-44ac-8eab-77b0245ac322.jpg",
+            "designer": "Lola Varma",
+            "style": "Robin Overlay",
+            "size": "12",
+            "price": "NOW £500"
+          }
+        },
         "gallery_item_kL36rB": {
           "type": "gallery_item",
           "settings": {
@@ -1464,6 +1484,8 @@
         "gallery_item_73pbMX",
         "gallery_item_xaCWND",
         "gallery_item_Hp6qnK",
+        "gallery_item_GXEjhM",
+        "gallery_item_jT6QL4",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
         "gallery_item_Bf6pWY",
