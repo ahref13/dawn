@@ -949,6 +949,36 @@
             "size": "",
             "price": "NOW £30"
           }
+        },
+        "gallery_item_EPWktj": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/ISCHIA_CHAMPAGNE.jpg",
+            "designer": "Shyla",
+            "style": "Ischia - Champagne",
+            "size": "",
+            "price": "NOW £30"
+          }
+        },
+        "gallery_item_nHLVTf": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PERINILLE_PEARL_c6e0a6dd-9f6c-4655-8555-b8bf0ae3019f.jpg",
+            "designer": "Shyla",
+            "style": "Pernille",
+            "size": "",
+            "price": "NOW £25"
+          }
+        },
+        "gallery_item_3pc7mi": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/josephine-pearl.jpg",
+            "designer": "Shyla",
+            "style": "Josephine",
+            "size": "",
+            "price": "NOW £22"
+          }
         }
       },
       "block_order": [
@@ -1044,7 +1074,10 @@
         "gallery_item_R3hicr",
         "gallery_item_B4cdEk",
         "gallery_item_L8KHA7",
-        "gallery_item_y97Nd3"
+        "gallery_item_y97Nd3",
+        "gallery_item_EPWktj",
+        "gallery_item_nHLVTf",
+        "gallery_item_3pc7mi"
       ],
       "name": "TF • Sample Sale",
       "settings": {
