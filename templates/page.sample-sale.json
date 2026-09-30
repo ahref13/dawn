@@ -530,6 +530,16 @@
             "price": "NOW £1200"
           }
         },
+        "gallery_item_frixyX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/BONBRIDE_Ecom_197_copy_4957552c-e809-4761-85b3-d99cc262f9c8.jpg",
+            "designer": "BON BRIDÉ",
+            "style": "BB 91 Sheer Cape",
+            "size": "",
+            "price": "NOW £350"
+          }
+        },
         "gallery_item_FcqVjX": {
           "type": "gallery_item",
           "settings": {
@@ -1712,6 +1722,7 @@
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
         "gallery_item_bNkBrx",
+        "gallery_item_frixyX",
         "gallery_item_FcqVjX",
         "gallery_item_mcQkrF",
         "gallery_item_BweGft",
