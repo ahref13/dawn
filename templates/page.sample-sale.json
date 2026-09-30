@@ -1018,6 +1018,16 @@
             "price": "£600"
           }
         },
+        "gallery_item_MrR4GC": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Kamperett202403_1046.jpg",
+            "designer": "Kamperett",
+            "style": "Violette Tulle",
+            "size": "M, L",
+            "price": "NOW £400"
+          }
+        },
         "gallery_item_C8VPGc": {
           "type": "gallery_item",
           "settings": {
@@ -1560,6 +1570,7 @@
         "gallery_item_Q78tCY",
         "gallery_item_WAnw6M",
         "gallery_item_aR6T4G",
+        "gallery_item_MrR4GC",
         "gallery_item_C8VPGc",
         "gallery_item_9YfwM9",
         "gallery_item_3bbmD3",
