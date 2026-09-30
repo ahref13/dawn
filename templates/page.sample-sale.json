@@ -50,6 +50,36 @@
             "price": "NOW £2000"
           }
         },
+        "gallery_item_PzTb3m": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/dfd528_5c76ff15265d4e279574a14483eb4362_mv2_37868ac3-cad8-4b71-bd09-594a92f0bd7e.jpg",
+            "designer": "Katherine Tash",
+            "style": "Bella",
+            "size": "10",
+            "price": "NOW £1400"
+          }
+        },
+        "gallery_item_NGYhA4": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-07-19_at_17.03.05_3fc980f9-3a61-417a-ab7b-e5568fe847bd.png",
+            "designer": "Katherine Tash",
+            "style": "Diana",
+            "size": "12",
+            "price": "£1800"
+          }
+        },
+        "gallery_item_9PcDCr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/dfd528_02ad11e2c26d4224a500eaab0b42664b_mv2_7d4e1f48-a3cf-4394-8634-88363665d4b5.jpg",
+            "designer": "Katherine Tash",
+            "style": "Jane",
+            "size": "12",
+            "price": "£1800"
+          }
+        },
         "gallery_item_z6fAxx": {
           "type": "gallery_item",
           "settings": {
@@ -68,6 +98,16 @@
             "style": "Nina",
             "size": "12",
             "price": "£950"
+          }
+        },
+        "gallery_item_XTLQF9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Juliette_Small_a72674fe-0c48-4a95-b4af-160806bb3e04.jpg",
+            "designer": "Prea James",
+            "style": "Juliette",
+            "size": "10",
+            "price": "NOW £700"
           }
         },
         "gallery_item_GMbTwd": {
@@ -985,8 +1025,12 @@
         "gallery_item_wBTa3w",
         "gallery_item_D64FdR",
         "gallery_item_eK9VMX",
+        "gallery_item_PzTb3m",
+        "gallery_item_NGYhA4",
+        "gallery_item_9PcDCr",
         "gallery_item_z6fAxx",
         "gallery_item_fk6cXB",
+        "gallery_item_XTLQF9",
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
         "gallery_item_cVcpfp",
