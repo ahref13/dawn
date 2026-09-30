@@ -899,6 +899,16 @@
             "price": "NOW £200"
           }
         },
+        "gallery_item_a96tVm": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/unnamed.png",
+            "designer": "Lola Varma",
+            "style": "Sienna Scarf",
+            "size": "",
+            "price": "NOW £140"
+          }
+        },
         "gallery_item_Bf6pWY": {
           "type": "gallery_item",
           "settings": {
@@ -1488,6 +1498,7 @@
         "gallery_item_jT6QL4",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
+        "gallery_item_a96tVm",
         "gallery_item_Bf6pWY",
         "gallery_item_dk9FQc",
         "gallery_item_7gtQXX",
