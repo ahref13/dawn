@@ -1219,6 +1219,16 @@
             "price": "NOW £600"
           }
         },
+        "gallery_item_9fkAFf": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/SS25-266S-W_1_79520a90-1c08-4da7-b8f4-4cd83da48279.jpg",
+            "designer": "Self Portrait",
+            "style": "Tulle Bow Mini Dress",
+            "size": "12",
+            "price": "NOW £100"
+          }
+        },
         "gallery_item_7g6mq4": {
           "type": "gallery_item",
           "settings": {
@@ -1851,6 +1861,7 @@
         "gallery_item_kTxD6n",
         "gallery_item_NJj8nB",
         "gallery_item_Ua6gYM",
+        "gallery_item_9fkAFf",
         "gallery_item_7g6mq4",
         "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
