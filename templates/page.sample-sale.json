@@ -410,6 +410,16 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_NnjqzW": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/251009-newhite-8226_Web_Bridal_gown_fdce3804-187a-4a94-a90a-73b2e3cd5e64.jpg",
+            "designer": "NEWHITE",
+            "style": "IT Wrap",
+            "size": "",
+            "price": "NOW £150"
+          }
+        },
         "gallery_item_eJTzQF": {
           "type": "gallery_item",
           "settings": {
@@ -1201,6 +1211,7 @@
         "gallery_item_dDBbhk",
         "gallery_item_WcWGJA",
         "gallery_item_CiFQ4H",
+        "gallery_item_NnjqzW",
         "gallery_item_eJTzQF",
         "gallery_item_CtU4nR",
         "gallery_item_Rfi3da",
