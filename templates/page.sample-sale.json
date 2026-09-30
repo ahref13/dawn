@@ -749,6 +749,46 @@
             "size": "O/S",
             "price": "NOW £450"
           }
+        },
+        "gallery_item_T4cYq4": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/CAMELLIA-PLFV-_PEARL-1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Camellia - Pearl, Champagne, Blue",
+            "size": "Various",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_r73cDi": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/DAHLIA-PLFV-BLUE_1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Dahlia - Pearl, Gold, Blue",
+            "size": "Various",
+            "price": "NOW £230"
+          }
+        },
+        "gallery_item_8NimmV": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PENNY-PLA-PLPNK_1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Penny - Pink, Gold",
+            "size": "Various",
+            "price": "NOW £175"
+          }
+        },
+        "gallery_item_qpFaVW": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/MARGOT-SATN-CREAM_1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Margot",
+            "size": "UK 4.5, 5, 7, 8",
+            "price": "NOW £150"
+          }
         }
       },
       "block_order": [
@@ -824,66 +864,21 @@
         "gallery_item_GY44Q6",
         "gallery_item_QFr8UV",
         "gallery_item_zfLeQT",
-        "gallery_item_VM6ybV"
+        "gallery_item_VM6ybV",
+        "gallery_item_T4cYq4",
+        "gallery_item_r73cDi",
+        "gallery_item_8NimmV",
+        "gallery_item_qpFaVW"
       ],
       "name": "TF • Sample Sale",
       "settings": {
         "heading": "Sample Sale",
         "description": "Select gowns from the archive, available off-the-rack"
       }
-    },
-    "image_with_text_3EaV4k": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_rJUWgW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Loeffler Randall",
-            "heading_size": "h1"
-          }
-        },
-        "text_d4WHNK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All Loeffler Randall shoes and bags will be on sale.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_XMgjRx": {
-          "type": "button",
-          "settings": {
-            "button_label": "PREVIEW SHOE STYLES",
-            "button_link": "shopify://collections/shoes-bags",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_rJUWgW",
-        "text_d4WHNK",
-        "button_XMgjRx"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/CAMELLIA-PLFV-PEARL-5_copy.webp",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "tf_curve_edit",
-    "image_with_text_3EaV4k"
+    "tf_curve_edit"
   ]
 }
