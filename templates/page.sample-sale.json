@@ -130,6 +130,16 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_bT733A": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Pamela__PreaJamesBridal_0304.jpg",
+            "designer": "Prea James",
+            "style": "Pamela",
+            "size": "12",
+            "price": "NOW £700"
+          }
+        },
         "gallery_item_z6fAxx": {
           "type": "gallery_item",
           "settings": {
@@ -218,16 +228,6 @@
             "style": "Grace Overskirt",
             "size": "12",
             "price": "NOW £600"
-          }
-        },
-        "gallery_item_bT733A": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Pamela__PreaJamesBridal_0304.jpg",
-            "designer": "Prea James",
-            "style": "Pamela",
-            "size": "12",
-            "price": "NOW £700"
           }
         },
         "gallery_item_jMeRUr": {
@@ -1143,6 +1143,7 @@
         "gallery_item_9PcDCr",
         "gallery_item_3Wcf4b",
         "gallery_item_aVCajB",
+        "gallery_item_bT733A",
         "gallery_item_z6fAxx",
         "gallery_item_fk6cXB",
         "gallery_item_3qTMHW",
@@ -1152,7 +1153,6 @@
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
         "gallery_item_FhHNma",
-        "gallery_item_bT733A",
         "gallery_item_jMeRUr",
         "gallery_item_KzbrhA",
         "gallery_item_cVcpfp",
