@@ -380,6 +380,26 @@
             "price": "NOW £1200"
           }
         },
+        "gallery_item_WcWGJA": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/BB_1_2048x_d4efdcc6-eda8-4a26-9d4e-ef0d63358c53.png",
+            "designer": "NEWHITE",
+            "style": "BB",
+            "size": "10, 18",
+            "price": "NOW £1400"
+          }
+        },
+        "gallery_item_CiFQ4H": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/BE8C920D-1338-4157-B4A3-05C0822E17D9.jpg",
+            "designer": "NEWHITE",
+            "style": "C Half Overskirt",
+            "size": "12",
+            "price": "NOW £800"
+          }
+        },
         "gallery_item_eJTzQF": {
           "type": "gallery_item",
           "settings": {
@@ -1168,6 +1188,8 @@
         "gallery_item_Wetki7",
         "gallery_item_dWerGT",
         "gallery_item_dDBbhk",
+        "gallery_item_WcWGJA",
+        "gallery_item_CiFQ4H",
         "gallery_item_eJTzQF",
         "gallery_item_CtU4nR",
         "gallery_item_Rfi3da",
