@@ -320,6 +320,16 @@
             "price": "NOW £1500"
           }
         },
+        "gallery_item_VzYYyd": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_9CO_31372.jpg",
+            "designer": "NEWHITE",
+            "style": "Palm",
+            "size": "10",
+            "price": "NOW £1100"
+          }
+        },
         "gallery_item_jLC9H6": {
           "type": "gallery_item",
           "settings": {
@@ -1182,6 +1192,7 @@
         "gallery_item_yq6im9",
         "gallery_item_nDbmwe",
         "gallery_item_rh7hNc",
+        "gallery_item_VzYYyd",
         "gallery_item_jLC9H6",
         "gallery_item_AQMNby",
         "gallery_item_yQwHPU",
