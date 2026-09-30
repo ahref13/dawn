@@ -1028,6 +1028,16 @@
             "price": "NOW £400"
           }
         },
+        "gallery_item_wNLGzj": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Kamperett202403_0260_900x_690b4977-7cda-41d7-b1c5-b2b3f5775a71.jpg",
+            "designer": "Kamperett",
+            "style": "Thea",
+            "size": "XS, M, 1X",
+            "price": "NOW £300"
+          }
+        },
         "gallery_item_C8VPGc": {
           "type": "gallery_item",
           "settings": {
@@ -1046,6 +1056,16 @@
             "style": "Lalique",
             "size": "M",
             "price": "NOW £600"
+          }
+        },
+        "gallery_item_K4dLPT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2020-05-13_at_12.34.57_PM_bc24dcb7-f377-449d-a9fa-35ac52e964c0.jpg",
+            "designer": "Kamperett",
+            "style": "Caroline",
+            "size": "S",
+            "price": "NOW £400"
           }
         },
         "gallery_item_3bbmD3": {
@@ -1571,8 +1591,10 @@
         "gallery_item_WAnw6M",
         "gallery_item_aR6T4G",
         "gallery_item_MrR4GC",
+        "gallery_item_wNLGzj",
         "gallery_item_C8VPGc",
         "gallery_item_9YfwM9",
+        "gallery_item_K4dLPT",
         "gallery_item_3bbmD3",
         "gallery_item_tGNBNw",
         "gallery_item_4HfKRh",
