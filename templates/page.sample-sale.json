@@ -918,6 +918,26 @@
             "price": "NOW £90"
           }
         },
+        "gallery_item_JRCyVM": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A7872_cfb81902-54a2-4366-bb70-7b3857d58bd7.jpg",
+            "designer": "Harriette Gordon",
+            "style": "2.9a Blanca Gown",
+            "size": "12",
+            "price": "NOW £900"
+          }
+        },
+        "gallery_item_HBWDjK": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A5121_87665ee5-03a8-4a61-b0a3-24737ddcc874.jpg",
+            "designer": "Harriette Gordon",
+            "style": "1.7 Violet Crepe Slip",
+            "size": "14",
+            "price": "NOW £650"
+          }
+        },
         "gallery_item_dk9FQc": {
           "type": "gallery_item",
           "settings": {
@@ -966,6 +986,16 @@
             "style": "7.18 Anouk Gloves",
             "size": "M",
             "price": "NOW £175"
+          }
+        },
+        "gallery_item_Q78tCY": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/02_8071_1f87da21-e2f3-44f9-a7bf-d17b2dd3518c.jpg",
+            "designer": "Harriette Gordon",
+            "style": "7.5 Large Net Bow",
+            "size": "",
+            "price": "NOW £80"
           }
         },
         "gallery_item_WAnw6M": {
@@ -1520,11 +1550,14 @@
         "gallery_item_dUwix9",
         "gallery_item_a96tVm",
         "gallery_item_Bf6pWY",
+        "gallery_item_JRCyVM",
+        "gallery_item_HBWDjK",
         "gallery_item_dk9FQc",
         "gallery_item_Awtphr",
         "gallery_item_jMUm4K",
         "gallery_item_7gtQXX",
         "gallery_item_QJKnb9",
+        "gallery_item_Q78tCY",
         "gallery_item_WAnw6M",
         "gallery_item_aR6T4G",
         "gallery_item_C8VPGc",
