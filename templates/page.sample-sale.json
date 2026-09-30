@@ -923,7 +923,27 @@
           "settings": {
             "image": "shopify://shop_images/0G3A1620c_websize_84b73230-bb34-49c0-85ed-a1bf5b1efc2f.jpg",
             "designer": "Harriette Gordon",
-            "style": "4.5 Pearl",
+            "style": "4.5 Pearl - 2-Tier",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_Awtphr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/0G3A8732_61aba025-43f6-414f-aecd-eba3c46abbbb.jpg",
+            "designer": "Harriette Gordon",
+            "style": "4.18 Ruched Circular Veil",
+            "size": "",
+            "price": "NOW £220"
+          }
+        },
+        "gallery_item_jMUm4K": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LL_Orchestra_3.22_3.23_4.19_-_5855_854a7a76-7b78-4b9e-a8a0-5492d3a98c30.jpg",
+            "designer": "Harriette Gordon",
+            "style": "4.19 Paloma Veil - 1-Tier",
             "size": "",
             "price": "NOW £250"
           }
@@ -933,8 +953,8 @@
           "settings": {
             "image": "shopify://shop_images/LL_Orchestra_3.22_3.19B_4.19B_-_5437.jpg",
             "designer": "Harriette Gordon",
-            "style": "4.19b Paloma Veil",
-            "size": "Fingertip",
+            "style": "4.19b Paloma Veil - Fingertip",
+            "size": "",
             "price": "NOW £300"
           }
         },
@@ -1501,6 +1521,8 @@
         "gallery_item_a96tVm",
         "gallery_item_Bf6pWY",
         "gallery_item_dk9FQc",
+        "gallery_item_Awtphr",
+        "gallery_item_jMUm4K",
         "gallery_item_7gtQXX",
         "gallery_item_QJKnb9",
         "gallery_item_WAnw6M",
