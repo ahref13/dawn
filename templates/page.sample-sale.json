@@ -40,6 +40,26 @@
             "price": "NOW £1800"
           }
         },
+        "gallery_item_pEx7Jn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_03_0137_7cb65ae4-d9b7-41bc-99a5-d51206121ac0.jpg",
+            "designer": "Katherine Tash",
+            "style": "Hart",
+            "size": "14",
+            "price": "NOW £2000"
+          }
+        },
+        "gallery_item_rBwLAn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_03_0159.jpg",
+            "designer": "Katherine Tash",
+            "style": "Sage Bodysuit",
+            "size": "14",
+            "price": "£500"
+          }
+        },
         "gallery_item_eK9VMX": {
           "type": "gallery_item",
           "settings": {
@@ -58,6 +78,16 @@
             "style": "Bella",
             "size": "10",
             "price": "NOW £1400"
+          }
+        },
+        "gallery_item_yyKi3f": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-07-19_at_17.01.55_dff1bacb-8ae8-435d-839c-ae061fb984c1.png",
+            "designer": "Katherine Tash",
+            "style": "Moon",
+            "size": "10",
+            "price": "£1500"
           }
         },
         "gallery_item_NGYhA4": {
@@ -1044,8 +1074,11 @@
       "block_order": [
         "gallery_item_wBTa3w",
         "gallery_item_D64FdR",
+        "gallery_item_pEx7Jn",
+        "gallery_item_rBwLAn",
         "gallery_item_eK9VMX",
         "gallery_item_PzTb3m",
+        "gallery_item_yyKi3f",
         "gallery_item_NGYhA4",
         "gallery_item_9PcDCr",
         "gallery_item_3Wcf4b",
