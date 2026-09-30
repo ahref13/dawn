@@ -180,13 +180,63 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_cVcpfp": {
+        "gallery_item_3qTMHW": {
           "type": "gallery_item",
           "settings": {
-            "image": "shopify://shop_images/uploads_1736420138814-210922_Prea_James_AST_05_0977.jpg",
+            "image": "shopify://shop_images/Prea_James_Bridal-Gianna_w_Sleeves.jpg",
             "designer": "Prea James",
-            "style": "Eden Skirt",
-            "size": "12, 22",
+            "style": "Gianna w/sleeves and straps",
+            "size": "12",
+            "price": "NOW £1600"
+          }
+        },
+        "gallery_item_dpyKDL": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Gianna_Bowie_6.jpg",
+            "designer": "Prea James",
+            "style": "Gianna Bow",
+            "size": "",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_FhHNma": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Grace_Overskirt.png",
+            "designer": "Prea James",
+            "style": "Grace Overskirt",
+            "size": "12",
+            "price": "NOW £600"
+          }
+        },
+        "gallery_item_A8QA9D": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJBSofia_mini.1_a051ca8f-5326-441e-b66a-cfecc3f88824.jpg",
+            "designer": "Prea James",
+            "style": "Sofia Mini",
+            "size": "12",
+            "price": "NOW £700"
+          }
+        },
+        "gallery_item_bT733A": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Pamela__PreaJamesBridal_0304.jpg",
+            "designer": "Prea James",
+            "style": "Pamela",
+            "size": "12",
+            "price": "NOW £700"
+          }
+        },
+        "gallery_item_jMeRUr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/PJB_Penelope_Sadie_1.jpg",
+            "designer": "Prea James",
+            "style": "Penelope Corset",
+            "size": "12",
             "price": "NOW £800"
           }
         },
@@ -198,6 +248,16 @@
             "style": "Sadie Skirt",
             "size": "12",
             "price": "NOW £1200"
+          }
+        },
+        "gallery_item_cVcpfp": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1736420138814-210922_Prea_James_AST_05_0977.jpg",
+            "designer": "Prea James",
+            "style": "Eden Skirt",
+            "size": "12, 22",
+            "price": "NOW £800"
           }
         },
         "gallery_item_9MVTmq": {
@@ -1088,8 +1148,14 @@
         "gallery_item_XTLQF9",
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
-        "gallery_item_cVcpfp",
+        "gallery_item_3qTMHW",
+        "gallery_item_dpyKDL",
+        "gallery_item_FhHNma",
+        "gallery_item_A8QA9D",
+        "gallery_item_bT733A",
+        "gallery_item_jMeRUr",
         "gallery_item_KzbrhA",
+        "gallery_item_cVcpfp",
         "gallery_item_9MVTmq",
         "gallery_item_tqewLn",
         "gallery_item_hfBRR3",
