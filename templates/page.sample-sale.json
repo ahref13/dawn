@@ -699,6 +699,16 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_7MTMCh": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Juliet_Small_d8442542-f6c4-4d99-a1af-84905bb61059.jpg",
+            "designer": "& For Love",
+            "style": "Juliet",
+            "size": "12",
+            "price": "NOW £2000"
+          }
+        },
         "gallery_item_tGjVFc": {
           "type": "gallery_item",
           "settings": {
@@ -1399,6 +1409,7 @@
         "gallery_item_TyNUAz",
         "gallery_item_yeBw3y",
         "gallery_item_KprHAb",
+        "gallery_item_7MTMCh",
         "gallery_item_tGjVFc",
         "gallery_item_qjz9QN",
         "gallery_item_KGCfVJ",
