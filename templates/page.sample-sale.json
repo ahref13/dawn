@@ -440,6 +440,26 @@
             "price": "NOW £160"
           }
         },
+        "gallery_item_MKe8Dt": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/NEWHITE_9CO_32013.jpg",
+            "designer": "NEWHITE",
+            "style": "W Sleeves",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_YrgNDg": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/R-B--Dress---Newhite-20230228213610.jpg",
+            "designer": "NEWHITE",
+            "style": "R Sleeves",
+            "size": "",
+            "price": "NOW £150"
+          }
+        },
         "gallery_item_eJTzQF": {
           "type": "gallery_item",
           "settings": {
@@ -1234,6 +1254,8 @@
         "gallery_item_CiFQ4H",
         "gallery_item_NnjqzW",
         "gallery_item_NNRQyJ",
+        "gallery_item_MKe8Dt",
+        "gallery_item_YrgNDg",
         "gallery_item_eJTzQF",
         "gallery_item_CtU4nR",
         "gallery_item_Rfi3da",
