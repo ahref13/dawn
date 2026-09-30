@@ -1617,6 +1617,36 @@
             "size": "",
             "price": "NOW £80"
           }
+        },
+        "gallery_item_7aKRX9": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Z55-S_earrings_02-1_2160x_35fecf4c-8327-4974-a842-61a3764656be.webp",
+            "designer": "Completedworks",
+            "style": "Trickles",
+            "size": "",
+            "price": "NOW £105"
+          }
+        },
+        "gallery_item_FYDcF4": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Z102_earrings_02-1_2160x_Large_60df7115-2bf8-4f20-9d4c-6f8a6d8c00f1.webp",
+            "designer": "Completedworks",
+            "style": "Z102",
+            "size": "",
+            "price": "NOW £85"
+          }
+        },
+        "gallery_item_VMYrGf": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Z105_earrings02-1_2160x_fea1f76f-588b-4a1a-8e4f-6a0bcafffc56.webp",
+            "designer": "Completedworks",
+            "style": "Z105",
+            "size": "",
+            "price": "NOW £70"
+          }
         }
       },
       "block_order": [
@@ -1779,7 +1809,10 @@
         "gallery_item_dLJfig",
         "gallery_item_jnjgeD",
         "gallery_item_9CqeJX",
-        "gallery_item_6GFx4i"
+        "gallery_item_6GFx4i",
+        "gallery_item_7aKRX9",
+        "gallery_item_FYDcF4",
+        "gallery_item_VMYrGf"
       ],
       "name": "TF • Sample Sale",
       "settings": {
