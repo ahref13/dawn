@@ -790,6 +790,36 @@
             "price": "NOW £150"
           }
         },
+        "gallery_item_hmYVnd": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/MARLENA-ML-SILVR_1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Marlena",
+            "size": "UK 5.5, 6.5, 7",
+            "price": "NOW £135"
+          }
+        },
+        "gallery_item_Mxjh6j": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/MIKEL-N-CHMPN_1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Mikel",
+            "size": "UK 5",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_UeA7nt": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/TYLA-SATN-CREAM_2.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Tyla",
+            "size": "UK 5.5-7.5",
+            "price": "NOW £140"
+          }
+        },
         "gallery_item_X9EJ8A": {
           "type": "gallery_item",
           "settings": {
@@ -828,6 +858,16 @@
             "style": "Kimora",
             "size": "UK 7, 7.5",
             "price": "NOW £110"
+          }
+        },
+        "gallery_item_iernDb": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/HAZEL-N-GOLD_1.jpg",
+            "designer": "Loeffler Randall",
+            "style": "Hazel",
+            "size": "UK 7",
+            "price": "NOW £100"
           }
         }
       },
@@ -909,10 +949,14 @@
         "gallery_item_r73cDi",
         "gallery_item_8NimmV",
         "gallery_item_qpFaVW",
+        "gallery_item_hmYVnd",
+        "gallery_item_Mxjh6j",
+        "gallery_item_UeA7nt",
         "gallery_item_X9EJ8A",
         "gallery_item_8KMxjy",
         "gallery_item_MxT4P3",
-        "gallery_item_NtXTyy"
+        "gallery_item_NtXTyy",
+        "gallery_item_iernDb"
       ],
       "name": "TF • Sample Sale",
       "settings": {
