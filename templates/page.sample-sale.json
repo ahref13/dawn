@@ -799,6 +799,16 @@
             "price": "NOW £1500"
           }
         },
+        "gallery_item_tXTqUn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH01_0046as_960900bd-8588-4a6c-a2dd-01d25c754166.jpg",
+            "designer": "Lola Varma",
+            "style": "Harvey",
+            "size": "12-14",
+            "price": "NOW £1200"
+          }
+        },
         "gallery_item_CxGaCM": {
           "type": "gallery_item",
           "settings": {
@@ -807,6 +817,26 @@
             "style": "Clunes",
             "size": "12",
             "price": "NOW £1500"
+          }
+        },
+        "gallery_item_tqHdPK": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH47_2595as_bacfaa99-ae60-48b6-81a6-ab5367f94c94.jpg",
+            "designer": "Lola Varma",
+            "style": "Giadi",
+            "size": "10",
+            "price": "NOW £1000"
+          }
+        },
+        "gallery_item_73pbMX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH51_2990as_bb3e30d0-b38c-43ea-a157-d28af1c267f3.jpg",
+            "designer": "Lola Varma",
+            "style": "Dane w/Full Skirt",
+            "size": "12",
+            "price": "NOW £1200"
           }
         },
         "gallery_item_xaCWND": {
@@ -847,6 +877,15 @@
             "style": "Immy Veil",
             "size": "",
             "price": "NOW £200"
+          }
+        },
+        "gallery_item_Bf6pWY": {
+          "type": "gallery_item",
+          "settings": {
+            "designer": "Lola Varma",
+            "style": "Daisy Gloves",
+            "size": "",
+            "price": "NOW £90"
           }
         },
         "gallery_item_dk9FQc": {
@@ -1419,11 +1458,15 @@
         "gallery_item_QfVEHi",
         "gallery_item_jfPxDq",
         "gallery_item_kPjVmY",
+        "gallery_item_tXTqUn",
         "gallery_item_CxGaCM",
+        "gallery_item_tqHdPK",
+        "gallery_item_73pbMX",
         "gallery_item_xaCWND",
         "gallery_item_Hp6qnK",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
+        "gallery_item_Bf6pWY",
         "gallery_item_dk9FQc",
         "gallery_item_7gtQXX",
         "gallery_item_QJKnb9",
