@@ -100,16 +100,6 @@
             "price": "£1800"
           }
         },
-        "gallery_item_9PcDCr": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/dfd528_02ad11e2c26d4224a500eaab0b42664b_mv2_7d4e1f48-a3cf-4394-8634-88363665d4b5.jpg",
-            "designer": "Katherine Tash",
-            "style": "Jane",
-            "size": "12",
-            "price": "£1800"
-          }
-        },
         "gallery_item_3Wcf4b": {
           "type": "gallery_item",
           "settings": {
@@ -1749,7 +1739,6 @@
         "gallery_item_PzTb3m",
         "gallery_item_yyKi3f",
         "gallery_item_NGYhA4",
-        "gallery_item_9PcDCr",
         "gallery_item_3Wcf4b",
         "gallery_item_aVCajB",
         "gallery_item_bT733A",
