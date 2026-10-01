@@ -690,6 +690,16 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_6Wkw9V": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1670422474801-IMG_55031782022AGNESBLACKCOPYRIGHT.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Magda",
+            "size": "10",
+            "price": "NOW £500"
+          }
+        },
         "gallery_item_yeBw3y": {
           "type": "gallery_item",
           "settings": {
@@ -888,6 +898,16 @@
             "style": "Robin Overlay",
             "size": "12",
             "price": "NOW £500"
+          }
+        },
+        "gallery_item_Kw4qcp": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1742920603095-250312_LolaVarma_SH22_1042as.jpg",
+            "designer": "Lola Varma",
+            "style": "Stone Blouse",
+            "size": "12",
+            "price": "NOW £250"
           }
         },
         "gallery_item_kL36rB": {
@@ -1217,6 +1237,116 @@
             "style": "Tulle Bow Mini Dress",
             "size": "12",
             "price": "NOW £100"
+          }
+        },
+        "gallery_item_UVjYVk": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1721302236402-AW24-023MA-C_1.webp",
+            "designer": "Self Portrait",
+            "style": "Sequin Bandeau Midi Dress",
+            "size": "16",
+            "price": "NOW £200"
+          }
+        },
+        "gallery_item_Lhg7qe": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1721302504528-Screenshot_2024-07-18_at_12.34.55.png",
+            "designer": "Self Portrait",
+            "style": "Lace Bandeau Mini Dress",
+            "size": "16",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_fRN8TE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1744290195296-SS25-259S-W_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Pearl Bow Mini Dress",
+            "size": "10",
+            "price": "£100"
+          }
+        },
+        "gallery_item_UjrXzE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1744290372093-SS25-254S-CH_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Flower Mini Dress",
+            "size": "10, 16",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_fmCxfP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1744290466580-SS25-255X-C_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Flower Maxi Dress",
+            "size": "16",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_GXxq9y": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1744290634102-SS25-272S-C_1_3400x_9bd73d5c-70e7-4d3a-9616-a90c98511171.jpg",
+            "designer": "Self Portrait",
+            "style": "Boucle Pearl Mini Dress",
+            "size": "12",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_FLEWji": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1744290929207-SS25-092S-C_1_d19e7ec9-da97-4d5f-8a16-e139a65bd268.jpg",
+            "designer": "Self Portrait",
+            "style": "Polka Dot Satin Mini Dress",
+            "size": "16",
+            "price": "NOW £150"
+          }
+        },
+        "gallery_item_dhLkqc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1751988925066-AW25-088SA-W_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Floral Lace Mini",
+            "size": "10",
+            "price": "NOW £150"
+          }
+        },
+        "gallery_item_MjzhcR": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1751989053244-AW25-201S-W_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Lace Satin Bow Mini",
+            "size": "10",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_wQxbhn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1751989151825-AW25-201X-W_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Satin Lace Maxi",
+            "size": "10, 16",
+            "price": "NOW £150"
+          }
+        },
+        "gallery_item_YLfg9H": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1751989245195-AW25-201XA-W_1.jpg",
+            "designer": "Self Portrait",
+            "style": "Lace Taffeta Maxi",
+            "size": "10, 16",
+            "price": "NOW £200"
           }
         },
         "gallery_item_7g6mq4": {
@@ -1798,6 +1928,7 @@
         "gallery_item_BUzFJV",
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
+        "gallery_item_6Wkw9V",
         "gallery_item_yeBw3y",
         "gallery_item_KprHAb",
         "gallery_item_7MTMCh",
@@ -1818,6 +1949,7 @@
         "gallery_item_Hp6qnK",
         "gallery_item_GXEjhM",
         "gallery_item_jT6QL4",
+        "gallery_item_Kw4qcp",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
         "gallery_item_a96tVm",
@@ -1851,6 +1983,17 @@
         "gallery_item_NJj8nB",
         "gallery_item_Ua6gYM",
         "gallery_item_9fkAFf",
+        "gallery_item_UVjYVk",
+        "gallery_item_Lhg7qe",
+        "gallery_item_fRN8TE",
+        "gallery_item_UjrXzE",
+        "gallery_item_fmCxfP",
+        "gallery_item_GXxq9y",
+        "gallery_item_FLEWji",
+        "gallery_item_dhLkqc",
+        "gallery_item_MjzhcR",
+        "gallery_item_wQxbhn",
+        "gallery_item_YLfg9H",
         "gallery_item_7g6mq4",
         "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
