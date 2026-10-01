@@ -1929,6 +1929,16 @@
             "price": "NOW £90"
           }
         },
+        "gallery_item_Dg3w3Q": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1720638713689-IMG_0757.jpg",
+            "designer": "Lelet NY",
+            "style": "Penelope Floral Pearl Headband",
+            "size": "",
+            "price": "NOW £80"
+          }
+        },
         "gallery_item_9XzHiX": {
           "type": "gallery_item",
           "settings": {
@@ -1947,6 +1957,36 @@
             "style": "Figure Eight Pearl Drop Halo",
             "size": "",
             "price": "NOW £50"
+          }
+        },
+        "gallery_item_b7WBcX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1728741740838-LELFW24-1841G-GOLD_1800x1800_d1fadb7d-9b58-4271-b99e-6d784db08948.webp",
+            "designer": "Lelet NY",
+            "style": "Mary Jane Bow Clip (set of 2)",
+            "size": "",
+            "price": "NOW £40"
+          }
+        },
+        "gallery_item_DTPJtr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1728741683094-LELFW24-1872G-GOLD_1800x1800_a69b394e-571e-4a3b-9ed3-7a3918c525ee.webp",
+            "designer": "Lelet NY",
+            "style": "Mary Jane Bow Earrings",
+            "size": "",
+            "price": "NOW £40"
+          }
+        },
+        "gallery_item_cGXHtm": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1749819588174-JODIE1_800x_fe102e47-5db0-4a0b-be64-0069d84f2232.jpg",
+            "designer": "Lelet NY",
+            "style": "Jodi Crystal Bow Earrings",
+            "size": "",
+            "price": "NOW £40"
           }
         }
       },
@@ -2142,8 +2182,12 @@
         "gallery_item_NCt64D",
         "gallery_item_Uyq9Ae",
         "gallery_item_4jn7bA",
+        "gallery_item_Dg3w3Q",
         "gallery_item_9XzHiX",
-        "gallery_item_YbhKXx"
+        "gallery_item_YbhKXx",
+        "gallery_item_b7WBcX",
+        "gallery_item_DTPJtr",
+        "gallery_item_cGXHtm"
       ],
       "name": "TF • Sample Sale",
       "settings": {
