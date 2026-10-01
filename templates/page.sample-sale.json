@@ -1858,6 +1858,96 @@
             "size": "",
             "price": "NOW £70"
           }
+        },
+        "gallery_item_wjct8J": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1671118822041-Screenshot_2022-12-15_at_15.40.13.png",
+            "designer": "Lelet NY",
+            "style": "Poppy Floral Vee Halo",
+            "size": "",
+            "price": "NOW £75"
+          }
+        },
+        "gallery_item_kwRYXB": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1696610759585-February13_2023at10_37AM2693_800x_af7d6c60-aa04-438c-a3cb-2f44a3262656.jpg",
+            "designer": "Lelet NY",
+            "style": "Double Strand Pearl Headband",
+            "size": "",
+            "price": "NOW £80"
+          }
+        },
+        "gallery_item_wQDkRn": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1696611033663-February13_s2023at10_37AM4162copy_800x_6f838610-7f7d-447f-86a9-9b6171b473c4.jpg",
+            "designer": "Lelet NY",
+            "style": "Ada Crystal Headband",
+            "size": "",
+            "price": "NOW £45"
+          }
+        },
+        "gallery_item_TNfag6": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1696611231573-February13_2023at10_37AM4233_800x_f92f5bc8-88c9-4276-ae76-8d331d833c29.jpg",
+            "designer": "Lelet NY",
+            "style": "Maci Pearl Headband",
+            "size": "",
+            "price": "NOW £70"
+          }
+        },
+        "gallery_item_NCt64D": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1714299185778-halo3_800x_fae0fc22-65cc-41a8-8574-eb966985d4bf.webp",
+            "designer": "Lelet NY",
+            "style": "Elle Halo",
+            "size": "",
+            "price": "NOW £70"
+          }
+        },
+        "gallery_item_Uyq9Ae": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1695119977936-LELET_HE_23_229_1000x_795e9df6-ec9f-4b29-8613-70e016f8ea88.jpg",
+            "designer": "Lelet NY",
+            "style": "Pin Pearl Halo",
+            "size": "",
+            "price": "NOW £50"
+          }
+        },
+        "gallery_item_4jn7bA": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1726234897749-LELSS24-1777_800x_b8acd8b3-8297-4849-86f8-5ddb53d70bcf.webp",
+            "designer": "Lelet NY",
+            "style": "Aria Double Strand Headband",
+            "size": "",
+            "price": "NOW £90"
+          }
+        },
+        "gallery_item_9XzHiX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1726234867132-Green_Travel_Agency_Flyer.png",
+            "designer": "Lelet NY",
+            "style": "Lunar Pearl Headband",
+            "size": "",
+            "price": "NOW £50"
+          }
+        },
+        "gallery_item_YbhKXx": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1671118680490-Screenshot_2022-12-15_at_15.37.52.png",
+            "designer": "Lelet NY",
+            "style": "Figure Eight Pearl Drop Halo",
+            "size": "",
+            "price": "NOW £50"
+          }
         }
       },
       "block_order": [
@@ -2044,7 +2134,16 @@
         "gallery_item_6GFx4i",
         "gallery_item_7aKRX9",
         "gallery_item_FYDcF4",
-        "gallery_item_VMYrGf"
+        "gallery_item_VMYrGf",
+        "gallery_item_wjct8J",
+        "gallery_item_kwRYXB",
+        "gallery_item_wQDkRn",
+        "gallery_item_TNfag6",
+        "gallery_item_NCt64D",
+        "gallery_item_Uyq9Ae",
+        "gallery_item_4jn7bA",
+        "gallery_item_9XzHiX",
+        "gallery_item_YbhKXx"
       ],
       "name": "TF • Sample Sale",
       "settings": {
