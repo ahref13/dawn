@@ -180,16 +180,6 @@
             "price": "NOW £700"
           }
         },
-        "gallery_item_A8QA9D": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/PJBSofia_mini.1_a051ca8f-5326-441e-b66a-cfecc3f88824.jpg",
-            "designer": "Prea James",
-            "style": "Sofia Mini",
-            "size": "12",
-            "price": "NOW £700"
-          }
-        },
         "gallery_item_GMbTwd": {
           "type": "gallery_item",
           "settings": {
@@ -2007,7 +1997,6 @@
         "gallery_item_3qTMHW",
         "gallery_item_dpyKDL",
         "gallery_item_XTLQF9",
-        "gallery_item_A8QA9D",
         "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
         "gallery_item_FhHNma",
