@@ -510,6 +510,26 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_KGUXeP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/download_4_88597d28-bac1-4aae-a2f8-2c5d9929bc84.jpg",
+            "designer": "Alex Perry",
+            "style": "Crystal Mesh Set",
+            "size": "12",
+            "price": "NOW £500"
+          }
+        },
+        "gallery_item_TEmUnX": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/B0078BSS25_LAUREL_1_6799fc16-90fb-4454-93bc-1350ef9a48b8.jpg",
+            "designer": "Alex Perry",
+            "style": "Mesh Gloves",
+            "size": "S",
+            "price": "NOW £90"
+          }
+        },
         "gallery_item_bNkBrx": {
           "type": "gallery_item",
           "settings": {
@@ -2040,6 +2060,8 @@
         "gallery_item_zxwHYd",
         "gallery_item_X4dFhT",
         "gallery_item_UL4aHN",
+        "gallery_item_KGUXeP",
+        "gallery_item_TEmUnX",
         "gallery_item_bNkBrx",
         "gallery_item_frixyX",
         "gallery_item_FcqVjX",
