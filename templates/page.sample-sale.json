@@ -830,6 +830,16 @@
             "price": "NOW £1,400"
           }
         },
+        "gallery_item_tJzLjF": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/FL_2021-22-53.jpg",
+            "designer": "& For Love",
+            "style": "Auldyn Linen",
+            "size": "12",
+            "price": "NOW £900"
+          }
+        },
         "gallery_item_jfPxDq": {
           "type": "gallery_item",
           "settings": {
@@ -2102,6 +2112,7 @@
         "gallery_item_LxQNkC",
         "gallery_item_MieJtC",
         "gallery_item_QfVEHi",
+        "gallery_item_tJzLjF",
         "gallery_item_jfPxDq",
         "gallery_item_kPjVmY",
         "gallery_item_tXTqUn",
