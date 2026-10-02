@@ -950,6 +950,16 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_ggB9Nm": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/220603_LV_Shoot_46_0778-5s.jpg",
+            "designer": "Lola Varma",
+            "style": "Delfina Skirt",
+            "size": "10",
+            "price": "NOW £800"
+          }
+        },
         "gallery_item_kL36rB": {
           "type": "gallery_item",
           "settings": {
@@ -1057,6 +1067,16 @@
             "style": "7.18 Anouk Gloves",
             "size": "M",
             "price": "NOW £175"
+          }
+        },
+        "gallery_item_mwYEmP": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1738078576646-IMG_3731.jpg",
+            "designer": "Harriette Gordon",
+            "style": "7.25 Paloma Gloves",
+            "size": "M",
+            "price": "NOW £100"
           }
         },
         "gallery_item_Q78tCY": {
@@ -2124,6 +2144,7 @@
         "gallery_item_GXEjhM",
         "gallery_item_jT6QL4",
         "gallery_item_Kw4qcp",
+        "gallery_item_ggB9Nm",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
         "gallery_item_a96tVm",
@@ -2135,6 +2156,7 @@
         "gallery_item_jMUm4K",
         "gallery_item_7gtQXX",
         "gallery_item_QJKnb9",
+        "gallery_item_mwYEmP",
         "gallery_item_Q78tCY",
         "gallery_item_WAnw6M",
         "gallery_item_aR6T4G",
