@@ -230,6 +230,16 @@
             "price": "NOW £1200"
           }
         },
+        "gallery_item_hEYzaT": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/220712_PREA_JAMES_23_05_1405.jpg",
+            "designer": "Prea James",
+            "style": "Orla Top",
+            "size": "12",
+            "price": "NOW £350"
+          }
+        },
         "gallery_item_cVcpfp": {
           "type": "gallery_item",
           "settings": {
@@ -2002,6 +2012,7 @@
         "gallery_item_FhHNma",
         "gallery_item_jMeRUr",
         "gallery_item_KzbrhA",
+        "gallery_item_hEYzaT",
         "gallery_item_cVcpfp",
         "gallery_item_9MVTmq",
         "gallery_item_tqewLn",
