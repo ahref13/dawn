@@ -710,6 +710,16 @@
             "price": "NOW £900"
           }
         },
+        "gallery_item_ePA7fG": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/JB23-295_eaa9c890-6120-41e2-9d1e-d634fc3ccac0.jpg",
+            "designer": "Jessica Bennett",
+            "style": "Alexa Bow",
+            "size": "12",
+            "price": "NOW £250"
+          }
+        },
         "gallery_item_6Wkw9V": {
           "type": "gallery_item",
           "settings": {
@@ -2080,6 +2090,7 @@
         "gallery_item_BUzFJV",
         "gallery_item_caBRfa",
         "gallery_item_TyNUAz",
+        "gallery_item_ePA7fG",
         "gallery_item_6Wkw9V",
         "gallery_item_yeBw3y",
         "gallery_item_KprHAb",
