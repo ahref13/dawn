@@ -1259,6 +1259,86 @@
             "price": "NOW £650"
           }
         },
+        "gallery_item_8qk6eH": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/ATHENA_PEARL_DRESS_BRIDAL_1000x_f3f55865-4e5a-4333-95d6-e76b4daeb00c.jpg",
+            "designer": "Galvan",
+            "style": "Athena Pearl",
+            "size": "S, M, L",
+            "price": "NOW £250"
+          }
+        },
+        "gallery_item_RtdEmE": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/nm_4274279_100189_m_e9eed202-c824-4ed9-a077-ba7750acbf33.jpg",
+            "designer": "Galvan",
+            "style": "Cova",
+            "size": "36, 38, 42",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_q66FkJ": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/GalvanLondon_LeithBridalBlazerDress_1_295_1_495_1_495_800x_5be55546-b1b3-432a-8983-db2520f6b8f5.jpg",
+            "designer": "Galvan",
+            "style": "Leith",
+            "size": "36",
+            "price": "NOW £200"
+          }
+        },
+        "gallery_item_m7jQV8": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/CD1146100_USHUAIADRESS_2476_600x_07c38188-8450-4e41-a605-fddca93df0dc.jpg",
+            "designer": "Galvan",
+            "style": "Cropped Ushuaia",
+            "size": "42",
+            "price": "NOW £200"
+          }
+        },
+        "gallery_item_carRCc": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/GalvanLondon_SiennaBridalJumpsuit_1_095_1_295_1_195_600x_30279ccd-1f2a-4dda-898d-b18a398704b3.jpg",
+            "designer": "Galvan",
+            "style": "Sienna Jumpsuit",
+            "size": "34, 36, 38, 40",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_PwkrU7": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P00873486_b1_6ebb0a8b-d084-452a-8fad-23f34da8d426.jpg",
+            "designer": "Galvan",
+            "style": "Iona",
+            "size": "34, 36, 38",
+            "price": "NOW £100"
+          }
+        },
+        "gallery_item_pQfmX4": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/s-l1200_1bc36f82-84a7-44d5-947d-b649852aac0a.jpg",
+            "designer": "Galvan",
+            "style": "Ushuaia",
+            "size": "34, 36, 38, 40, 44",
+            "price": "NOW £300"
+          }
+        },
+        "gallery_item_ecAJyY": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/w2000_q60_9b3605d8-ca64-4e4f-88c8-f17eb964cd8d.jpg",
+            "designer": "Galvan",
+            "style": "Sculpted Bridal Suit",
+            "size": "34, 36, 40",
+            "price": "NOW £500"
+          }
+        },
         "gallery_item_kTxD6n": {
           "type": "gallery_item",
           "settings": {
@@ -2175,6 +2255,14 @@
         "gallery_item_Q6B7jE",
         "gallery_item_yPtVTk",
         "gallery_item_GwyFkj",
+        "gallery_item_8qk6eH",
+        "gallery_item_RtdEmE",
+        "gallery_item_q66FkJ",
+        "gallery_item_m7jQV8",
+        "gallery_item_carRCc",
+        "gallery_item_PwkrU7",
+        "gallery_item_pQfmX4",
+        "gallery_item_ecAJyY",
         "gallery_item_kTxD6n",
         "gallery_item_NJj8nB",
         "gallery_item_Ua6gYM",
