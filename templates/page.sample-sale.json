@@ -980,16 +980,6 @@
             "price": "NOW £200"
           }
         },
-        "gallery_item_a96tVm": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/unnamed.png",
-            "designer": "Lola Varma",
-            "style": "Sienna Scarf",
-            "size": "",
-            "price": "NOW £140"
-          }
-        },
         "gallery_item_Bf6pWY": {
           "type": "gallery_item",
           "settings": {
@@ -1488,16 +1478,6 @@
             "style": "Lace Taffeta Maxi",
             "size": "10, 16",
             "price": "NOW £200"
-          }
-        },
-        "gallery_item_qyAd3B": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/NUIT-BOTANICAL-VEIL-BACK_cb5cbff4-dd37-4c7a-b9ed-d144a5f32c57.webp",
-            "designer": "Ofrenda",
-            "style": "Nuit",
-            "size": "90\" Chapel",
-            "price": "NOW £300"
           }
         },
         "gallery_item_7g6mq4": {
@@ -2238,7 +2218,6 @@
         "gallery_item_ggB9Nm",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
-        "gallery_item_a96tVm",
         "gallery_item_Bf6pWY",
         "gallery_item_JRCyVM",
         "gallery_item_HBWDjK",
@@ -2289,7 +2268,6 @@
         "gallery_item_MjzhcR",
         "gallery_item_wQxbhn",
         "gallery_item_YLfg9H",
-        "gallery_item_qyAd3B",
         "gallery_item_7g6mq4",
         "gallery_item_KhdeWa",
         "gallery_item_FwqhXj",
