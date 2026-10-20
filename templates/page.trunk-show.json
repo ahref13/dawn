@@ -12,6 +12,18 @@
     "tf_trunk_shows": {
       "type": "tf-trunk-shows",
       "blocks": {
+        "trunk_show_mUf8dV": {
+          "type": "trunk_show",
+          "settings": {
+            "designer": "Former Girlfriend",
+            "collection": "Collections I & II",
+            "date": "6 - 16 November",
+            "image": "shopify://shop_images/Tayler_Resized.jpg",
+            "description": "Calling all girlfriends! We will be hosting an exclusive trunk show for Canadian label Former Girlfriend.\n\nDesigned and made in Toronto, Former Girlfriend celebrates the beauty of friendship and the women who shape our lives. Blending considered silhouettes with thoughtful detailing, the collections strike the perfect balance between understated elegance and contemporary fashion.\n\nBook a Fitting Appointment to try these styles between 6 - 16 November.\n\nEnjoy 10% off all trunk show orders placed during this time.",
+            "button_url": "https://newyork.thefallbride.com/pages/appointment",
+            "button_text": "BOOK TRUNK SHOW"
+          }
+        },
         "trunk_show_3z4H8M": {
           "type": "trunk_show",
           "settings": {
@@ -23,23 +35,11 @@
             "button_url": "https://newyork.thefallbride.com/pages/appointment",
             "button_text": "BOOK TRUNK SHOW"
           }
-        },
-        "trunk_show_mUf8dV": {
-          "type": "trunk_show",
-          "settings": {
-            "designer": "Former Girlfriend",
-            "collection": "Collections I & II",
-            "date": "6 - 16 November",
-            "image": "shopify://shop_images/Tayler_Resized.jpg",
-            "description": "Calling all girlfriends! We will be hosting an exclusive trunk show for Canadian label Former Girlfriend.\n\nDesigned and made in Toronto, Former Girlfriend celebrates the beauty of friendship and the women who shape our lives. Blending considered silhouettes with thoughtful detailing, the collections strike the perfect balance between understated elegance and contemporary fashion.\n\nBook a Fitting Appointment to try these styles between 6 - 16 November.\n\nEnjoy 10% off all trunk show orders placed during this time.",
-            "button_url": "https://newyork.thefallbride.com/pages/appointment",
-            "button_text": "BOOKING COMING SOON"
-          }
         }
       },
       "block_order": [
-        "trunk_show_3z4H8M",
-        "trunk_show_mUf8dV"
+        "trunk_show_mUf8dV",
+        "trunk_show_3z4H8M"
       ],
       "settings": {}
     }
