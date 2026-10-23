@@ -1970,6 +1970,26 @@
             "price": "NOW £70"
           }
         },
+        "gallery_item_KxJGTN": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1772888540096-Z23-R-blue_earrings02-1_2160x_88cdf3e8-8993-4280-a9d7-d9df172b7568.jpg",
+            "designer": "Completedworks",
+            "style": "Z23",
+            "size": "",
+            "price": "NOW £145"
+          }
+        },
+        "gallery_item_4aznec": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Z103_earrings_02-1_2160x_160f06e1-c1b2-4508-98ca-c20c54055c0a.webp",
+            "designer": "Completedworks",
+            "style": "Never Give Up The Ghost",
+            "size": "",
+            "price": "NOW £125"
+          }
+        },
         "gallery_item_wjct8J": {
           "type": "gallery_item",
           "settings": {
@@ -2277,6 +2297,8 @@
         "gallery_item_7aKRX9",
         "gallery_item_FYDcF4",
         "gallery_item_VMYrGf",
+        "gallery_item_KxJGTN",
+        "gallery_item_4aznec",
         "gallery_item_wjct8J",
         "gallery_item_kwRYXB",
         "gallery_item_wQDkRn",
