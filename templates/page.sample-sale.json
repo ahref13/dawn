@@ -1810,16 +1810,6 @@
             "price": "NOW £30"
           }
         },
-        "gallery_item_B4cdEk": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/NURIA_EARRINGS_SILVER_PEARL.jpg",
-            "designer": "Shyla",
-            "style": "Nuria - Pearl",
-            "size": "",
-            "price": "NOW £30"
-          }
-        },
         "gallery_item_L8KHA7": {
           "type": "gallery_item",
           "settings": {
@@ -2311,7 +2301,6 @@
         "gallery_item_iernDb",
         "gallery_item_THAy7p",
         "gallery_item_R3hicr",
-        "gallery_item_B4cdEk",
         "gallery_item_L8KHA7",
         "gallery_item_y97Nd3",
         "gallery_item_nHLVTf",
