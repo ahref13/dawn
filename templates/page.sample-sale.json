@@ -1020,6 +1020,16 @@
             "price": "NOW £250"
           }
         },
+        "gallery_item_TdjgeK": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1684768305369-VEILS.jpg",
+            "designer": "Harriette Gordon",
+            "style": "5.1 Bridal Tulle Veil - 2-Tier",
+            "size": "",
+            "price": "NOW £250"
+          }
+        },
         "gallery_item_Awtphr": {
           "type": "gallery_item",
           "settings": {
@@ -2202,6 +2212,7 @@
         "gallery_item_JRCyVM",
         "gallery_item_HBWDjK",
         "gallery_item_dk9FQc",
+        "gallery_item_TdjgeK",
         "gallery_item_Awtphr",
         "gallery_item_jMUm4K",
         "gallery_item_7gtQXX",
