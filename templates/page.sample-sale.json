@@ -1015,7 +1015,7 @@
           "settings": {
             "image": "shopify://shop_images/0G3A1620c_websize_84b73230-bb34-49c0-85ed-a1bf5b1efc2f.jpg",
             "designer": "Harriette Gordon",
-            "style": "4.5 Pearl - 2-Tier",
+            "style": "4.5 Pearl - 1-Tier",
             "size": "",
             "price": "NOW £250"
           }
@@ -1027,7 +1027,17 @@
             "designer": "Harriette Gordon",
             "style": "5.1 Bridal Tulle Veil - 2-Tier",
             "size": "",
-            "price": "NOW £250"
+            "price": "NOW £120"
+          }
+        },
+        "gallery_item_MBVq4N": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1669820762398-Screenshot_2022-11-30_at_15.04.57.png",
+            "designer": "Harriette Gordon",
+            "style": "4.8 Bridal Tulle Veil - 2-Tier",
+            "size": "",
+            "price": "NOW £275"
           }
         },
         "gallery_item_Awtphr": {
@@ -2213,6 +2223,7 @@
         "gallery_item_HBWDjK",
         "gallery_item_dk9FQc",
         "gallery_item_TdjgeK",
+        "gallery_item_MBVq4N",
         "gallery_item_Awtphr",
         "gallery_item_jMUm4K",
         "gallery_item_7gtQXX",
