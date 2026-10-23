@@ -1070,16 +1070,6 @@
             "price": "NOW £100"
           }
         },
-        "gallery_item_Q78tCY": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/02_8071_1f87da21-e2f3-44f9-a7bf-d17b2dd3518c.jpg",
-            "designer": "Harriette Gordon",
-            "style": "7.5 Large Net Bow",
-            "size": "",
-            "price": "NOW £80"
-          }
-        },
         "gallery_item_WAnw6M": {
           "type": "gallery_item",
           "settings": {
@@ -2217,7 +2207,6 @@
         "gallery_item_7gtQXX",
         "gallery_item_QJKnb9",
         "gallery_item_mwYEmP",
-        "gallery_item_Q78tCY",
         "gallery_item_WAnw6M",
         "gallery_item_aR6T4G",
         "gallery_item_MrR4GC",
