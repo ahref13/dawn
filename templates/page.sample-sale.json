@@ -1860,6 +1860,16 @@
             "price": "NOW £22"
           }
         },
+        "gallery_item_8pDxTD": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P189_bow_comb_01_2160x_e6cd0ab5-0060-474b-a602-c0d9d6dafd8b.webp",
+            "designer": "Completedworks",
+            "style": "Pearl Long Bow Hair Comb",
+            "size": "O/S",
+            "price": "NOW £160"
+          }
+        },
         "gallery_item_KtnrFm": {
           "type": "gallery_item",
           "settings": {
@@ -2306,6 +2316,7 @@
         "gallery_item_y97Nd3",
         "gallery_item_nHLVTf",
         "gallery_item_3pc7mi",
+        "gallery_item_8pDxTD",
         "gallery_item_KtnrFm",
         "gallery_item_Gd3zbg",
         "gallery_item_kBK7yN",
