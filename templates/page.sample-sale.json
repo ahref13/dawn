@@ -1990,6 +1990,16 @@
             "price": "NOW £125"
           }
         },
+        "gallery_item_jFK3dy": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/P194-S_earrings_02-1_2160x_111923a8-b7a3-4bcf-afa7-d9079b376f48.webp",
+            "designer": "Completedworks",
+            "style": "Whopping Great Loop‐The‐Loop",
+            "size": "",
+            "price": "NOW £200"
+          }
+        },
         "gallery_item_wjct8J": {
           "type": "gallery_item",
           "settings": {
@@ -2299,6 +2309,7 @@
         "gallery_item_VMYrGf",
         "gallery_item_KxJGTN",
         "gallery_item_4aznec",
+        "gallery_item_jFK3dy",
         "gallery_item_wjct8J",
         "gallery_item_kwRYXB",
         "gallery_item_wQDkRn",
