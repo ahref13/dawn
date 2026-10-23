@@ -1930,16 +1930,6 @@
             "price": "NOW £95"
           }
         },
-        "gallery_item_9CqeJX": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/P56_earrings_02-1_2160x_f8af9cb7-480d-4f26-9486-8ff2f24fa30e.webp",
-            "designer": "Completedworks",
-            "style": "Pulp",
-            "size": "",
-            "price": "NOW £75"
-          }
-        },
         "gallery_item_6GFx4i": {
           "type": "gallery_item",
           "settings": {
@@ -2050,16 +2040,6 @@
             "price": "NOW £90"
           }
         },
-        "gallery_item_Dg3w3Q": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1720638713689-IMG_0757.jpg",
-            "designer": "Lelet NY",
-            "style": "Penelope Floral Pearl Headband",
-            "size": "",
-            "price": "NOW £80"
-          }
-        },
         "gallery_item_9XzHiX": {
           "type": "gallery_item",
           "settings": {
@@ -2078,16 +2058,6 @@
             "style": "Figure Eight Pearl Drop Halo",
             "size": "",
             "price": "NOW £50"
-          }
-        },
-        "gallery_item_b7WBcX": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1728741740838-LELFW24-1841G-GOLD_1800x1800_d1fadb7d-9b58-4271-b99e-6d784db08948.webp",
-            "designer": "Lelet NY",
-            "style": "Mary Jane Bow Clip (set of 2)",
-            "size": "",
-            "price": "NOW £40"
           }
         },
         "gallery_item_DTPJtr": {
@@ -2303,7 +2273,6 @@
         "gallery_item_fAC7W9",
         "gallery_item_dLJfig",
         "gallery_item_jnjgeD",
-        "gallery_item_9CqeJX",
         "gallery_item_6GFx4i",
         "gallery_item_7aKRX9",
         "gallery_item_FYDcF4",
@@ -2315,10 +2284,8 @@
         "gallery_item_NCt64D",
         "gallery_item_Uyq9Ae",
         "gallery_item_4jn7bA",
-        "gallery_item_Dg3w3Q",
         "gallery_item_9XzHiX",
         "gallery_item_YbhKXx",
-        "gallery_item_b7WBcX",
         "gallery_item_DTPJtr",
         "gallery_item_cGXHtm"
       ],
