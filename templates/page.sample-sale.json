@@ -1040,6 +1040,16 @@
             "price": "NOW £300"
           }
         },
+        "gallery_item_wePQKb": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/uploads_1669820762398-Screenshot_2022-11-30_at_15.04.57.png",
+            "designer": "Harriette Gordon",
+            "style": "4.13 Lace Mantilla Veil",
+            "size": "",
+            "price": "NOW £500"
+          }
+        },
         "gallery_item_Awtphr": {
           "type": "gallery_item",
           "settings": {
@@ -2224,6 +2234,7 @@
         "gallery_item_dk9FQc",
         "gallery_item_TdjgeK",
         "gallery_item_MBVq4N",
+        "gallery_item_wePQKb",
         "gallery_item_Awtphr",
         "gallery_item_jMUm4K",
         "gallery_item_7gtQXX",
