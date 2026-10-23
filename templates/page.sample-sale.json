@@ -1690,16 +1690,6 @@
             "price": "NOW £135"
           }
         },
-        "gallery_item_Mxjh6j": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/MIKEL-N-CHMPN_1.jpg",
-            "designer": "Loeffler Randall",
-            "style": "Mikel",
-            "size": "UK 5",
-            "price": "NOW £100"
-          }
-        },
         "gallery_item_tCxBNN": {
           "type": "gallery_item",
           "settings": {
@@ -2289,7 +2279,6 @@
         "gallery_item_8NimmV",
         "gallery_item_qpFaVW",
         "gallery_item_hmYVnd",
-        "gallery_item_Mxjh6j",
         "gallery_item_tCxBNN",
         "gallery_item_dgBM4K",
         "gallery_item_gDxQwG",
