@@ -960,6 +960,16 @@
             "price": "NOW £800"
           }
         },
+        "gallery_item_pGHG7i": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/250312_LolaVarma_SH32_1825as_a31cc077-8034-4f08-96c6-91b94d7324e0.jpg",
+            "designer": "Lola Varma",
+            "style": "Sula Shawl",
+            "size": "M",
+            "price": "NOW £400"
+          }
+        },
         "gallery_item_kL36rB": {
           "type": "gallery_item",
           "settings": {
@@ -2226,6 +2236,7 @@
         "gallery_item_jT6QL4",
         "gallery_item_Kw4qcp",
         "gallery_item_ggB9Nm",
+        "gallery_item_pGHG7i",
         "gallery_item_kL36rB",
         "gallery_item_dUwix9",
         "gallery_item_Bf6pWY",
