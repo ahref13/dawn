@@ -1910,16 +1910,6 @@
             "price": "NOW £70"
           }
         },
-        "gallery_item_KxJGTN": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1772888540096-Z23-R-blue_earrings02-1_2160x_88cdf3e8-8993-4280-a9d7-d9df172b7568.jpg",
-            "designer": "Completedworks",
-            "style": "Z23",
-            "size": "",
-            "price": "NOW £145"
-          }
-        },
         "gallery_item_4aznec": {
           "type": "gallery_item",
           "settings": {
@@ -2241,7 +2231,6 @@
         "gallery_item_6GFx4i",
         "gallery_item_FYDcF4",
         "gallery_item_VMYrGf",
-        "gallery_item_KxJGTN",
         "gallery_item_4aznec",
         "gallery_item_jFK3dy",
         "gallery_item_wjct8J",
