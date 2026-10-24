@@ -1120,16 +1120,6 @@
             "price": "£900"
           }
         },
-        "gallery_item_aR6T4G": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/download_1.png",
-            "designer": "Kamperett",
-            "style": "Anemoia Midi",
-            "size": "L",
-            "price": "£600"
-          }
-        },
         "gallery_item_MrR4GC": {
           "type": "gallery_item",
           "settings": {
@@ -2182,7 +2172,6 @@
         "gallery_item_QJKnb9",
         "gallery_item_mwYEmP",
         "gallery_item_WAnw6M",
-        "gallery_item_aR6T4G",
         "gallery_item_MrR4GC",
         "gallery_item_wNLGzj",
         "gallery_item_C8VPGc",
