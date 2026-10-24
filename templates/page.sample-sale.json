@@ -1420,16 +1420,6 @@
             "price": "NOW £100"
           }
         },
-        "gallery_item_fmCxfP": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1744290466580-SS25-255X-C_1.jpg",
-            "designer": "Self Portrait",
-            "style": "Flower Maxi Dress",
-            "size": "16",
-            "price": "NOW £100"
-          }
-        },
         "gallery_item_GXxq9y": {
           "type": "gallery_item",
           "settings": {
@@ -1830,16 +1820,6 @@
             "price": "NOW £160"
           }
         },
-        "gallery_item_KtnrFm": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Z108-R_earrings02-1_2160x_9315579e-fa1e-4ec7-a154-a201a6797697.jpg",
-            "designer": "Completedworks",
-            "style": "Z108",
-            "size": "",
-            "price": "NOW £70"
-          }
-        },
         "gallery_item_Gd3zbg": {
           "type": "gallery_item",
           "settings": {
@@ -2212,7 +2192,6 @@
         "gallery_item_Lhg7qe",
         "gallery_item_fRN8TE",
         "gallery_item_UjrXzE",
-        "gallery_item_fmCxfP",
         "gallery_item_GXxq9y",
         "gallery_item_FLEWji",
         "gallery_item_MjzhcR",
@@ -2253,7 +2232,6 @@
         "gallery_item_nHLVTf",
         "gallery_item_3pc7mi",
         "gallery_item_8pDxTD",
-        "gallery_item_KtnrFm",
         "gallery_item_Gd3zbg",
         "gallery_item_kBK7yN",
         "gallery_item_bCfmiE",
