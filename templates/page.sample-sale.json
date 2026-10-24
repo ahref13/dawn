@@ -1880,16 +1880,6 @@
             "price": "NOW £115"
           }
         },
-        "gallery_item_T6FkGc": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/P224-G_earrings02-1_2160x_71b91575-3cea-4681-84ac-95df01446a4c.jpg",
-            "designer": "Completedworks",
-            "style": "Moontide",
-            "size": "",
-            "price": "NOW £100"
-          }
-        },
         "gallery_item_fAC7W9": {
           "type": "gallery_item",
           "settings": {
@@ -1928,16 +1918,6 @@
             "style": "The Break Between The Clouds",
             "size": "",
             "price": "NOW £80"
-          }
-        },
-        "gallery_item_7aKRX9": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Z55-S_earrings_02-1_2160x_35fecf4c-8327-4974-a842-61a3764656be.webp",
-            "designer": "Completedworks",
-            "style": "Trickles",
-            "size": "",
-            "price": "NOW £105"
           }
         },
         "gallery_item_FYDcF4": {
@@ -2288,12 +2268,10 @@
         "gallery_item_Gd3zbg",
         "gallery_item_kBK7yN",
         "gallery_item_bCfmiE",
-        "gallery_item_T6FkGc",
         "gallery_item_fAC7W9",
         "gallery_item_dLJfig",
         "gallery_item_jnjgeD",
         "gallery_item_6GFx4i",
-        "gallery_item_7aKRX9",
         "gallery_item_FYDcF4",
         "gallery_item_VMYrGf",
         "gallery_item_KxJGTN",
