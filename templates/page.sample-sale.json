@@ -1470,16 +1470,6 @@
             "price": "NOW £150"
           }
         },
-        "gallery_item_dhLkqc": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/uploads_1751988925066-AW25-088SA-W_1.jpg",
-            "designer": "Self Portrait",
-            "style": "Floral Lace Mini",
-            "size": "10",
-            "price": "NOW £150"
-          }
-        },
         "gallery_item_MjzhcR": {
           "type": "gallery_item",
           "settings": {
@@ -1598,16 +1588,6 @@
             "style": "Felina Bow",
             "size": "",
             "price": "NOW £90"
-          }
-        },
-        "gallery_item_zjVtMb": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_221_ae58a466-99b1-4665-8649-8c716291cf7b.jpg",
-            "designer": "Talc",
-            "style": "Cloud Veil",
-            "size": "",
-            "price": "NOW £50"
           }
         },
         "gallery_item_yTJBmd": {
@@ -2277,7 +2257,6 @@
         "gallery_item_fmCxfP",
         "gallery_item_GXxq9y",
         "gallery_item_FLEWji",
-        "gallery_item_dhLkqc",
         "gallery_item_MjzhcR",
         "gallery_item_wQxbhn",
         "gallery_item_YLfg9H",
@@ -2290,7 +2269,6 @@
         "gallery_item_GY44Q6",
         "gallery_item_QFr8UV",
         "gallery_item_8TFCP4",
-        "gallery_item_zjVtMb",
         "gallery_item_yTJBmd",
         "gallery_item_zfLeQT",
         "gallery_item_cFmt4Q",
