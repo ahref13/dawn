@@ -1160,16 +1160,6 @@
             "price": "NOW £400"
           }
         },
-        "gallery_item_9YfwM9": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2024-09-24_at_15.36.08.webp",
-            "designer": "Kamperett",
-            "style": "Lalique",
-            "size": "M",
-            "price": "NOW £600"
-          }
-        },
         "gallery_item_K4dLPT": {
           "type": "gallery_item",
           "settings": {
@@ -2196,7 +2186,6 @@
         "gallery_item_MrR4GC",
         "gallery_item_wNLGzj",
         "gallery_item_C8VPGc",
-        "gallery_item_9YfwM9",
         "gallery_item_K4dLPT",
         "gallery_item_3bbmD3",
         "gallery_item_tGNBNw",
