@@ -1580,6 +1580,15 @@
             "price": "NOW £150"
           }
         },
+        "gallery_item_V8emDW": {
+          "type": "gallery_item",
+          "settings": {
+            "designer": "Talc",
+            "style": "Luxe Minimal - Ivory",
+            "size": "Cathedral",
+            "price": "NOW £200"
+          }
+        },
         "gallery_item_cFmt4Q": {
           "type": "gallery_item",
           "settings": {
@@ -2218,6 +2227,7 @@
         "gallery_item_8TFCP4",
         "gallery_item_yTJBmd",
         "gallery_item_zfLeQT",
+        "gallery_item_V8emDW",
         "gallery_item_cFmt4Q",
         "gallery_item_EzjcWY",
         "gallery_item_gWA9Mi",
