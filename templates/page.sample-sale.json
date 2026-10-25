@@ -1860,16 +1860,6 @@
             "price": "NOW £95"
           }
         },
-        "gallery_item_6GFx4i": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/P139-G_earrings_02-1_2160x_d0cbc2b6-5793-4817-86bd-115cfe600bdf.webp",
-            "designer": "Completedworks",
-            "style": "The Break Between The Clouds",
-            "size": "",
-            "price": "NOW £80"
-          }
-        },
         "gallery_item_FYDcF4": {
           "type": "gallery_item",
           "settings": {
@@ -2206,7 +2196,6 @@
         "gallery_item_fAC7W9",
         "gallery_item_dLJfig",
         "gallery_item_jnjgeD",
-        "gallery_item_6GFx4i",
         "gallery_item_FYDcF4",
         "gallery_item_VMYrGf",
         "gallery_item_4aznec",
