@@ -1720,6 +1720,16 @@
             "price": "NOW £160"
           }
         },
+        "gallery_item_3etLeM": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/cw-pim-20260901T075535976Z-cf44d8-49e20b117ba2b9bb-P70-same_earrings_02-1.webp",
+            "designer": "Completedworks",
+            "style": "What's The Big Idea?",
+            "size": "O/S",
+            "price": "NOW £75"
+          }
+        },
         "gallery_item_Gd3zbg": {
           "type": "gallery_item",
           "settings": {
@@ -2102,6 +2112,7 @@
         "gallery_item_nHLVTf",
         "gallery_item_3pc7mi",
         "gallery_item_8pDxTD",
+        "gallery_item_3etLeM",
         "gallery_item_Gd3zbg",
         "gallery_item_kBK7yN",
         "gallery_item_bCfmiE",
