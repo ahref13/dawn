@@ -90,16 +90,6 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_NGYhA4": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2023-07-19_at_17.03.05_3fc980f9-3a61-417a-ab7b-e5568fe847bd.png",
-            "designer": "Katherine Tash",
-            "style": "Diana",
-            "size": "12",
-            "price": "NOW £1800"
-          }
-        },
         "gallery_item_3Wcf4b": {
           "type": "gallery_item",
           "settings": {
@@ -168,16 +158,6 @@
             "style": "Juliette",
             "size": "10",
             "price": "NOW £700"
-          }
-        },
-        "gallery_item_GMbTwd": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/220712_PREA_JAMES_23_12_3278.jpg",
-            "designer": "Prea James",
-            "style": "Anouk",
-            "size": "10",
-            "price": "NOW £800"
           }
         },
         "gallery_item_4HyPaF": {
@@ -1999,7 +1979,6 @@
         "gallery_item_eK9VMX",
         "gallery_item_PzTb3m",
         "gallery_item_yyKi3f",
-        "gallery_item_NGYhA4",
         "gallery_item_3Wcf4b",
         "gallery_item_aVCajB",
         "gallery_item_bT733A",
@@ -2007,7 +1986,6 @@
         "gallery_item_3qTMHW",
         "gallery_item_dpyKDL",
         "gallery_item_XTLQF9",
-        "gallery_item_GMbTwd",
         "gallery_item_4HyPaF",
         "gallery_item_FhHNma",
         "gallery_item_jMeRUr",
