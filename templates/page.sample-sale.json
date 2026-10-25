@@ -1520,16 +1520,6 @@
             "price": "NOW £90"
           }
         },
-        "gallery_item_yTJBmd": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_119_b40a0b59-2ace-423a-9646-77201827b923.jpg",
-            "designer": "Talc",
-            "style": "Confetti Veil - 1-Tier Chapel",
-            "size": "",
-            "price": "NOW £90"
-          }
-        },
         "gallery_item_V8emDW": {
           "type": "gallery_item",
           "settings": {
@@ -1548,16 +1538,6 @@
             "style": "Ray Cape",
             "size": "O/S",
             "price": "NOW £100"
-          }
-        },
-        "gallery_item_EzjcWY": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AM_Faulkner_x_The_Fall_Bride_169_051d95e7-8f6e-48e5-97c2-e90dfd8c1a37.jpg",
-            "designer": "Talc",
-            "style": "Jasmine Clips",
-            "size": "",
-            "price": "NOW £50"
           }
         },
         "gallery_item_YgWXma": {
@@ -1718,16 +1698,6 @@
             "style": "Ruby Bag",
             "size": "",
             "price": "NOW £95"
-          }
-        },
-        "gallery_item_y97Nd3": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/LIMAEARRINGSPEARLCLEAR.webp",
-            "designer": "Shyla",
-            "style": "Lima - Crystal",
-            "size": "",
-            "price": "NOW £30"
           }
         },
         "gallery_item_nHLVTf": {
@@ -2122,10 +2092,8 @@
         "gallery_item_wcR8rP",
         "gallery_item_QFr8UV",
         "gallery_item_8TFCP4",
-        "gallery_item_yTJBmd",
         "gallery_item_V8emDW",
         "gallery_item_cFmt4Q",
-        "gallery_item_EzjcWY",
         "gallery_item_YgWXma",
         "gallery_item_T4cYq4",
         "gallery_item_r73cDi",
@@ -2142,7 +2110,6 @@
         "gallery_item_NtXTyy",
         "gallery_item_iernDb",
         "gallery_item_THAy7p",
-        "gallery_item_y97Nd3",
         "gallery_item_nHLVTf",
         "gallery_item_3pc7mi",
         "gallery_item_8pDxTD",
