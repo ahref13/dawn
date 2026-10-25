@@ -1350,6 +1350,16 @@
             "price": "NOW £200"
           }
         },
+        "gallery_item_4zNRHr": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/self-portrait-W-Floral-Lace-Mini-Dress.webp",
+            "designer": "Self Portrait",
+            "style": "Floral Lace Mini",
+            "size": "16",
+            "price": "NOW £100"
+          }
+        },
         "gallery_item_Lhg7qe": {
           "type": "gallery_item",
           "settings": {
@@ -2095,6 +2105,7 @@
         "gallery_item_NJj8nB",
         "gallery_item_Ua6gYM",
         "gallery_item_UVjYVk",
+        "gallery_item_4zNRHr",
         "gallery_item_Lhg7qe",
         "gallery_item_fRN8TE",
         "gallery_item_UjrXzE",
