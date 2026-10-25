@@ -1520,16 +1520,6 @@
             "price": "NOW £90"
           }
         },
-        "gallery_item_zfLeQT": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/AMFAULKNER-lisajanephoto-477_7be94712-2c19-474e-8213-6e0bbaba9547.jpg",
-            "designer": "Talc",
-            "style": "Maxi Minimal Veil",
-            "size": "Ballet",
-            "price": "NOW £100"
-          }
-        },
         "gallery_item_V8emDW": {
           "type": "gallery_item",
           "settings": {
@@ -2122,7 +2112,6 @@
         "gallery_item_QFr8UV",
         "gallery_item_8TFCP4",
         "gallery_item_yTJBmd",
-        "gallery_item_zfLeQT",
         "gallery_item_V8emDW",
         "gallery_item_cFmt4Q",
         "gallery_item_EzjcWY",
