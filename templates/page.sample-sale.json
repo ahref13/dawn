@@ -150,16 +150,6 @@
             "price": "NOW £300"
           }
         },
-        "gallery_item_XTLQF9": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Juliette_Small_a72674fe-0c48-4a95-b4af-160806bb3e04.jpg",
-            "designer": "Prea James",
-            "style": "Juliette",
-            "size": "10",
-            "price": "NOW £700"
-          }
-        },
         "gallery_item_4HyPaF": {
           "type": "gallery_item",
           "settings": {
@@ -537,16 +527,6 @@
             "designer": "Cortana",
             "style": "Helene",
             "size": "12-14",
-            "price": "NOW £900"
-          }
-        },
-        "gallery_item_BweGft": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/rouge-new-dress-tulle-mittens-veil-0052.jpg",
-            "designer": "Cortana",
-            "style": "New Rouge",
-            "size": "12",
             "price": "NOW £900"
           }
         },
@@ -1955,7 +1935,6 @@
         "gallery_item_z6fAxx",
         "gallery_item_3qTMHW",
         "gallery_item_dpyKDL",
-        "gallery_item_XTLQF9",
         "gallery_item_4HyPaF",
         "gallery_item_FhHNma",
         "gallery_item_jMeRUr",
@@ -1994,7 +1973,6 @@
         "gallery_item_frixyX",
         "gallery_item_FcqVjX",
         "gallery_item_mcQkrF",
-        "gallery_item_BweGft",
         "gallery_item_H3mX3r",
         "gallery_item_E67pgE",
         "gallery_item_wnQPFU",
