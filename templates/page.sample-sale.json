@@ -1720,16 +1720,6 @@
             "price": "NOW £100"
           }
         },
-        "gallery_item_bCfmiE": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/P217_earrings02-1_2160x_ed44dcfb-049c-438e-9b3d-4c4f3bb55cfe.webp",
-            "designer": "Completedworks",
-            "style": "Woah!",
-            "size": "",
-            "price": "NOW £115"
-          }
-        },
         "gallery_item_fAC7W9": {
           "type": "gallery_item",
           "settings": {
@@ -2092,7 +2082,6 @@
         "gallery_item_8pDxTD",
         "gallery_item_Gd3zbg",
         "gallery_item_kBK7yN",
-        "gallery_item_bCfmiE",
         "gallery_item_fAC7W9",
         "gallery_item_dLJfig",
         "gallery_item_jnjgeD",
