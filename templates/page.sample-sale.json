@@ -160,16 +160,6 @@
             "price": "NOW £1500"
           }
         },
-        "gallery_item_FhHNma": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Grace_Overskirt.png",
-            "designer": "Prea James",
-            "style": "Grace Overskirt",
-            "size": "14",
-            "price": "NOW £600"
-          }
-        },
         "gallery_item_jMeRUr": {
           "type": "gallery_item",
           "settings": {
@@ -1926,7 +1916,6 @@
         "gallery_item_3qTMHW",
         "gallery_item_dpyKDL",
         "gallery_item_4HyPaF",
-        "gallery_item_FhHNma",
         "gallery_item_jMeRUr",
         "gallery_item_KzbrhA",
         "gallery_item_hEYzaT",
