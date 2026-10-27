@@ -570,16 +570,6 @@
             "price": "NOW £125"
           }
         },
-        "gallery_item_RgP7cU": {
-          "type": "gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/Marta_Veil_Small_89a3b3d2-1a84-42c6-8ca0-e1346b3ecc81.jpg",
-            "designer": "Former Girlfriend",
-            "style": "Marta Veil",
-            "size": "",
-            "price": "NOW £400"
-          }
-        },
         "gallery_item_46JR7d": {
           "type": "gallery_item",
           "settings": {
@@ -1957,7 +1947,6 @@
         "gallery_item_wnQPFU",
         "gallery_item_J7rXAc",
         "gallery_item_cfUhih",
-        "gallery_item_RgP7cU",
         "gallery_item_46JR7d",
         "gallery_item_EnPpYM",
         "gallery_item_krRaXt",
